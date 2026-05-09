@@ -1,0 +1,2322 @@
+[
+  {
+    "id": 230,
+    "month": "2010-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 01",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-one",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-07-12_-_The_Magician_-_Magic_Tape_1",
+    "track_count": 10
+  },
+  {
+    "id": 229,
+    "month": "2010-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 02",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-two",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-08-23_-_The_Magician_-_Magic_Tape_2",
+    "track_count": 10
+  },
+  {
+    "id": 228,
+    "month": "2010-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 03",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-three",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-09-23_-_The_Magician_-_Magic_Tape_3",
+    "track_count": 11
+  },
+  {
+    "id": 227,
+    "month": "2010-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 04",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-four",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-10-26_-_The_Magician_-_Magic_Tape_4",
+    "track_count": 10
+  },
+  {
+    "id": 226,
+    "month": "2010-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 05",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-five",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-11-23_-_The_Magician_-_Magic_Tape_5",
+    "track_count": 10
+  },
+  {
+    "id": 225,
+    "month": "2010-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 06",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-six",
+    "tracklist_url": "https://www.mixesdb.com/w/2010-12-14_-_The_Magician_-_Magic_Tape_6",
+    "track_count": 10
+  },
+  {
+    "id": 224,
+    "month": "2011-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 07",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-seven",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-01-26_-_The_Magician_-_Magic_Tape_7",
+    "track_count": 10
+  },
+  {
+    "id": 223,
+    "month": "2011-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 08",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eight",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-02-22_-_The_Magician_-_Magic_Tape_8",
+    "track_count": 10
+  },
+  {
+    "id": 222,
+    "month": "2011-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 09",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-nine",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-03-22_-_The_Magician_-_Magic_Tape_9",
+    "track_count": 10
+  },
+  {
+    "id": 221,
+    "month": "2011-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 10",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-ten",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-04-19_-_The_Magician_-_Magic_Tape_10",
+    "track_count": 10
+  },
+  {
+    "id": 220,
+    "month": "2011-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 11",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eleven",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-05-17_-_The_Magician_-_Magic_Tape_11",
+    "track_count": 9
+  },
+  {
+    "id": 219,
+    "month": "2011-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 12",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twelve",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-06-14_-_The_Magician_-_Magic_Tape_12",
+    "track_count": 11
+  },
+  {
+    "id": 218,
+    "month": "2011-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 13",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-07-19_-_The_Magician_-_Magic_Tape_13",
+    "track_count": 10
+  },
+  {
+    "id": 217,
+    "month": "2011-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 14",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-fourteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-08-24_-_The_Magician_-_Magic_Tape_14",
+    "track_count": 10
+  },
+  {
+    "id": 216,
+    "month": "2011-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 15",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-fifteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-09-13_-_The_Magician_-_Magic_Tape_15",
+    "track_count": 11
+  },
+  {
+    "id": 215,
+    "month": "2011-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 16",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-sixteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-10-25_-_The_Magician_-_Magic_Tape_16",
+    "track_count": 14
+  },
+  {
+    "id": 214,
+    "month": "2011-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 17",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-seventeen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-11-22_-_The_Magician_-_Magic_Tape_17",
+    "track_count": 11
+  },
+  {
+    "id": 213,
+    "month": "2011-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 18",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eighteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2011-12-20_-_The_Magician_-_Magic_Tape_18",
+    "track_count": 10
+  },
+  {
+    "id": 212,
+    "month": "2012-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 19",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-nineteen",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-01-24_-_The_Magician_-_Magic_Tape_19",
+    "track_count": 10
+  },
+  {
+    "id": 211,
+    "month": "2012-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 20",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-02-21_-_The_Magician_-_Magic_Tape_20",
+    "track_count": 10
+  },
+  {
+    "id": 210,
+    "month": "2012-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 21",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-one",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-03-27_-_The_Magician_-_Magic_Tape_21",
+    "track_count": 11
+  },
+  {
+    "id": 209,
+    "month": "2012-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 22",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-two",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-04-24_-_The_Magician_-_Magic_Tape_22",
+    "track_count": 10
+  },
+  {
+    "id": 208,
+    "month": "2012-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 23",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-three",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-05-22_-_The_Magician_-_Magic_Tape_23",
+    "track_count": 10
+  },
+  {
+    "id": 207,
+    "month": "2012-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 24",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-four",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-06-26_-_The_Magician_-_Magic_Tape_24",
+    "track_count": 10
+  },
+  {
+    "id": 206,
+    "month": "2012-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 25",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-five",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-09-04_-_The_Magician_-_Magic_Tape_25",
+    "track_count": 11
+  },
+  {
+    "id": 205,
+    "month": "2012-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 26",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-six",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-10-09_-_The_Magician_-_Magic_Tape_26",
+    "track_count": 11
+  },
+  {
+    "id": 204,
+    "month": "2012-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 27",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-seven",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-11-13_-_The_Magician_-_Magic_Tape_27",
+    "track_count": 11
+  },
+  {
+    "id": 203,
+    "month": "2012-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 28",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-eight",
+    "tracklist_url": "https://www.mixesdb.com/w/2012-12-11_-_The_Magician_-_Magic_Tape_28",
+    "track_count": 11
+  },
+  {
+    "id": 202,
+    "month": "2013-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 29",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-nine",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-01-22_-_The_Magician_-_Magic_Tape_29",
+    "track_count": 10
+  },
+  {
+    "id": 201,
+    "month": "2013-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 30",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-02-19_-_The_Magician_-_Magic_Tape_30",
+    "track_count": 11
+  },
+  {
+    "id": 231,
+    "month": "2013-03",
+    "series": "Magic Tape",
+    "title": "2013-03-19 - The Magician - Magic Tape 31",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-one",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-03-19_-_The_Magician_-_Magic_Tape_31",
+    "track_count": 11
+  },
+  {
+    "id": 200,
+    "month": "2013-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 32",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-two",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-04-23_-_The_Magician_-_Magic_Tape_32",
+    "track_count": 9
+  },
+  {
+    "id": 199,
+    "month": "2013-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 33",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-three",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-05-21_-_The_Magician_-_Magic_Tape_33",
+    "track_count": 10
+  },
+  {
+    "id": 198,
+    "month": "2013-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 34",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-four",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-06-25_-_The_Magician_-_Magic_Tape_34",
+    "track_count": 10
+  },
+  {
+    "id": 197,
+    "month": "2013-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 35",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-35",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-09-17_-_The_Magician_-_Magic_Tape_35",
+    "track_count": 12
+  },
+  {
+    "id": 196,
+    "month": "2013-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 36",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-six",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-10-15_-_The_Magician_-_Magic_Tape_36",
+    "track_count": 10
+  },
+  {
+    "id": 232,
+    "month": "2013-11",
+    "series": "Magic Tape",
+    "title": "2013-11-19 - The Magician - Magic Tape 37",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-seven",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-11-19_-_The_Magician_-_Magic_Tape_37",
+    "track_count": 10
+  },
+  {
+    "id": 195,
+    "month": "2013-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 38",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-38",
+    "tracklist_url": "https://www.mixesdb.com/w/2013-12-17_-_The_Magician_-_Magic_Tape_38",
+    "track_count": 11
+  },
+  {
+    "id": 194,
+    "month": "2014-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 39",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-39",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-01-21_-_The_Magician_-_Magic_Tape_39",
+    "track_count": 10
+  },
+  {
+    "id": 193,
+    "month": "2014-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 40",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-40",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-02-18_-_The_Magician_-_Magic_Tape_40",
+    "track_count": 9
+  },
+  {
+    "id": 192,
+    "month": "2014-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 41",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-41-1",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-03-27_-_The_Magician_-_Magic_Tape_41",
+    "track_count": 9
+  },
+  {
+    "id": 191,
+    "month": "2014-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 42",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-42",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-04-15_-_The_Magician_-_Magic_Tape_42",
+    "track_count": 10
+  },
+  {
+    "id": 190,
+    "month": "2014-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 43",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-43",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-05-20_-_The_Magician_-_Magic_Tape_43",
+    "track_count": 11
+  },
+  {
+    "id": 189,
+    "month": "2014-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 44",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-44",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-07-08_-_The_Magician_-_Magic_Tape_44",
+    "track_count": 12
+  },
+  {
+    "id": 188,
+    "month": "2014-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 45",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-45",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-09-16_-_The_Magician_-_Magic_Tape_45",
+    "track_count": 14
+  },
+  {
+    "id": 187,
+    "month": "2014-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 46",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-46",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-10-21_-_The_Magician_-_Magic_Tape_46",
+    "track_count": 12
+  },
+  {
+    "id": 186,
+    "month": "2014-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 47",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-47",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-11-18_-_The_Magician_-_Magic_Tape_47",
+    "track_count": 10
+  },
+  {
+    "id": 185,
+    "month": "2014-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 48",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-48",
+    "tracklist_url": "https://www.mixesdb.com/w/2014-12-16_-_The_Magician_-_Magic_Tape_48",
+    "track_count": 10
+  },
+  {
+    "id": 184,
+    "month": "2015-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 49",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-49",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-01-20_-_The_Magician_-_Magic_Tape_49",
+    "track_count": 10
+  },
+  {
+    "id": 183,
+    "month": "2015-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 50 (Birthday edition)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-50",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-02-23_-_The_Magician_@_Magic_Tape_50_Live,_London_(Mixmag)",
+    "track_count": 42
+  },
+  {
+    "id": 182,
+    "month": "2015-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 51",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-51",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-04-07_-_The_Magician_-_Magic_Tape_51",
+    "track_count": 11
+  },
+  {
+    "id": 181,
+    "month": "2015-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 52",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-52",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-05-12_-_The_Magician_-_Magic_Tape_52",
+    "track_count": 12
+  },
+  {
+    "id": 180,
+    "month": "2015-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 53",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-53",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-06-23_-_The_Magician_-_Magic_Tape_53",
+    "track_count": 13
+  },
+  {
+    "id": 179,
+    "month": "2015-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 54",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-54",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-09-01_-_The_Magician_-_Magic_Tape_54",
+    "track_count": 12
+  },
+  {
+    "id": 178,
+    "month": "2015-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 55",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-55",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-10-06_-_The_Magician_-_Magic_Tape_55",
+    "track_count": 10
+  },
+  {
+    "id": 177,
+    "month": "2015-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 56",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-56",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-11-03_-_The_Magician_-_Magic_Tape_56",
+    "track_count": 12
+  },
+  {
+    "id": 176,
+    "month": "2015-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 57",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-57",
+    "tracklist_url": "https://www.mixesdb.com/w/2015-12-01_-_The_Magician_-_Magic_Tape_57",
+    "track_count": 11
+  },
+  {
+    "id": 175,
+    "month": "2016-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 58",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-58",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-01-12_-_The_Magician_-_Magic_Tape_58",
+    "track_count": 11
+  },
+  {
+    "id": 174,
+    "month": "2016-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 59",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-60",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-02-16_-_The_Magician_-_Magic_Tape_59",
+    "track_count": 13
+  },
+  {
+    "id": 173,
+    "month": "2016-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 60",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magictape60",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-04-05_-_The_Magician_-_Magic_Tape_60",
+    "track_count": 11
+  },
+  {
+    "id": 172,
+    "month": "2016-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 61",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-61",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-05-10_-_The_Magician_-_Magic_Tape_61",
+    "track_count": 13
+  },
+  {
+    "id": 171,
+    "month": "2016-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 62",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-62",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-06-14_-_The_Magician_-_Magic_Tape_62",
+    "track_count": 13
+  },
+  {
+    "id": 170,
+    "month": "2016-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 63 (Summer Edition)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-63-summer-edition",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-07-19_-_The_Magician_-_Magic_Tape_63_(Summer_Edition)",
+    "track_count": 13
+  },
+  {
+    "id": 169,
+    "month": "2016-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 64",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-64",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-09-06_-_The_Magician_-_Magic_Tape_64",
+    "track_count": 14
+  },
+  {
+    "id": 168,
+    "month": "2016-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 65",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-65",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-10-18_-_The_Magician_-_Magic_Tape_65",
+    "track_count": 13
+  },
+  {
+    "id": 167,
+    "month": "2016-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 66",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-66",
+    "tracklist_url": "https://www.mixesdb.com/w/2016-11-15_-_The_Magician_-_Magic_Tape_66",
+    "track_count": 13
+  },
+  {
+    "id": 166,
+    "month": "2017-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 67",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-67",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-01-17_-_The_Magician_-_Magic_Tape_67",
+    "track_count": 13
+  },
+  {
+    "id": 165,
+    "month": "2017-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 68",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-68",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-02-14_-_The_Magician_-_Magic_Tape_68",
+    "track_count": 13
+  },
+  {
+    "id": 164,
+    "month": "2017-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 69",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-69",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-03-21_-_The_Magician_@_Unknown_Gig,_NYC_(Magic_Tape_69)",
+    "track_count": 14
+  },
+  {
+    "id": 163,
+    "month": "2017-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 70",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-70",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-04-25_-_The_Magician_-_Magic_Tape_70",
+    "track_count": 12
+  },
+  {
+    "id": 162,
+    "month": "2017-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 71",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-71",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-05-24_-_The_Magician_-_Magic_Tape_71",
+    "track_count": 13
+  },
+  {
+    "id": 161,
+    "month": "2017-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 72",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-72",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-06-21_-_The_Magician_-_Magic_Tape_72",
+    "track_count": 13
+  },
+  {
+    "id": 160,
+    "month": "2017-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 73",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-73",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-08-29_-_The_Magician_-_Magic_Tape_73",
+    "track_count": 13
+  },
+  {
+    "id": 159,
+    "month": "2017-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 74",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-74",
+    "tracklist_url": "https://www.mixesdb.com/w/2017-09-26_-_The_Magician_-_Magic_Tape_74",
+    "track_count": 14
+  },
+  {
+    "id": 158,
+    "month": "2017-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 75 (Live at Amsterdam Dance Event 2017)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-75-live-at-amsterdam-dance-event-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 157,
+    "month": "2017-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 76",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-76",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 156,
+    "month": "2018-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 77",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-77",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 155,
+    "month": "2018-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 78 (Recorded live in Miami)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magictape78",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 154,
+    "month": "2018-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 79",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-79",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 153,
+    "month": "2018-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 80",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-80",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 152,
+    "month": "2018-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 81",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-81",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 151,
+    "month": "2018-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 82",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-82",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 150,
+    "month": "2018-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 83",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-83",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 149,
+    "month": "2018-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 84",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-84",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 148,
+    "month": "2018-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 85",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-85",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 147,
+    "month": "2019-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 86",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-86",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 146,
+    "month": "2019-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 87",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-87",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-02-12_-_The_Magician_-_Magic_Tape_87",
+    "track_count": 15
+  },
+  {
+    "id": 145,
+    "month": "2019-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 88",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-88",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-03-19_-_The_Magician_-_Magic_Tape_88",
+    "track_count": 14
+  },
+  {
+    "id": 144,
+    "month": "2019-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 89",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-89",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-04-23_-_The_Magician_-_Magic_Tape_89",
+    "track_count": 13
+  },
+  {
+    "id": 143,
+    "month": "2019-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 90",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-90",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-05-21_-_The_Magician_-_Magic_Tape_90",
+    "track_count": 14
+  },
+  {
+    "id": 142,
+    "month": "2019-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 91",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-91",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-07-30_-_The_Magician_-_Magic_Tape_91",
+    "track_count": 13
+  },
+  {
+    "id": 141,
+    "month": "2019-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 92",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-92",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-09-03_-_The_Magician_-_Magic_Tape_92",
+    "track_count": 13
+  },
+  {
+    "id": 140,
+    "month": "2019-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 93",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-93",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-10-15_-_The_Magician_-_Magic_Tape_93",
+    "track_count": 11
+  },
+  {
+    "id": 139,
+    "month": "2019-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 94",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-94",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 138,
+    "month": "2020-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 95",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-95",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 137,
+    "month": "2020-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 96",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-96",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 136,
+    "month": "2020-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 97",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/mt-97",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 135,
+    "month": "2020-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 98",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-98",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 134,
+    "month": "2020-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 99",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-99",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 133,
+    "month": "2021-01",
+    "series": "Magic Tape",
+    "title": "Magic Tape 100 (Live from the release party at Le Sacré in Paris)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-100-live-from-the-magic-tape-100-release-party-at-le-sacre-in-paris",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 132,
+    "month": "2021-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 101",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-101",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 130,
+    "month": "2021-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 103 (Special Italian Summer Love)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-103-special-italian-summer-love",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 131,
+    "month": "2021-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 102",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-102",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 129,
+    "month": "2021-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 104",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-104",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 128,
+    "month": "2021-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 105",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-105",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 127,
+    "month": "2021-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 106",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-106",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 126,
+    "month": "2021-12",
+    "series": "Magic Tape",
+    "title": "Magic Tape 107",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-107",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 125,
+    "month": "2022-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 108",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-108",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 124,
+    "month": "2022-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 109",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-109",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 123,
+    "month": "2022-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 110",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-110",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-05-31_-_The_Magician_-_Magic_Tape_110",
+    "track_count": 14
+  },
+  {
+    "id": 122,
+    "month": "2022-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 111",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-111",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-06-28_-_The_Magician_-_Magic_Tape_111",
+    "track_count": 15
+  },
+  {
+    "id": 120,
+    "month": "2022-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 113",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-113",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-08-30_-_The_Magician_-_Magic_Tape_113",
+    "track_count": 13
+  },
+  {
+    "id": 121,
+    "month": "2022-08",
+    "series": "Magic Tape",
+    "title": "Magic Tape 112",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-112",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-08-02_-_The_Magician_-_Magic_Tape_112",
+    "track_count": 12
+  },
+  {
+    "id": 119,
+    "month": "2022-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 114",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-114",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-09-27_-_The_Magician_-_Magic_Tape_114",
+    "track_count": 12
+  },
+  {
+    "id": 118,
+    "month": "2022-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 115",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-115",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-10-31_-_The_Magician_-_Magic_Tape_115",
+    "track_count": 13
+  },
+  {
+    "id": 117,
+    "month": "2023-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 116",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-116",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-02-07_-_The_Magician_-_Magic_Tape_116",
+    "track_count": 15
+  },
+  {
+    "id": 116,
+    "month": "2023-05",
+    "series": "Magic Tape",
+    "title": "Magic Tape 117",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-117",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-05-03_-_The_Magician_-_Magic_Tape_117",
+    "track_count": 12
+  },
+  {
+    "id": 115,
+    "month": "2023-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 118",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-118",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-06-27_-_The_Magician_-_Magic_Tape_118",
+    "track_count": 13
+  },
+  {
+    "id": 114,
+    "month": "2023-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 119",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-119",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-09-06_-_The_Magician_-_Magic_Tape_119",
+    "track_count": 15
+  },
+  {
+    "id": 113,
+    "month": "2023-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 120 (Special B2B w/ A-Trak)",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-120-special-b2b-w-a-trak",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-10-26_-_The_Magician_b2b_A-Track_-_Magic_Tape_120",
+    "track_count": 14
+  },
+  {
+    "id": 112,
+    "month": "2024-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 121",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-121",
+    "tracklist_url": "https://www.mixesdb.com/w/2024-02-27_-_The_Magician_-_Magic_Tape_121",
+    "track_count": 14
+  },
+  {
+    "id": 111,
+    "month": "2024-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 122",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-122",
+    "tracklist_url": "https://www.mixesdb.com/w/2024-03-26_-_The_Magician_-_Magic_Tape_122",
+    "track_count": 13
+  },
+  {
+    "id": 110,
+    "month": "2025-02",
+    "series": "Magic Tape",
+    "title": "Magic Tape 123",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-123",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-02-11_-_The_Magician_-_Magic_Tape_123",
+    "track_count": 14
+  },
+  {
+    "id": 109,
+    "month": "2025-03",
+    "series": "Magic Tape",
+    "title": "Magic Tape 124",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-124",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-03-18_-_The_Magician_-_Magic_Tape_124",
+    "track_count": 12
+  },
+  {
+    "id": 108,
+    "month": "2025-04",
+    "series": "Magic Tape",
+    "title": "Magic Tape 125",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-125",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-04-29_-_The_Magician_-_Magic_Tape_125",
+    "track_count": 12
+  },
+  {
+    "id": 107,
+    "month": "2025-06",
+    "series": "Magic Tape",
+    "title": "Magic Tape 126",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-126",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-06-17_-_The_Magician_-_Magic_Tape_126",
+    "track_count": 12
+  },
+  {
+    "id": 106,
+    "month": "2025-07",
+    "series": "Magic Tape",
+    "title": "Magic Tape 127",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-127",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-07-29_-_The_Magician_-_Magic_Tape_127",
+    "track_count": 16
+  },
+  {
+    "id": 105,
+    "month": "2025-09",
+    "series": "Magic Tape",
+    "title": "Magic Tape 128",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-128",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-09-16_-_The_Magician_-_Magic_Tape_128",
+    "track_count": 12
+  },
+  {
+    "id": 104,
+    "month": "2025-10",
+    "series": "Magic Tape",
+    "title": "Magic Tape 129",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-129",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-10-16_-_The_Magician_-_Magic_Tape_129",
+    "track_count": 14
+  },
+  {
+    "id": 103,
+    "month": "2025-11",
+    "series": "Magic Tape",
+    "title": "Magic Tape 130",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-130",
+    "tracklist_url": "https://www.mixesdb.com/w/2025-11-13_-_The_Magician_-_Magic_Tape_130",
+    "track_count": 13
+  },
+  {
+    "id": 102,
+    "month": "2026-01",
+    "series": "Magic Tape",
+    "title": "MAGIC TAPE 131",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-131",
+    "tracklist_url": "https://www.mixesdb.com/w/2026-01-29_-_The_Magician_-_Magic_Tape_131",
+    "track_count": 13
+  },
+  {
+    "id": 101,
+    "month": "2026-03",
+    "series": "Magic Tape",
+    "title": "MAGIC TAPE 132",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-132",
+    "tracklist_url": "https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_Tape_132",
+    "track_count": 13
+  },
+  {
+    "id": 100,
+    "month": "2017-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/january-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 99,
+    "month": "2017-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/february-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 98,
+    "month": "2017-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/march-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 97,
+    "month": "2017-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-april-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 96,
+    "month": "2017-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/may-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 95,
+    "month": "2017-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/july-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 94,
+    "month": "2017-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/august-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 93,
+    "month": "2017-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/september-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 92,
+    "month": "2017-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/october-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 91,
+    "month": "2017-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2017",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/november-2017",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 90,
+    "month": "2018-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-jan-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 89,
+    "month": "2018-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-february-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 88,
+    "month": "2018-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-march-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 87,
+    "month": "2018-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-april-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 86,
+    "month": "2018-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-may-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 85,
+    "month": "2018-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-june-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 84,
+    "month": "2018-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 83,
+    "month": "2018-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-august-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 82,
+    "month": "2018-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-september-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 81,
+    "month": "2018-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-october-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 80,
+    "month": "2018-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2018",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-november-2018",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 79,
+    "month": "2019-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-january-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 78,
+    "month": "2019-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-february-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 77,
+    "month": "2019-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-march-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 76,
+    "month": "2019-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-april-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 75,
+    "month": "2019-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-june-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 74,
+    "month": "2019-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 73,
+    "month": "2019-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-august-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 72,
+    "month": "2019-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-september-2019",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 71,
+    "month": "2019-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-october-2019",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-11-01_-_The_Aston_Shuffle_-_Only_100s_October_2019",
+    "track_count": 16
+  },
+  {
+    "id": 70,
+    "month": "2019-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2019",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-november-2019",
+    "tracklist_url": "https://www.mixesdb.com/w/2019-11-29_-_The_Aston_Shuffle_-_Only_100s_November_2019",
+    "track_count": 16
+  },
+  {
+    "id": 69,
+    "month": "2020-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-january-2020",
+    "tracklist_url": "https://www.mixesdb.com/w/2020-02-03_-_The_Aston_Shuffle_-_Only_100s_January_2020",
+    "track_count": 18
+  },
+  {
+    "id": 68,
+    "month": "2020-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-february-2020",
+    "tracklist_url": "https://www.mixesdb.com/w/2020-02-28_-_The_Aston_Shuffle_-_Only_100s_February_2020",
+    "track_count": 16
+  },
+  {
+    "id": 67,
+    "month": "2020-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-march-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 66,
+    "month": "2020-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-april-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 65,
+    "month": "2020-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-may-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 64,
+    "month": "2020-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-june-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 63,
+    "month": "2020-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 62,
+    "month": "2020-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-august-2020",
+    "tracklist_url": "https://www.mixesdb.com/w/2020-08-27_-_The_Aston_Shuffle_-_Only_100s_August_2020",
+    "track_count": 14
+  },
+  {
+    "id": 61,
+    "month": "2020-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-september-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 60,
+    "month": "2020-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-october-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 59,
+    "month": "2020-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2020",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-november-2020",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 58,
+    "month": "2021-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-jan-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-01-31_-_The_Aston_Shuffle_-_Only_100s_January_2021",
+    "track_count": 14
+  },
+  {
+    "id": 57,
+    "month": "2021-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-february-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-03-01_-_The_Aston_Shuffle_-_Only_100s_February_2021",
+    "track_count": 14
+  },
+  {
+    "id": 56,
+    "month": "2021-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-march-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-03-30_-_The_Aston_Shuffle_-_Only_100s_March_2021",
+    "track_count": 14
+  },
+  {
+    "id": 55,
+    "month": "2021-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-april-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-04-29_-_The_Aston_Shuffle_-_Only_100s_April_2021",
+    "track_count": 13
+  },
+  {
+    "id": 54,
+    "month": "2021-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-may-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-05-31_-_The_Aston_Shuffle_-_Only_100s_May_2021",
+    "track_count": 15
+  },
+  {
+    "id": 53,
+    "month": "2021-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-june-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-07-05_-_The_Aston_Shuffle_-_Only_100s_June_2021",
+    "track_count": 13
+  },
+  {
+    "id": 52,
+    "month": "2021-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-07-30_-_The_Aston_Shuffle_-_Only_100s_July_2021",
+    "track_count": 13
+  },
+  {
+    "id": 51,
+    "month": "2021-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-august-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-08-31_-_The_Aston_Shuffle_-_Only_100s_August_2021",
+    "track_count": 15
+  },
+  {
+    "id": 50,
+    "month": "2021-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-september-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-10-06_-_The_Aston_Shuffle_-_Only_100s_September_2021",
+    "track_count": 14
+  },
+  {
+    "id": 49,
+    "month": "2021-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-october-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-10-28_-_The_Aston_Shuffle_-_Only_100s_October_2021",
+    "track_count": 15
+  },
+  {
+    "id": 48,
+    "month": "2021-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2021",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-november-2021",
+    "tracklist_url": "https://www.mixesdb.com/w/2021-11-29_-_The_Aston_Shuffle_-_Only_100s_November_2021",
+    "track_count": 14
+  },
+  {
+    "id": 47,
+    "month": "2022-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-january-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-01-31_-_The_Aston_Shuffle_-_Only_100s_January_2022",
+    "track_count": 13
+  },
+  {
+    "id": 46,
+    "month": "2022-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-february-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-02-25_-_The_Aston_Shuffle_-_Only_100s_February_2022",
+    "track_count": 13
+  },
+  {
+    "id": 45,
+    "month": "2022-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-march-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-04-08_-_The_Aston_Shuffle_-_Only_100s_March_2022",
+    "track_count": 14
+  },
+  {
+    "id": 44,
+    "month": "2022-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-april-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-04-28_-_The_Aston_Shuffle_-_Only_100s_April_2022",
+    "track_count": 13
+  },
+  {
+    "id": 43,
+    "month": "2022-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-may-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-05-26_-_The_Aston_Shuffle_-_Only_100s_May_2022",
+    "track_count": 14
+  },
+  {
+    "id": 42,
+    "month": "2022-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-june-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-07-08_-_The_Aston_Shuffle_-_Only_100s_June_2022",
+    "track_count": 14
+  },
+  {
+    "id": 41,
+    "month": "2022-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-07-28_-_The_Aston_Shuffle_-_Only_100s_July_2022",
+    "track_count": 16
+  },
+  {
+    "id": 40,
+    "month": "2022-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-august-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-08-30_-_The_Aston_Shuffle_-_Only_100s_August_2022",
+    "track_count": 14
+  },
+  {
+    "id": 39,
+    "month": "2022-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-september-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-09-28_-_The_Aston_Shuffle_-_Only_100s_September_2022",
+    "track_count": 16
+  },
+  {
+    "id": 38,
+    "month": "2022-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-october-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-10-27_-_The_Aston_Shuffle_-_Only_100s_October_2022",
+    "track_count": 15
+  },
+  {
+    "id": 37,
+    "month": "2022-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2022",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-november-2022",
+    "tracklist_url": "https://www.mixesdb.com/w/2022-11-29_-_The_Aston_Shuffle_-_Only_100s_November_2022",
+    "track_count": 14
+  },
+  {
+    "id": 36,
+    "month": "2023-01",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - January 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-january-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-02-01_-_The_Aston_Shuffle_-_Only_100s_January_2023",
+    "track_count": 15
+  },
+  {
+    "id": 35,
+    "month": "2023-02",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - February 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-february-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-02-27_-_The_Aston_Shuffle_-_Only_100s_February_2023",
+    "track_count": 15
+  },
+  {
+    "id": 34,
+    "month": "2023-03",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - March 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-march-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-03-30_-_The_Aston_Shuffle_-_Only_100s_March_2023",
+    "track_count": 17
+  },
+  {
+    "id": 33,
+    "month": "2023-04",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - April 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-april-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-04-26_-_The_Aston_Shuffle_-_Only_100s_April_2023",
+    "track_count": 12
+  },
+  {
+    "id": 32,
+    "month": "2023-05",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - May 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-may-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-05-31_-_The_Aston_Shuffle_-_Only_100s_May_2023",
+    "track_count": 16
+  },
+  {
+    "id": 31,
+    "month": "2023-06",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - June 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-june-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-06-29_-_The_Aston_Shuffle_-_Only_100s_June_2023",
+    "track_count": 13
+  },
+  {
+    "id": 30,
+    "month": "2023-07",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - July 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-july-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-08-09_-_The_Aston_Shuffle_-_Only_100s_July_2023",
+    "track_count": 13
+  },
+  {
+    "id": 29,
+    "month": "2023-08",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - August 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-august-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-09-06_-_The_Aston_Shuffle_-_Only_100s_August_2023",
+    "track_count": 14
+  },
+  {
+    "id": 28,
+    "month": "2023-09",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - September 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-september-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-09-26_-_The_Aston_Shuffle_-_Only_100s_September_2023",
+    "track_count": 14
+  },
+  {
+    "id": 27,
+    "month": "2023-10",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - October 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-october-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-11-01_-_The_Aston_Shuffle_-_Only_100s_October_2023",
+    "track_count": 16
+  },
+  {
+    "id": 26,
+    "month": "2023-11",
+    "series": "Only 100s",
+    "title": "The Aston Shuffle Presents Only 100s - November 2023",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/the-aston-shuffle-presents-only-100s-november-2023",
+    "tracklist_url": "https://www.mixesdb.com/w/2023-12-01_-_The_Aston_Shuffle_-_Only_100s_November_2023",
+    "track_count": 12
+  },
+  {
+    "id": 25,
+    "month": "2024-01",
+    "series": "Only 100s",
+    "title": "January 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/only-100s-with-the-aston-shuffle-january-2024",
+    "tracklist_url": "https://www.mixesdb.com/w/2024-01-31_-_The_Aston_Shuffle_-_Only_100s_January_2024",
+    "track_count": 15
+  },
+  {
+    "id": 24,
+    "month": "2024-02",
+    "series": "Only 100s",
+    "title": "February 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/february-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 23,
+    "month": "2024-03",
+    "series": "Only 100s",
+    "title": "March 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/march-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 22,
+    "month": "2024-04",
+    "series": "Only 100s",
+    "title": "April 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/april-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 21,
+    "month": "2024-05",
+    "series": "Only 100s",
+    "title": "May 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/may-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 20,
+    "month": "2024-06",
+    "series": "Only 100s",
+    "title": "June 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/june-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 19,
+    "month": "2024-07",
+    "series": "Only 100s",
+    "title": "July 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/july-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 18,
+    "month": "2024-08",
+    "series": "Only 100s",
+    "title": "August 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/august-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 17,
+    "month": "2024-09",
+    "series": "Only 100s",
+    "title": "September 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/september-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 16,
+    "month": "2024-10",
+    "series": "Only 100s",
+    "title": "October 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/october-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 15,
+    "month": "2024-11",
+    "series": "Only 100s",
+    "title": "November 2024 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/november-2024-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 14,
+    "month": "2025-01",
+    "series": "Only 100s",
+    "title": "January 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/january-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 13,
+    "month": "2025-02",
+    "series": "Only 100s",
+    "title": "February 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/february-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 12,
+    "month": "2025-03",
+    "series": "Only 100s",
+    "title": "March 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/march-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 11,
+    "month": "2025-04",
+    "series": "Only 100s",
+    "title": "April 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/april-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 10,
+    "month": "2025-05",
+    "series": "Only 100s",
+    "title": "May 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/may-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 9,
+    "month": "2025-07",
+    "series": "Only 100s",
+    "title": "June + July 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/june-july-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 8,
+    "month": "2025-08",
+    "series": "Only 100s",
+    "title": "August 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/august-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 7,
+    "month": "2025-09",
+    "series": "Only 100s",
+    "title": "September 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/september-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 6,
+    "month": "2025-10",
+    "series": "Only 100s",
+    "title": "October 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/october-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 5,
+    "month": "2025-11",
+    "series": "Only 100s",
+    "title": "November 2025 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/november-2025-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 4,
+    "month": "2026-01",
+    "series": "Only 100s",
+    "title": "January 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/january-2026-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 3,
+    "month": "2026-02",
+    "series": "Only 100s",
+    "title": "February 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/february-2026-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 2,
+    "month": "2026-03",
+    "series": "Only 100s",
+    "title": "March 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/march-2026-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  },
+  {
+    "id": 1,
+    "month": "2026-04",
+    "series": "Only 100s",
+    "title": "April 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "track_count": 0
+  }
+]

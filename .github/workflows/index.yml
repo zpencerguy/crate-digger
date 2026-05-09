@@ -1,0 +1,48 @@
+name: Refresh Track Index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 10 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install uv
+        run: python -m pip install uv
+
+      - name: Install project
+        run: uv sync
+
+      - name: Rebuild local index
+        run: |
+          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/itsonly100s/tracks" --series "Only 100s" --uploader "Only 100s" --monthly-only
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/themagician/tracks" --series "Magic Tape" --uploader "The Magician" --match "^Magic Tape [0-9]+"
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --match "Magic Tape (31|37)" --add-missing --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 export --output data
+
+      - name: Commit exported data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No index changes to commit."
+          else
+            git commit -m "Update indexed track data"
+            git push
+          fi
