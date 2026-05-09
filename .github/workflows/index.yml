@@ -26,13 +26,14 @@ jobs:
       - name: Install project
         run: uv sync
 
-      - name: Rebuild local index
+      - name: Refresh index incrementally
         run: |
-          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/itsonly100s/tracks" --series "Only 100s" --uploader "Only 100s" --monthly-only
-          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category --delay 1
-          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/themagician/tracks" --series "Magic Tape" --uploader "The Magician" --match "^Magic Tape [0-9]+"
-          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --delay 1
-          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --match "Magic Tape (31|37)" --add-missing --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 load-export --input data
+          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/itsonly100s/tracks" --series "Only 100s" --uploader "Only 100s" --monthly-only --stop-at-existing
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category --new-only --match "January|February|March|April|May|June|July|August|September|October|November" --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/themagician/tracks" --series "Magic Tape" --uploader "The Magician" --match "^Magic Tape [0-9]+" --stop-at-existing
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --new-only --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --match "Magic Tape (31|37)" --add-missing --new-only --delay 1
           uv run crate-digger --db crate-digger.sqlite3 export --output data
 
       - name: Commit exported data

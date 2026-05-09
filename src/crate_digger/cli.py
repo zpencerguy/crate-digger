@@ -368,6 +368,7 @@ def fetch_soundcloud_api_tracks(
     *,
     client_id: str | None = None,
     max_tracks: int | None = None,
+    stop_urls: set[str] | None = None,
 ) -> list[dict[str, str]]:
     user_id = extract_soundcloud_user_id(html_text)
     if not user_id:
@@ -388,6 +389,8 @@ def fetch_soundcloud_api_tracks(
         for item in collection:
             if not isinstance(item, dict) or not item.get("permalink_url") or not item.get("title"):
                 continue
+            if stop_urls and str(item["permalink_url"]) in stop_urls:
+                return tracks
             user = item.get("user")
             uploader = user.get("username") if isinstance(user, dict) else None
             track = {
@@ -608,18 +611,28 @@ def add_mixtape(args: argparse.Namespace) -> None:
 
 
 def batch_add_soundcloud_page(args: argparse.Namespace) -> None:
+    conn = connect(args.db)
+    stop_urls = None
+    if args.stop_at_existing:
+        stop_urls = {
+            row["soundcloud_url"]
+            for row in conn.execute("SELECT soundcloud_url FROM mixtapes WHERE soundcloud_url IS NOT NULL")
+        }
     html_text = fetch_text(args.page_url)
     tracks: list[dict[str, str]] = []
+    api_checked = False
     if args.source in {"auto", "api"}:
+        api_checked = True
         tracks = fetch_soundcloud_api_tracks(
             args.page_url,
             html_text,
             client_id=args.client_id,
             max_tracks=args.limit,
+            stop_urls=stop_urls,
         )
     if args.source == "api" and not tracks:
         raise SystemExit("Could not read tracks from SoundCloud API.")
-    if not tracks:
+    if not tracks and not (args.stop_at_existing and api_checked):
         tracks = extract_soundcloud_tracks(args.page_url, html_text)
     if args.match:
         pattern = re.compile(args.match, re.IGNORECASE)
@@ -632,7 +645,6 @@ def batch_add_soundcloud_page(args: argparse.Namespace) -> None:
         print("No SoundCloud tracks found.")
         return
 
-    conn = connect(args.db)
     for track in tracks:
         month = args.month or infer_month(track["title"], track.get("published_month"))
         mixtape_id, title, tracklist_url, imported = index_mixtape(
@@ -691,6 +703,15 @@ def import_mixesdb_category(args: argparse.Namespace) -> None:
         return
 
     conn = connect(args.db)
+    if args.new_only:
+        known_urls = {
+            row["tracklist_url"]
+            for row in conn.execute("SELECT tracklist_url FROM mixtapes WHERE tracklist_url IS NOT NULL")
+        }
+        pages = [page for page in pages if page["url"] not in known_urls]
+        if not pages:
+            print("No new MixesDB pages found.")
+            return
     imported_pages = 0
     imported_tracks = 0
     missing = 0
@@ -1021,6 +1042,68 @@ def export_index(args: argparse.Namespace) -> None:
     print(f"Exported {len(mixtapes)} mixtapes and {len(tracks)} tracks to {output}")
 
 
+def load_export(args: argparse.Namespace) -> None:
+    source = args.input
+    mixtapes_path = source / "mixtapes.csv"
+    tracks_path = source / "tracks.csv"
+    if not mixtapes_path.exists() or not tracks_path.exists():
+        raise SystemExit(f"Expected {mixtapes_path} and {tracks_path}")
+
+    conn = connect(args.db)
+    conn.execute("DELETE FROM tracks")
+    conn.execute("DELETE FROM mixtapes")
+
+    mixtapes = read_csv(mixtapes_path)
+    tracks = read_csv(tracks_path)
+    loaded_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    for row in mixtapes:
+        conn.execute(
+            """
+            INSERT INTO mixtapes (
+                id, soundcloud_url, title, uploader, month, series,
+                description, tracklist_url, created_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                int(row["id"]),
+                row["soundcloud_url"],
+                row["title"],
+                row["uploader"] or None,
+                row["month"] or None,
+                row["series"] or None,
+                "",
+                row["tracklist_url"] or None,
+                loaded_at,
+            ),
+        )
+    for row in tracks:
+        conn.execute(
+            """
+            INSERT INTO tracks (
+                id, mixtape_id, position, cue_seconds, artist, title, raw_text
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                int(row["id"]),
+                int(row["mixtape_id"]),
+                int(row["position"]) if row["position"] else None,
+                int(row["cue_seconds"]) if row["cue_seconds"] else None,
+                row["artist"] or None,
+                row["title"],
+                row["raw_text"],
+            ),
+        )
+    conn.commit()
+    print(f"Loaded {len(mixtapes)} mixtapes and {len(tracks)} tracks from {source}")
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
 def write_csv(path: Path, fieldnames: list[str], rows: list[sqlite3.Row | dict[str, object]]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -1157,6 +1240,7 @@ def build_parser() -> argparse.ArgumentParser:
     batch.add_argument("--limit", type=int, help="maximum number of listing items to add")
     batch.add_argument("--match", help="case-insensitive title regex filter")
     batch.add_argument("--monthly-only", action="store_true", help="only add titles that contain a month name")
+    batch.add_argument("--stop-at-existing", action="store_true", help="stop paginated API reads at first known URL")
     batch.add_argument("--client-id", help="SoundCloud client id override")
     batch.add_argument("--source", choices=("auto", "api", "html"), default="auto")
     batch.add_argument("--offline", action="store_true", help="skip per-track SoundCloud metadata lookup")
@@ -1181,6 +1265,7 @@ def build_parser() -> argparse.ArgumentParser:
     mixesdb.add_argument("--limit", type=int, help="maximum number of pages to import")
     mixesdb.add_argument("--delay", type=float, default=1.0, help="seconds to wait between page fetches")
     mixesdb.add_argument("--add-missing", action="store_true", help="add MixesDB pages not already in mixtapes")
+    mixesdb.add_argument("--new-only", action="store_true", help="only fetch pages whose tracklist URL is not indexed")
     mixesdb.add_argument("--series", default="Only 100s", help="series used with --add-missing")
     mixesdb.add_argument("--uploader", default="Only 100s", help="uploader used with --add-missing")
     mixesdb.set_defaults(func=import_mixesdb_category)
@@ -1218,6 +1303,10 @@ def build_parser() -> argparse.ArgumentParser:
     export = subparsers.add_parser("export", help="export indexed data to tracked files")
     export.add_argument("--output", type=Path, default=Path("data"), help="output directory")
     export.set_defaults(func=export_index)
+
+    load = subparsers.add_parser("load-export", help="load tracked exported data into SQLite")
+    load.add_argument("--input", type=Path, default=Path("data"), help="export directory")
+    load.set_defaults(func=load_export)
     return parser
 
 

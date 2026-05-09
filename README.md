@@ -69,9 +69,20 @@ Export the current SQLite index:
 python3 -m uv run crate-digger export --output data
 ```
 
+Load the tracked exports back into SQLite:
+
+```sh
+python3 -m uv run crate-digger load-export --input data
+```
+
 The GitHub Actions workflow in `.github/workflows/index.yml` rebuilds the
-SQLite database from SoundCloud/MixesDB, exports `data/`, and commits changes
+SQLite database from the tracked `data/` exports, checks only for newer
+SoundCloud uploads and new MixesDB pages, exports `data/`, and commits changes
 when newly indexed data appears.
+
+For incremental checks, use `--stop-at-existing` with SoundCloud imports and
+`--new-only` with MixesDB imports. This keeps scheduled runs focused on new
+uploads instead of walking the entire archive every time.
 
 ```sh
 python3 -m uv run crate-digger add \
