@@ -5,8 +5,8 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 ## Summary
 
 - Mixtapes: 232
-- Mixtapes with tracks: 144
-- Tracks: 1832
+- Mixtapes with tracks: 145
+- Tracks: 1846
 - Month range: 2010-07 to 2026-04
 
 ## Series
@@ -14,7 +14,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
 | Magic Tape | 132 | 104 | 1254 | 2010-07 to 2026-03 |
-| Only 100s | 100 | 40 | 578 | 2017-01 to 2026-04 |
+| Only 100s | 100 | 41 | 592 | 2017-01 to 2026-04 |
 
 ## Latest Mixes
 
@@ -22,7 +22,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | --- | ---: | --- |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)) |
 | 2026-03 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) ([tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_Tape_132)) |
-| 2026-03 | Only 100s | 0 | [March 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/march-2026-only-100s-with-the-aston-shuffle) |
+| 2026-03 | Only 100s | 14 | [March 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/march-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/dqh7szt/the-aston-shuffle-only-100s-march-2026-2026-03-26.html)) |
 | 2026-02 | Only 100s | 0 | [February 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/february-2026-only-100s-with-the-aston-shuffle) |
 | 2026-01 | Magic Tape | 13 | [MAGIC TAPE 131](https://soundcloud.com/themagician/magic-tape-131) ([tracklist](https://www.mixesdb.com/w/2026-01-29_-_The_Magician_-_Magic_Tape_131)) |
 | 2026-01 | Only 100s | 0 | [January 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/january-2026-only-100s-with-the-aston-shuffle) |
