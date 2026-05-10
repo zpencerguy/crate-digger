@@ -10,6 +10,7 @@ import html
 import json
 import re
 import sqlite3
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -1063,7 +1064,7 @@ def import_1001_assisted(args: argparse.Namespace) -> None:
             viewport={"width": 1440, "height": 1000},
         )
         try:
-            page = context.pages[0] if context.pages else context.new_page()
+            page = context.new_page()
             try:
                 page.goto(args.tracklist_url, wait_until="domcontentloaded", timeout=args.timeout * 1000)
             except PlaywrightTimeoutError:
@@ -1072,6 +1073,11 @@ def import_1001_assisted(args: argparse.Namespace) -> None:
                 try:
                     page.wait_for_selector(ONE_THOUSAND_ONE_TRACK_SELECTOR, timeout=args.timeout * 1000)
                 except PlaywrightTimeoutError:
+                    if not sys.stdin.isatty():
+                        raise SystemExit(
+                            "Tracklist elements were not detected automatically. "
+                            "Rerun without --auto-read for manual confirmation or try again later."
+                        )
                     print("Tracklist elements were not detected automatically.")
                     input("Press Enter once the 1001Tracklists page shows the tracklist...")
             else:

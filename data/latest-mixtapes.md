@@ -6,7 +6,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-08 | XXX Radio | 0 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
+| 2026-05-08 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
@@ -14,10 +14,10 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-08 | XXX Radio | 0 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
-| 2026-04-30 | XXX Radio | 0 | [XXX Radio #186](https://soundcloud.com/realmaup/xxx-radio-186) |
-| 2026-04-27 | XXX Radio | 0 | [XXX Radio #185](https://soundcloud.com/realmaup/xxx-radio-185) |
-| 2026-04-17 | XXX Radio | 0 | [XXX Radio #184](https://soundcloud.com/realmaup/xxx-radio-184) |
+| 2026-05-08 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
+| 2026-04-30 | XXX Radio | 14 | [XXX Radio #186](https://soundcloud.com/realmaup/xxx-radio-186) |
+| 2026-04-27 | XXX Radio | 13 | [XXX Radio #185](https://soundcloud.com/realmaup/xxx-radio-185) |
+| 2026-04-17 | XXX Radio | 13 | [XXX Radio #184](https://soundcloud.com/realmaup/xxx-radio-184) |
 | 2026-04-10 | XXX Radio | 0 | [XXX Radio #183](https://soundcloud.com/realmaup/xxx-radio-183) |
 | 2026-04-03 | XXX Radio | 0 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
