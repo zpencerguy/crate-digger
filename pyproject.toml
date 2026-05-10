@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Index monthly SoundCloud mixtapes and their tracklists."
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "playwright>=1.56.0",
+]
 
 [project.scripts]
 crate-digger = "crate_digger.cli:main"

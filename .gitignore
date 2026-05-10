@@ -1,6 +1,7 @@
 .DS_Store
 .venv/
 .uv-cache/
+.browser-profile/
 __pycache__/
 *.py[cod]
 *.sqlite3

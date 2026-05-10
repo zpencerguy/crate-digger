@@ -12,9 +12,11 @@ from crate_digger.cli import (
     infer_month,
     magic_tape_number,
     parse_mixesdb_raw_tracklist,
+    parse_1001tracklists_html,
     parse_tracklist,
     seconds_from_time,
     split_artist_title,
+    tracks_from_browser_1001,
 )
 
 
@@ -172,6 +174,52 @@ class TracklistParserTest(unittest.TestCase):
         self.assertEqual(tracks[0]["cue_seconds"], 0)
         self.assertEqual(tracks[1]["cue_seconds"], 360)
         self.assertEqual(tracks[2]["title"], "Unknown ID")
+
+    def test_parse_1001tracklists_html_reads_microdata_tracks(self):
+        tracks = parse_1001tracklists_html(
+            """
+            <table class="detail">
+              <tr class="tlpItem">
+                <td><span class="cueValue">00:00</span></td>
+                <td>
+                  <div itemprop="tracks" itemscope itemtype="http://schema.org/MusicRecording">
+                    <meta itemprop="byArtist" content="Jayda G">
+                    <meta itemprop="name" content="All I Need">
+                  </div>
+                </td>
+              </tr>
+              <tr class="tlpItem">
+                <td><span class="cueValue">06:00</span></td>
+                <td>
+                  <div itemprop="tracks" itemscope itemtype="http://schema.org/MusicRecording">
+                    <meta itemprop="byArtist" content="Pleasure State">
+                    <meta itemprop="name" content="Take My Time">
+                  </div>
+                </td>
+              </tr>
+            </table>
+            """
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[0]["position"], 1)
+        self.assertEqual(tracks[0]["cue_seconds"], 0)
+        self.assertEqual(tracks[0]["artist"], "Jayda G")
+        self.assertEqual(tracks[0]["title"], "All I Need")
+        self.assertEqual(tracks[1]["cue_seconds"], 360)
+
+    def test_tracks_from_browser_1001_converts_rendered_rows(self):
+        tracks = tracks_from_browser_1001(
+            [
+                {"artist": "Jayda G", "title": "Jayda G - All I Need", "cue": "00:00"},
+                {"artist": "Pleasure State", "title": "Pleasure State - Take My Time", "cue": "06:00"},
+            ]
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[0]["raw_text"], "1. [00:00] Jayda G - All I Need")
+        self.assertEqual(tracks[0]["title"], "All I Need")
+        self.assertEqual(tracks[1]["cue_seconds"], 360)
 
 
 if __name__ == "__main__":

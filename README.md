@@ -7,18 +7,50 @@ SQLite, uses SoundCloud's public oEmbed endpoint for mix metadata, extracts
 1001Tracklists links from SoundCloud descriptions when present, and imports
 tracklists from pasted text.
 
-## Why pasted tracklists?
+## 1001Tracklists
 
-1001Tracklists is great for manual lookup, but scraping it directly can be
-brittle and may run into terms/rate-limit issues. A dependable workflow is:
+1001Tracklists is great for manual lookup. Crate Digger treats it as an
+optional source that must be used politely:
+
+- Read `robots.txt` before fetching.
+- Use the project user-agent instead of Python's default user-agent.
+- Respect the site's crawl delay.
+- Stop when the site serves a JavaScript or bot-protection challenge.
+
+If normal page HTML is available, import it directly:
+
+```sh
+python3 -m uv run crate-digger import-1001-tracklist 1 \
+  "https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html"
+```
+
+If the page is challenged, use the dependable manual workflow:
 
 1. Add the SoundCloud mix URL.
 2. Let Crate Digger capture the title, description, and 1001Tracklists link.
 3. Copy the visible tracklist text from 1001Tracklists into a `.txt` file.
-4. Import that file into the indexed mixtape.
+4. Import that file into the indexed mixtape with the source URL attached.
 
-That gives you fast local search without making the index depend on a fragile
-website parser.
+```sh
+python3 -m uv run crate-digger import-tracklist 1 tracklists/only100s-2026-04.txt \
+  --tracklist-url "https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html"
+```
+
+That gives you fast local search and keeps the index from depending on bypassing
+bot protection.
+
+For a human-supervised local import, use the assisted browser flow. It opens a
+visible browser, waits for you to confirm that the tracklist is visible, then
+reads the rendered page:
+
+```sh
+python3 -m uv run playwright install chromium
+python3 -m uv run crate-digger import-1001-assisted 1 \
+  "https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html" \
+  --replace
+```
+
+This command is intended for local use, not GitHub Actions.
 
 ## Development Setup
 
@@ -119,6 +151,14 @@ Or import tracks later:
 
 ```sh
 python3 -m uv run crate-digger import-tracklist 1 tracklists/2026-05.txt
+```
+
+Replace existing tracks and record the source URL:
+
+```sh
+python3 -m uv run crate-digger import-tracklist 1 tracklists/2026-05.txt \
+  --replace \
+  --tracklist-url "https://1001.tl/example"
 ```
 
 Summarize the local database:

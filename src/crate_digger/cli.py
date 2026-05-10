@@ -10,14 +10,18 @@ import html
 import json
 import re
 import sqlite3
+import time
 import urllib.parse
 import urllib.request
+import urllib.robotparser
 from html.parser import HTMLParser
 from pathlib import Path
 
 
 DEFAULT_DB = Path("crate-digger.sqlite3")
+USER_AGENT = "crate-digger/0.1 (+https://github.com/zpencerguy/crate-digger)"
 SOUNDCLOUD_OEMBED = "https://soundcloud.com/oembed"
+DEFAULT_1001_CRAWL_DELAY = 8.0
 MONTHS = {
     "january": 1,
     "february": 2,
@@ -59,6 +63,11 @@ MONTH_RE = re.compile(
 PUBLISHED_RE = re.compile(r"published on (\d{4})-(\d{2})-\d{2}T", re.IGNORECASE)
 MIXESDB_TRACK_RE = re.compile(r"^#\s+(?:\[(?P<time>[^\]]+)\]\s+)?(?P<body>.+)$")
 MIXESDB_PLAYER_RE = re.compile(r"https://soundcloud\.com/[^\s}|]+")
+ONE_THOUSAND_ONE_HOSTS = {"www.1001tracklists.com", "1001tracklists.com", "1001.tl"}
+
+
+class TracklistsChallengeError(RuntimeError):
+    pass
 
 
 class LinkParser(HTMLParser):
@@ -93,6 +102,90 @@ class LinkParser(HTMLParser):
         )
         self._active_href = None
         self._active_text = []
+
+
+class OneThousandOneTracklistParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self._in_track = False
+        self._track_depth = 0
+        self._active_text_field: str | None = None
+        self._active_text: list[str] = []
+        self._current: dict[str, str] | None = None
+        self.tracks: list[dict[str, object]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attrs_dict = dict(attrs)
+        classes = set((attrs_dict.get("class") or "").split())
+        if tag == "tr" and "tlpItem" in classes:
+            self._in_track = True
+            self._track_depth = 1
+            self._current = {}
+            return
+        if not self._in_track:
+            return
+
+        itemprop = attrs_dict.get("itemprop")
+        content = attrs_dict.get("content")
+        if itemprop and content and self._current is not None:
+            self._current[itemprop] = html.unescape(content).strip()
+        if tag in {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}:
+            return
+        self._track_depth += 1
+        if classes.intersection({"cueValue", "trackValue"}) or itemprop in {"byArtist", "name"}:
+            self._active_text_field = itemprop or next(iter(classes.intersection({"cueValue", "trackValue"})))
+            self._active_text = []
+
+    def handle_data(self, data: str) -> None:
+        if self._active_text_field:
+            self._active_text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if not self._in_track:
+            return
+        if self._active_text_field:
+            text = " ".join("".join(self._active_text).split())
+            if text and self._current is not None and self._active_text_field not in self._current:
+                self._current[self._active_text_field] = html.unescape(text).strip()
+            self._active_text_field = None
+            self._active_text = []
+        self._track_depth -= 1
+        if self._track_depth <= 0:
+            self._finish_track()
+
+    def close(self) -> None:
+        super().close()
+        if self._in_track:
+            self._finish_track()
+
+    def _finish_track(self) -> None:
+        current = self._current or {}
+        artist = current.get("byArtist") or None
+        title = current.get("name") or current.get("trackValue") or ""
+        cue = normalize_1001_time(current.get("cueValue"))
+        if title:
+            position = len(self.tracks) + 1
+            raw_text = f"{position}. "
+            if cue:
+                raw_text += f"[{cue}] "
+            if artist:
+                raw_text += f"{artist} - {title}"
+            else:
+                raw_text += title
+            self.tracks.append(
+                {
+                    "position": position,
+                    "cue_seconds": seconds_from_time(cue),
+                    "artist": artist,
+                    "title": title,
+                    "raw_text": raw_text,
+                }
+            )
+        self._in_track = False
+        self._track_depth = 0
+        self._active_text_field = None
+        self._active_text = []
+        self._current = None
 
 
 SCHEMA = """
@@ -205,7 +298,7 @@ def fetch_soundcloud_oembed(url: str) -> dict[str, str]:
     params = urllib.parse.urlencode({"format": "json", "url": url})
     request = urllib.request.Request(
         f"{SOUNDCLOUD_OEMBED}?{params}",
-        headers={"User-Agent": "crate-digger/0.1"},
+        headers={"User-Agent": USER_AGENT},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         return json.loads(response.read().decode("utf-8"))
@@ -214,10 +307,51 @@ def fetch_soundcloud_oembed(url: str) -> dict[str, str]:
 def fetch_text(url: str) -> str:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "crate-digger/0.1"},
+        headers={"User-Agent": USER_AGENT},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def fetch_robots_parser(url: str) -> urllib.robotparser.RobotFileParser:
+    parsed = urllib.parse.urlparse(url)
+    robots_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, "/robots.txt", "", "", ""))
+    parser = urllib.robotparser.RobotFileParser(robots_url)
+    parser.parse(fetch_text(robots_url).splitlines())
+    return parser
+
+
+def is_1001_url(url: str) -> bool:
+    return urllib.parse.urlparse(url).netloc.lower() in ONE_THOUSAND_ONE_HOSTS
+
+
+def ensure_1001_allowed(url: str) -> float:
+    if not is_1001_url(url):
+        raise SystemExit(f"Expected a 1001Tracklists URL, got: {url}")
+    robots = fetch_robots_parser(url)
+    if not robots.can_fetch(USER_AGENT, url):
+        raise SystemExit(f"robots.txt does not allow {USER_AGENT} to fetch {url}")
+    return robots.crawl_delay(USER_AGENT) or DEFAULT_1001_CRAWL_DELAY
+
+
+def fetch_1001_tracklist_html(url: str, *, delay: float | None = None) -> str:
+    robots_delay = ensure_1001_allowed(url)
+    crawl_delay = robots_delay if delay is None else max(delay, robots_delay)
+    if crawl_delay > 0:
+        time.sleep(crawl_delay)
+    html_text = fetch_text(url)
+    if is_1001_challenge(html_text):
+        raise TracklistsChallengeError(
+            "1001Tracklists served a bot-protection challenge instead of tracklist HTML."
+        )
+    return html_text
+
+
+def is_1001_challenge(html_text: str) -> bool:
+    lower = html_text.lower()
+    if 'class="tlpitem"' in lower or "schema.org/musicrecording" in lower:
+        return False
+    return "turnstile" in lower or "cf-challenge" in lower or "please enable javascript" in lower
 
 
 def fetch_json(url: str) -> object:
@@ -288,6 +422,50 @@ def normalize_mixesdb_time(value: str | None) -> str | None:
     if len(parts) == 3 and all(part.isdigit() for part in parts):
         return f"{int(parts[0])}:{int(parts[1]):02d}:{int(parts[2]):02d}"
     return None
+
+
+def normalize_1001_time(value: str | None) -> str | None:
+    if value is None:
+        return None
+    clean = value.strip().strip("[]")
+    if not clean or clean == "?":
+        return None
+    match = TIME_RE.search(clean)
+    return match.group(0) if match else None
+
+
+def parse_1001tracklists_html(html_text: str) -> list[dict[str, object]]:
+    parser = OneThousandOneTracklistParser()
+    parser.feed(html_text)
+    parser.close()
+    return parser.tracks
+
+
+def tracks_from_browser_1001(rows: object) -> list[dict[str, object]]:
+    if not isinstance(rows, list):
+        return []
+    tracks: list[dict[str, object]] = []
+    for row in rows:
+        if not isinstance(row, dict) or not row.get("title"):
+            continue
+        cue = normalize_1001_time(str(row.get("cue") or ""))
+        position = len(tracks) + 1
+        artist = str(row["artist"]).strip() if row.get("artist") else None
+        title = remove_artist_prefix(str(row["title"]), artist)
+        raw_text = f"{position}. "
+        if cue:
+            raw_text += f"[{cue}] "
+        raw_text += f"{artist} - {title}" if artist else title
+        tracks.append(
+            {
+                "position": position,
+                "cue_seconds": seconds_from_time(cue),
+                "artist": artist,
+                "title": title,
+                "raw_text": raw_text,
+            }
+        )
+    return tracks
 
 
 def parse_mixesdb_raw_tracklist(raw_text: str) -> tuple[str | None, str]:
@@ -469,6 +647,17 @@ def split_artist_title(body: str) -> tuple[str | None, str]:
             artist, title = body.split(separator, 1)
             return artist.strip() or None, title.strip()
     return None, body.strip()
+
+
+def remove_artist_prefix(title: str, artist: str | None) -> str:
+    title = title.strip()
+    if not artist:
+        return title
+    for separator in (" - ", " – ", " — "):
+        prefix = f"{artist}{separator}"
+        if title.casefold().startswith(prefix.casefold()):
+            return title[len(prefix) :].strip()
+    return title
 
 
 def parse_tracklist(text: str) -> list[dict[str, object]]:
@@ -794,9 +983,137 @@ def import_mixesdb_category(args: argparse.Namespace) -> None:
 
 def import_tracklist(args: argparse.Namespace) -> None:
     conn = connect(args.db)
+    if args.replace:
+        conn.execute("DELETE FROM tracks WHERE mixtape_id = ?", (args.mixtape_id,))
     imported = import_tracks(conn, args.mixtape_id, args.tracklist_file)
+    if args.tracklist_url:
+        conn.execute(
+            "UPDATE mixtapes SET tracklist_url = ? WHERE id = ?",
+            (args.tracklist_url, args.mixtape_id),
+        )
     conn.commit()
     print(f"Imported {imported} tracks into mixtape #{args.mixtape_id}")
+    if args.tracklist_url:
+        print(f"Tracklist source: {args.tracklist_url}")
+
+
+def import_1001_tracklist(args: argparse.Namespace) -> None:
+    try:
+        html_text = fetch_1001_tracklist_html(args.tracklist_url, delay=args.delay)
+    except TracklistsChallengeError as exc:
+        raise SystemExit(
+            f"{exc}\n"
+            "Open the page in your browser, copy the visible tracklist text, then use "
+            "`import-tracklist --tracklist-url` for this mixtape."
+        ) from exc
+    tracks = parse_1001tracklists_html(html_text)
+    if not tracks:
+        raise SystemExit("No track metadata was found in the 1001Tracklists HTML.")
+
+    conn = connect(args.db)
+    if args.replace:
+        conn.execute("DELETE FROM tracks WHERE mixtape_id = ?", (args.mixtape_id,))
+    inserted = insert_tracks(conn, args.mixtape_id, tracks)
+    conn.execute(
+        "UPDATE mixtapes SET tracklist_url = ? WHERE id = ?",
+        (args.tracklist_url, args.mixtape_id),
+    )
+    conn.commit()
+    print(f"Imported {inserted}/{len(tracks)} tracks into mixtape #{args.mixtape_id}")
+    print(f"Tracklist source: {args.tracklist_url}")
+
+
+def import_1001_assisted(args: argparse.Namespace) -> None:
+    ensure_1001_allowed(args.tracklist_url)
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise SystemExit(
+            "Playwright is required for assisted browser imports. Run `python3 -m uv sync`, "
+            "then `python3 -m uv run playwright install chromium`."
+        ) from exc
+
+    profile_dir = args.profile_dir
+    profile_dir.mkdir(parents=True, exist_ok=True)
+    print("Opening a visible Chromium window.")
+    print("Load the tracklist, complete any normal browser checks, then return here and press Enter.")
+
+    with sync_playwright() as playwright:
+        context = playwright.chromium.launch_persistent_context(
+            str(profile_dir),
+            headless=False,
+            viewport={"width": 1440, "height": 1000},
+        )
+        try:
+            page = context.pages[0] if context.pages else context.new_page()
+            try:
+                page.goto(args.tracklist_url, wait_until="domcontentloaded", timeout=args.timeout * 1000)
+            except PlaywrightTimeoutError:
+                print("Initial page load timed out, but the browser is still open for manual review.")
+            input("Press Enter once the 1001Tracklists page shows the tracklist...")
+            html_text = page.content()
+            browser_tracks = page.evaluate(
+                """
+                () => {
+                  const clean = (value) => (value || '').replace(/\\s+/g, ' ').trim();
+                  const rows = Array.from(document.querySelectorAll('tr.tlpItem, [itemtype*="MusicRecording"]'));
+                  const seen = new Set();
+                  return rows.map((node, index) => {
+                    const scope = node.closest('tr') || node;
+                    const artist =
+                      scope.querySelector('meta[itemprop="byArtist"]')?.content ||
+                      scope.querySelector('[itemprop="byArtist"]')?.textContent ||
+                      '';
+                    const title =
+                      scope.querySelector('meta[itemprop="name"]')?.content ||
+                      scope.querySelector('[itemprop="name"]')?.textContent ||
+                      scope.querySelector('.trackValue')?.textContent ||
+                      '';
+                    const cue =
+                      scope.querySelector('.cueValue')?.textContent ||
+                      scope.querySelector('[class*="cue"]')?.textContent ||
+                      '';
+                    const key = `${clean(artist)}\\u0000${clean(title)}\\u0000${clean(cue)}`;
+                    if (!clean(title) || seen.has(key)) return null;
+                    seen.add(key);
+                    return {
+                      position: index + 1,
+                      artist: clean(artist) || null,
+                      title: clean(title),
+                      cue: clean(cue)
+                    };
+                  }).filter(Boolean);
+                }
+                """
+            )
+        finally:
+            if not args.keep_open:
+                context.close()
+
+    if args.debug_html:
+        args.debug_html.write_text(html_text, encoding="utf-8")
+        print(f"Saved rendered HTML to {args.debug_html}")
+
+    tracks = parse_1001tracklists_html(html_text)
+    if not tracks:
+        tracks = tracks_from_browser_1001(browser_tracks)
+    if not tracks:
+        if is_1001_challenge(html_text):
+            raise SystemExit("The rendered page still looks like a challenge page; no tracks were imported.")
+        raise SystemExit("No track metadata was found in the rendered 1001Tracklists page.")
+
+    conn = connect(args.db)
+    if args.replace:
+        conn.execute("DELETE FROM tracks WHERE mixtape_id = ?", (args.mixtape_id,))
+    inserted = insert_tracks(conn, args.mixtape_id, tracks)
+    conn.execute(
+        "UPDATE mixtapes SET tracklist_url = ? WHERE id = ?",
+        (args.tracklist_url, args.mixtape_id),
+    )
+    conn.commit()
+    print(f"Imported {inserted}/{len(tracks)} tracks into mixtape #{args.mixtape_id}")
+    print(f"Tracklist source: {args.tracklist_url}")
 
 
 def list_mixtapes(args: argparse.Namespace) -> None:
@@ -1367,7 +1684,41 @@ def build_parser() -> argparse.ArgumentParser:
     imp = subparsers.add_parser("import-tracklist", help="import pasted tracklist text")
     imp.add_argument("mixtape_id", type=int)
     imp.add_argument("tracklist_file", type=Path)
+    imp.add_argument("--tracklist-url", help="source URL for the pasted tracklist")
+    imp.add_argument("--replace", action="store_true", help="replace existing tracks for this mixtape")
     imp.set_defaults(func=import_tracklist)
+
+    one_thousand_one = subparsers.add_parser(
+        "import-1001-tracklist",
+        help="import a 1001Tracklists page when normal HTML is available",
+    )
+    one_thousand_one.add_argument("mixtape_id", type=int)
+    one_thousand_one.add_argument("tracklist_url", help="1001Tracklists tracklist URL")
+    one_thousand_one.add_argument("--replace", action="store_true", help="replace existing tracks for this mixtape")
+    one_thousand_one.add_argument(
+        "--delay",
+        type=float,
+        help="seconds to wait before fetching; never lower than robots.txt crawl-delay",
+    )
+    one_thousand_one.set_defaults(func=import_1001_tracklist)
+
+    assisted = subparsers.add_parser(
+        "import-1001-assisted",
+        help="open a visible browser and import 1001Tracklists after manual review",
+    )
+    assisted.add_argument("mixtape_id", type=int)
+    assisted.add_argument("tracklist_url", help="1001Tracklists tracklist URL")
+    assisted.add_argument("--replace", action="store_true", help="replace existing tracks for this mixtape")
+    assisted.add_argument(
+        "--profile-dir",
+        type=Path,
+        default=Path(".browser-profile/1001tracklists"),
+        help="local browser profile directory for session state",
+    )
+    assisted.add_argument("--timeout", type=int, default=60, help="initial page load timeout in seconds")
+    assisted.add_argument("--keep-open", action="store_true", help="leave the browser open after reading the page")
+    assisted.add_argument("--debug-html", type=Path, help="save rendered page HTML for parser debugging")
+    assisted.set_defaults(func=import_1001_assisted)
 
     mixesdb = subparsers.add_parser(
         "import-mixesdb-category",
