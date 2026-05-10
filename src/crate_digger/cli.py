@@ -64,6 +64,7 @@ PUBLISHED_RE = re.compile(r"published on (\d{4})-(\d{2})-\d{2}T", re.IGNORECASE)
 MIXESDB_TRACK_RE = re.compile(r"^#\s+(?:\[(?P<time>[^\]]+)\]\s+)?(?P<body>.+)$")
 MIXESDB_PLAYER_RE = re.compile(r"https://soundcloud\.com/[^\s}|]+")
 ONE_THOUSAND_ONE_HOSTS = {"www.1001tracklists.com", "1001tracklists.com", "1001.tl"}
+ONE_THOUSAND_ONE_TRACK_SELECTOR = 'div.tlpItem, tr.tlpItem, [itemtype*="MusicRecording"]'
 
 
 class TracklistsChallengeError(RuntimeError):
@@ -1037,7 +1038,10 @@ def import_1001_assisted(args: argparse.Namespace) -> None:
     profile_dir = args.profile_dir
     profile_dir.mkdir(parents=True, exist_ok=True)
     print("Opening a visible Chromium window.")
-    print("Load the tracklist, complete any normal browser checks, then return here and press Enter.")
+    if args.auto_read:
+        print("Will read automatically once tracklist elements are visible.")
+    else:
+        print("Load the tracklist, complete any normal browser checks, then return here and press Enter.")
 
     with sync_playwright() as playwright:
         context = playwright.chromium.launch_persistent_context(
@@ -1051,7 +1055,14 @@ def import_1001_assisted(args: argparse.Namespace) -> None:
                 page.goto(args.tracklist_url, wait_until="domcontentloaded", timeout=args.timeout * 1000)
             except PlaywrightTimeoutError:
                 print("Initial page load timed out, but the browser is still open for manual review.")
-            input("Press Enter once the 1001Tracklists page shows the tracklist...")
+            if args.auto_read:
+                try:
+                    page.wait_for_selector(ONE_THOUSAND_ONE_TRACK_SELECTOR, timeout=args.timeout * 1000)
+                except PlaywrightTimeoutError:
+                    print("Tracklist elements were not detected automatically.")
+                    input("Press Enter once the 1001Tracklists page shows the tracklist...")
+            else:
+                input("Press Enter once the 1001Tracklists page shows the tracklist...")
             html_text = page.content()
             browser_tracks = page.evaluate(
                 """
@@ -1716,6 +1727,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="local browser profile directory for session state",
     )
     assisted.add_argument("--timeout", type=int, default=60, help="initial page load timeout in seconds")
+    assisted.add_argument(
+        "--auto-read",
+        action="store_true",
+        help="read automatically once visible tracklist elements are detected",
+    )
     assisted.add_argument("--keep-open", action="store_true", help="leave the browser open after reading the page")
     assisted.add_argument("--debug-html", type=Path, help="save rendered page HTML for parser debugging")
     assisted.set_defaults(func=import_1001_assisted)

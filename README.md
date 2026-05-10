@@ -50,6 +50,16 @@ python3 -m uv run crate-digger import-1001-assisted 1 \
   --replace
 ```
 
+Use `--auto-read` to skip the terminal confirmation when the visible browser
+loads the tracklist normally:
+
+```sh
+python3 -m uv run crate-digger import-1001-assisted 1 \
+  "https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html" \
+  --replace \
+  --auto-read
+```
+
 This command is intended for local use, not GitHub Actions.
 
 ## Development Setup
