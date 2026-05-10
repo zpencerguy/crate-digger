@@ -104,6 +104,7 @@ CREATE TABLE IF NOT EXISTS mixtapes (
     title TEXT NOT NULL,
     uploader TEXT,
     month TEXT,
+    release_date TEXT,
     series TEXT,
     description TEXT,
     tracklist_url TEXT,
@@ -190,7 +191,14 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
+    ensure_column(conn, "mixtapes", "release_date", "TEXT")
     return conn
+
+
+def ensure_column(conn: sqlite3.Connection, table: str, column: str, definition: str) -> None:
+    columns = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+    if column not in columns:
+        conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
 
 
 def fetch_soundcloud_oembed(url: str) -> dict[str, str]:
@@ -362,6 +370,13 @@ def published_month(value: str | None) -> str | None:
     return f"{match.group(1)}-{match.group(2)}" if match else None
 
 
+def published_date(value: str | None) -> str | None:
+    if not value:
+        return None
+    match = re.match(r"(\d{4}-\d{2}-\d{2})", value)
+    return match.group(1) if match else None
+
+
 def fetch_soundcloud_api_tracks(
     page_url: str,
     html_text: str,
@@ -399,8 +414,11 @@ def fetch_soundcloud_api_tracks(
                 "description": str(item.get("description") or ""),
             }
             created_month = published_month(item.get("created_at"))
+            created_date = published_date(item.get("created_at"))
             if created_month:
                 track["published_month"] = created_month
+            if created_date:
+                track["release_date"] = created_date
             if uploader:
                 track["uploader"] = str(uploader)
             tracks.append(track)
@@ -422,6 +440,11 @@ def infer_month(title: str, fallback: str | None = None) -> str | None:
 def infer_mixesdb_page_month(title: str) -> str | None:
     match = re.match(r"(\d{4})-(\d{2})-\d{2}\s+-\s+", title)
     return f"{match.group(1)}-{match.group(2)}" if match else infer_month(title)
+
+
+def mixesdb_page_date(title: str) -> str | None:
+    match = re.match(r"(\d{4}-\d{2}-\d{2})\s+-\s+", title)
+    return match.group(1) if match else None
 
 
 def title_has_month(title: str) -> bool:
@@ -532,6 +555,7 @@ def index_mixtape(
     soundcloud_url: str,
     *,
     month: str | None = None,
+    release_date: str | None = None,
     series: str | None = None,
     title_override: str | None = None,
     uploader_override: str | None = None,
@@ -552,14 +576,15 @@ def index_mixtape(
     cur = conn.execute(
         """
         INSERT INTO mixtapes (
-            soundcloud_url, title, uploader, month, series, description,
+            soundcloud_url, title, uploader, month, release_date, series, description,
             tracklist_url, created_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(soundcloud_url) DO UPDATE SET
             title = excluded.title,
             uploader = COALESCE(excluded.uploader, mixtapes.uploader),
             month = COALESCE(excluded.month, mixtapes.month),
+            release_date = COALESCE(excluded.release_date, mixtapes.release_date),
             series = COALESCE(excluded.series, mixtapes.series),
             description = excluded.description,
             tracklist_url = COALESCE(excluded.tracklist_url, mixtapes.tracklist_url)
@@ -570,6 +595,7 @@ def index_mixtape(
             title,
             uploader,
             month,
+            release_date,
             series,
             description,
             tracklist_url,
@@ -593,6 +619,7 @@ def add_mixtape(args: argparse.Namespace) -> None:
         conn,
         args.soundcloud_url,
         month=args.month,
+        release_date=args.release_date,
         series=args.series,
         title_override=args.title,
         uploader_override=args.uploader,
@@ -651,6 +678,7 @@ def batch_add_soundcloud_page(args: argparse.Namespace) -> None:
             conn,
             track["url"],
             month=month,
+            release_date=track.get("release_date"),
             series=args.series,
             title_override=track["title"],
             uploader_override=args.uploader or track.get("uploader"),
@@ -735,6 +763,7 @@ def import_mixesdb_category(args: argparse.Namespace) -> None:
                     conn,
                     soundcloud_url,
                     month=infer_mixesdb_page_month(page["text"]),
+                    release_date=mixesdb_page_date(page["text"]),
                     series=args.series,
                     title_override=page["text"],
                     uploader_override=args.uploader,
@@ -979,12 +1008,13 @@ def search(args: argparse.Namespace) -> None:
 
 def export_index(args: argparse.Namespace) -> None:
     conn = connect(args.db)
+    backfill_release_dates(conn)
     output = args.output
     output.mkdir(parents=True, exist_ok=True)
 
     mixtapes = conn.execute(
         """
-        SELECT m.id, m.month, m.series, m.title, m.uploader, m.soundcloud_url,
+        SELECT m.id, m.month, m.release_date, m.series, m.title, m.uploader, m.soundcloud_url,
                m.tracklist_url, COUNT(t.id) AS track_count
         FROM mixtapes m
         LEFT JOIN tracks t ON t.mixtape_id = m.id
@@ -995,7 +1025,7 @@ def export_index(args: argparse.Namespace) -> None:
     tracks = conn.execute(
         """
         SELECT t.id, t.mixtape_id, m.month, m.series, m.title AS mixtape_title,
-               m.soundcloud_url, m.tracklist_url, t.position, t.cue_seconds,
+               m.release_date, m.soundcloud_url, m.tracklist_url, t.position, t.cue_seconds,
                t.artist, t.title, t.raw_text
         FROM tracks t
         JOIN mixtapes m ON m.id = t.mixtape_id
@@ -1008,6 +1038,7 @@ def export_index(args: argparse.Namespace) -> None:
         [
             "id",
             "month",
+            "release_date",
             "series",
             "title",
             "uploader",
@@ -1023,6 +1054,7 @@ def export_index(args: argparse.Namespace) -> None:
             "id",
             "mixtape_id",
             "month",
+            "release_date",
             "series",
             "mixtape_title",
             "soundcloud_url",
@@ -1039,7 +1071,26 @@ def export_index(args: argparse.Namespace) -> None:
     write_json(output / "mixtapes.json", [dict(row) for row in mixtapes])
     write_json(output / "tracks.json", [track_export_row(row) for row in tracks])
     write_markdown_index(output / "index.md", conn)
+    write_latest_mixtapes_report(output / "latest-mixtapes.md", conn)
     print(f"Exported {len(mixtapes)} mixtapes and {len(tracks)} tracks to {output}")
+
+
+def backfill_release_dates(conn: sqlite3.Connection) -> None:
+    rows = conn.execute(
+        "SELECT id, tracklist_url FROM mixtapes WHERE release_date IS NULL AND tracklist_url IS NOT NULL"
+    ).fetchall()
+    for row in rows:
+        release_date = date_from_url(row["tracklist_url"])
+        if release_date:
+            conn.execute("UPDATE mixtapes SET release_date = ? WHERE id = ?", (release_date, row["id"]))
+    conn.commit()
+
+
+def date_from_url(url: str | None) -> str | None:
+    if not url:
+        return None
+    match = re.search(r"/(\d{4}-\d{2}-\d{2})[_-]", urllib.parse.unquote(url))
+    return match.group(1) if match else None
 
 
 def load_export(args: argparse.Namespace) -> None:
@@ -1060,10 +1111,10 @@ def load_export(args: argparse.Namespace) -> None:
         conn.execute(
             """
             INSERT INTO mixtapes (
-                id, soundcloud_url, title, uploader, month, series,
+                id, soundcloud_url, title, uploader, month, release_date, series,
                 description, tracklist_url, created_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 int(row["id"]),
@@ -1071,6 +1122,7 @@ def load_export(args: argparse.Namespace) -> None:
                 row["title"],
                 row["uploader"] or None,
                 row["month"] or None,
+                row.get("release_date") or None,
                 row["series"] or None,
                 "",
                 row["tracklist_url"] or None,
@@ -1203,6 +1255,71 @@ def write_markdown_index(path: Path, conn: sqlite3.Connection) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_latest_mixtapes_report(path: Path, conn: sqlite3.Connection) -> None:
+    latest_by_series = conn.execute(
+        """
+        WITH ranked AS (
+            SELECT m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+                   COUNT(t.id) AS track_count,
+                   ROW_NUMBER() OVER (
+                       PARTITION BY m.series
+                       ORDER BY COALESCE(m.release_date, m.month, '') DESC, m.id DESC
+                   ) AS series_rank
+            FROM mixtapes m
+            LEFT JOIN tracks t ON t.mixtape_id = m.id
+            GROUP BY m.id
+        )
+        SELECT * FROM ranked
+        WHERE series_rank = 1
+        ORDER BY COALESCE(release_date, month, '') DESC, series
+        """
+    ).fetchall()
+    recent = conn.execute(
+        """
+        SELECT m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+               COUNT(t.id) AS track_count
+        FROM mixtapes m
+        LEFT JOIN tracks t ON t.mixtape_id = m.id
+        GROUP BY m.id
+        ORDER BY COALESCE(m.release_date, m.month, '') DESC, m.id DESC
+        LIMIT 20
+        """
+    ).fetchall()
+
+    lines = [
+        "# Latest Mixtapes",
+        "",
+        "Generated from tracked Crate Digger exports. `Release date` uses the exact published date when available and falls back to the indexed month.",
+        "",
+        "## Latest By Series",
+        "",
+        "| Release Date | Series | Tracks | Mixtape |",
+        "| --- | --- | ---: | --- |",
+    ]
+    for row in latest_by_series:
+        lines.append(latest_report_row(row))
+    lines.extend(
+        [
+            "",
+            "## Recent Releases",
+            "",
+            "| Release Date | Series | Tracks | Mixtape |",
+            "| --- | --- | ---: | --- |",
+        ]
+    )
+    for row in recent:
+        lines.append(latest_report_row(row))
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def latest_report_row(row: sqlite3.Row) -> str:
+    release = row["release_date"] or row["month"] or "---- --"
+    return (
+        f"| {release} | {markdown_escape(row['series'] or '')} | {row['track_count']} | "
+        f"{markdown_link(row['title'], row['soundcloud_url'])} |"
+    )
+
+
 def markdown_escape(value: str) -> str:
     return value.replace("|", "\\|")
 
@@ -1220,6 +1337,7 @@ def build_parser() -> argparse.ArgumentParser:
     add = subparsers.add_parser("add", help="add or update a SoundCloud mixtape")
     add.add_argument("soundcloud_url")
     add.add_argument("--month", help="month label, for example 2026-05")
+    add.add_argument("--release-date", help="release date, for example 2026-05-09")
     add.add_argument("--series", help="series name, for example Monthly Mixtape")
     add.add_argument("--title", help="manual title, useful with --offline")
     add.add_argument("--uploader")

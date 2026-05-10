@@ -62,6 +62,7 @@ for GitHub:
 - `data/mixtapes.csv` and `data/tracks.csv` are stable, diffable exports.
 - `data/mixtapes.json` and `data/tracks.json` are convenient for scripts.
 - `data/index.md` is a quick GitHub-friendly summary.
+- `data/latest-mixtapes.md` is a GitHub-friendly latest releases report.
 
 Export the current SQLite index:
 

@@ -2,6 +2,7 @@
   {
     "id": 230,
     "month": "2010-07",
+    "release_date": "2010-07-12",
     "series": "Magic Tape",
     "title": "Magic Tape 01",
     "uploader": "The Magician",
@@ -12,6 +13,7 @@
   {
     "id": 229,
     "month": "2010-08",
+    "release_date": "2010-08-23",
     "series": "Magic Tape",
     "title": "Magic Tape 02",
     "uploader": "The Magician",
@@ -22,6 +24,7 @@
   {
     "id": 228,
     "month": "2010-09",
+    "release_date": "2010-09-23",
     "series": "Magic Tape",
     "title": "Magic Tape 03",
     "uploader": "The Magician",
@@ -32,6 +35,7 @@
   {
     "id": 227,
     "month": "2010-10",
+    "release_date": "2010-10-26",
     "series": "Magic Tape",
     "title": "Magic Tape 04",
     "uploader": "The Magician",
@@ -42,6 +46,7 @@
   {
     "id": 226,
     "month": "2010-11",
+    "release_date": "2010-11-23",
     "series": "Magic Tape",
     "title": "Magic Tape 05",
     "uploader": "The Magician",
@@ -52,6 +57,7 @@
   {
     "id": 225,
     "month": "2010-12",
+    "release_date": "2010-12-14",
     "series": "Magic Tape",
     "title": "Magic Tape 06",
     "uploader": "The Magician",
@@ -62,6 +68,7 @@
   {
     "id": 224,
     "month": "2011-01",
+    "release_date": "2011-01-26",
     "series": "Magic Tape",
     "title": "Magic Tape 07",
     "uploader": "The Magician",
@@ -72,6 +79,7 @@
   {
     "id": 223,
     "month": "2011-02",
+    "release_date": "2011-02-22",
     "series": "Magic Tape",
     "title": "Magic Tape 08",
     "uploader": "The Magician",
@@ -82,6 +90,7 @@
   {
     "id": 222,
     "month": "2011-03",
+    "release_date": "2011-03-22",
     "series": "Magic Tape",
     "title": "Magic Tape 09",
     "uploader": "The Magician",
@@ -92,6 +101,7 @@
   {
     "id": 221,
     "month": "2011-04",
+    "release_date": "2011-04-19",
     "series": "Magic Tape",
     "title": "Magic Tape 10",
     "uploader": "The Magician",
@@ -102,6 +112,7 @@
   {
     "id": 220,
     "month": "2011-05",
+    "release_date": "2011-05-17",
     "series": "Magic Tape",
     "title": "Magic Tape 11",
     "uploader": "The Magician",
@@ -112,6 +123,7 @@
   {
     "id": 219,
     "month": "2011-06",
+    "release_date": "2011-06-14",
     "series": "Magic Tape",
     "title": "Magic Tape 12",
     "uploader": "The Magician",
@@ -122,6 +134,7 @@
   {
     "id": 218,
     "month": "2011-07",
+    "release_date": "2011-07-19",
     "series": "Magic Tape",
     "title": "Magic Tape 13",
     "uploader": "The Magician",
@@ -132,6 +145,7 @@
   {
     "id": 217,
     "month": "2011-08",
+    "release_date": "2011-08-24",
     "series": "Magic Tape",
     "title": "Magic Tape 14",
     "uploader": "The Magician",
@@ -142,6 +156,7 @@
   {
     "id": 216,
     "month": "2011-09",
+    "release_date": "2011-09-13",
     "series": "Magic Tape",
     "title": "Magic Tape 15",
     "uploader": "The Magician",
@@ -152,6 +167,7 @@
   {
     "id": 215,
     "month": "2011-10",
+    "release_date": "2011-10-25",
     "series": "Magic Tape",
     "title": "Magic Tape 16",
     "uploader": "The Magician",
@@ -162,6 +178,7 @@
   {
     "id": 214,
     "month": "2011-11",
+    "release_date": "2011-11-22",
     "series": "Magic Tape",
     "title": "Magic Tape 17",
     "uploader": "The Magician",
@@ -172,6 +189,7 @@
   {
     "id": 213,
     "month": "2011-12",
+    "release_date": "2011-12-20",
     "series": "Magic Tape",
     "title": "Magic Tape 18",
     "uploader": "The Magician",
@@ -182,6 +200,7 @@
   {
     "id": 212,
     "month": "2012-01",
+    "release_date": "2012-01-24",
     "series": "Magic Tape",
     "title": "Magic Tape 19",
     "uploader": "The Magician",
@@ -192,6 +211,7 @@
   {
     "id": 211,
     "month": "2012-02",
+    "release_date": "2012-02-21",
     "series": "Magic Tape",
     "title": "Magic Tape 20",
     "uploader": "The Magician",
@@ -202,6 +222,7 @@
   {
     "id": 210,
     "month": "2012-03",
+    "release_date": "2012-03-27",
     "series": "Magic Tape",
     "title": "Magic Tape 21",
     "uploader": "The Magician",
@@ -212,6 +233,7 @@
   {
     "id": 209,
     "month": "2012-04",
+    "release_date": "2012-04-24",
     "series": "Magic Tape",
     "title": "Magic Tape 22",
     "uploader": "The Magician",
@@ -222,6 +244,7 @@
   {
     "id": 208,
     "month": "2012-05",
+    "release_date": "2012-05-22",
     "series": "Magic Tape",
     "title": "Magic Tape 23",
     "uploader": "The Magician",
@@ -232,6 +255,7 @@
   {
     "id": 207,
     "month": "2012-06",
+    "release_date": "2012-06-26",
     "series": "Magic Tape",
     "title": "Magic Tape 24",
     "uploader": "The Magician",
@@ -242,6 +266,7 @@
   {
     "id": 206,
     "month": "2012-09",
+    "release_date": "2012-09-04",
     "series": "Magic Tape",
     "title": "Magic Tape 25",
     "uploader": "The Magician",
@@ -252,6 +277,7 @@
   {
     "id": 205,
     "month": "2012-10",
+    "release_date": "2012-10-09",
     "series": "Magic Tape",
     "title": "Magic Tape 26",
     "uploader": "The Magician",
@@ -262,6 +288,7 @@
   {
     "id": 204,
     "month": "2012-11",
+    "release_date": "2012-11-13",
     "series": "Magic Tape",
     "title": "Magic Tape 27",
     "uploader": "The Magician",
@@ -272,6 +299,7 @@
   {
     "id": 203,
     "month": "2012-12",
+    "release_date": "2012-12-11",
     "series": "Magic Tape",
     "title": "Magic Tape 28",
     "uploader": "The Magician",
@@ -282,6 +310,7 @@
   {
     "id": 202,
     "month": "2013-01",
+    "release_date": "2013-01-22",
     "series": "Magic Tape",
     "title": "Magic Tape 29",
     "uploader": "The Magician",
@@ -292,6 +321,7 @@
   {
     "id": 201,
     "month": "2013-02",
+    "release_date": "2013-02-19",
     "series": "Magic Tape",
     "title": "Magic Tape 30",
     "uploader": "The Magician",
@@ -302,6 +332,7 @@
   {
     "id": 231,
     "month": "2013-03",
+    "release_date": "2013-03-19",
     "series": "Magic Tape",
     "title": "2013-03-19 - The Magician - Magic Tape 31",
     "uploader": "The Magician",
@@ -312,6 +343,7 @@
   {
     "id": 200,
     "month": "2013-04",
+    "release_date": "2013-04-23",
     "series": "Magic Tape",
     "title": "Magic Tape 32",
     "uploader": "The Magician",
@@ -322,6 +354,7 @@
   {
     "id": 199,
     "month": "2013-05",
+    "release_date": "2013-05-21",
     "series": "Magic Tape",
     "title": "Magic Tape 33",
     "uploader": "The Magician",
@@ -332,6 +365,7 @@
   {
     "id": 198,
     "month": "2013-06",
+    "release_date": "2013-06-25",
     "series": "Magic Tape",
     "title": "Magic Tape 34",
     "uploader": "The Magician",
@@ -342,6 +376,7 @@
   {
     "id": 197,
     "month": "2013-09",
+    "release_date": "2013-09-17",
     "series": "Magic Tape",
     "title": "Magic Tape 35",
     "uploader": "The Magician",
@@ -352,6 +387,7 @@
   {
     "id": 196,
     "month": "2013-10",
+    "release_date": "2013-10-15",
     "series": "Magic Tape",
     "title": "Magic Tape 36",
     "uploader": "The Magician",
@@ -362,6 +398,7 @@
   {
     "id": 232,
     "month": "2013-11",
+    "release_date": "2013-11-19",
     "series": "Magic Tape",
     "title": "2013-11-19 - The Magician - Magic Tape 37",
     "uploader": "The Magician",
@@ -372,6 +409,7 @@
   {
     "id": 195,
     "month": "2013-12",
+    "release_date": "2013-12-17",
     "series": "Magic Tape",
     "title": "Magic Tape 38",
     "uploader": "The Magician",
@@ -382,6 +420,7 @@
   {
     "id": 194,
     "month": "2014-01",
+    "release_date": "2014-01-21",
     "series": "Magic Tape",
     "title": "Magic Tape 39",
     "uploader": "The Magician",
@@ -392,6 +431,7 @@
   {
     "id": 193,
     "month": "2014-02",
+    "release_date": "2014-02-18",
     "series": "Magic Tape",
     "title": "Magic Tape 40",
     "uploader": "The Magician",
@@ -402,6 +442,7 @@
   {
     "id": 192,
     "month": "2014-03",
+    "release_date": "2014-03-27",
     "series": "Magic Tape",
     "title": "Magic Tape 41",
     "uploader": "The Magician",
@@ -412,6 +453,7 @@
   {
     "id": 191,
     "month": "2014-04",
+    "release_date": "2014-04-15",
     "series": "Magic Tape",
     "title": "Magic Tape 42",
     "uploader": "The Magician",
@@ -422,6 +464,7 @@
   {
     "id": 190,
     "month": "2014-05",
+    "release_date": "2014-05-20",
     "series": "Magic Tape",
     "title": "Magic Tape 43",
     "uploader": "The Magician",
@@ -432,6 +475,7 @@
   {
     "id": 189,
     "month": "2014-07",
+    "release_date": "2014-07-08",
     "series": "Magic Tape",
     "title": "Magic Tape 44",
     "uploader": "The Magician",
@@ -442,6 +486,7 @@
   {
     "id": 188,
     "month": "2014-09",
+    "release_date": "2014-09-16",
     "series": "Magic Tape",
     "title": "Magic Tape 45",
     "uploader": "The Magician",
@@ -452,6 +497,7 @@
   {
     "id": 187,
     "month": "2014-10",
+    "release_date": "2014-10-21",
     "series": "Magic Tape",
     "title": "Magic Tape 46",
     "uploader": "The Magician",
@@ -462,6 +508,7 @@
   {
     "id": 186,
     "month": "2014-11",
+    "release_date": "2014-11-18",
     "series": "Magic Tape",
     "title": "Magic Tape 47",
     "uploader": "The Magician",
@@ -472,6 +519,7 @@
   {
     "id": 185,
     "month": "2014-12",
+    "release_date": "2014-12-16",
     "series": "Magic Tape",
     "title": "Magic Tape 48",
     "uploader": "The Magician",
@@ -482,6 +530,7 @@
   {
     "id": 184,
     "month": "2015-01",
+    "release_date": "2015-01-20",
     "series": "Magic Tape",
     "title": "Magic Tape 49",
     "uploader": "The Magician",
@@ -492,6 +541,7 @@
   {
     "id": 183,
     "month": "2015-02",
+    "release_date": "2015-02-23",
     "series": "Magic Tape",
     "title": "Magic Tape 50 (Birthday edition)",
     "uploader": "The Magician",
@@ -502,6 +552,7 @@
   {
     "id": 182,
     "month": "2015-04",
+    "release_date": "2015-04-07",
     "series": "Magic Tape",
     "title": "Magic Tape 51",
     "uploader": "The Magician",
@@ -512,6 +563,7 @@
   {
     "id": 181,
     "month": "2015-05",
+    "release_date": "2015-05-12",
     "series": "Magic Tape",
     "title": "Magic Tape 52",
     "uploader": "The Magician",
@@ -522,6 +574,7 @@
   {
     "id": 180,
     "month": "2015-06",
+    "release_date": "2015-06-23",
     "series": "Magic Tape",
     "title": "Magic Tape 53",
     "uploader": "The Magician",
@@ -532,6 +585,7 @@
   {
     "id": 179,
     "month": "2015-09",
+    "release_date": "2015-09-01",
     "series": "Magic Tape",
     "title": "Magic Tape 54",
     "uploader": "The Magician",
@@ -542,6 +596,7 @@
   {
     "id": 178,
     "month": "2015-10",
+    "release_date": "2015-10-06",
     "series": "Magic Tape",
     "title": "Magic Tape 55",
     "uploader": "The Magician",
@@ -552,6 +607,7 @@
   {
     "id": 177,
     "month": "2015-11",
+    "release_date": "2015-11-03",
     "series": "Magic Tape",
     "title": "Magic Tape 56",
     "uploader": "The Magician",
@@ -562,6 +618,7 @@
   {
     "id": 176,
     "month": "2015-12",
+    "release_date": "2015-12-01",
     "series": "Magic Tape",
     "title": "Magic Tape 57",
     "uploader": "The Magician",
@@ -572,6 +629,7 @@
   {
     "id": 175,
     "month": "2016-01",
+    "release_date": "2016-01-12",
     "series": "Magic Tape",
     "title": "Magic Tape 58",
     "uploader": "The Magician",
@@ -582,6 +640,7 @@
   {
     "id": 174,
     "month": "2016-02",
+    "release_date": "2016-02-16",
     "series": "Magic Tape",
     "title": "Magic Tape 59",
     "uploader": "The Magician",
@@ -592,6 +651,7 @@
   {
     "id": 173,
     "month": "2016-04",
+    "release_date": "2016-04-05",
     "series": "Magic Tape",
     "title": "Magic Tape 60",
     "uploader": "The Magician",
@@ -602,6 +662,7 @@
   {
     "id": 172,
     "month": "2016-05",
+    "release_date": "2016-05-10",
     "series": "Magic Tape",
     "title": "Magic Tape 61",
     "uploader": "The Magician",
@@ -612,6 +673,7 @@
   {
     "id": 171,
     "month": "2016-06",
+    "release_date": "2016-06-14",
     "series": "Magic Tape",
     "title": "Magic Tape 62",
     "uploader": "The Magician",
@@ -622,6 +684,7 @@
   {
     "id": 170,
     "month": "2016-07",
+    "release_date": "2016-07-19",
     "series": "Magic Tape",
     "title": "Magic Tape 63 (Summer Edition)",
     "uploader": "The Magician",
@@ -632,6 +695,7 @@
   {
     "id": 169,
     "month": "2016-09",
+    "release_date": "2016-09-06",
     "series": "Magic Tape",
     "title": "Magic Tape 64",
     "uploader": "The Magician",
@@ -642,6 +706,7 @@
   {
     "id": 168,
     "month": "2016-10",
+    "release_date": "2016-10-18",
     "series": "Magic Tape",
     "title": "Magic Tape 65",
     "uploader": "The Magician",
@@ -652,6 +717,7 @@
   {
     "id": 167,
     "month": "2016-11",
+    "release_date": "2016-11-15",
     "series": "Magic Tape",
     "title": "Magic Tape 66",
     "uploader": "The Magician",
@@ -662,6 +728,7 @@
   {
     "id": 166,
     "month": "2017-01",
+    "release_date": "2017-01-17",
     "series": "Magic Tape",
     "title": "Magic Tape 67",
     "uploader": "The Magician",
@@ -672,6 +739,7 @@
   {
     "id": 165,
     "month": "2017-02",
+    "release_date": "2017-02-14",
     "series": "Magic Tape",
     "title": "Magic Tape 68",
     "uploader": "The Magician",
@@ -682,6 +750,7 @@
   {
     "id": 164,
     "month": "2017-03",
+    "release_date": "2017-03-21",
     "series": "Magic Tape",
     "title": "Magic Tape 69",
     "uploader": "The Magician",
@@ -692,6 +761,7 @@
   {
     "id": 163,
     "month": "2017-04",
+    "release_date": "2017-04-25",
     "series": "Magic Tape",
     "title": "Magic Tape 70",
     "uploader": "The Magician",
@@ -702,6 +772,7 @@
   {
     "id": 162,
     "month": "2017-05",
+    "release_date": "2017-05-24",
     "series": "Magic Tape",
     "title": "Magic Tape 71",
     "uploader": "The Magician",
@@ -712,6 +783,7 @@
   {
     "id": 161,
     "month": "2017-06",
+    "release_date": "2017-06-21",
     "series": "Magic Tape",
     "title": "Magic Tape 72",
     "uploader": "The Magician",
@@ -722,6 +794,7 @@
   {
     "id": 160,
     "month": "2017-08",
+    "release_date": "2017-08-29",
     "series": "Magic Tape",
     "title": "Magic Tape 73",
     "uploader": "The Magician",
@@ -732,6 +805,7 @@
   {
     "id": 159,
     "month": "2017-09",
+    "release_date": "2017-09-26",
     "series": "Magic Tape",
     "title": "Magic Tape 74",
     "uploader": "The Magician",
@@ -742,6 +816,7 @@
   {
     "id": 158,
     "month": "2017-10",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 75 (Live at Amsterdam Dance Event 2017)",
     "uploader": "The Magician",
@@ -752,6 +827,7 @@
   {
     "id": 157,
     "month": "2017-11",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 76",
     "uploader": "The Magician",
@@ -762,6 +838,7 @@
   {
     "id": 156,
     "month": "2018-02",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 77",
     "uploader": "The Magician",
@@ -772,6 +849,7 @@
   {
     "id": 155,
     "month": "2018-03",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 78 (Recorded live in Miami)",
     "uploader": "The Magician",
@@ -782,6 +860,7 @@
   {
     "id": 154,
     "month": "2018-04",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 79",
     "uploader": "The Magician",
@@ -792,6 +871,7 @@
   {
     "id": 153,
     "month": "2018-05",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 80",
     "uploader": "The Magician",
@@ -802,6 +882,7 @@
   {
     "id": 152,
     "month": "2018-06",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 81",
     "uploader": "The Magician",
@@ -812,6 +893,7 @@
   {
     "id": 151,
     "month": "2018-08",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 82",
     "uploader": "The Magician",
@@ -822,6 +904,7 @@
   {
     "id": 150,
     "month": "2018-09",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 83",
     "uploader": "The Magician",
@@ -832,6 +915,7 @@
   {
     "id": 149,
     "month": "2018-10",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 84",
     "uploader": "The Magician",
@@ -842,6 +926,7 @@
   {
     "id": 148,
     "month": "2018-11",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 85",
     "uploader": "The Magician",
@@ -852,6 +937,7 @@
   {
     "id": 147,
     "month": "2019-01",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 86",
     "uploader": "The Magician",
@@ -862,6 +948,7 @@
   {
     "id": 146,
     "month": "2019-02",
+    "release_date": "2019-02-12",
     "series": "Magic Tape",
     "title": "Magic Tape 87",
     "uploader": "The Magician",
@@ -872,6 +959,7 @@
   {
     "id": 145,
     "month": "2019-03",
+    "release_date": "2019-03-19",
     "series": "Magic Tape",
     "title": "Magic Tape 88",
     "uploader": "The Magician",
@@ -882,6 +970,7 @@
   {
     "id": 144,
     "month": "2019-04",
+    "release_date": "2019-04-23",
     "series": "Magic Tape",
     "title": "Magic Tape 89",
     "uploader": "The Magician",
@@ -892,6 +981,7 @@
   {
     "id": 143,
     "month": "2019-05",
+    "release_date": "2019-05-21",
     "series": "Magic Tape",
     "title": "Magic Tape 90",
     "uploader": "The Magician",
@@ -902,6 +992,7 @@
   {
     "id": 142,
     "month": "2019-07",
+    "release_date": "2019-07-30",
     "series": "Magic Tape",
     "title": "Magic Tape 91",
     "uploader": "The Magician",
@@ -912,6 +1003,7 @@
   {
     "id": 141,
     "month": "2019-09",
+    "release_date": "2019-09-03",
     "series": "Magic Tape",
     "title": "Magic Tape 92",
     "uploader": "The Magician",
@@ -922,6 +1014,7 @@
   {
     "id": 140,
     "month": "2019-10",
+    "release_date": "2019-10-15",
     "series": "Magic Tape",
     "title": "Magic Tape 93",
     "uploader": "The Magician",
@@ -932,6 +1025,7 @@
   {
     "id": 139,
     "month": "2019-11",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 94",
     "uploader": "The Magician",
@@ -942,6 +1036,7 @@
   {
     "id": 138,
     "month": "2020-01",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 95",
     "uploader": "The Magician",
@@ -952,6 +1047,7 @@
   {
     "id": 137,
     "month": "2020-03",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 96",
     "uploader": "The Magician",
@@ -962,6 +1058,7 @@
   {
     "id": 136,
     "month": "2020-06",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 97",
     "uploader": "The Magician",
@@ -972,6 +1069,7 @@
   {
     "id": 135,
     "month": "2020-09",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 98",
     "uploader": "The Magician",
@@ -982,6 +1080,7 @@
   {
     "id": 134,
     "month": "2020-11",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 99",
     "uploader": "The Magician",
@@ -992,6 +1091,7 @@
   {
     "id": 133,
     "month": "2021-01",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 100 (Live from the release party at Le Sacré in Paris)",
     "uploader": "The Magician",
@@ -1002,6 +1102,7 @@
   {
     "id": 132,
     "month": "2021-04",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 101",
     "uploader": "The Magician",
@@ -1012,6 +1113,7 @@
   {
     "id": 130,
     "month": "2021-06",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 103 (Special Italian Summer Love)",
     "uploader": "The Magician",
@@ -1022,6 +1124,7 @@
   {
     "id": 131,
     "month": "2021-06",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 102",
     "uploader": "The Magician",
@@ -1032,6 +1135,7 @@
   {
     "id": 129,
     "month": "2021-09",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 104",
     "uploader": "The Magician",
@@ -1042,6 +1146,7 @@
   {
     "id": 128,
     "month": "2021-10",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 105",
     "uploader": "The Magician",
@@ -1052,6 +1157,7 @@
   {
     "id": 127,
     "month": "2021-11",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 106",
     "uploader": "The Magician",
@@ -1062,6 +1168,7 @@
   {
     "id": 126,
     "month": "2021-12",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 107",
     "uploader": "The Magician",
@@ -1072,6 +1179,7 @@
   {
     "id": 125,
     "month": "2022-02",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 108",
     "uploader": "The Magician",
@@ -1082,6 +1190,7 @@
   {
     "id": 124,
     "month": "2022-03",
+    "release_date": null,
     "series": "Magic Tape",
     "title": "Magic Tape 109",
     "uploader": "The Magician",
@@ -1092,6 +1201,7 @@
   {
     "id": 123,
     "month": "2022-05",
+    "release_date": "2022-05-31",
     "series": "Magic Tape",
     "title": "Magic Tape 110",
     "uploader": "The Magician",
@@ -1102,6 +1212,7 @@
   {
     "id": 122,
     "month": "2022-06",
+    "release_date": "2022-06-28",
     "series": "Magic Tape",
     "title": "Magic Tape 111",
     "uploader": "The Magician",
@@ -1112,6 +1223,7 @@
   {
     "id": 120,
     "month": "2022-08",
+    "release_date": "2022-08-30",
     "series": "Magic Tape",
     "title": "Magic Tape 113",
     "uploader": "The Magician",
@@ -1122,6 +1234,7 @@
   {
     "id": 121,
     "month": "2022-08",
+    "release_date": "2022-08-02",
     "series": "Magic Tape",
     "title": "Magic Tape 112",
     "uploader": "The Magician",
@@ -1132,6 +1245,7 @@
   {
     "id": 119,
     "month": "2022-09",
+    "release_date": "2022-09-27",
     "series": "Magic Tape",
     "title": "Magic Tape 114",
     "uploader": "The Magician",
@@ -1142,6 +1256,7 @@
   {
     "id": 118,
     "month": "2022-10",
+    "release_date": "2022-10-31",
     "series": "Magic Tape",
     "title": "Magic Tape 115",
     "uploader": "The Magician",
@@ -1152,6 +1267,7 @@
   {
     "id": 117,
     "month": "2023-02",
+    "release_date": "2023-02-07",
     "series": "Magic Tape",
     "title": "Magic Tape 116",
     "uploader": "The Magician",
@@ -1162,6 +1278,7 @@
   {
     "id": 116,
     "month": "2023-05",
+    "release_date": "2023-05-03",
     "series": "Magic Tape",
     "title": "Magic Tape 117",
     "uploader": "The Magician",
@@ -1172,6 +1289,7 @@
   {
     "id": 115,
     "month": "2023-06",
+    "release_date": "2023-06-27",
     "series": "Magic Tape",
     "title": "Magic Tape 118",
     "uploader": "The Magician",
@@ -1182,6 +1300,7 @@
   {
     "id": 114,
     "month": "2023-09",
+    "release_date": "2023-09-06",
     "series": "Magic Tape",
     "title": "Magic Tape 119",
     "uploader": "The Magician",
@@ -1192,6 +1311,7 @@
   {
     "id": 113,
     "month": "2023-10",
+    "release_date": "2023-10-26",
     "series": "Magic Tape",
     "title": "Magic Tape 120 (Special B2B w/ A-Trak)",
     "uploader": "The Magician",
@@ -1202,6 +1322,7 @@
   {
     "id": 112,
     "month": "2024-02",
+    "release_date": "2024-02-27",
     "series": "Magic Tape",
     "title": "Magic Tape 121",
     "uploader": "The Magician",
@@ -1212,6 +1333,7 @@
   {
     "id": 111,
     "month": "2024-03",
+    "release_date": "2024-03-26",
     "series": "Magic Tape",
     "title": "Magic Tape 122",
     "uploader": "The Magician",
@@ -1222,6 +1344,7 @@
   {
     "id": 110,
     "month": "2025-02",
+    "release_date": "2025-02-11",
     "series": "Magic Tape",
     "title": "Magic Tape 123",
     "uploader": "The Magician",
@@ -1232,6 +1355,7 @@
   {
     "id": 109,
     "month": "2025-03",
+    "release_date": "2025-03-18",
     "series": "Magic Tape",
     "title": "Magic Tape 124",
     "uploader": "The Magician",
@@ -1242,6 +1366,7 @@
   {
     "id": 108,
     "month": "2025-04",
+    "release_date": "2025-04-29",
     "series": "Magic Tape",
     "title": "Magic Tape 125",
     "uploader": "The Magician",
@@ -1252,6 +1377,7 @@
   {
     "id": 107,
     "month": "2025-06",
+    "release_date": "2025-06-17",
     "series": "Magic Tape",
     "title": "Magic Tape 126",
     "uploader": "The Magician",
@@ -1262,6 +1388,7 @@
   {
     "id": 106,
     "month": "2025-07",
+    "release_date": "2025-07-29",
     "series": "Magic Tape",
     "title": "Magic Tape 127",
     "uploader": "The Magician",
@@ -1272,6 +1399,7 @@
   {
     "id": 105,
     "month": "2025-09",
+    "release_date": "2025-09-16",
     "series": "Magic Tape",
     "title": "Magic Tape 128",
     "uploader": "The Magician",
@@ -1282,6 +1410,7 @@
   {
     "id": 104,
     "month": "2025-10",
+    "release_date": "2025-10-16",
     "series": "Magic Tape",
     "title": "Magic Tape 129",
     "uploader": "The Magician",
@@ -1292,6 +1421,7 @@
   {
     "id": 103,
     "month": "2025-11",
+    "release_date": "2025-11-13",
     "series": "Magic Tape",
     "title": "Magic Tape 130",
     "uploader": "The Magician",
@@ -1302,6 +1432,7 @@
   {
     "id": 102,
     "month": "2026-01",
+    "release_date": "2026-01-29",
     "series": "Magic Tape",
     "title": "MAGIC TAPE 131",
     "uploader": "The Magician",
@@ -1312,6 +1443,7 @@
   {
     "id": 101,
     "month": "2026-03",
+    "release_date": "2026-03-12",
     "series": "Magic Tape",
     "title": "MAGIC TAPE 132",
     "uploader": "The Magician",
@@ -1322,6 +1454,7 @@
   {
     "id": 100,
     "month": "2017-01",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2017",
     "uploader": "Only 100s",
@@ -1332,6 +1465,7 @@
   {
     "id": 99,
     "month": "2017-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2017",
     "uploader": "Only 100s",
@@ -1342,6 +1476,7 @@
   {
     "id": 98,
     "month": "2017-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2017",
     "uploader": "Only 100s",
@@ -1352,6 +1487,7 @@
   {
     "id": 97,
     "month": "2017-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2017",
     "uploader": "Only 100s",
@@ -1362,6 +1498,7 @@
   {
     "id": 96,
     "month": "2017-05",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2017",
     "uploader": "Only 100s",
@@ -1372,6 +1509,7 @@
   {
     "id": 95,
     "month": "2017-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2017",
     "uploader": "Only 100s",
@@ -1382,6 +1520,7 @@
   {
     "id": 94,
     "month": "2017-08",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2017",
     "uploader": "Only 100s",
@@ -1392,6 +1531,7 @@
   {
     "id": 93,
     "month": "2017-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2017",
     "uploader": "Only 100s",
@@ -1402,6 +1542,7 @@
   {
     "id": 92,
     "month": "2017-10",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2017",
     "uploader": "Only 100s",
@@ -1412,6 +1553,7 @@
   {
     "id": 91,
     "month": "2017-11",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2017",
     "uploader": "Only 100s",
@@ -1422,6 +1564,7 @@
   {
     "id": 90,
     "month": "2018-01",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2018",
     "uploader": "Only 100s",
@@ -1432,6 +1575,7 @@
   {
     "id": 89,
     "month": "2018-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2018",
     "uploader": "Only 100s",
@@ -1442,6 +1586,7 @@
   {
     "id": 88,
     "month": "2018-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2018",
     "uploader": "Only 100s",
@@ -1452,6 +1597,7 @@
   {
     "id": 87,
     "month": "2018-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2018",
     "uploader": "Only 100s",
@@ -1462,6 +1608,7 @@
   {
     "id": 86,
     "month": "2018-05",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2018",
     "uploader": "Only 100s",
@@ -1472,6 +1619,7 @@
   {
     "id": 85,
     "month": "2018-06",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2018",
     "uploader": "Only 100s",
@@ -1482,6 +1630,7 @@
   {
     "id": 84,
     "month": "2018-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2018",
     "uploader": "Only 100s",
@@ -1492,6 +1641,7 @@
   {
     "id": 83,
     "month": "2018-08",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2018",
     "uploader": "Only 100s",
@@ -1502,6 +1652,7 @@
   {
     "id": 82,
     "month": "2018-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2018",
     "uploader": "Only 100s",
@@ -1512,6 +1663,7 @@
   {
     "id": 81,
     "month": "2018-10",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2018",
     "uploader": "Only 100s",
@@ -1522,6 +1674,7 @@
   {
     "id": 80,
     "month": "2018-11",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2018",
     "uploader": "Only 100s",
@@ -1532,6 +1685,7 @@
   {
     "id": 79,
     "month": "2019-01",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2019",
     "uploader": "Only 100s",
@@ -1542,6 +1696,7 @@
   {
     "id": 78,
     "month": "2019-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2019",
     "uploader": "Only 100s",
@@ -1552,6 +1707,7 @@
   {
     "id": 77,
     "month": "2019-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2019",
     "uploader": "Only 100s",
@@ -1562,6 +1718,7 @@
   {
     "id": 76,
     "month": "2019-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2019",
     "uploader": "Only 100s",
@@ -1572,6 +1729,7 @@
   {
     "id": 75,
     "month": "2019-06",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2019",
     "uploader": "Only 100s",
@@ -1582,6 +1740,7 @@
   {
     "id": 74,
     "month": "2019-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2019",
     "uploader": "Only 100s",
@@ -1592,6 +1751,7 @@
   {
     "id": 73,
     "month": "2019-08",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2019",
     "uploader": "Only 100s",
@@ -1602,6 +1762,7 @@
   {
     "id": 72,
     "month": "2019-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2019",
     "uploader": "Only 100s",
@@ -1612,6 +1773,7 @@
   {
     "id": 71,
     "month": "2019-10",
+    "release_date": "2019-11-01",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2019",
     "uploader": "Only 100s",
@@ -1622,6 +1784,7 @@
   {
     "id": 70,
     "month": "2019-11",
+    "release_date": "2019-11-29",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2019",
     "uploader": "Only 100s",
@@ -1632,6 +1795,7 @@
   {
     "id": 69,
     "month": "2020-01",
+    "release_date": "2020-02-03",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2020",
     "uploader": "Only 100s",
@@ -1642,6 +1806,7 @@
   {
     "id": 68,
     "month": "2020-02",
+    "release_date": "2020-02-28",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2020",
     "uploader": "Only 100s",
@@ -1652,6 +1817,7 @@
   {
     "id": 67,
     "month": "2020-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2020",
     "uploader": "Only 100s",
@@ -1662,6 +1828,7 @@
   {
     "id": 66,
     "month": "2020-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2020",
     "uploader": "Only 100s",
@@ -1672,6 +1839,7 @@
   {
     "id": 65,
     "month": "2020-05",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2020",
     "uploader": "Only 100s",
@@ -1682,6 +1850,7 @@
   {
     "id": 64,
     "month": "2020-06",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2020",
     "uploader": "Only 100s",
@@ -1692,6 +1861,7 @@
   {
     "id": 63,
     "month": "2020-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2020",
     "uploader": "Only 100s",
@@ -1702,6 +1872,7 @@
   {
     "id": 62,
     "month": "2020-08",
+    "release_date": "2020-08-27",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2020",
     "uploader": "Only 100s",
@@ -1712,6 +1883,7 @@
   {
     "id": 61,
     "month": "2020-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2020",
     "uploader": "Only 100s",
@@ -1722,6 +1894,7 @@
   {
     "id": 60,
     "month": "2020-10",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2020",
     "uploader": "Only 100s",
@@ -1732,6 +1905,7 @@
   {
     "id": 59,
     "month": "2020-11",
+    "release_date": null,
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2020",
     "uploader": "Only 100s",
@@ -1742,6 +1916,7 @@
   {
     "id": 58,
     "month": "2021-01",
+    "release_date": "2021-01-31",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2021",
     "uploader": "Only 100s",
@@ -1752,6 +1927,7 @@
   {
     "id": 57,
     "month": "2021-02",
+    "release_date": "2021-03-01",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2021",
     "uploader": "Only 100s",
@@ -1762,6 +1938,7 @@
   {
     "id": 56,
     "month": "2021-03",
+    "release_date": "2021-03-30",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2021",
     "uploader": "Only 100s",
@@ -1772,6 +1949,7 @@
   {
     "id": 55,
     "month": "2021-04",
+    "release_date": "2021-04-29",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2021",
     "uploader": "Only 100s",
@@ -1782,6 +1960,7 @@
   {
     "id": 54,
     "month": "2021-05",
+    "release_date": "2021-05-31",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2021",
     "uploader": "Only 100s",
@@ -1792,6 +1971,7 @@
   {
     "id": 53,
     "month": "2021-06",
+    "release_date": "2021-07-05",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2021",
     "uploader": "Only 100s",
@@ -1802,6 +1982,7 @@
   {
     "id": 52,
     "month": "2021-07",
+    "release_date": "2021-07-30",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2021",
     "uploader": "Only 100s",
@@ -1812,6 +1993,7 @@
   {
     "id": 51,
     "month": "2021-08",
+    "release_date": "2021-08-31",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2021",
     "uploader": "Only 100s",
@@ -1822,6 +2004,7 @@
   {
     "id": 50,
     "month": "2021-09",
+    "release_date": "2021-10-06",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2021",
     "uploader": "Only 100s",
@@ -1832,6 +2015,7 @@
   {
     "id": 49,
     "month": "2021-10",
+    "release_date": "2021-10-28",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2021",
     "uploader": "Only 100s",
@@ -1842,6 +2026,7 @@
   {
     "id": 48,
     "month": "2021-11",
+    "release_date": "2021-11-29",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2021",
     "uploader": "Only 100s",
@@ -1852,6 +2037,7 @@
   {
     "id": 47,
     "month": "2022-01",
+    "release_date": "2022-01-31",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2022",
     "uploader": "Only 100s",
@@ -1862,6 +2048,7 @@
   {
     "id": 46,
     "month": "2022-02",
+    "release_date": "2022-02-25",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2022",
     "uploader": "Only 100s",
@@ -1872,6 +2059,7 @@
   {
     "id": 45,
     "month": "2022-03",
+    "release_date": "2022-04-08",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2022",
     "uploader": "Only 100s",
@@ -1882,6 +2070,7 @@
   {
     "id": 44,
     "month": "2022-04",
+    "release_date": "2022-04-28",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2022",
     "uploader": "Only 100s",
@@ -1892,6 +2081,7 @@
   {
     "id": 43,
     "month": "2022-05",
+    "release_date": "2022-05-26",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2022",
     "uploader": "Only 100s",
@@ -1902,6 +2092,7 @@
   {
     "id": 42,
     "month": "2022-06",
+    "release_date": "2022-07-08",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2022",
     "uploader": "Only 100s",
@@ -1912,6 +2103,7 @@
   {
     "id": 41,
     "month": "2022-07",
+    "release_date": "2022-07-28",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2022",
     "uploader": "Only 100s",
@@ -1922,6 +2114,7 @@
   {
     "id": 40,
     "month": "2022-08",
+    "release_date": "2022-08-30",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2022",
     "uploader": "Only 100s",
@@ -1932,6 +2125,7 @@
   {
     "id": 39,
     "month": "2022-09",
+    "release_date": "2022-09-28",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2022",
     "uploader": "Only 100s",
@@ -1942,6 +2136,7 @@
   {
     "id": 38,
     "month": "2022-10",
+    "release_date": "2022-10-27",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2022",
     "uploader": "Only 100s",
@@ -1952,6 +2147,7 @@
   {
     "id": 37,
     "month": "2022-11",
+    "release_date": "2022-11-29",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2022",
     "uploader": "Only 100s",
@@ -1962,6 +2158,7 @@
   {
     "id": 36,
     "month": "2023-01",
+    "release_date": "2023-02-01",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - January 2023",
     "uploader": "Only 100s",
@@ -1972,6 +2169,7 @@
   {
     "id": 35,
     "month": "2023-02",
+    "release_date": "2023-02-27",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - February 2023",
     "uploader": "Only 100s",
@@ -1982,6 +2180,7 @@
   {
     "id": 34,
     "month": "2023-03",
+    "release_date": "2023-03-30",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - March 2023",
     "uploader": "Only 100s",
@@ -1992,6 +2191,7 @@
   {
     "id": 33,
     "month": "2023-04",
+    "release_date": "2023-04-26",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - April 2023",
     "uploader": "Only 100s",
@@ -2002,6 +2202,7 @@
   {
     "id": 32,
     "month": "2023-05",
+    "release_date": "2023-05-31",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - May 2023",
     "uploader": "Only 100s",
@@ -2012,6 +2213,7 @@
   {
     "id": 31,
     "month": "2023-06",
+    "release_date": "2023-06-29",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - June 2023",
     "uploader": "Only 100s",
@@ -2022,6 +2224,7 @@
   {
     "id": 30,
     "month": "2023-07",
+    "release_date": "2023-08-09",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - July 2023",
     "uploader": "Only 100s",
@@ -2032,6 +2235,7 @@
   {
     "id": 29,
     "month": "2023-08",
+    "release_date": "2023-09-06",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - August 2023",
     "uploader": "Only 100s",
@@ -2042,6 +2246,7 @@
   {
     "id": 28,
     "month": "2023-09",
+    "release_date": "2023-09-26",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - September 2023",
     "uploader": "Only 100s",
@@ -2052,6 +2257,7 @@
   {
     "id": 27,
     "month": "2023-10",
+    "release_date": "2023-11-01",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - October 2023",
     "uploader": "Only 100s",
@@ -2062,6 +2268,7 @@
   {
     "id": 26,
     "month": "2023-11",
+    "release_date": "2023-12-01",
     "series": "Only 100s",
     "title": "The Aston Shuffle Presents Only 100s - November 2023",
     "uploader": "Only 100s",
@@ -2072,6 +2279,7 @@
   {
     "id": 25,
     "month": "2024-01",
+    "release_date": "2024-01-31",
     "series": "Only 100s",
     "title": "January 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2082,6 +2290,7 @@
   {
     "id": 24,
     "month": "2024-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "February 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2092,6 +2301,7 @@
   {
     "id": 23,
     "month": "2024-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "March 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2102,6 +2312,7 @@
   {
     "id": 22,
     "month": "2024-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "April 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2112,6 +2323,7 @@
   {
     "id": 21,
     "month": "2024-05",
+    "release_date": null,
     "series": "Only 100s",
     "title": "May 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2122,6 +2334,7 @@
   {
     "id": 20,
     "month": "2024-06",
+    "release_date": null,
     "series": "Only 100s",
     "title": "June 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2132,6 +2345,7 @@
   {
     "id": 19,
     "month": "2024-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "July 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2142,6 +2356,7 @@
   {
     "id": 18,
     "month": "2024-08",
+    "release_date": null,
     "series": "Only 100s",
     "title": "August 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2152,6 +2367,7 @@
   {
     "id": 17,
     "month": "2024-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "September 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2162,6 +2378,7 @@
   {
     "id": 16,
     "month": "2024-10",
+    "release_date": null,
     "series": "Only 100s",
     "title": "October 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2172,6 +2389,7 @@
   {
     "id": 15,
     "month": "2024-11",
+    "release_date": null,
     "series": "Only 100s",
     "title": "November 2024 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2182,6 +2400,7 @@
   {
     "id": 14,
     "month": "2025-01",
+    "release_date": null,
     "series": "Only 100s",
     "title": "January 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2192,6 +2411,7 @@
   {
     "id": 13,
     "month": "2025-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "February 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2202,6 +2422,7 @@
   {
     "id": 12,
     "month": "2025-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "March 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2212,6 +2433,7 @@
   {
     "id": 11,
     "month": "2025-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "April 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2222,6 +2444,7 @@
   {
     "id": 10,
     "month": "2025-05",
+    "release_date": null,
     "series": "Only 100s",
     "title": "May 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2232,6 +2455,7 @@
   {
     "id": 9,
     "month": "2025-07",
+    "release_date": null,
     "series": "Only 100s",
     "title": "June + July 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2242,6 +2466,7 @@
   {
     "id": 8,
     "month": "2025-08",
+    "release_date": null,
     "series": "Only 100s",
     "title": "August 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2252,6 +2477,7 @@
   {
     "id": 7,
     "month": "2025-09",
+    "release_date": null,
     "series": "Only 100s",
     "title": "September 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2262,6 +2488,7 @@
   {
     "id": 6,
     "month": "2025-10",
+    "release_date": null,
     "series": "Only 100s",
     "title": "October 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2272,6 +2499,7 @@
   {
     "id": 5,
     "month": "2025-11",
+    "release_date": null,
     "series": "Only 100s",
     "title": "November 2025 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2282,6 +2510,7 @@
   {
     "id": 4,
     "month": "2026-01",
+    "release_date": null,
     "series": "Only 100s",
     "title": "January 2026 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2292,6 +2521,7 @@
   {
     "id": 3,
     "month": "2026-02",
+    "release_date": null,
     "series": "Only 100s",
     "title": "February 2026 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2302,6 +2532,7 @@
   {
     "id": 2,
     "month": "2026-03",
+    "release_date": null,
     "series": "Only 100s",
     "title": "March 2026 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",
@@ -2312,6 +2543,7 @@
   {
     "id": 1,
     "month": "2026-04",
+    "release_date": null,
     "series": "Only 100s",
     "title": "April 2026 - Only 100s with The Aston Shuffle",
     "uploader": "Only 100s",

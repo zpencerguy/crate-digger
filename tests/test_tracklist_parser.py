@@ -3,6 +3,7 @@ import unittest
 from crate_digger.cli import (
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
+    date_from_url,
     extract_mixesdb_category_pages,
     extract_tracklist_url,
     extract_soundcloud_tracks,
@@ -63,6 +64,13 @@ class TracklistParserTest(unittest.TestCase):
     def test_infer_mixesdb_page_month_uses_leading_date(self):
         self.assertEqual(infer_mixesdb_page_month("2013-03-19 - The Magician - Magic Tape 31"), "2013-03")
         self.assertEqual(infer_mixesdb_page_month("The Aston Shuffle - Only 100s April 2021"), "2021-04")
+
+    def test_date_from_url_extracts_mixesdb_dates(self):
+        self.assertEqual(
+            date_from_url("https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_Tape_132"),
+            "2026-03-12",
+        )
+        self.assertIsNone(date_from_url("https://soundcloud.com/themagician/magic-tape-132"))
 
     def test_extract_soundcloud_tracks_from_fallback_html(self):
         tracks = extract_soundcloud_tracks(
