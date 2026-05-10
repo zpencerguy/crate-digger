@@ -1,6 +1,7 @@
 import unittest
 
 from crate_digger.cli import (
+    connect,
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
     date_from_url,
@@ -11,6 +12,8 @@ from crate_digger.cli import (
     infer_mixesdb_page_month,
     infer_month,
     magic_tape_number,
+    find_mixtape_for_source,
+    numbered_series_number,
     parse_mixesdb_raw_tracklist,
     parse_1001tracklists_html,
     parse_tracklist,
@@ -157,6 +160,35 @@ class TracklistParserTest(unittest.TestCase):
         self.assertEqual(magic_tape_number("Magic Tape 09"), 9)
         self.assertEqual(magic_tape_number("The Magician - Magic Tape 131"), 131)
         self.assertIsNone(magic_tape_number("Only 100s January 2024"))
+
+    def test_numbered_series_number_extracts_hash_and_plain_values(self):
+        self.assertEqual(numbered_series_number("XXX Radio #099", "XXX Radio"), 99)
+        self.assertEqual(numbered_series_number("2025-06-20 - Mau P - XXX Radio 141", "XXX Radio"), 141)
+        self.assertEqual(numbered_series_number("Magic Tape 09", "Magic Tape"), 9)
+        self.assertIsNone(numbered_series_number("Only 100s January 2024", "XXX Radio"))
+
+    def test_find_mixtape_for_source_skips_mismatched_numbered_soundcloud_url(self):
+        conn = connect(":memory:")
+        conn.execute(
+            """
+            INSERT INTO mixtapes (
+                id, soundcloud_url, title, uploader, month, release_date, series,
+                description, tracklist_url, created_at
+            )
+            VALUES
+                (1, 'https://soundcloud.com/realmaup/xxx-radio-18', 'XXX Radio #018', 'Mau P', '2023-02', NULL, 'XXX Radio', '', NULL, 'now'),
+                (2, 'https://soundcloud.com/realmaup/xxx-radio-108', 'XXX Radio #108', 'Mau P', '2024-11', NULL, 'XXX Radio', '', NULL, 'now')
+            """
+        )
+
+        mixtape = find_mixtape_for_source(
+            conn,
+            soundcloud_url="https://soundcloud.com/realmaup/xxx-radio-18",
+            page_title="2024-11-01 - Mau P - XXX Radio 108",
+            series="XXX Radio",
+        )
+
+        self.assertEqual(mixtape["id"], 2)
 
     def test_parse_mixesdb_raw_tracklist_converts_wiki_lines(self):
         soundcloud_url, text = parse_mixesdb_raw_tracklist(

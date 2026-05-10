@@ -6,6 +6,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-05-08 | XXX Radio | 0 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
@@ -13,23 +14,23 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-05-08 | XXX Radio | 0 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
+| 2026-04-30 | XXX Radio | 0 | [XXX Radio #186](https://soundcloud.com/realmaup/xxx-radio-186) |
+| 2026-04-27 | XXX Radio | 0 | [XXX Radio #185](https://soundcloud.com/realmaup/xxx-radio-185) |
+| 2026-04-17 | XXX Radio | 0 | [XXX Radio #184](https://soundcloud.com/realmaup/xxx-radio-184) |
+| 2026-04-10 | XXX Radio | 0 | [XXX Radio #183](https://soundcloud.com/realmaup/xxx-radio-183) |
+| 2026-04-03 | XXX Radio | 0 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
+| 2026-03-27 | XXX Radio | 0 | [XXX Radio #181](https://soundcloud.com/realmaup/xxx-radio-181) |
+| 2026-03-20 | XXX Radio | 0 | [XXX Radio #180](https://soundcloud.com/realmaup/xxx-radio-180) |
+| 2026-03-12 | XXX Radio | 0 | [XXX Radio #179](https://soundcloud.com/realmaup/xxx-radio-179) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
+| 2026-03-06 | XXX Radio | 0 | [XXX Radio #178](https://soundcloud.com/realmaup/xxx-radio-178) |
 | 2026-03 | Only 100s | 14 | [March 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/march-2026-only-100s-with-the-aston-shuffle) |
+| 2026-02-27 | XXX Radio | 0 | [XXX Radio #177](https://soundcloud.com/realmaup/xxx-radio-177) |
+| 2026-02-20 | XXX Radio | 0 | [XXX Radio #176](https://soundcloud.com/realmaup/xxx-radio-176) |
+| 2026-02-13 | XXX Radio | 0 | [XXX Radio #175](https://soundcloud.com/realmaup/xxx-radio-175) |
+| 2026-02-06 | XXX Radio | 0 | [XXX Radio #174](https://soundcloud.com/realmaup/xxx-radio-174) |
 | 2026-02 | Only 100s | 15 | [February 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/february-2026-only-100s-with-the-aston-shuffle) |
+| 2026-01-30 | XXX Radio | 0 | [XXX Radio #173](https://soundcloud.com/realmaup/xxx-radio-173) |
 | 2026-01-29 | Magic Tape | 13 | [MAGIC TAPE 131](https://soundcloud.com/themagician/magic-tape-131) |
-| 2026-01 | Only 100s | 0 | [January 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/january-2026-only-100s-with-the-aston-shuffle) |
-| 2025-11-13 | Magic Tape | 13 | [Magic Tape 130](https://soundcloud.com/themagician/magic-tape-130) |
-| 2025-11 | Only 100s | 0 | [November 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/november-2025-only-100s-with-the-aston-shuffle) |
-| 2025-10-16 | Magic Tape | 14 | [Magic Tape 129](https://soundcloud.com/themagician/magic-tape-129) |
-| 2025-10 | Only 100s | 0 | [October 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/october-2025-only-100s-with-the-aston-shuffle) |
-| 2025-09-16 | Magic Tape | 12 | [Magic Tape 128](https://soundcloud.com/themagician/magic-tape-128) |
-| 2025-09 | Only 100s | 0 | [September 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/september-2025-only-100s-with-the-aston-shuffle) |
-| 2025-08 | Only 100s | 0 | [August 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2025-only-100s-with-the-aston-shuffle) |
-| 2025-07-29 | Magic Tape | 16 | [Magic Tape 127](https://soundcloud.com/themagician/magic-tape-127) |
-| 2025-07 | Only 100s | 0 | [June + July 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-july-2025-only-100s-with-the-aston-shuffle) |
-| 2025-06-17 | Magic Tape | 12 | [Magic Tape 126](https://soundcloud.com/themagician/magic-tape-126) |
-| 2025-05 | Only 100s | 0 | [May 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2025-only-100s-with-the-aston-shuffle) |
-| 2025-04-29 | Magic Tape | 12 | [Magic Tape 125](https://soundcloud.com/themagician/magic-tape-125) |
-| 2025-04 | Only 100s | 0 | [April 2025 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2025-only-100s-with-the-aston-shuffle) |
-| 2025-03-18 | Magic Tape | 12 | [Magic Tape 124](https://soundcloud.com/themagician/magic-tape-124) |

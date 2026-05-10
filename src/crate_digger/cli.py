@@ -697,6 +697,14 @@ def magic_tape_number(title: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
+def numbered_series_number(title: str, series: str | None) -> int | None:
+    if not series:
+        return None
+    pattern = re.escape(series).replace(r"\ ", r"\s+")
+    match = re.search(rf"\b{pattern}\s+#?0*(\d{{1,4}})\b", title, re.IGNORECASE)
+    return int(match.group(1)) if match else None
+
+
 def find_mixtape_for_source(
     conn: sqlite3.Connection,
     *,
@@ -710,20 +718,25 @@ def find_mixtape_for_source(
             (soundcloud_url,),
         ).fetchone()
         if mixtape:
-            return mixtape
+            page_number = numbered_series_number(page_title, series)
+            mixtape_number = numbered_series_number(mixtape["title"], series)
+            if page_number is None or mixtape_number is None or page_number == mixtape_number:
+                return mixtape
 
-    tape_number = magic_tape_number(page_title)
-    if series == "Magic Tape" and tape_number is not None:
-        pattern = f"%Magic Tape {tape_number}%"
-        zero_pattern = f"%Magic Tape {tape_number:02d}%"
+    series_number = numbered_series_number(page_title, series)
+    if series and series_number is not None:
+        pattern = f"%{series} #{series_number}%"
+        spaced_pattern = f"%{series} {series_number}%"
+        zero_pattern = f"%{series} #{series_number:03d}%"
+        zero_spaced_pattern = f"%{series} {series_number:03d}%"
         return conn.execute(
             """
             SELECT id, title FROM mixtapes
-            WHERE series = ? AND (title LIKE ? OR title LIKE ?)
+            WHERE series = ? AND (title LIKE ? OR title LIKE ? OR title LIKE ? OR title LIKE ?)
             ORDER BY id
             LIMIT 1
             """,
-            (series, pattern, zero_pattern),
+            (series, pattern, spaced_pattern, zero_pattern, zero_spaced_pattern),
         ).fetchone()
 
     month = infer_month(page_title)
@@ -967,7 +980,7 @@ def import_mixesdb_category(args: argparse.Namespace) -> None:
         else:
             mixtape_id = int(mixtape["id"])
             conn.execute(
-                "UPDATE mixtapes SET tracklist_url = COALESCE(tracklist_url, ?) WHERE id = ?",
+                "UPDATE mixtapes SET tracklist_url = ? WHERE id = ?",
                 (page["url"], mixtape_id),
             )
         inserted = insert_tracks(conn, mixtape_id, tracks)

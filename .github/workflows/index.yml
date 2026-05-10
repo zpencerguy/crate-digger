@@ -34,6 +34,8 @@ jobs:
           uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/themagician/tracks" --series "Magic Tape" --uploader "The Magician" --match "^Magic Tape [0-9]+" --stop-at-existing
           uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --new-only --delay 1
           uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:Magic_Tape" --series "Magic Tape" --uploader "The Magician" --match "Magic Tape (31|37)" --add-missing --new-only --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/realmaup/tracks" --series "XXX Radio" --uploader "Mau P" --match "^XXX Radio #[0-9]+" --stop-at-existing
+          uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:XXX_Radio" --series "XXX Radio" --uploader "Mau P" --title-match "XXX Radio" --new-only --delay 1
           uv run crate-digger --db crate-digger.sqlite3 export --output data
 
       - name: Commit exported data

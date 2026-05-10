@@ -234,6 +234,16 @@ python3 -m uv run crate-digger batch-add-soundcloud-page \
   --match "^Magic Tape [0-9]+"
 ```
 
+Mau P's weekly `XXX Radio` archive uses the same pattern:
+
+```sh
+python3 -m uv run crate-digger batch-add-soundcloud-page \
+  "https://soundcloud.com/realmaup/tracks" \
+  --series "XXX Radio" \
+  --uploader "Mau P" \
+  --match "^XXX Radio #[0-9]+"
+```
+
 The SoundCloud batch importer tries SoundCloud's public JSON endpoint first and
 falls back to the static page HTML when needed. `--monthly-only` keeps yearly
 recaps and other non-monthly uploads out of the local index.
@@ -251,6 +261,16 @@ python3 -m uv run crate-digger import-mixesdb-category \
   "https://www.mixesdb.com/w/Category:Magic_Tape" \
   --series "Magic Tape" \
   --uploader "The Magician"
+```
+
+Import available `XXX Radio` tracklists from MixesDB:
+
+```sh
+python3 -m uv run crate-digger import-mixesdb-category \
+  "https://www.mixesdb.com/w/Category:XXX_Radio" \
+  --series "XXX Radio" \
+  --uploader "Mau P" \
+  --title-match "XXX Radio"
 ```
 
 MixesDB is currently the best primary source for these archives' per-track data:
