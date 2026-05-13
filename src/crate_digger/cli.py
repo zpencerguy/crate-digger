@@ -1606,7 +1606,8 @@ def write_latest_mixtapes_report(path: Path, conn: sqlite3.Connection) -> None:
     latest_by_series = conn.execute(
         """
         WITH ranked AS (
-            SELECT m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+            SELECT m.id, m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+                   m.tracklist_url,
                    COUNT(t.id) AS track_count,
                    ROW_NUMBER() OVER (
                        PARTITION BY m.series
@@ -1623,7 +1624,8 @@ def write_latest_mixtapes_report(path: Path, conn: sqlite3.Connection) -> None:
     ).fetchall()
     recent = conn.execute(
         """
-        SELECT m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+        SELECT m.id, m.month, m.release_date, m.series, m.title, m.soundcloud_url,
+               m.tracklist_url,
                COUNT(t.id) AS track_count
         FROM mixtapes m
         LEFT JOIN tracks t ON t.mixtape_id = m.id
@@ -1640,23 +1642,33 @@ def write_latest_mixtapes_report(path: Path, conn: sqlite3.Connection) -> None:
         "",
         "## Latest By Series",
         "",
-        "| Release Date | Series | Tracks | Mixtape |",
-        "| --- | --- | ---: | --- |",
     ]
-    for row in latest_by_series:
-        lines.append(latest_report_row(row))
+    append_latest_report_section(lines, latest_by_series, conn)
     lines.extend(
         [
             "",
             "## Recent Releases",
             "",
+        ]
+    )
+    append_latest_report_section(lines, recent, conn)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def append_latest_report_section(lines: list[str], rows: list[sqlite3.Row], conn: sqlite3.Connection) -> None:
+    lines.extend(
+        [
             "| Release Date | Series | Tracks | Mixtape |",
             "| --- | --- | ---: | --- |",
         ]
     )
-    for row in recent:
+    for row in rows:
         lines.append(latest_report_row(row))
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    lines.extend(["", "### Tracklists", ""])
+    for row in rows:
+        lines.extend(latest_tracklist_details(row, conn))
+        lines.append("")
 
 
 def latest_report_row(row: sqlite3.Row) -> str:
@@ -1667,8 +1679,46 @@ def latest_report_row(row: sqlite3.Row) -> str:
     )
 
 
+def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list[str]:
+    release = row["release_date"] or row["month"] or "---- --"
+    summary = f"{release} - {row['series'] or 'Uncategorized'} - {row['title']} ({row['track_count']} tracks)"
+    tracks = conn.execute(
+        """
+        SELECT position, cue_seconds, artist, title
+        FROM tracks
+        WHERE mixtape_id = ?
+        ORDER BY position, id
+        """,
+        (row["id"],),
+    ).fetchall()
+
+    lines = [
+        "<details>",
+        f"<summary>{html.escape(summary, quote=False)}</summary>",
+        "",
+    ]
+    if tracks:
+        for index, track in enumerate(tracks, start=1):
+            position = track["position"] or index
+            cue = format_seconds(track["cue_seconds"]).strip()
+            artist = f"{track['artist']} - " if track["artist"] else ""
+            cue_prefix = f"{cue} " if cue else ""
+            lines.append(f"{position}. {markdown_text(cue_prefix + artist + track['title'])}")
+    else:
+        lines.append("_No tracks indexed yet._")
+
+    if row["tracklist_url"]:
+        lines.extend(["", f"Source: [tracklist]({row['tracklist_url']})"])
+    lines.append("</details>")
+    return lines
+
+
 def markdown_escape(value: str) -> str:
     return value.replace("|", "\\|")
+
+
+def markdown_text(value: str) -> str:
+    return value.replace("<", "&lt;").replace(">", "&gt;")
 
 
 def markdown_link(label: str, url: str | None) -> str:
