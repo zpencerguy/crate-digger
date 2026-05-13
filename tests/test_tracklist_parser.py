@@ -1,6 +1,7 @@
 import unittest
 
 from crate_digger.cli import (
+    beatport_search_url,
     connect,
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
@@ -24,6 +25,16 @@ from crate_digger.cli import (
 
 
 class TracklistParserTest(unittest.TestCase):
+    def test_beatport_search_url_uses_artist_and_title(self):
+        self.assertEqual(
+            beatport_search_url("Jayda G", "All I Need"),
+            "https://www.beatport.com/search?q=Jayda+G+All+I+Need",
+        )
+        self.assertEqual(
+            beatport_search_url(None, "Unknown ID"),
+            "https://www.beatport.com/search?q=Unknown+ID",
+        )
+
     def test_seconds_from_time_accepts_mm_ss_and_h_mm_ss(self):
         self.assertEqual(seconds_from_time("04:35"), 275)
         self.assertEqual(seconds_from_time("1:02:03"), 3723)

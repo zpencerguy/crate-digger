@@ -1412,6 +1412,7 @@ def export_index(args: argparse.Namespace) -> None:
             "artist",
             "title",
             "raw_text",
+            "beatport_url",
         ],
         [track_export_row(row) for row in tracks],
     )
@@ -1519,6 +1520,7 @@ def write_json(path: Path, rows: list[dict[str, object]]) -> None:
 def track_export_row(row: sqlite3.Row) -> dict[str, object]:
     data = dict(row)
     data["cue"] = format_seconds(data["cue_seconds"]).strip()
+    data["beatport_url"] = beatport_search_url(data.get("artist"), data["title"])
     return data
 
 
@@ -1703,7 +1705,9 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
             cue = format_seconds(track["cue_seconds"]).strip()
             artist = f"{track['artist']} - " if track["artist"] else ""
             cue_prefix = f"{cue} " if cue else ""
-            lines.append(f"{position}. {markdown_text(cue_prefix + artist + track['title'])}")
+            track_text = markdown_text(cue_prefix + artist + track["title"])
+            beatport_url = beatport_search_url(track["artist"], track["title"])
+            lines.append(f"{position}. {track_text} ([Beatport]({beatport_url}))")
     else:
         lines.append("_No tracks indexed yet._")
 
@@ -1719,6 +1723,11 @@ def markdown_escape(value: str) -> str:
 
 def markdown_text(value: str) -> str:
     return value.replace("<", "&lt;").replace(">", "&gt;")
+
+
+def beatport_search_url(artist: object, title: object) -> str:
+    query = " ".join(str(part).strip() for part in (artist, title) if part)
+    return f"https://www.beatport.com/search?q={urllib.parse.quote_plus(query)}"
 
 
 def markdown_link(label: str, url: str | None) -> str:
