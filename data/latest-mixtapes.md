@@ -6,25 +6,16 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-08 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
+| 2026-05-14 | XXX Radio | 0 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
 ### Tracklists
 
 <details>
-<summary>2026-05-08 - XXX Radio - XXX Radio #187 (8 tracks)</summary>
+<summary>2026-05-14 - XXX Radio - XXX Radio #188 (0 tracks)</summary>
 
-1. Matthias Tanzmann - Friday High ([Beatport](https://www.beatport.com/search?q=Matthias+Tanzmann+Friday+High))
-2. Chinonegro & Rob The Bank - Break It Down ([Beatport](https://www.beatport.com/search?q=Chinonegro+%26+Rob+The+Bank+Break+It+Down))
-3. Marian (BR) - Cambio ([Beatport](https://www.beatport.com/search?q=Marian+%28BR%29+Cambio))
-4. Chinonegro & Rob The Bank - Freaky Housy ([Beatport](https://www.beatport.com/search?q=Chinonegro+%26+Rob+The+Bank+Freaky+Housy))
-5. ATLAC - Hood Beat ([Beatport](https://www.beatport.com/search?q=ATLAC+Hood+Beat))
-6. Mateo Dufour - Break It Up ([Beatport](https://www.beatport.com/search?q=Mateo+Dufour+Break+It+Up))
-7. Bizza & Londonground - Rocket ([Beatport](https://www.beatport.com/search?q=Bizza+%26+Londonground+Rocket))
-8. Marian (BR) - Deeper Down ([Beatport](https://www.beatport.com/search?q=Marian+%28BR%29+Deeper+Down))
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-radio-187-2026-05-08.html)
+_No tracks indexed yet._
 </details>
 
 <details>
@@ -75,6 +66,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-05-14 | XXX Radio | 0 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
 | 2026-05-08 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
 | 2026-04-30 | XXX Radio | 14 | [XXX Radio #186](https://soundcloud.com/realmaup/xxx-radio-186) |
 | 2026-04-27 | XXX Radio | 13 | [XXX Radio #185](https://soundcloud.com/realmaup/xxx-radio-185) |
@@ -94,9 +86,14 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | 2026-02-06 | XXX Radio | 14 | [XXX Radio #174](https://soundcloud.com/realmaup/xxx-radio-174) |
 | 2026-02 | Only 100s | 15 | [February 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/february-2026-only-100s-with-the-aston-shuffle) |
 | 2026-01-30 | XXX Radio | 14 | [XXX Radio #173](https://soundcloud.com/realmaup/xxx-radio-173) |
-| 2026-01-29 | Magic Tape | 13 | [MAGIC TAPE 131](https://soundcloud.com/themagician/magic-tape-131) |
 
 ### Tracklists
+
+<details>
+<summary>2026-05-14 - XXX Radio - XXX Radio #188 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-05-08 - XXX Radio - XXX Radio #187 (8 tracks)</summary>
@@ -480,25 +477,5 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/2vvhbgpt/the-aston-
 14. Lightleak - Mambos ([Beatport](https://www.beatport.com/search?q=Lightleak+Mambos))
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/wjsnhgt/mau-p-xxx-radio-173-2026-01-30.html)
-</details>
-
-<details>
-<summary>2026-01-29 - Magic Tape - MAGIC TAPE 131 (13 tracks)</summary>
-
-1. The Magician - Baba Baba [Unreleased] ([Beatport](https://www.beatport.com/search?q=The+Magician+Baba+Baba+%5BUnreleased%5D))
-2. Raz Alon - Hustler [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Raz+Alon+Hustler+%5BMaccabi+House%5D))
-3. Bonafique & Yuvèe - WHAT! [Get Physical] ([Beatport](https://www.beatport.com/search?q=Bonafique+%26+Yuv%C3%A8e+WHAT%21+%5BGet+Physical%5D))
-4. ? ([Beatport](https://www.beatport.com/search?q=%3F))
-5. Tiga & Boys Noize - HOT WIFE [Turbo] ([Beatport](https://www.beatport.com/search?q=Tiga+%26+Boys+Noize+HOT+WIFE+%5BTurbo%5D))
-6. Peace Control - U Ain't Lyin' [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Peace+Control+U+Ain%27t+Lyin%27+%5BMaccabi+House%5D))
-7. Baron - Dsco [Azzur] ([Beatport](https://www.beatport.com/search?q=Baron+Dsco+%5BAzzur%5D))
-8. Itayga & Omer Eylon - Desert Hum [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Itayga+%26+Omer+Eylon+Desert+Hum+%5BMaccabi+House%5D))
-9. Vibe Killers & Javi Bora - Bumpy [Paradise] ([Beatport](https://www.beatport.com/search?q=Vibe+Killers+%26+Javi+Bora+Bumpy+%5BParadise%5D))
-10. Michael Gray - The Weekend [Altra Moda] ([Beatport](https://www.beatport.com/search?q=Michael+Gray+The+Weekend+%5BAltra+Moda%5D))
-11. Raxon - Basick Beat [Turbo] ([Beatport](https://www.beatport.com/search?q=Raxon+Basick+Beat+%5BTurbo%5D))
-12. E.F.G. - Rollin' [Dear Deer] ([Beatport](https://www.beatport.com/search?q=E.F.G.+Rollin%27+%5BDear+Deer%5D))
-13. Cam Stockman Feat. Joyce Sims - Into My Life [TSZR / Uprise] ([Beatport](https://www.beatport.com/search?q=Cam+Stockman+Feat.+Joyce+Sims+Into+My+Life+%5BTSZR+%2F+Uprise%5D))
-
-Source: [tracklist](https://www.mixesdb.com/w/2026-01-29_-_The_Magician_-_Magic_Tape_131)
 </details>
 

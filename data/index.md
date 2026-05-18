@@ -4,7 +4,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 419
+- Mixtapes: 420
 - Mixtapes with tracks: 255
 - Tracks: 3366
 - Month range: 2010-07 to 2026-05
@@ -15,12 +15,13 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | ---: | ---: | ---: | --- |
 | Magic Tape | 132 | 104 | 1254 | 2010-07 to 2026-03 |
 | Only 100s | 100 | 42 | 607 | 2017-01 to 2026-04 |
-| XXX Radio | 187 | 109 | 1505 | 2022-09 to 2026-05 |
+| XXX Radio | 188 | 109 | 1505 | 2022-09 to 2026-05 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-05 | XXX Radio | 0 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
 | 2026-05 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) ([tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-radio-187-2026-05-08.html)) |
 | 2026-04 | XXX Radio | 14 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) ([tracklist](https://www.1001tracklists.com/tracklist/1sh7b3lk/mau-p-xxx-radio-182-2026-04-03.html)) |
 | 2026-04 | XXX Radio | 12 | [XXX Radio #183](https://soundcloud.com/realmaup/xxx-radio-183) ([tracklist](https://www.1001tracklists.com/tracklist/n4z93xt/mau-p-xxx-radio-183-2026-04-10.html)) |
@@ -40,4 +41,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-02 | XXX Radio | 10 | [XXX Radio #177](https://soundcloud.com/realmaup/xxx-radio-177) ([tracklist](https://www.1001tracklists.com/tracklist/2jpvrw3t/mau-p-xxx-radio-177-2026-02-27.html)) |
 | 2026-02 | Only 100s | 15 | [February 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/february-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/2vvhbgpt/the-aston-shuffle-only-100s-february-2026-2026-02-24.html)) |
 | 2026-01 | XXX Radio | 13 | [XXX Radio #169](https://soundcloud.com/realmaup/xxx-radio-169) ([tracklist](https://www.1001tracklists.com/tracklist/14wup13k/mau-p-xxx-radio-169-2026-01-02.html)) |
-| 2026-01 | XXX Radio | 14 | [XXX Radio #170](https://soundcloud.com/realmaup/xxx-radio-170) ([tracklist](https://www.1001tracklists.com/tracklist/2c2sgjct/mau-p-xxx-radio-170-2026-01-09.html)) |
