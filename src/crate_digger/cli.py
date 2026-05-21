@@ -46,12 +46,15 @@ SOUNDCLOUD_USER_API_RE = re.compile(r"https://api\.soundcloud\.com/users/soundcl
 TRACK_RE = re.compile(
     r"""
     ^\s*
-    (?:(?P<num>\d{1,3})[\).:-]\s*)?
+    (?:(?P<num>\d{1,3})(?:[\).]\s*|-\s+|\s+))?
     (?:\[?(?P<time>(?:(?:\d{1,2}:)?\d{1,2}:\d{2}))\]?\s*)?
     (?P<body>.+?)
     \s*$
     """,
     re.VERBOSE,
+)
+TRACKLIST_LINE_RE = re.compile(
+    r"^\s*(?:\d{1,3}(?:[\).]\s*|-\s+|\s+)|\[?(?:(?:\d{1,2}:)?\d{1,2}:\d{2})\]?\s+)"
 )
 MONTH_RE = re.compile(
     r"\b("
@@ -362,7 +365,7 @@ def fetch_json(url: str) -> object:
 
 def raw_mixesdb_url(url: str) -> str:
     parsed = urllib.parse.urlparse(url)
-    title = parsed.path.removeprefix("/w/")
+    title = urllib.parse.unquote(parsed.path.removeprefix("/w/"))
     query = urllib.parse.urlencode({"title": title, "action": "raw"})
     return urllib.parse.urlunparse(parsed._replace(path="/w/index.php", query=query))
 
@@ -687,6 +690,34 @@ def parse_tracklist(text: str) -> list[dict[str, object]]:
     return tracks
 
 
+def parse_description_tracklist(description: str | None) -> list[dict[str, object]]:
+    if not description:
+        return []
+    lines = description.splitlines()
+    start = 0
+    for index, line in enumerate(lines):
+        header = line.strip().casefold().rstrip(":")
+        if header == "tracklist" or header.endswith(" tracklist"):
+            start = index + 1
+            break
+
+    track_lines: list[str] = []
+    started = False
+    for line in lines[start:]:
+        raw = line.strip()
+        if not raw:
+            continue
+        if not TRACKLIST_LINE_RE.match(raw):
+            if started:
+                break
+            continue
+        track_lines.append(raw)
+        started = True
+
+    tracks = parse_tracklist("\n".join(track_lines))
+    return tracks if len(tracks) >= 2 else []
+
+
 def infer_uploader(title: str) -> str | None:
     if " by " in title:
         return title.rsplit(" by ", 1)[1].strip() or None
@@ -811,6 +842,8 @@ def index_mixtape(
     imported = 0
     if tracklist_file:
         imported = import_tracks(conn, mixtape_id, tracklist_file)
+    elif not conn.execute("SELECT 1 FROM tracks WHERE mixtape_id = ? LIMIT 1", (mixtape_id,)).fetchone():
+        imported = insert_tracks(conn, mixtape_id, parse_description_tracklist(description))
     return mixtape_id, title, tracklist_url, imported
 
 

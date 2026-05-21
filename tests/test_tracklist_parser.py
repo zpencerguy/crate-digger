@@ -17,7 +17,9 @@ from crate_digger.cli import (
     numbered_series_number,
     parse_mixesdb_raw_tracklist,
     parse_1001tracklists_html,
+    parse_description_tracklist,
     parse_tracklist,
+    raw_mixesdb_url,
     seconds_from_time,
     split_artist_title,
     tracks_from_browser_1001,
@@ -33,6 +35,12 @@ class TracklistParserTest(unittest.TestCase):
         self.assertEqual(
             beatport_search_url(None, "Unknown ID"),
             "https://www.beatport.com/search?q=Unknown+ID",
+        )
+
+    def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
+        self.assertEqual(
+            raw_mixesdb_url("https://www.mixesdb.com/w/2024-04-26_-_Reb%C5%ABke_@_Klein_Phoenix_(ERA_109)"),
+            "https://www.mixesdb.com/w/index.php?title=2024-04-26_-_Reb%C5%ABke_%40_Klein_Phoenix_%28ERA_109%29&action=raw",
         )
 
     def test_seconds_from_time_accepts_mm_ss_and_h_mm_ss(self):
@@ -61,6 +69,65 @@ class TracklistParserTest(unittest.TestCase):
         self.assertEqual(tracks[0]["title"], "First Track")
         self.assertEqual(tracks[2]["artist"], None)
         self.assertEqual(tracks[2]["title"], "Unknown ID")
+
+    def test_parse_description_tracklist_reads_tracklist_section(self):
+        tracks = parse_description_tracklist(
+            """
+            Listen back here.
+
+            Tracklist
+
+            01. Denzel Jo Armani - Man I Just Woke Up (Extended Mix)
+            02. Detlef - Step Over (Original Mix)
+            """
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[0]["artist"], "Denzel Jo Armani")
+        self.assertEqual(tracks[0]["title"], "Man I Just Woke Up (Extended Mix)")
+
+    def test_parse_description_tracklist_accepts_colon_and_stops_at_boilerplate(self):
+        tracks = parse_description_tracklist(
+            """
+            Tracklist:
+
+            01. Sirus Hood - Trapped In (Original Mix)
+            02. Disfreq - Psychedelic Girls (Extended Mix)
+
+            Be part of the show by leaving a voice message.
+            """
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[1]["artist"], "Disfreq")
+
+    def test_parse_description_tracklist_accepts_inline_header_and_timestamp_rows(self):
+        tracks = parse_description_tracklist(
+            """
+            ERA 010 - Rebuke Studio Mix Tracklist
+
+            00:00 Harvard Bass - After Hour Sweets (Truncate Remix)
+            05:10 Cassettes For Kids - Heard This Calling
+            """
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[0]["cue_seconds"], 0)
+        self.assertEqual(tracks[0]["artist"], "Harvard Bass")
+
+    def test_parse_description_tracklist_accepts_number_space_rows(self):
+        tracks = parse_description_tracklist(
+            """
+            Tracklist
+
+            01 Rome - Rebuke
+            02 Different Man - Bastian Bux
+            """
+        )
+
+        self.assertEqual(len(tracks), 2)
+        self.assertEqual(tracks[0]["position"], 1)
+        self.assertEqual(tracks[0]["artist"], "Rome")
 
     def test_extract_tracklist_url_finds_1001_links(self):
         self.assertEqual(

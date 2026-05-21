@@ -244,6 +244,16 @@ python3 -m uv run crate-digger batch-add-soundcloud-page \
   --match "^XXX Radio #[0-9]+"
 ```
 
+Rebūke's weekly `ERA` archive can be indexed from SoundCloud too:
+
+```sh
+python3 -m uv run crate-digger batch-add-soundcloud-page \
+  "https://soundcloud.com/rebukemusic/tracks" \
+  --series "ERA" \
+  --uploader "Rebūke" \
+  --match "^ERA [0-9]+"
+```
+
 The SoundCloud batch importer tries SoundCloud's public JSON endpoint first and
 falls back to the static page HTML when needed. `--monthly-only` keeps yearly
 recaps and other non-monthly uploads out of the local index.
@@ -271,6 +281,16 @@ python3 -m uv run crate-digger import-mixesdb-category \
   --series "XXX Radio" \
   --uploader "Mau P" \
   --title-match "XXX Radio"
+```
+
+Import available Rebūke `ERA` source pages from MixesDB:
+
+```sh
+python3 -m uv run crate-digger import-mixesdb-category \
+  "https://www.mixesdb.com/w/Category%3AReb%C5%ABke" \
+  --series "ERA" \
+  --uploader "Rebūke" \
+  --title-match "ERA"
 ```
 
 MixesDB is currently the best primary source for these archives' per-track data:
