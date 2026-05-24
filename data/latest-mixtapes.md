@@ -6,7 +6,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-22 | XXX Radio | 0 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
+| 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
@@ -14,9 +14,21 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 ### Tracklists
 
 <details>
-<summary>2026-05-22 - XXX Radio - XXX Radio #189 (0 tracks)</summary>
+<summary>2026-05-22 - XXX Radio - XXX Radio #189 (11 tracks)</summary>
 
-_No tracks indexed yet._
+1. Swarllie & Toni B - No More Games ([Beatport](https://www.beatport.com/search?q=Swarllie+%26+Toni+B+No+More+Games))
+2. Lumc (Ve) - Lumc - Que Rico ([Beatport](https://www.beatport.com/search?q=Lumc+%28Ve%29+Lumc+-+Que+Rico))
+3. Nacho Scoppa - Tango ([Beatport](https://www.beatport.com/search?q=Nacho+Scoppa+Tango))
+4. Chicks Luv Us - Siente El House ([Beatport](https://www.beatport.com/search?q=Chicks+Luv+Us+Siente+El+House))
+5. Bizen Lopez & David Lowe - Feel That ([Beatport](https://www.beatport.com/search?q=Bizen+Lopez+%26+David+Lowe+Feel+That))
+6. Vito - What I Want ([Beatport](https://www.beatport.com/search?q=Vito+What+I+Want))
+7. Jasper Fioole - Echoes Of Love ([Beatport](https://www.beatport.com/search?q=Jasper+Fioole+Echoes+Of+Love))
+8. Tony Dee - It's Yours ([Beatport](https://www.beatport.com/search?q=Tony+Dee+It%27s+Yours))
+9. Lumc (Ve) - Lumc - King Of Groove ([Beatport](https://www.beatport.com/search?q=Lumc+%28Ve%29+Lumc+-+King+Of+Groove))
+10. Us Two - Santa Maria ([Beatport](https://www.beatport.com/search?q=Us+Two+Santa+Maria))
+11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/search?q=Harry+Romero+Renegades))
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)
 </details>
 
 <details>
@@ -86,7 +98,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-22 | XXX Radio | 0 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
+| 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
 | 2026-05-14 | XXX Radio | 13 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
 | 2026-05-08 | ERA | 13 | [ERA 214 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-214-rebu-ke-studio-mix) |
@@ -110,9 +122,21 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 ### Tracklists
 
 <details>
-<summary>2026-05-22 - XXX Radio - XXX Radio #189 (0 tracks)</summary>
+<summary>2026-05-22 - XXX Radio - XXX Radio #189 (11 tracks)</summary>
 
-_No tracks indexed yet._
+1. Swarllie & Toni B - No More Games ([Beatport](https://www.beatport.com/search?q=Swarllie+%26+Toni+B+No+More+Games))
+2. Lumc (Ve) - Lumc - Que Rico ([Beatport](https://www.beatport.com/search?q=Lumc+%28Ve%29+Lumc+-+Que+Rico))
+3. Nacho Scoppa - Tango ([Beatport](https://www.beatport.com/search?q=Nacho+Scoppa+Tango))
+4. Chicks Luv Us - Siente El House ([Beatport](https://www.beatport.com/search?q=Chicks+Luv+Us+Siente+El+House))
+5. Bizen Lopez & David Lowe - Feel That ([Beatport](https://www.beatport.com/search?q=Bizen+Lopez+%26+David+Lowe+Feel+That))
+6. Vito - What I Want ([Beatport](https://www.beatport.com/search?q=Vito+What+I+Want))
+7. Jasper Fioole - Echoes Of Love ([Beatport](https://www.beatport.com/search?q=Jasper+Fioole+Echoes+Of+Love))
+8. Tony Dee - It's Yours ([Beatport](https://www.beatport.com/search?q=Tony+Dee+It%27s+Yours))
+9. Lumc (Ve) - Lumc - King Of Groove ([Beatport](https://www.beatport.com/search?q=Lumc+%28Ve%29+Lumc+-+King+Of+Groove))
+10. Us Two - Santa Maria ([Beatport](https://www.beatport.com/search?q=Us+Two+Santa+Maria))
+11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/search?q=Harry+Romero+Renegades))
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)
 </details>
 
 <details>
