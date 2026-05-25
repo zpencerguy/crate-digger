@@ -1,18 +1,25 @@
 import unittest
 
 from crate_digger.cli import (
+    beatport_track_id_from_url,
+    beatport_search_query,
     beatport_search_url,
+    beatport_candidate_score,
     connect,
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
     date_from_url,
+    extract_beatport_metadata,
+    extract_beatport_result_metadata,
     extract_mixesdb_category_pages,
     extract_tracklist_url,
     extract_soundcloud_tracks,
     extract_soundcloud_user_id,
     infer_mixesdb_page_month,
     infer_month,
+    is_beatport_track_url,
     magic_tape_number,
+    manual_beatport_metadata,
     find_mixtape_for_source,
     numbered_series_number,
     parse_mixesdb_raw_tracklist,
@@ -22,12 +29,15 @@ from crate_digger.cli import (
     raw_mixesdb_url,
     seconds_from_time,
     split_artist_title,
+    title_match_tokens,
     tracks_from_browser_1001,
+    url_matches_title_tokens,
 )
 
 
 class TracklistParserTest(unittest.TestCase):
     def test_beatport_search_url_uses_artist_and_title(self):
+        self.assertEqual(beatport_search_query("Jayda G", "All I Need"), "Jayda G All I Need")
         self.assertEqual(
             beatport_search_url("Jayda G", "All I Need"),
             "https://www.beatport.com/search?q=Jayda+G+All+I+Need",
@@ -36,6 +46,101 @@ class TracklistParserTest(unittest.TestCase):
             beatport_search_url(None, "Unknown ID"),
             "https://www.beatport.com/search?q=Unknown+ID",
         )
+
+    def test_beatport_track_id_from_url_reads_numeric_path_segment(self):
+        self.assertEqual(
+            beatport_track_id_from_url("https://www.beatport.com/track/all-i-need/12345678"),
+            "12345678",
+        )
+        self.assertIsNone(beatport_track_id_from_url("https://example.com/track/all-i-need/12345678"))
+
+    def test_is_beatport_track_url_requires_track_path_and_id(self):
+        self.assertTrue(is_beatport_track_url("https://www.beatport.com/track/all-i-need/12345678"))
+        self.assertFalse(is_beatport_track_url("https://www.beatport.com/search?q=All+I+Need"))
+
+    def test_extract_beatport_metadata_reads_labeled_page_text(self):
+        metadata = extract_beatport_metadata(
+            {
+                "url": "https://www.beatport.com/track/all-i-need/12345678",
+                "title": "All I Need",
+                "bodyText": """
+                All I Need
+                BPM
+                126
+                Key
+                A Minor
+                Genre
+                House
+                Label
+                Ninja Tune
+                Release
+                All I Need
+                Release Date
+                May 8, 2026
+                """,
+                "jsonLd": [],
+            }
+        )
+
+        self.assertEqual(metadata["source_track_id"], "12345678")
+        self.assertEqual(metadata["bpm"], "126")
+        self.assertEqual(metadata["musical_key"], "A Minor")
+        self.assertEqual(metadata["genre"], "House")
+        self.assertEqual(metadata["label"], "Ninja Tune")
+        self.assertEqual(metadata["release_title"], "All I Need")
+        self.assertEqual(metadata["release_date"], "2026-05-08")
+        self.assertEqual(metadata["confidence"], "manual")
+
+    def test_manual_beatport_metadata_stores_confirmed_url(self):
+        metadata = manual_beatport_metadata("https://www.beatport.com/track/all-i-need/12345678")
+
+        self.assertEqual(metadata["source_url"], "https://www.beatport.com/track/all-i-need/12345678")
+        self.assertEqual(metadata["source_track_id"], "12345678")
+        self.assertEqual(metadata["confidence"], "manual")
+        self.assertIsNone(metadata["bpm"])
+
+    def test_beatport_title_tokens_match_track_url(self):
+        self.assertEqual(title_match_tokens("Feel That (Extended Mix)"), ["feel", "that"])
+        self.assertTrue(url_matches_title_tokens("https://www.beatport.com/track/feel-that/28821753", ["feel", "that"]))
+        self.assertFalse(
+            url_matches_title_tokens("https://www.beatport.com/track/evolution-nacho-scoppa-remix/14695069", ["tango"])
+        )
+
+    def test_extract_beatport_result_metadata_reads_search_row(self):
+        metadata = extract_beatport_result_metadata(
+            "https://www.beatport.com/track/what-i-want-/28702238",
+            "What I Want Original Mix",
+            "What I Want Original Mix VITO (UK) Cocoa Minimal / Deep Tech | Deep Tech 128 BPM - F Minor 2026-05-15 $1.69",
+            [
+                {"href": "https://www.beatport.com/release/what-i-want/6864621", "text": "What I Want"},
+                {"href": "https://www.beatport.com/label/cocoa/75684", "text": "Cocoa"},
+                {"href": "https://www.beatport.com/genre/minimal-deep-tech/14", "text": "Minimal / Deep Tech"},
+            ],
+        )
+
+        self.assertEqual(metadata["source_track_id"], "28702238")
+        self.assertEqual(metadata["bpm"], "128")
+        self.assertEqual(metadata["musical_key"], "F Minor")
+        self.assertEqual(metadata["genre"], "Minimal / Deep Tech")
+        self.assertEqual(metadata["label"], "Cocoa")
+        self.assertEqual(metadata["release_title"], "What I Want")
+        self.assertEqual(metadata["release_date"], "2026-05-15")
+
+    def test_beatport_candidate_score_weights_artist_match(self):
+        correct = beatport_candidate_score(
+            "https://www.beatport.com/track/what-i-want-/28702238",
+            "What I Want Original Mix VITO (UK) Cocoa",
+            ["what", "want"],
+            ["vito"],
+        )
+        title_only = beatport_candidate_score(
+            "https://www.beatport.com/track/what-i-want/4665875",
+            "What I Want Original Mix Hannah Wants, Chris Lorenzo",
+            ["what", "want"],
+            ["vito"],
+        )
+
+        self.assertGreater(correct, title_only)
 
     def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
         self.assertEqual(

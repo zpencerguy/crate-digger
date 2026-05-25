@@ -102,7 +102,9 @@ for GitHub:
 
 - `crate-digger.sqlite3` is ignored because it is a generated binary database.
 - `data/mixtapes.csv` and `data/tracks.csv` are stable, diffable exports.
-- `data/mixtapes.json` and `data/tracks.json` are convenient for scripts.
+- `data/track_metadata.csv` stores optional confirmed external metadata.
+- `data/mixtapes.json`, `data/tracks.json`, and `data/track_metadata.json`
+  are convenient for scripts.
 - `data/index.md` is a quick GitHub-friendly summary.
 - `data/latest-mixtapes.md` is a GitHub-friendly latest releases report.
 
@@ -299,6 +301,77 @@ tracklists, which lets Crate Digger match pages back to indexed SoundCloud
 mixes. The importer is safe to rerun; existing tracks are ignored. Use
 `--add-missing` when a MixesDB page exists but the upload did not appear in the
 SoundCloud archive response.
+
+Enrich tracks with confirmed Beatport pages in a visible browser:
+
+```sh
+python3 -m uv run crate-digger enrich-beatport-assisted --limit 10
+```
+
+The command opens Beatport searches one track at a time. Navigate to the exact
+track page, return to the terminal, and press Enter to save BPM, key, genre,
+label, release metadata, and the confirmed Beatport URL when the page exposes
+those fields.
+
+By default, it uses Beatport's visible search UI instead of jumping straight to
+query-param URLs. That keeps the flow closer to a normal manual session. If the
+search control cannot be found automatically, the command asks you to click into
+Beatport's search box so it can type and submit the query through the focused
+field.
+
+For an even more manual start, let the browser open blank and navigate to
+Beatport yourself before the script touches anything:
+
+```sh
+python3 -m uv run crate-digger enrich-beatport-assisted --mixtape-id 637 --manual-start
+```
+
+You can also attach to a real Chrome instance that you launch with a debugging
+port:
+
+```sh
+open -na "Google Chrome" --args \
+  --remote-debugging-port=9222 \
+  --user-data-dir="$HOME/.crate-digger-chrome-profile"
+
+python3 -m uv run crate-digger enrich-beatport-assisted \
+  --mixtape-id 637 \
+  --manual-start \
+  --cdp-url http://127.0.0.1:9222 \
+  --auto-first-result
+```
+
+If the right match is visible in Beatport search results, use numbered result
+selection instead of opening a track page. The closest row is selected
+automatically when title and artist matching produce one clear winner; add
+`--manual-result-choice` to pick the row yourself.
+
+```sh
+python3 -m uv run crate-digger enrich-beatport-assisted \
+  --track-id 5100 \
+  --manual-start \
+  --cdp-url http://127.0.0.1:9222 \
+  --choose-result
+```
+
+Useful filters:
+
+```sh
+python3 -m uv run crate-digger enrich-beatport-assisted --series "XXX Radio" --limit 5
+python3 -m uv run crate-digger enrich-beatport-assisted --mixtape-id 12
+python3 -m uv run crate-digger enrich-beatport-assisted --track-id 345
+```
+
+If Beatport challenges the automated browser, use the normal-browser manual
+flow. It copies each search query to your clipboard, then asks you to paste the
+confirmed Beatport track URL:
+
+```sh
+python3 -m uv run crate-digger enrich-beatport-manual --mixtape-id 637 --limit 3
+```
+
+Use `--url-only` when you only want to save confirmed Beatport links without
+typing BPM, key, genre, label, or release fields.
 
 ## Tracklist Text Format
 

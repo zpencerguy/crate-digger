@@ -10,6 +10,7 @@ import html
 import json
 import re
 import sqlite3
+import subprocess
 import sys
 import time
 import urllib.parse
@@ -220,9 +221,29 @@ CREATE TABLE IF NOT EXISTS tracks (
     UNIQUE(mixtape_id, position, raw_text)
 );
 
+CREATE TABLE IF NOT EXISTS track_metadata (
+    id INTEGER PRIMARY KEY,
+    track_id INTEGER NOT NULL REFERENCES tracks(id) ON DELETE CASCADE,
+    source TEXT NOT NULL,
+    source_url TEXT,
+    source_track_id TEXT,
+    bpm TEXT,
+    musical_key TEXT,
+    genre TEXT,
+    label TEXT,
+    release_title TEXT,
+    release_date TEXT,
+    confidence TEXT,
+    raw_json TEXT,
+    fetched_at TEXT NOT NULL,
+    UNIQUE(track_id, source)
+);
+
 CREATE INDEX IF NOT EXISTS tracks_artist_idx ON tracks(artist);
 CREATE INDEX IF NOT EXISTS tracks_title_idx ON tracks(title);
 CREATE INDEX IF NOT EXISTS mixtapes_month_idx ON mixtapes(month);
+CREATE INDEX IF NOT EXISTS track_metadata_track_idx ON track_metadata(track_id);
+CREATE INDEX IF NOT EXISTS track_metadata_source_idx ON track_metadata(source);
 """
 
 
@@ -1179,6 +1200,741 @@ def import_1001_assisted(args: argparse.Namespace) -> None:
     print(f"Tracklist source: {args.tracklist_url}")
 
 
+def enrich_beatport_assisted(args: argparse.Namespace) -> None:
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise SystemExit(
+            "Playwright is required for Beatport assisted enrichment. Run `python3 -m uv sync`, "
+            "then `python3 -m uv run playwright install chromium`."
+        ) from exc
+
+    conn = connect(args.db)
+    tracks = beatport_enrichment_candidates(conn, args)
+    if not tracks:
+        print("No tracks matched the enrichment filters.")
+        return
+
+    args.profile_dir.mkdir(parents=True, exist_ok=True)
+    print("Opening a visible Chromium window for Beatport lookups.")
+    print("For each track, open the exact Beatport track page, then return here and press Enter.")
+
+    saved = 0
+    skipped = 0
+    with sync_playwright() as playwright:
+        browser = None
+        if args.cdp_url:
+            browser = playwright.chromium.connect_over_cdp(args.cdp_url)
+            context = browser.contexts[0] if browser.contexts else browser.new_context(viewport={"width": 1440, "height": 1000})
+        else:
+            context = playwright.chromium.launch_persistent_context(
+                str(args.profile_dir),
+                headless=False,
+                viewport={"width": 1440, "height": 1000},
+            )
+        try:
+            page = context.pages[0] if context.pages else context.new_page()
+            if args.manual_start:
+                print("Navigate this browser to Beatport manually, finish any checks, then return here.")
+                input("Press Enter once Beatport is loaded and ready...")
+            elif args.search_mode == "ui":
+                try:
+                    page.goto("https://www.beatport.com/", wait_until="domcontentloaded", timeout=args.timeout * 1000)
+                except PlaywrightTimeoutError:
+                    print("Beatport home page load timed out, but the browser is still open.")
+            for index, track in enumerate(tracks, start=1):
+                label = track_label(track)
+                search_query = beatport_search_query(track["artist"], track["title"])
+                print("")
+                print(f"[{index}/{len(tracks)}] Track #{track['id']}: {label}")
+                print(f"Search query: {search_query}")
+                if args.search_mode == "url":
+                    search_url = beatport_search_url(track["artist"], track["title"])
+                    print(f"Search URL: {search_url}")
+                    try:
+                        page.goto(search_url, wait_until="domcontentloaded", timeout=args.timeout * 1000)
+                    except PlaywrightTimeoutError:
+                        print("Initial search page load timed out, but the browser is still open.")
+                else:
+                    searched = search_beatport_with_ui(page, search_query, args.timeout)
+                    if not searched:
+                        if args.assisted_search_focus:
+                            print("Could not find Beatport search UI automatically.")
+                            input("Click/focus the Beatport search box in the browser, then press Enter here...")
+                            submit_search_from_focused_field(page, search_query, args.timeout)
+                        else:
+                            print("Could not drive Beatport search UI automatically. Please search manually in the browser.")
+
+                if args.auto_first_result:
+                    if open_first_beatport_track_result(page, track["title"], args.timeout):
+                        print("Opened first Beatport track result.")
+                    else:
+                        print("Could not open the first track result automatically. Please choose it manually.")
+
+                if args.choose_result:
+                    metadata = choose_beatport_search_result(page, track, args.auto_choose_result, args.timeout)
+                    if metadata:
+                        print_beatport_metadata(metadata)
+                        confirm = input("Save this Beatport metadata? [Y/n] ").strip().lower()
+                        if confirm in {"", "y", "yes"}:
+                            upsert_track_metadata(conn, track["id"], metadata)
+                            conn.commit()
+                            saved += 1
+                            print(f"Saved metadata for track #{track['id']}.")
+                        else:
+                            skipped += 1
+                        continue
+
+                response = input("Press Enter on the exact track page, `s` to skip, or `q` to quit: ").strip().lower()
+                if response == "q":
+                    break
+                if response == "s":
+                    skipped += 1
+                    continue
+
+                page_data = page.evaluate(
+                    """
+                    () => ({
+                      url: window.location.href,
+                      title: document.title || '',
+                      bodyText: document.body ? document.body.innerText : '',
+                      jsonLd: Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+                        .map((node) => node.textContent || '')
+                    })
+                    """
+                )
+                metadata = extract_beatport_metadata(page_data)
+                print_beatport_metadata(metadata)
+                if not is_beatport_track_url(str(metadata.get("source_url") or "")):
+                    print("Current page does not look like a Beatport track page; skipping.")
+                    skipped += 1
+                    continue
+
+                confirm = input("Save this Beatport metadata? [Y/n] ").strip().lower()
+                if confirm in {"", "y", "yes"}:
+                    upsert_track_metadata(conn, track["id"], metadata)
+                    conn.commit()
+                    saved += 1
+                    print(f"Saved metadata for track #{track['id']}.")
+                else:
+                    skipped += 1
+        finally:
+            if args.cdp_url:
+                if browser is not None:
+                    browser.close()
+            elif not args.keep_open:
+                context.close()
+
+    print(f"Beatport enrichment complete: saved {saved}, skipped {skipped}.")
+
+
+def enrich_beatport_manual(args: argparse.Namespace) -> None:
+    conn = connect(args.db)
+    tracks = beatport_enrichment_candidates(conn, args)
+    if not tracks:
+        print("No tracks matched the enrichment filters.")
+        return
+
+    if args.open_browser:
+        open_in_default_browser("https://www.beatport.com/")
+
+    print("Use your normal browser to search Beatport and choose the exact track page.")
+    print("Each search query will be copied to your clipboard unless --no-copy is set.")
+
+    saved = 0
+    skipped = 0
+    for index, track in enumerate(tracks, start=1):
+        query = beatport_search_query(track["artist"], track["title"])
+        print("")
+        print(f"[{index}/{len(tracks)}] Track #{track['id']}: {track_label(track)}")
+        print(f"Search query: {query}")
+        if args.copy:
+            if copy_to_clipboard(query):
+                print("Copied search query to clipboard.")
+            else:
+                print("Could not copy to clipboard; copy the query above manually.")
+
+        response = input("Paste exact Beatport track URL, `s` to skip, or `q` to quit: ").strip()
+        lowered = response.lower()
+        if lowered == "q":
+            break
+        if lowered in {"", "s"}:
+            skipped += 1
+            continue
+        if not is_beatport_track_url(response):
+            print("That does not look like a Beatport track URL; skipping.")
+            skipped += 1
+            continue
+
+        metadata = manual_beatport_metadata(response)
+        if args.prompt_metadata:
+            prompt_manual_metadata(metadata)
+        print_beatport_metadata(metadata)
+        confirm = input("Save this Beatport metadata? [Y/n] ").strip().lower()
+        if confirm in {"", "y", "yes"}:
+            upsert_track_metadata(conn, track["id"], metadata)
+            conn.commit()
+            saved += 1
+            print(f"Saved metadata for track #{track['id']}.")
+        else:
+            skipped += 1
+
+    print(f"Beatport manual enrichment complete: saved {saved}, skipped {skipped}.")
+
+
+def beatport_enrichment_candidates(conn: sqlite3.Connection, args: argparse.Namespace) -> list[sqlite3.Row]:
+    clauses = []
+    params: list[object] = []
+    if args.track_id:
+        clauses.append("t.id = ?")
+        params.append(args.track_id)
+    if args.mixtape_id:
+        clauses.append("t.mixtape_id = ?")
+        params.append(args.mixtape_id)
+    if args.year:
+        clauses.append("COALESCE(m.release_date, m.month, '') LIKE ?")
+        params.append(f"{args.year}%")
+    if args.month:
+        clauses.append("m.month = ?")
+        params.append(args.month)
+    if args.series:
+        clauses.append("LOWER(COALESCE(m.series, '')) = LOWER(?)")
+        params.append(args.series)
+    if args.query:
+        clauses.append("LOWER(COALESCE(t.artist, '') || ' ' || t.title) LIKE LOWER(?)")
+        params.append(f"%{args.query}%")
+    if not args.include_enriched:
+        clauses.append("bm.id IS NULL")
+
+    where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
+    limit = "" if args.track_id else "LIMIT ?"
+    if not args.track_id:
+        params.append(args.limit)
+    return conn.execute(
+        f"""
+        SELECT t.id, t.mixtape_id, t.position, t.artist, t.title, m.month, m.release_date,
+               m.series, m.title AS mixtape_title, bm.source_url AS beatport_track_url
+        FROM tracks t
+        JOIN mixtapes m ON m.id = t.mixtape_id
+        LEFT JOIN track_metadata bm ON bm.track_id = t.id AND bm.source = 'beatport'
+        {where}
+        ORDER BY COALESCE(m.release_date, m.month, '') DESC, m.id DESC, t.position, t.id
+        {limit}
+        """,
+        params,
+    ).fetchall()
+
+
+def track_label(track: sqlite3.Row) -> str:
+    artist = f"{track['artist']} - " if track["artist"] else ""
+    release = track["release_date"] or track["month"] or "---- --"
+    return f"{artist}{track['title']} ({track['series'] or 'Uncategorized'}, {release})"
+
+
+def copy_to_clipboard(value: str) -> bool:
+    try:
+        subprocess.run(["pbcopy"], input=value, text=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        return False
+    return True
+
+
+def open_in_default_browser(url: str) -> None:
+    try:
+        subprocess.run(["open", url], check=False)
+    except OSError:
+        pass
+
+
+def manual_beatport_metadata(url: str) -> dict[str, object]:
+    raw_snapshot = {"url": url, "entry": "manual"}
+    return {
+        "source_url": url,
+        "source_track_id": beatport_track_id_from_url(url),
+        "bpm": None,
+        "musical_key": None,
+        "genre": None,
+        "label": None,
+        "release_title": None,
+        "release_date": None,
+        "confidence": "manual",
+        "raw_json": json.dumps(raw_snapshot, ensure_ascii=False),
+    }
+
+
+def prompt_manual_metadata(metadata: dict[str, object]) -> None:
+    print("Optional Beatport fields. Press Enter to leave blank.")
+    metadata["bpm"] = normalize_bpm(input("BPM: ").strip() or None, "")
+    metadata["musical_key"] = input("Key: ").strip() or None
+    metadata["genre"] = input("Genre: ").strip() or None
+    metadata["label"] = input("Label: ").strip() or None
+    metadata["release_title"] = input("Release title: ").strip() or None
+    metadata["release_date"] = normalize_release_date(input("Release date: ").strip() or None)
+
+
+def search_beatport_with_ui(page: object, query: str, timeout: int) -> bool:
+    timeout_ms = timeout * 1000
+    if "beatport.com" not in page.url:
+        page.goto("https://www.beatport.com/", wait_until="domcontentloaded", timeout=timeout_ms)
+
+    search_buttons = (
+        "button[aria-label='Search']",
+        "button[aria-label*='Search']",
+        "a[aria-label='Search']",
+        "a[aria-label*='Search']",
+        "[data-testid='search']",
+        "[data-testid*='search']",
+        "button:has-text('Search')",
+    )
+    for selector in search_buttons:
+        try:
+            button = page.locator(selector).first
+            if button.count():
+                button.click(timeout=1500)
+                break
+        except Exception:
+            pass
+
+    search_inputs = (
+        "input[type='search']",
+        "input[placeholder='Search']",
+        "input[placeholder*='Search']",
+        "input[name='q']",
+        "input[name='search']",
+        "[data-testid='search-input']",
+        "[data-testid*='search'] input",
+        "form input",
+    )
+    for selector in search_inputs:
+        try:
+            field = page.locator(selector).first
+            if not field.count():
+                continue
+            field.click(timeout=2000)
+            clear_beatport_search_field(page)
+            field.fill(query, timeout=2000)
+            field.press("Enter")
+            page.wait_for_load_state("domcontentloaded", timeout=timeout_ms)
+            return True
+        except Exception:
+            continue
+    return False
+
+
+def submit_search_from_focused_field(page: object, query: str, timeout: int) -> None:
+    clear_beatport_search_field(page)
+    page.keyboard.type(query, delay=25)
+    page.keyboard.press("Enter")
+    try:
+        page.wait_for_load_state("domcontentloaded", timeout=timeout * 1000)
+    except Exception:
+        pass
+
+
+def choose_beatport_search_result(
+    page: object,
+    track: sqlite3.Row,
+    auto_choose: bool = True,
+    timeout: int = 30,
+) -> dict[str, object] | None:
+    candidates = wait_for_beatport_result_candidates(page, track["artist"], track["title"], timeout)
+    return choose_from_beatport_candidates(page, track, candidates, auto_choose, timeout)
+
+
+def choose_from_beatport_candidates(
+    page: object,
+    track: sqlite3.Row,
+    candidates: list[dict[str, object]],
+    auto_choose: bool,
+    timeout: int,
+) -> dict[str, object] | None:
+    if not candidates:
+        print("No Beatport track candidates were readable from the search results.")
+        return None
+
+    print("Beatport result candidates:")
+    for index, candidate in enumerate(candidates[:8], start=1):
+        metadata = candidate["metadata"]
+        pieces = [
+            str(candidate.get("label") or metadata.get("source_url")),
+            f"BPM {metadata['bpm']}" if metadata.get("bpm") else None,
+            f"Key {metadata['musical_key']}" if metadata.get("musical_key") else None,
+            str(metadata.get("label")) if metadata.get("label") else None,
+            str(metadata.get("release_date")) if metadata.get("release_date") else None,
+        ]
+        print(f"  {index}. {' | '.join(piece for piece in pieces if piece)}")
+
+    if auto_choose:
+        choice = automatic_beatport_choice(candidates)
+        if choice is not None:
+            print(f"Auto-selected result {choice + 1}.")
+            return candidates[choice]["metadata"]
+        print("No clear closest result; choose manually.")
+
+    response = input("Choose result number, `r` to reread, Enter to use page manually, `s` to skip, or `q` to quit: ").strip().lower()
+    if response == "q":
+        raise SystemExit("Stopped.")
+    if response == "r":
+        candidates = wait_for_beatport_result_candidates(page, track["artist"], track["title"], timeout)
+        return choose_from_beatport_candidates(page, track, candidates, auto_choose, timeout)
+    if response in {"", "s"}:
+        return None
+    if not response.isdigit():
+        print("Result choice was not a number; continuing manually.")
+        return None
+    choice = int(response)
+    if choice < 1 or choice > min(len(candidates), 8):
+        print("Result choice was out of range; continuing manually.")
+        return None
+    return candidates[choice - 1]["metadata"]
+
+
+def wait_for_beatport_result_candidates(
+    page: object,
+    expected_artist: str | None,
+    expected_title: str,
+    timeout: int,
+) -> list[dict[str, object]]:
+    deadline = time.monotonic() + timeout
+    last_candidates: list[dict[str, object]] = []
+    while time.monotonic() < deadline:
+        candidates = beatport_search_result_candidates(page, expected_artist, expected_title)
+        if candidates:
+            last_candidates = candidates
+            if int(candidates[0]["score"]) > 0:
+                return candidates
+        time.sleep(0.5)
+    return last_candidates
+
+
+def automatic_beatport_choice(candidates: list[dict[str, object]]) -> int | None:
+    if not candidates:
+        return None
+    best_score = int(candidates[0]["score"])
+    if best_score <= 0:
+        return None
+    if len(candidates) > 1 and int(candidates[1]["score"]) == best_score:
+        return None
+    return 0
+
+
+def beatport_search_result_candidates(page: object, expected_artist: str | None, expected_title: str) -> list[dict[str, object]]:
+    raw_candidates = page.evaluate(
+        """
+        () => {
+          const clean = (value) => (value || '').replace(/\\s+/g, ' ').trim();
+          const anchors = Array.from(document.querySelectorAll('a[href*="/track/"]'));
+          const seen = new Set();
+          return anchors.map((anchor) => {
+            const href = anchor.href || anchor.getAttribute('href') || '';
+            if (!href || seen.has(href)) return null;
+            seen.add(href);
+            let row = anchor;
+            let node = anchor.parentElement;
+            for (let depth = 0; depth < 10 && node; depth += 1) {
+              const text = clean(node.innerText || '');
+              if ((/\\b\\d{2,3}\\s*BPM\\b/i.test(text) || /\\b\\d{4}-\\d{2}-\\d{2}\\b/.test(text)) && text.length < 500) {
+                row = node;
+                break;
+              }
+              node = node.parentElement;
+            }
+            const rowLinks = Array.from(row.querySelectorAll('a[href]')).map((link) => ({
+              href: new URL(link.href || link.getAttribute('href'), window.location.origin).href,
+              text: clean(link.innerText || '')
+            }));
+            return {
+              url: new URL(href, window.location.origin).href,
+              anchorText: clean(anchor.innerText || ''),
+              text: clean(row.innerText || anchor.innerText || ''),
+              links: rowLinks
+            };
+          }).filter(Boolean);
+        }
+        """
+    )
+    title_tokens = title_match_tokens(expected_title)
+    artist_tokens = title_match_tokens(expected_artist or "")
+    candidates = []
+    seen_urls = set()
+    for raw in raw_candidates:
+        url = str(raw.get("url") or "")
+        if url in seen_urls or not is_beatport_track_url(url):
+            continue
+        seen_urls.add(url)
+        text = str(raw.get("text") or raw.get("anchorText") or "")
+        metadata = extract_beatport_result_metadata(url, str(raw.get("anchorText") or ""), text, raw.get("links") or [])
+        score = beatport_candidate_score(url, text, title_tokens, artist_tokens)
+        candidates.append(
+            {
+                "url": url,
+                "label": summarize_candidate_text(text, url),
+                "score": score,
+                "metadata": metadata,
+            }
+        )
+    candidates.sort(key=lambda candidate: (-int(candidate["score"]), str(candidate["label"])))
+    return candidates
+
+
+def extract_beatport_result_metadata(
+    url: str,
+    title: str,
+    row_text: str,
+    links: list[dict[str, object]],
+) -> dict[str, object]:
+    bpm = None
+    musical_key = None
+    bpm_key_match = re.search(r"\b(\d{2,3})\s*BPM\s*-\s*([A-G](?:b|#)?\s+(?:Major|Minor))\b", row_text, re.IGNORECASE)
+    if bpm_key_match:
+        bpm = bpm_key_match.group(1)
+        musical_key = bpm_key_match.group(2)
+    release_date = normalize_release_date(row_text)
+    label = first_link_text(links, "/label/")
+    genre = first_link_text(links, "/genre/")
+    release_title = first_link_text(links, "/release/")
+    return {
+        "source_url": url,
+        "source_track_id": beatport_track_id_from_url(url),
+        "bpm": bpm,
+        "musical_key": musical_key,
+        "genre": genre,
+        "label": label,
+        "release_title": release_title,
+        "release_date": release_date,
+        "confidence": "manual-search-result",
+        "raw_json": json.dumps({"url": url, "title": title, "rowText": row_text}, ensure_ascii=False),
+    }
+
+
+def first_link_text(links: list[dict[str, object]], path_part: str) -> str | None:
+    for link in links:
+        href = str(link.get("href") or "")
+        text = str(link.get("text") or "").strip()
+        if path_part in href and text:
+            return text
+    return None
+
+
+def beatport_candidate_score(url: str, text: str, title_tokens: list[str], artist_tokens: list[str]) -> int:
+    haystack = f"{url} {text}".lower()
+    return (
+        sum(3 for token in title_tokens if token in haystack)
+        + sum(5 for token in artist_tokens if token in haystack)
+    )
+
+
+def result_text_as_lines(text: str) -> str:
+    labels = ("BPM", "Key", "Genre", "Label", "Release Date")
+    normalized = text
+    for label in labels:
+        normalized = re.sub(rf"\b{re.escape(label)}\b", f"\n{label}\n", normalized, flags=re.IGNORECASE)
+    return normalized
+
+
+def summarize_candidate_text(text: str, url: str) -> str:
+    if text:
+        return text[:180]
+    parsed = urllib.parse.urlparse(url)
+    parts = [part for part in parsed.path.split("/") if part]
+    return " ".join(parts[:2]) if parts else url
+
+
+def clear_beatport_search_field(page: object) -> None:
+    page.evaluate(
+        """
+        () => {
+          const active = document.activeElement;
+          if (!active || !('value' in active)) return;
+          active.value = '';
+          active.dispatchEvent(new InputEvent('input', { bubbles: true, inputType: 'deleteContentBackward' }));
+          active.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+        """
+    )
+
+
+def open_first_beatport_track_result(page: object, expected_title: str, timeout: int) -> bool:
+    timeout_ms = timeout * 1000
+    try:
+        page.wait_for_load_state("domcontentloaded", timeout=timeout_ms)
+    except Exception:
+        pass
+    expected_tokens = title_match_tokens(expected_title)
+    selectors = (
+        "a[href^='/track/']",
+        "a[href*='/track/']",
+    )
+    for selector in selectors:
+        try:
+            links = page.locator(selector)
+            count = links.count()
+            for index in range(count):
+                link = links.nth(index)
+                href = link.get_attribute("href", timeout=1000) or ""
+                target_url = urllib.parse.urljoin("https://www.beatport.com", href)
+                if not beatport_track_id_from_url(target_url):
+                    continue
+                if expected_tokens and not url_matches_title_tokens(target_url, expected_tokens):
+                    continue
+                page.goto(target_url, wait_until="domcontentloaded", timeout=timeout_ms)
+                return is_beatport_track_url(page.url)
+        except Exception:
+            continue
+    return False
+
+
+def title_match_tokens(title: str) -> list[str]:
+    tokens = re.findall(r"[a-z0-9]+", title.lower())
+    ignored = {"a", "an", "and", "the", "feat", "ft", "original", "mix", "extended", "edit", "remix"}
+    return [token for token in tokens if token not in ignored]
+
+
+def url_matches_title_tokens(url: str, expected_tokens: list[str]) -> bool:
+    path = urllib.parse.urlparse(url).path.lower()
+    return all(token in path for token in expected_tokens)
+
+
+def upsert_track_metadata(conn: sqlite3.Connection, track_id: int, metadata: dict[str, object]) -> None:
+    conn.execute(
+        """
+        INSERT INTO track_metadata (
+            track_id, source, source_url, source_track_id, bpm, musical_key, genre, label,
+            release_title, release_date, confidence, raw_json, fetched_at
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(track_id, source) DO UPDATE SET
+            source_url = excluded.source_url,
+            source_track_id = excluded.source_track_id,
+            bpm = excluded.bpm,
+            musical_key = excluded.musical_key,
+            genre = excluded.genre,
+            label = excluded.label,
+            release_title = excluded.release_title,
+            release_date = excluded.release_date,
+            confidence = excluded.confidence,
+            raw_json = excluded.raw_json,
+            fetched_at = excluded.fetched_at
+        """,
+        (
+            track_id,
+            "beatport",
+            metadata.get("source_url"),
+            metadata.get("source_track_id"),
+            metadata.get("bpm"),
+            metadata.get("musical_key"),
+            metadata.get("genre"),
+            metadata.get("label"),
+            metadata.get("release_title"),
+            metadata.get("release_date"),
+            metadata.get("confidence"),
+            metadata.get("raw_json"),
+            dt.datetime.now(dt.timezone.utc).isoformat(),
+        ),
+    )
+
+
+def extract_beatport_metadata(page_data: dict[str, object]) -> dict[str, object]:
+    body_text = str(page_data.get("bodyText") or "")
+    lines = clean_lines(body_text.splitlines())
+    raw_snapshot = {
+        "url": page_data.get("url"),
+        "title": page_data.get("title"),
+        "jsonLd": page_data.get("jsonLd") or [],
+    }
+    metadata: dict[str, object] = {
+        "source_url": str(page_data.get("url") or ""),
+        "source_track_id": beatport_track_id_from_url(str(page_data.get("url") or "")),
+        "bpm": extract_labeled_value(lines, ("bpm",)),
+        "musical_key": extract_labeled_value(lines, ("key",)),
+        "genre": extract_labeled_value(lines, ("genre", "genres")),
+        "label": extract_labeled_value(lines, ("label",)),
+        "release_title": extract_labeled_value(lines, ("release", "release title")),
+        "release_date": extract_labeled_value(lines, ("release date", "released")),
+        "confidence": "manual",
+        "raw_json": json.dumps(raw_snapshot, ensure_ascii=False),
+    }
+
+    metadata["bpm"] = normalize_bpm(metadata.get("bpm"), body_text)
+    metadata["release_date"] = normalize_release_date(metadata.get("release_date"))
+    return metadata
+
+
+def clean_lines(lines: list[str]) -> list[str]:
+    return [" ".join(line.split()) for line in lines if " ".join(line.split())]
+
+
+def extract_labeled_value(lines: list[str], labels: tuple[str, ...]) -> str | None:
+    normalized_labels = {label.lower() for label in labels}
+    for index, line in enumerate(lines):
+        normalized = line.rstrip(":").lower()
+        if normalized in normalized_labels and index + 1 < len(lines):
+            return lines[index + 1]
+        for label in normalized_labels:
+            prefix = f"{label}:"
+            if normalized.startswith(prefix):
+                return line[len(prefix) :].strip()
+    return None
+
+
+def normalize_bpm(value: object, body_text: str) -> str | None:
+    if value:
+        match = re.search(r"\b(\d{2,3})\b", str(value))
+        if match:
+            return match.group(1)
+    match = re.search(r"\bBPM\s*:?\s*(\d{2,3})\b|\b(\d{2,3})\s*BPM\b", body_text, re.IGNORECASE)
+    if not match:
+        return None
+    return next(group for group in match.groups() if group)
+
+
+def normalize_release_date(value: object) -> str | None:
+    if not value:
+        return None
+    text = str(value).strip()
+    iso_match = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", text)
+    if iso_match:
+        return iso_match.group(1)
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %b %Y", "%d %B %Y"):
+        try:
+            return dt.datetime.strptime(text, fmt).date().isoformat()
+        except ValueError:
+            pass
+    return text
+
+
+def beatport_track_id_from_url(url: str) -> str | None:
+    parsed = urllib.parse.urlparse(url)
+    if "beatport.com" not in parsed.netloc.lower():
+        return None
+    for part in reversed([part for part in parsed.path.split("/") if part]):
+        if part.isdigit():
+            return part
+    return None
+
+
+def is_beatport_track_url(url: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    parts = [part for part in parsed.path.split("/") if part]
+    return "beatport.com" in parsed.netloc.lower() and "track" in parts and beatport_track_id_from_url(url) is not None
+
+
+def print_beatport_metadata(metadata: dict[str, object]) -> None:
+    print("Extracted:")
+    for label, key in (
+        ("URL", "source_url"),
+        ("Beatport ID", "source_track_id"),
+        ("BPM", "bpm"),
+        ("Key", "musical_key"),
+        ("Genre", "genre"),
+        ("Label", "label"),
+        ("Release", "release_title"),
+        ("Release date", "release_date"),
+    ):
+        print(f"  {label}: {metadata.get(key) or '-'}")
+
+
 def list_mixtapes(args: argparse.Namespace) -> None:
     conn = connect(args.db)
     where: list[str] = []
@@ -1412,6 +2168,14 @@ def export_index(args: argparse.Namespace) -> None:
         ORDER BY COALESCE(m.series, ''), COALESCE(m.month, ''), m.id, t.position, t.id
         """
     ).fetchall()
+    track_metadata = conn.execute(
+        """
+        SELECT id, track_id, source, source_url, source_track_id, bpm, musical_key,
+               genre, label, release_title, release_date, confidence, raw_json, fetched_at
+        FROM track_metadata
+        ORDER BY source, track_id
+        """
+    ).fetchall()
 
     write_csv(
         output / "mixtapes.csv",
@@ -1451,9 +2215,30 @@ def export_index(args: argparse.Namespace) -> None:
     )
     write_json(output / "mixtapes.json", [dict(row) for row in mixtapes])
     write_json(output / "tracks.json", [track_export_row(row) for row in tracks])
+    write_csv(
+        output / "track_metadata.csv",
+        [
+            "id",
+            "track_id",
+            "source",
+            "source_url",
+            "source_track_id",
+            "bpm",
+            "musical_key",
+            "genre",
+            "label",
+            "release_title",
+            "release_date",
+            "confidence",
+            "raw_json",
+            "fetched_at",
+        ],
+        track_metadata,
+    )
+    write_json(output / "track_metadata.json", [dict(row) for row in track_metadata])
     write_markdown_index(output / "index.md", conn)
     write_latest_mixtapes_report(output / "latest-mixtapes.md", conn)
-    print(f"Exported {len(mixtapes)} mixtapes and {len(tracks)} tracks to {output}")
+    print(f"Exported {len(mixtapes)} mixtapes, {len(tracks)} tracks, and {len(track_metadata)} metadata rows to {output}")
 
 
 def backfill_release_dates(conn: sqlite3.Connection) -> None:
@@ -1478,15 +2263,18 @@ def load_export(args: argparse.Namespace) -> None:
     source = args.input
     mixtapes_path = source / "mixtapes.csv"
     tracks_path = source / "tracks.csv"
+    track_metadata_path = source / "track_metadata.csv"
     if not mixtapes_path.exists() or not tracks_path.exists():
         raise SystemExit(f"Expected {mixtapes_path} and {tracks_path}")
 
     conn = connect(args.db)
+    conn.execute("DELETE FROM track_metadata")
     conn.execute("DELETE FROM tracks")
     conn.execute("DELETE FROM mixtapes")
 
     mixtapes = read_csv(mixtapes_path)
     tracks = read_csv(tracks_path)
+    track_metadata = read_csv(track_metadata_path) if track_metadata_path.exists() else []
     loaded_at = dt.datetime.now(dt.timezone.utc).isoformat()
     for row in mixtapes:
         conn.execute(
@@ -1528,8 +2316,34 @@ def load_export(args: argparse.Namespace) -> None:
                 row["raw_text"],
             ),
         )
+    for row in track_metadata:
+        conn.execute(
+            """
+            INSERT INTO track_metadata (
+                id, track_id, source, source_url, source_track_id, bpm, musical_key, genre,
+                label, release_title, release_date, confidence, raw_json, fetched_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                int(row["id"]),
+                int(row["track_id"]),
+                row["source"],
+                row["source_url"] or None,
+                row["source_track_id"] or None,
+                row["bpm"] or None,
+                row["musical_key"] or None,
+                row["genre"] or None,
+                row["label"] or None,
+                row["release_title"] or None,
+                row["release_date"] or None,
+                row["confidence"] or None,
+                row["raw_json"] or None,
+                row["fetched_at"] or loaded_at,
+            ),
+        )
     conn.commit()
-    print(f"Loaded {len(mixtapes)} mixtapes and {len(tracks)} tracks from {source}")
+    print(f"Loaded {len(mixtapes)} mixtapes, {len(tracks)} tracks, and {len(track_metadata)} metadata rows from {source}")
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -1719,10 +2533,11 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
     summary = f"{release} - {row['series'] or 'Uncategorized'} - {row['title']} ({row['track_count']} tracks)"
     tracks = conn.execute(
         """
-        SELECT position, cue_seconds, artist, title
-        FROM tracks
-        WHERE mixtape_id = ?
-        ORDER BY position, id
+        SELECT t.position, t.cue_seconds, t.artist, t.title, bm.source_url AS beatport_track_url
+        FROM tracks t
+        LEFT JOIN track_metadata bm ON bm.track_id = t.id AND bm.source = 'beatport'
+        WHERE t.mixtape_id = ?
+        ORDER BY t.position, t.id
         """,
         (row["id"],),
     ).fetchall()
@@ -1739,7 +2554,7 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
             artist = f"{track['artist']} - " if track["artist"] else ""
             cue_prefix = f"{cue} " if cue else ""
             track_text = markdown_text(cue_prefix + artist + track["title"])
-            beatport_url = beatport_search_url(track["artist"], track["title"])
+            beatport_url = track["beatport_track_url"] or beatport_search_url(track["artist"], track["title"])
             lines.append(f"{position}. {track_text} ([Beatport]({beatport_url}))")
     else:
         lines.append("_No tracks indexed yet._")
@@ -1759,8 +2574,11 @@ def markdown_text(value: str) -> str:
 
 
 def beatport_search_url(artist: object, title: object) -> str:
-    query = " ".join(str(part).strip() for part in (artist, title) if part)
-    return f"https://www.beatport.com/search?q={urllib.parse.quote_plus(query)}"
+    return f"https://www.beatport.com/search?q={urllib.parse.quote_plus(beatport_search_query(artist, title))}"
+
+
+def beatport_search_query(artist: object, title: object) -> str:
+    return " ".join(str(part).strip() for part in (artist, title) if part)
 
 
 def markdown_link(label: str, url: str | None) -> str:
@@ -1846,6 +2664,92 @@ def build_parser() -> argparse.ArgumentParser:
     assisted.add_argument("--keep-open", action="store_true", help="leave the browser open after reading the page")
     assisted.add_argument("--debug-html", type=Path, help="save rendered page HTML for parser debugging")
     assisted.set_defaults(func=import_1001_assisted)
+
+    beatport = subparsers.add_parser(
+        "enrich-beatport-assisted",
+        help="open a visible browser and save manually confirmed Beatport metadata",
+    )
+    beatport.add_argument("--track-id", type=int, help="enrich one track id")
+    beatport.add_argument("--mixtape-id", type=int, help="filter by mixtape id")
+    beatport.add_argument("--year", help="filter by release year, for example 2026")
+    beatport.add_argument("--month", help="filter by month, for example 2026-05")
+    beatport.add_argument("--series", help="filter by series name")
+    beatport.add_argument("--query", help="filter track artist/title text")
+    beatport.add_argument("--limit", type=int, default=10, help="maximum tracks to review")
+    beatport.add_argument("--include-enriched", action="store_true", help="also show tracks with Beatport metadata")
+    beatport.add_argument(
+        "--search-mode",
+        choices=("ui", "url"),
+        default="ui",
+        help="use Beatport's search UI by default; url jumps directly to /search?q=",
+    )
+    beatport.add_argument(
+        "--no-assisted-search-focus",
+        action="store_false",
+        dest="assisted_search_focus",
+        help="do not prompt for manual search-field focus when automatic UI search fails",
+    )
+    beatport.add_argument(
+        "--manual-start",
+        action="store_true",
+        help="open a blank browser and wait while you navigate to Beatport manually",
+    )
+    beatport.add_argument(
+        "--cdp-url",
+        help="attach to an already-running Chrome debugging endpoint, for example http://127.0.0.1:9222",
+    )
+    beatport.add_argument(
+        "--auto-first-result",
+        action="store_true",
+        help="after searching, open the first Beatport track result automatically",
+    )
+    beatport.add_argument(
+        "--choose-result",
+        action="store_true",
+        help="after searching, print readable track results and save the selected row metadata",
+    )
+    beatport.add_argument(
+        "--manual-result-choice",
+        action="store_false",
+        dest="auto_choose_result",
+        help="when using --choose-result, ask for a result number instead of auto-selecting the closest row",
+    )
+    beatport.add_argument(
+        "--profile-dir",
+        type=Path,
+        default=Path(".browser-profile/beatport"),
+        help="local browser profile directory for Beatport session state",
+    )
+    beatport.add_argument("--timeout", type=int, default=60, help="initial page load timeout in seconds")
+    beatport.add_argument("--keep-open", action="store_true", help="leave the browser open after enrichment")
+    beatport.set_defaults(func=enrich_beatport_assisted, auto_choose_result=True)
+
+    beatport_manual = subparsers.add_parser(
+        "enrich-beatport-manual",
+        help="copy Beatport search queries and save manually confirmed track URLs",
+    )
+    beatport_manual.add_argument("--track-id", type=int, help="enrich one track id")
+    beatport_manual.add_argument("--mixtape-id", type=int, help="filter by mixtape id")
+    beatport_manual.add_argument("--year", help="filter by release year, for example 2026")
+    beatport_manual.add_argument("--month", help="filter by month, for example 2026-05")
+    beatport_manual.add_argument("--series", help="filter by series name")
+    beatport_manual.add_argument("--query", help="filter track artist/title text")
+    beatport_manual.add_argument("--limit", type=int, default=10, help="maximum tracks to review")
+    beatport_manual.add_argument("--include-enriched", action="store_true", help="also show tracks with Beatport metadata")
+    beatport_manual.add_argument("--open-browser", action="store_true", help="open Beatport in your default browser first")
+    beatport_manual.add_argument(
+        "--no-copy",
+        action="store_false",
+        dest="copy",
+        help="do not copy each Beatport search query to the clipboard",
+    )
+    beatport_manual.add_argument(
+        "--url-only",
+        action="store_false",
+        dest="prompt_metadata",
+        help="save only the confirmed Beatport URL and track id",
+    )
+    beatport_manual.set_defaults(func=enrich_beatport_manual, copy=True, prompt_metadata=True)
 
     mixesdb = subparsers.add_parser(
         "import-mixesdb-category",
