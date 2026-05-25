@@ -6,12 +6,30 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
-| 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
 ### Tracklists
+
+<details>
+<summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
+
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/search?q=Charles+D+x+Weska+Can%27t+Get+Enough+feat.+Bexxie))
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rascal+AU+Confident+%28Original+Mix%29))
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Pink+P+%28Instrumental+Mix%29))
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/search?q=Michael+Caird+Misbehaving+%28Extended%29))
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/search?q=Tough+Art+Groove+In+%28Original+Mix%29))
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Glass+Petals+%27We+Stay+Inside%27+ft.+Sophiegrophy+%28Extended+Mix%29))
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastik+Funk%2C+Toxic+Joy+Close+My+Eyes+%28Extended+Mix%29))
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ESSED+Anytime+%28Extended+Mix%29))
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Joshwa+Work+Your+Body+%28Extended+Mix%29))
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Federico+Scavo+Raggaselecta+%28Extended+Mix%29))
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Meduza%2C+GENESI+%28ITA%29%2C+ESSENTIA+%28IT%29+La+La+Land+%28Extended+Mix%29))
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Nopopstar+Close+You%27r+Eyes+%28Extended+Mix%29))
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Shahay%2C+Sound+of+Ghetto+Memphis+%28Extended+Mix%29))
+</details>
 
 <details>
 <summary>2026-05-22 - XXX Radio - XXX Radio #189 (11 tracks)</summary>
@@ -29,25 +47,6 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/search?q=Harry+Romero+Renegades))
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)
-</details>
-
-<details>
-<summary>2026-05-15 - ERA - ERA 215 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Denzel Jo Armani - Man I Just Woke Up ([Beatport](https://www.beatport.com/search?q=Denzel+Jo+Armani+Man+I+Just+Woke+Up))
-2. Detlef - Step Over ([Beatport](https://www.beatport.com/search?q=Detlef+Step+Over))
-3. Caique Carvalho & Mojjo - Mind Alert ([Beatport](https://www.beatport.com/search?q=Caique+Carvalho+%26+Mojjo+Mind+Alert))
-4. Hannah Wants - U Dig ([Beatport](https://www.beatport.com/search?q=Hannah+Wants+U+Dig))
-5. Tucci - My Mind ([Beatport](https://www.beatport.com/search?q=Tucci+My+Mind))
-6. Alexey Union & Ira Ange & Kinky Sound - Tuba ([Beatport](https://www.beatport.com/search?q=Alexey+Union+%26+Ira+Ange+%26+Kinky+Sound+Tuba))
-7. Romax - Into Touch ([Beatport](https://www.beatport.com/search?q=Romax+Into+Touch))
-8. Naux - Going Back To My Route ([Beatport](https://www.beatport.com/search?q=Naux+Going+Back+To+My+Route))
-9. Anza & Chique - I Feel Good ([Beatport](https://www.beatport.com/search?q=Anza+%26+Chique+I+Feel+Good))
-10. ACRAZE - The Switch ([Beatport](https://www.beatport.com/search?q=ACRAZE+The+Switch))
-11. HASKELL & Silque - The Heat ([Beatport](https://www.beatport.com/search?q=HASKELL+%26+Silque+The+Heat))
-12. KASIA - Slow Motion ([Beatport](https://www.beatport.com/search?q=KASIA+Slow+Motion))
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/23p3udr1/rebuke-era-radio-215-2026-05-17.html)
 </details>
 
 <details>
@@ -98,6 +97,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
 | 2026-05-14 | XXX Radio | 13 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
@@ -117,9 +117,26 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | 2026-03-27 | ERA | 18 | [ERA 208 - Kieran San Jose Studio Mix](https://soundcloud.com/rebukemusic/era-208-kieran-san-jose-studio) |
 | 2026-03-27 | XXX Radio | 13 | [XXX Radio #181](https://soundcloud.com/realmaup/xxx-radio-181) |
 | 2026-03-20 | ERA | 14 | [ERA 207 - Ugo Banchi Studio Mix](https://soundcloud.com/rebukemusic/era-207-ugo-banchi-studio-mix) |
-| 2026-03-20 | XXX Radio | 14 | [XXX Radio #180](https://soundcloud.com/realmaup/xxx-radio-180) |
 
 ### Tracklists
+
+<details>
+<summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
+
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/search?q=Charles+D+x+Weska+Can%27t+Get+Enough+feat.+Bexxie))
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rascal+AU+Confident+%28Original+Mix%29))
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Pink+P+%28Instrumental+Mix%29))
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/search?q=Michael+Caird+Misbehaving+%28Extended%29))
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/search?q=Tough+Art+Groove+In+%28Original+Mix%29))
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Glass+Petals+%27We+Stay+Inside%27+ft.+Sophiegrophy+%28Extended+Mix%29))
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastik+Funk%2C+Toxic+Joy+Close+My+Eyes+%28Extended+Mix%29))
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ESSED+Anytime+%28Extended+Mix%29))
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Joshwa+Work+Your+Body+%28Extended+Mix%29))
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Federico+Scavo+Raggaselecta+%28Extended+Mix%29))
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Meduza%2C+GENESI+%28ITA%29%2C+ESSENTIA+%28IT%29+La+La+Land+%28Extended+Mix%29))
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Nopopstar+Close+You%27r+Eyes+%28Extended+Mix%29))
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Shahay%2C+Sound+of+Ghetto+Memphis+%28Extended+Mix%29))
+</details>
 
 <details>
 <summary>2026-05-22 - XXX Radio - XXX Radio #189 (11 tracks)</summary>
@@ -483,26 +500,5 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/2lknz2q9/mau-p-xxx-
 12. Ugo Banchi - Big Bounce ([Beatport](https://www.beatport.com/search?q=Ugo+Banchi+Big+Bounce))
 13. Knorst - Dance to Dance (Original Mix) ([Beatport](https://www.beatport.com/search?q=Knorst+Dance+to+Dance+%28Original+Mix%29))
 14. Son of Son - Feel Something (Original Mix) ([Beatport](https://www.beatport.com/search?q=Son+of+Son+Feel+Something+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-03-20 - XXX Radio - XXX Radio #180 (14 tracks)</summary>
-
-1. Chico Rose (NL) & Baggi - Beep Beep ([Beatport](https://www.beatport.com/search?q=Chico+Rose+%28NL%29+%26+Baggi+Beep+Beep))
-2. Noha - Don't Stop ([Beatport](https://www.beatport.com/search?q=Noha+Don%27t+Stop))
-3. Sambo (RO) - Sambo - All I Want ([Beatport](https://www.beatport.com/search?q=Sambo+%28RO%29+Sambo+-+All+I+Want))
-4. Souler (ES) - Brillo ([Beatport](https://www.beatport.com/search?q=Souler+%28ES%29+Brillo))
-5. Goosey - Do You Wanna ([Beatport](https://www.beatport.com/search?q=Goosey+Do+You+Wanna))
-6. Marian (BR) - Acidzito ([Beatport](https://www.beatport.com/search?q=Marian+%28BR%29+Acidzito))
-7. Daniel Steinberg - Free Living ([Beatport](https://www.beatport.com/search?q=Daniel+Steinberg+Free+Living))
-8. Goosey & FLOWFAT - Dream Heat ([Beatport](https://www.beatport.com/search?q=Goosey+%26+FLOWFAT+Dream+Heat))
-9. Baron (FR) & Mballa - WLD (Alternative Mix) ([Beatport](https://www.beatport.com/search?q=Baron+%28FR%29+%26+Mballa+WLD+%28Alternative+Mix%29))
-10. VITO (UK) - The Blow ([Beatport](https://www.beatport.com/search?q=VITO+%28UK%29+The+Blow))
-11. Mellizos - Q-Drop ([Beatport](https://www.beatport.com/search?q=Mellizos+Q-Drop))
-12. Rayzir - The Secret ([Beatport](https://www.beatport.com/search?q=Rayzir+The+Secret))
-13. Sambo (RO) - Sambo - The Sound Of The Underground ([Beatport](https://www.beatport.com/search?q=Sambo+%28RO%29+Sambo+-+The+Sound+Of+The+Underground))
-14. Rayzir - Ritmo ([Beatport](https://www.beatport.com/search?q=Rayzir+Ritmo))
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/2hs6kbsk/mau-p-xxx-radio-180-2026-03-20.html)
 </details>
 
