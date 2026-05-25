@@ -159,18 +159,18 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-
 <details>
 <summary>2026-05-15 - ERA - ERA 215 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Denzel Jo Armani - Man I Just Woke Up ([Beatport](https://www.beatport.com/search?q=Denzel+Jo+Armani+Man+I+Just+Woke+Up))
-2. Detlef - Step Over ([Beatport](https://www.beatport.com/search?q=Detlef+Step+Over))
-3. Caique Carvalho & Mojjo - Mind Alert ([Beatport](https://www.beatport.com/search?q=Caique+Carvalho+%26+Mojjo+Mind+Alert))
-4. Hannah Wants - U Dig ([Beatport](https://www.beatport.com/search?q=Hannah+Wants+U+Dig))
-5. Tucci - My Mind ([Beatport](https://www.beatport.com/search?q=Tucci+My+Mind))
-6. Alexey Union & Ira Ange & Kinky Sound - Tuba ([Beatport](https://www.beatport.com/search?q=Alexey+Union+%26+Ira+Ange+%26+Kinky+Sound+Tuba))
-7. Romax - Into Touch ([Beatport](https://www.beatport.com/search?q=Romax+Into+Touch))
-8. Naux - Going Back To My Route ([Beatport](https://www.beatport.com/search?q=Naux+Going+Back+To+My+Route))
-9. Anza & Chique - I Feel Good ([Beatport](https://www.beatport.com/search?q=Anza+%26+Chique+I+Feel+Good))
-10. ACRAZE - The Switch ([Beatport](https://www.beatport.com/search?q=ACRAZE+The+Switch))
-11. HASKELL & Silque - The Heat ([Beatport](https://www.beatport.com/search?q=HASKELL+%26+Silque+The+Heat))
-12. KASIA - Slow Motion ([Beatport](https://www.beatport.com/search?q=KASIA+Slow+Motion))
+1. Denzel Jo Armani - Man I Just Woke Up ([Beatport](https://www.beatport.com/track/man-i-just-woke-up/28486042))
+2. Detlef - Step Over ([Beatport](https://www.beatport.com/track/step-over-/28444587))
+3. Caique Carvalho & Mojjo - Mind Alert ([Beatport](https://www.beatport.com/track/mind-alert-/28504333))
+4. Hannah Wants - U Dig ([Beatport](https://www.beatport.com/track/u-dig/28488179))
+5. Tucci - My Mind ([Beatport](https://www.beatport.com/track/my-mind/28803165))
+6. Alexey Union & Ira Ange & Kinky Sound - Tuba ([Beatport](https://www.beatport.com/track/tuba/28299120))
+7. Romax - Into Touch ([Beatport](https://www.beatport.com/track/into-touch-/28612556))
+8. Naux - Going Back To My Route ([Beatport](https://www.beatport.com/track/going-back-to-my-route/28633080))
+9. Anza & Chique - I Feel Good ([Beatport](https://www.beatport.com/track/i-feel-good/28623963))
+10. ACRAZE - The Switch ([Beatport](https://www.beatport.com/track/the-switch/28880530))
+11. HASKELL & Silque - The Heat ([Beatport](https://www.beatport.com/track/the-heat/28660994))
+12. KASIA - Slow Motion ([Beatport](https://www.beatport.com/track/slow-motion-/28591922))
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/23p3udr1/rebuke-era-radio-215-2026-05-17.html)
 </details>

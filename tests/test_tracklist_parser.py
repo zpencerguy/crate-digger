@@ -142,6 +142,17 @@ class TracklistParserTest(unittest.TestCase):
 
         self.assertGreater(correct, title_only)
 
+    def test_beatport_candidate_score_uses_whole_word_tokens(self):
+        self.assertEqual(
+            beatport_candidate_score(
+                "https://www.beatport.com/track/tucci/26041642",
+                "Tucci Original Mix Obre Obre, Obreidy Random Sounds",
+                ["tuba"],
+                ["alexey", "union", "ira", "ange", "kinky", "sound"],
+            ),
+            0,
+        )
+
     def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
         self.assertEqual(
             raw_mixesdb_url("https://www.mixesdb.com/w/2024-04-26_-_Reb%C5%ABke_@_Klein_Phoenix_(ERA_109)"),

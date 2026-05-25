@@ -1612,7 +1612,8 @@ def automatic_beatport_choice(candidates: list[dict[str, object]]) -> int | None
     if not candidates:
         return None
     best_score = int(candidates[0]["score"])
-    if best_score <= 0:
+    best_title_score = int(candidates[0].get("title_score", 0))
+    if best_score <= 0 or best_title_score <= 0:
         return None
     if len(candidates) > 1 and int(candidates[1]["score"]) == best_score:
         return None
@@ -1665,12 +1666,16 @@ def beatport_search_result_candidates(page: object, expected_artist: str | None,
         seen_urls.add(url)
         text = str(raw.get("text") or raw.get("anchorText") or "")
         metadata = extract_beatport_result_metadata(url, str(raw.get("anchorText") or ""), text, raw.get("links") or [])
-        score = beatport_candidate_score(url, text, title_tokens, artist_tokens)
+        title_score = beatport_token_score(f"{url} {text}", title_tokens)
+        artist_score = beatport_token_score(f"{url} {text}", artist_tokens)
+        score = title_score * 3 + artist_score * 5
         candidates.append(
             {
                 "url": url,
                 "label": summarize_candidate_text(text, url),
                 "score": score,
+                "title_score": title_score,
+                "artist_score": artist_score,
                 "metadata": metadata,
             }
         )
@@ -1718,11 +1723,13 @@ def first_link_text(links: list[dict[str, object]], path_part: str) -> str | Non
 
 
 def beatport_candidate_score(url: str, text: str, title_tokens: list[str], artist_tokens: list[str]) -> int:
-    haystack = f"{url} {text}".lower()
-    return (
-        sum(3 for token in title_tokens if token in haystack)
-        + sum(5 for token in artist_tokens if token in haystack)
-    )
+    haystack = f"{url} {text}"
+    return beatport_token_score(haystack, title_tokens) * 3 + beatport_token_score(haystack, artist_tokens) * 5
+
+
+def beatport_token_score(text: str, tokens: list[str]) -> int:
+    words = set(re.findall(r"[a-z0-9]+", text.lower()))
+    return sum(1 for token in tokens if token in words)
 
 
 def result_text_as_lines(text: str) -> str:
