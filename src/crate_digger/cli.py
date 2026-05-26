@@ -1613,7 +1613,8 @@ def automatic_beatport_choice(candidates: list[dict[str, object]]) -> int | None
         return None
     best_score = int(candidates[0]["score"])
     best_title_score = int(candidates[0].get("title_score", 0))
-    if best_score <= 0 or best_title_score <= 0:
+    required_title_score = int(candidates[0].get("required_title_score", 1))
+    if best_score <= 0 or best_title_score < required_title_score:
         return None
     if len(candidates) > 1 and int(candidates[1]["score"]) == best_score:
         return None
@@ -1676,6 +1677,7 @@ def beatport_search_result_candidates(page: object, expected_artist: str | None,
                 "score": score,
                 "title_score": title_score,
                 "artist_score": artist_score,
+                "required_title_score": required_title_score(title_tokens),
                 "metadata": metadata,
             }
         )
@@ -1730,6 +1732,12 @@ def beatport_candidate_score(url: str, text: str, title_tokens: list[str], artis
 def beatport_token_score(text: str, tokens: list[str]) -> int:
     words = set(re.findall(r"[a-z0-9]+", text.lower()))
     return sum(1 for token in tokens if token in words)
+
+
+def required_title_score(tokens: list[str]) -> int:
+    if not tokens:
+        return 1
+    return max(1, (len(tokens) + 1) // 2)
 
 
 def result_text_as_lines(text: str) -> str:

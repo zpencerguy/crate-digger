@@ -27,6 +27,7 @@ from crate_digger.cli import (
     parse_description_tracklist,
     parse_tracklist,
     raw_mixesdb_url,
+    required_title_score,
     seconds_from_time,
     split_artist_title,
     title_match_tokens,
@@ -152,6 +153,10 @@ class TracklistParserTest(unittest.TestCase):
             ),
             0,
         )
+
+    def test_required_title_score_requires_half_of_tokens(self):
+        self.assertEqual(required_title_score(["pink", "limo", "fezzo", "remix"]), 2)
+        self.assertEqual(required_title_score(["tuba"]), 1)
 
     def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
         self.assertEqual(
