@@ -20,6 +20,7 @@ from crate_digger.cli import (
     is_beatport_track_url,
     magic_tape_number,
     manual_beatport_metadata,
+    mixtape_metadata_sentence,
     find_mixtape_for_source,
     numbered_series_number,
     parse_mixesdb_raw_tracklist,
@@ -30,7 +31,9 @@ from crate_digger.cli import (
     required_title_score,
     seconds_from_time,
     split_artist_title,
+    tempo_description,
     title_match_tokens,
+    track_metadata_summary,
     tracks_from_browser_1001,
     url_matches_title_tokens,
 )
@@ -157,6 +160,32 @@ class TracklistParserTest(unittest.TestCase):
     def test_required_title_score_requires_half_of_tokens(self):
         self.assertEqual(required_title_score(["pink", "limo", "fezzo", "remix"]), 2)
         self.assertEqual(required_title_score(["tuba"]), 1)
+
+    def test_track_metadata_summary_formats_available_fields(self):
+        self.assertEqual(
+            track_metadata_summary(
+                {
+                    "beatport_bpm": "128",
+                    "beatport_key": "A Minor",
+                    "beatport_genre": "House",
+                    "beatport_label": "NO ART",
+                }
+            ),
+            "`128 BPM; A Minor; House; NO ART`",
+        )
+
+    def test_mixtape_metadata_sentence_summarizes_enriched_tracks(self):
+        self.assertEqual(tempo_description([124, 128, 130]), "driving")
+        self.assertEqual(
+            mixtape_metadata_sentence(
+                [
+                    {"beatport_bpm": "124", "beatport_key": "A Minor", "beatport_genre": "House"},
+                    {"beatport_bpm": "128", "beatport_key": "A Minor", "beatport_genre": "House"},
+                    {"beatport_bpm": "130", "beatport_key": "G Minor", "beatport_genre": "Tech House"},
+                ]
+            ),
+            "_A driving 124-130 BPM, leaning toward House, often in A Minor mix._",
+        )
 
     def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
         self.assertEqual(

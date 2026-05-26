@@ -2548,7 +2548,9 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
     summary = f"{release} - {row['series'] or 'Uncategorized'} - {row['title']} ({row['track_count']} tracks)"
     tracks = conn.execute(
         """
-        SELECT t.position, t.cue_seconds, t.artist, t.title, bm.source_url AS beatport_track_url
+        SELECT t.position, t.cue_seconds, t.artist, t.title, bm.source_url AS beatport_track_url,
+               bm.bpm AS beatport_bpm, bm.musical_key AS beatport_key,
+               bm.genre AS beatport_genre, bm.label AS beatport_label
         FROM tracks t
         LEFT JOIN track_metadata bm ON bm.track_id = t.id AND bm.source = 'beatport'
         WHERE t.mixtape_id = ?
@@ -2563,6 +2565,9 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
         "",
     ]
     if tracks:
+        mix_sentence = mixtape_metadata_sentence(tracks)
+        if mix_sentence:
+            lines.extend([mix_sentence, ""])
         for index, track in enumerate(tracks, start=1):
             position = track["position"] or index
             cue = format_seconds(track["cue_seconds"]).strip()
@@ -2570,7 +2575,9 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
             cue_prefix = f"{cue} " if cue else ""
             track_text = markdown_text(cue_prefix + artist + track["title"])
             beatport_url = track["beatport_track_url"] or beatport_search_url(track["artist"], track["title"])
-            lines.append(f"{position}. {track_text} ([Beatport]({beatport_url}))")
+            metadata = track_metadata_summary(track)
+            metadata_text = f" - {metadata}" if metadata else ""
+            lines.append(f"{position}. {track_text} ([Beatport]({beatport_url})){metadata_text}")
     else:
         lines.append("_No tracks indexed yet._")
 
@@ -2578,6 +2585,60 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
         lines.extend(["", f"Source: [tracklist]({row['tracklist_url']})"])
     lines.append("</details>")
     return lines
+
+
+def track_metadata_summary(track: sqlite3.Row) -> str:
+    parts = []
+    if track["beatport_bpm"]:
+        parts.append(f"{track['beatport_bpm']} BPM")
+    if track["beatport_key"]:
+        parts.append(str(track["beatport_key"]))
+    if track["beatport_genre"]:
+        parts.append(str(track["beatport_genre"]))
+    if track["beatport_label"]:
+        parts.append(str(track["beatport_label"]))
+    return f"`{'; '.join(parts)}`" if parts else ""
+
+
+def mixtape_metadata_sentence(tracks: list[sqlite3.Row]) -> str:
+    enriched = [track for track in tracks if track["beatport_bpm"] or track["beatport_key"] or track["beatport_genre"]]
+    if not enriched:
+        return ""
+
+    bpms = [int(track["beatport_bpm"]) for track in enriched if str(track["beatport_bpm"] or "").isdigit()]
+    keys = [str(track["beatport_key"]) for track in enriched if track["beatport_key"]]
+    genres = [str(track["beatport_genre"]) for track in enriched if track["beatport_genre"]]
+
+    phrases = []
+    if bpms:
+        low = min(bpms)
+        high = max(bpms)
+        phrases.append(f"{tempo_description(bpms)} {low}-{high} BPM")
+    if genres:
+        phrases.append(f"leaning toward {dominant_value(genres)}")
+    if keys:
+        phrases.append(f"often in {dominant_value(keys)}")
+    if not phrases:
+        return ""
+    return f"_A {', '.join(phrases)} mix._"
+
+
+def tempo_description(bpms: list[int]) -> str:
+    average = sum(bpms) / len(bpms)
+    if average < 118:
+        return "downtempo"
+    if average < 124:
+        return "mid-tempo"
+    if average < 132:
+        return "driving"
+    return "fast"
+
+
+def dominant_value(values: list[str]) -> str:
+    counts: dict[str, int] = {}
+    for value in values:
+        counts[value] = counts.get(value, 0) + 1
+    return sorted(counts.items(), key=lambda item: (-item[1], item[0]))[0][0]
 
 
 def markdown_escape(value: str) -> str:
