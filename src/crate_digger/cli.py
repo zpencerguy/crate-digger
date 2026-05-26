@@ -1802,7 +1802,33 @@ def open_first_beatport_track_result(page: object, expected_title: str, timeout:
 
 def title_match_tokens(title: str) -> list[str]:
     tokens = re.findall(r"[a-z0-9]+", title.lower())
-    ignored = {"a", "an", "and", "the", "feat", "ft", "original", "mix", "extended", "edit", "remix"}
+    ignored = {
+        "a",
+        "an",
+        "and",
+        "are",
+        "at",
+        "feat",
+        "ft",
+        "for",
+        "get",
+        "in",
+        "is",
+        "it",
+        "me",
+        "mix",
+        "my",
+        "of",
+        "on",
+        "original",
+        "remix",
+        "the",
+        "to",
+        "with",
+        "your",
+        "extended",
+        "edit",
+    }
     return [token for token in tokens if token not in ignored]
 
 

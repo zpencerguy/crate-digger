@@ -16,19 +16,21 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 <details>
 <summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
 
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/search?q=Charles+D+x+Weska+Can%27t+Get+Enough+feat.+Bexxie))
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rascal+AU+Confident+%28Original+Mix%29))
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Pink+P+%28Instrumental+Mix%29))
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/search?q=Michael+Caird+Misbehaving+%28Extended%29))
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/search?q=Tough+Art+Groove+In+%28Original+Mix%29))
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Glass+Petals+%27We+Stay+Inside%27+ft.+Sophiegrophy+%28Extended+Mix%29))
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastik+Funk%2C+Toxic+Joy+Close+My+Eyes+%28Extended+Mix%29))
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ESSED+Anytime+%28Extended+Mix%29))
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Joshwa+Work+Your+Body+%28Extended+Mix%29))
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Federico+Scavo+Raggaselecta+%28Extended+Mix%29))
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Meduza%2C+GENESI+%28ITA%29%2C+ESSENTIA+%28IT%29+La+La+Land+%28Extended+Mix%29))
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Nopopstar+Close+You%27r+Eyes+%28Extended+Mix%29))
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Shahay%2C+Sound+of+Ghetto+Memphis+%28Extended+Mix%29))
+_A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
+
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; Techno (Peak Time / Driving); Drumcode`
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; Tech House; WeLove Recordings`
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; Melodic House & Techno; 1001 Recordings`
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; House; Shelter`
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; Tech House; Be One Records`
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; Tech House; Trace Amounts`
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; Tech House; Electronic Rapture`
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; Tech House; STMPD RCRDS`
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; Tech House; Catch & Release`
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; House; Juicy Music`
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; Tech House; Broke`
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; Indie Dance; UNCLES MUSIC`
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; Tech House; Wh0 Worx`
 </details>
 
 <details>
@@ -129,19 +131,21 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 <details>
 <summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
 
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/search?q=Charles+D+x+Weska+Can%27t+Get+Enough+feat.+Bexxie))
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rascal+AU+Confident+%28Original+Mix%29))
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Pink+P+%28Instrumental+Mix%29))
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/search?q=Michael+Caird+Misbehaving+%28Extended%29))
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/search?q=Tough+Art+Groove+In+%28Original+Mix%29))
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Glass+Petals+%27We+Stay+Inside%27+ft.+Sophiegrophy+%28Extended+Mix%29))
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastik+Funk%2C+Toxic+Joy+Close+My+Eyes+%28Extended+Mix%29))
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ESSED+Anytime+%28Extended+Mix%29))
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Joshwa+Work+Your+Body+%28Extended+Mix%29))
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Federico+Scavo+Raggaselecta+%28Extended+Mix%29))
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Meduza%2C+GENESI+%28ITA%29%2C+ESSENTIA+%28IT%29+La+La+Land+%28Extended+Mix%29))
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Nopopstar+Close+You%27r+Eyes+%28Extended+Mix%29))
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Shahay%2C+Sound+of+Ghetto+Memphis+%28Extended+Mix%29))
+_A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
+
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; Techno (Peak Time / Driving); Drumcode`
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; Tech House; WeLove Recordings`
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; Melodic House & Techno; 1001 Recordings`
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; House; Shelter`
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; Tech House; Be One Records`
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; Tech House; Trace Amounts`
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; Tech House; Electronic Rapture`
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; Tech House; STMPD RCRDS`
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; Tech House; Catch & Release`
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; House; Juicy Music`
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; Tech House; Broke`
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; Indie Dance; UNCLES MUSIC`
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; Tech House; Wh0 Worx`
 </details>
 
 <details>

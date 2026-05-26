@@ -105,6 +105,7 @@ class TracklistParserTest(unittest.TestCase):
 
     def test_beatport_title_tokens_match_track_url(self):
         self.assertEqual(title_match_tokens("Feel That (Extended Mix)"), ["feel", "that"])
+        self.assertEqual(title_match_tokens("Groove In (Original Mix)"), ["groove"])
         self.assertTrue(url_matches_title_tokens("https://www.beatport.com/track/feel-that/28821753", ["feel", "that"]))
         self.assertFalse(
             url_matches_title_tokens("https://www.beatport.com/track/evolution-nacho-scoppa-remix/14695069", ["tango"])
