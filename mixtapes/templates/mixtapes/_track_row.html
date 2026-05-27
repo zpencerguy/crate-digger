@@ -1,0 +1,18 @@
+{% load mixtape_extras %}
+<li class="track-row">
+  <div class="track-main">
+    <span class="position">{{ track.position|default:forloop.counter }}</span>
+    {% if track.cue %}<span class="cue">{{ track.cue }}</span>{% endif %}
+    <span class="track-name">
+      {% if track.artist %}<strong>{{ track.artist }}</strong> - {% endif %}{{ track.title }}
+    </span>
+  </div>
+  <div class="track-meta">
+    {% metadata_chips track as chips %}
+    {% for chip in chips %}
+      <a class="chip" href="{% url 'mixtapes:tracks' %}?{{ chip.filter }}={{ chip.value|urlencode }}">{{ chip.label }}</a>
+    {% endfor %}
+    {% beatport_url track as url %}
+    <a href="{{ url }}" target="_blank" rel="noreferrer">Beatport</a>
+  </div>
+</li>

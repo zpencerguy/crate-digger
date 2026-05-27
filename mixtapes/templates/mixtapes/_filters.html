@@ -1,0 +1,25 @@
+<form class="filters" method="get">
+  <label>
+    Search
+    <input type="search" name="q" value="{{ query }}" placeholder="Artist, track, label, mix...">
+  </label>
+  <label>
+    Series
+    <select name="series">
+      <option value="">All series</option>
+      {% for item in series %}
+        <option value="{{ item }}" {% if item == selected_series %}selected{% endif %}>{{ item }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  {% if selected_genre or selected_label or selected_key or selected_bpm %}
+    <div class="active-filters">
+      {% if selected_genre %}<span>Genre: {{ selected_genre }}</span>{% endif %}
+      {% if selected_label %}<span>Label: {{ selected_label }}</span>{% endif %}
+      {% if selected_key %}<span>Key: {{ selected_key }}</span>{% endif %}
+      {% if selected_bpm %}<span>BPM: {{ selected_bpm }}</span>{% endif %}
+      <a href="{% url 'mixtapes:tracks' %}">Clear tags</a>
+    </div>
+  {% endif %}
+  <button type="submit">Filter</button>
+</form>

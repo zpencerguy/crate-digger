@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Crate Digger{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'mixtapes/site.css' %}?v=20260527-2">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="{% url 'mixtapes:latest' %}">Crate Digger</a>
+      <div class="nav-links">
+        <a href="{% url 'mixtapes:latest' %}">Latest</a>
+        <a href="{% url 'mixtapes:list' %}">Mixtapes</a>
+        <a href="{% url 'mixtapes:tracks' %}">Tracks</a>
+        <a href="/admin/">Admin</a>
+      </div>
+    </nav>
+  </header>
+  <main class="page">
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

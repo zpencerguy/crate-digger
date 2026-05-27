@@ -1,0 +1,37 @@
+{% extends "mixtapes/base.html" %}
+
+{% block title %}{{ mixtape.title }} - Crate Digger{% endblock %}
+
+{% block content %}
+<section class="detail-head">
+  {% if mixtape.artwork_url %}
+    <img class="detail-artwork" src="{{ mixtape.artwork_url }}" alt="{{ mixtape.title }} artwork">
+  {% endif %}
+  <div>
+    <p class="eyebrow">{{ mixtape.series|default:"Uncategorized" }} · {{ mixtape.display_date }}</p>
+    <h1>{{ mixtape.title }}</h1>
+    {% if metadata_sentence %}<p class="summary">{{ metadata_sentence }}</p>{% endif %}
+  </div>
+  <div class="hero-actions">
+    <a class="button" href="{{ mixtape.soundcloud_url }}" target="_blank" rel="noreferrer">SoundCloud</a>
+    {% if mixtape.tracklist_url %}<a class="button secondary" href="{{ mixtape.tracklist_url }}" target="_blank" rel="noreferrer">Source</a>{% endif %}
+  </div>
+</section>
+
+<section class="player">
+  <iframe
+    title="{{ mixtape.title }} SoundCloud player"
+    src="https://w.soundcloud.com/player/?url={{ mixtape.soundcloud_url|urlencode }}&color=%23176a63&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"
+    loading="lazy"
+    allow="autoplay">
+  </iframe>
+</section>
+
+<ol class="track-list detail-list">
+  {% for track in tracks %}
+    {% include "mixtapes/_track_row.html" %}
+  {% empty %}
+    <li class="empty">No tracks indexed yet.</li>
+  {% endfor %}
+</ol>
+{% endblock %}

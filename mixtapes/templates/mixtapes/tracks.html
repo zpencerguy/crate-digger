@@ -1,0 +1,23 @@
+{% extends "mixtapes/base.html" %}
+
+{% block title %}Tracks - Crate Digger{% endblock %}
+
+{% block content %}
+<section class="page-title">
+  <h1>Tracks</h1>
+  {% include "mixtapes/_filters.html" %}
+</section>
+
+<ol class="track-list detail-list">
+  {% for track in page.object_list %}
+    {% include "mixtapes/_track_row.html" %}
+    <li class="track-context">
+      <a href="{{ track.mixtape.get_absolute_url }}">{{ track.mixtape.series|default:"Uncategorized" }} · {{ track.mixtape.display_date }} · {{ track.mixtape.title }}</a>
+    </li>
+  {% empty %}
+    <li class="empty">No tracks found.</li>
+  {% endfor %}
+</ol>
+
+{% include "mixtapes/pagination.html" with page=page %}
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "mixtapes/base.html" %}
+
+{% block title %}Latest Mixtapes - Crate Digger{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div>
+    <p class="eyebrow">Indexed mixtapes</p>
+    <h1>Latest tracklists, searchable metadata, fewer browser tabs.</h1>
+  </div>
+  <div class="hero-actions">
+    <a class="button" href="{% url 'mixtapes:tracks' %}">Search tracks</a>
+    <a class="button secondary" href="{% url 'mixtapes:list' %}">Browse archive</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Latest By Series</h2>
+  </div>
+  <div class="mix-stack">
+    {% for mixtape in latest_by_series %}
+      {% include "mixtapes/_mixtape_panel.html" %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Recent Releases</h2>
+  </div>
+  <div class="mix-stack">
+    {% for mixtape in recent %}
+      {% include "mixtapes/_mixtape_panel.html" %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

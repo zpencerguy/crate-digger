@@ -93,6 +93,33 @@ Run tests:
 python3 -m uv run python -m unittest discover -s tests
 ```
 
+## Web UI
+
+Crate Digger includes a small Django app for browsing the indexed data and
+editing it through Django admin. The Django models point at the existing
+`crate-digger.sqlite3` tables, so the CLI and web UI share the same local
+working database.
+
+Create the Django admin/auth tables in your local SQLite database:
+
+```sh
+python3 -m uv run python manage.py migrate
+```
+
+Start the site:
+
+```sh
+python3 -m uv run python manage.py runserver
+```
+
+Then open <http://127.0.0.1:8000/>.
+
+To use `/admin/`, create a local admin user:
+
+```sh
+python3 -m uv run python manage.py createsuperuser
+```
+
 ## Usage
 
 ## Storage Model

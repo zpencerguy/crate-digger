@@ -207,6 +207,8 @@ CREATE TABLE IF NOT EXISTS mixtapes (
     series TEXT,
     description TEXT,
     tracklist_url TEXT,
+    artwork_url TEXT,
+    soundcloud_embed_html TEXT,
     created_at TEXT NOT NULL
 );
 
@@ -311,6 +313,8 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn.row_factory = sqlite3.Row
     conn.executescript(SCHEMA)
     ensure_column(conn, "mixtapes", "release_date", "TEXT")
+    ensure_column(conn, "mixtapes", "artwork_url", "TEXT")
+    ensure_column(conn, "mixtapes", "soundcloud_embed_html", "TEXT")
     return conn
 
 
@@ -328,6 +332,13 @@ def fetch_soundcloud_oembed(url: str) -> dict[str, str]:
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         return json.loads(response.read().decode("utf-8"))
+
+
+def soundcloud_artwork_url(metadata: dict[str, str]) -> str | None:
+    url = metadata.get("thumbnail_url")
+    if not url:
+        return None
+    return str(url).replace("-large.", "-t500x500.")
 
 
 def fetch_text(url: str) -> str:
@@ -823,6 +834,8 @@ def index_mixtape(
     metadata = {} if offline else fetch_soundcloud_oembed(soundcloud_url)
     title = plain_text(metadata.get("title")) or soundcloud_url
     description = description if description is not None else plain_text(metadata.get("description"))
+    artwork_url = soundcloud_artwork_url(metadata)
+    embed_html = metadata.get("html")
     if title_override:
         title = title_override
     tracklist_url = tracklist_url_override or extract_tracklist_url(description)
@@ -833,9 +846,9 @@ def index_mixtape(
         """
         INSERT INTO mixtapes (
             soundcloud_url, title, uploader, month, release_date, series, description,
-            tracklist_url, created_at
+            tracklist_url, artwork_url, soundcloud_embed_html, created_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(soundcloud_url) DO UPDATE SET
             title = excluded.title,
             uploader = COALESCE(excluded.uploader, mixtapes.uploader),
@@ -843,7 +856,9 @@ def index_mixtape(
             release_date = COALESCE(excluded.release_date, mixtapes.release_date),
             series = COALESCE(excluded.series, mixtapes.series),
             description = excluded.description,
-            tracklist_url = COALESCE(excluded.tracklist_url, mixtapes.tracklist_url)
+            tracklist_url = COALESCE(excluded.tracklist_url, mixtapes.tracklist_url),
+            artwork_url = COALESCE(excluded.artwork_url, mixtapes.artwork_url),
+            soundcloud_embed_html = COALESCE(excluded.soundcloud_embed_html, mixtapes.soundcloud_embed_html)
         RETURNING id
         """,
         (
@@ -855,6 +870,8 @@ def index_mixtape(
             series,
             description,
             tracklist_url,
+            artwork_url,
+            embed_html,
             dt.datetime.now(dt.timezone.utc).isoformat(),
         ),
     )
@@ -948,6 +965,49 @@ def batch_add_soundcloud_page(args: argparse.Namespace) -> None:
             suffix += f" | imported {imported} tracks"
         print(f"Indexed mixtape #{mixtape_id}: {title}{suffix}")
     conn.commit()
+
+
+def refresh_soundcloud_metadata(args: argparse.Namespace) -> None:
+    conn = connect(args.db)
+    conditions = ["soundcloud_url IS NOT NULL", "soundcloud_url != ''"]
+    params: list[object] = []
+    if args.missing_only:
+        conditions.append("(artwork_url IS NULL OR artwork_url = '' OR soundcloud_embed_html IS NULL OR soundcloud_embed_html = '')")
+    if args.mixtape_id:
+        conditions.append("id = ?")
+        params.append(args.mixtape_id)
+    sql = f"""
+        SELECT id, title, soundcloud_url
+        FROM mixtapes
+        WHERE {' AND '.join(conditions)}
+        ORDER BY COALESCE(release_date, month, '') DESC, id DESC
+    """
+    if args.limit:
+        sql += " LIMIT ?"
+        params.append(args.limit)
+    rows = conn.execute(sql, params).fetchall()
+    updated = 0
+    for row in rows:
+        try:
+            metadata = fetch_soundcloud_oembed(row["soundcloud_url"])
+        except Exception as exc:
+            print(f"Skipped #{row['id']} {row['title']}: {exc}")
+            continue
+        artwork_url = soundcloud_artwork_url(metadata)
+        embed_html = metadata.get("html")
+        conn.execute(
+            """
+            UPDATE mixtapes
+            SET artwork_url = COALESCE(?, artwork_url),
+                soundcloud_embed_html = COALESCE(?, soundcloud_embed_html)
+            WHERE id = ?
+            """,
+            (artwork_url, embed_html, row["id"]),
+        )
+        updated += 1
+        print(f"Updated #{row['id']}: {row['title']}")
+    conn.commit()
+    print(f"Refreshed SoundCloud metadata for {updated} mixtapes.")
 
 
 def import_tracks(conn: sqlite3.Connection, mixtape_id: int, path: Path) -> int:
@@ -2192,7 +2252,7 @@ def export_index(args: argparse.Namespace) -> None:
     mixtapes = conn.execute(
         """
         SELECT m.id, m.month, m.release_date, m.series, m.title, m.uploader, m.soundcloud_url,
-               m.tracklist_url, COUNT(t.id) AS track_count
+               m.tracklist_url, m.artwork_url, m.soundcloud_embed_html, COUNT(t.id) AS track_count
         FROM mixtapes m
         LEFT JOIN tracks t ON t.mixtape_id = m.id
         GROUP BY m.id
@@ -2229,6 +2289,8 @@ def export_index(args: argparse.Namespace) -> None:
             "uploader",
             "soundcloud_url",
             "tracklist_url",
+            "artwork_url",
+            "soundcloud_embed_html",
             "track_count",
         ],
         mixtapes,
@@ -2322,9 +2384,9 @@ def load_export(args: argparse.Namespace) -> None:
             """
             INSERT INTO mixtapes (
                 id, soundcloud_url, title, uploader, month, release_date, series,
-                description, tracklist_url, created_at
+                description, tracklist_url, artwork_url, soundcloud_embed_html, created_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 int(row["id"]),
@@ -2336,6 +2398,8 @@ def load_export(args: argparse.Namespace) -> None:
                 row["series"] or None,
                 "",
                 row["tracklist_url"] or None,
+                row.get("artwork_url") or None,
+                row.get("soundcloud_embed_html") or None,
                 loaded_at,
             ),
         )
@@ -2722,6 +2786,20 @@ def build_parser() -> argparse.ArgumentParser:
     batch.add_argument("--source", choices=("auto", "api", "html"), default="auto")
     batch.add_argument("--offline", action="store_true", help="skip per-track SoundCloud metadata lookup")
     batch.set_defaults(func=batch_add_soundcloud_page)
+
+    soundcloud_meta = subparsers.add_parser(
+        "refresh-soundcloud-metadata",
+        help="refresh SoundCloud artwork and embeddable player HTML for indexed mixtapes",
+    )
+    soundcloud_meta.add_argument("--mixtape-id", type=int, help="refresh one mixtape id")
+    soundcloud_meta.add_argument("--limit", type=int, help="maximum mixtapes to refresh")
+    soundcloud_meta.add_argument(
+        "--all",
+        action="store_false",
+        dest="missing_only",
+        help="refresh all matching mixtapes, not only rows missing artwork or embed HTML",
+    )
+    soundcloud_meta.set_defaults(func=refresh_soundcloud_metadata, missing_only=True)
 
     imp = subparsers.add_parser("import-tracklist", help="import pasted tracklist text")
     imp.add_argument("mixtape_id", type=int)

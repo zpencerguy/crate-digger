@@ -1,0 +1,39 @@
+<details class="mix-panel" {% if open %}open{% endif %}>
+  <summary>
+    <span class="mix-summary-main">
+      {% if mixtape.artwork_url %}
+        <img class="mix-thumb" src="{{ mixtape.artwork_url }}" alt="{{ mixtape.title }} artwork" loading="lazy">
+      {% else %}
+        <span class="mix-thumb artwork-placeholder">{{ mixtape.series|default:"Mix" }}</span>
+      {% endif %}
+      <span class="mix-title-block">
+        <strong>{{ mixtape.title }}</strong>
+        <span>{{ mixtape.display_date }}</span>
+        <span>{{ mixtape.series|default:"Uncategorized" }}</span>
+      </span>
+    </span>
+    <span class="count">{{ mixtape.track_count|default:mixtape.tracks.count }} tracks</span>
+  </summary>
+  <div class="mix-body">
+    <div class="mix-player">
+      <iframe
+        title="{{ mixtape.title }} SoundCloud player"
+        src="https://w.soundcloud.com/player/?url={{ mixtape.soundcloud_url|urlencode }}&color=%23176a63&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false"
+        loading="lazy"
+        allow="autoplay">
+      </iframe>
+    </div>
+    <div class="actions">
+      <a href="{{ mixtape.soundcloud_url }}" target="_blank" rel="noreferrer">SoundCloud</a>
+      {% if mixtape.tracklist_url %}<a href="{{ mixtape.tracklist_url }}" target="_blank" rel="noreferrer">Tracklist source</a>{% endif %}
+      <a href="{{ mixtape.get_absolute_url }}">Open</a>
+    </div>
+    <ol class="track-list">
+      {% for track in mixtape.tracks.all %}
+        {% include "mixtapes/_track_row.html" %}
+      {% empty %}
+        <li class="empty">No tracks indexed yet.</li>
+      {% endfor %}
+    </ol>
+  </div>
+</details>
