@@ -38,6 +38,7 @@ jobs:
           uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category:XXX_Radio" --series "XXX Radio" --uploader "Mau P" --title-match "XXX Radio" --new-only --delay 1
           uv run crate-digger --db crate-digger.sqlite3 batch-add-soundcloud-page "https://soundcloud.com/rebukemusic/tracks" --series "ERA" --uploader "Rebūke" --match "^ERA [0-9]+" --stop-at-existing
           uv run crate-digger --db crate-digger.sqlite3 import-mixesdb-category "https://www.mixesdb.com/w/Category%3AReb%C5%ABke" --series "ERA" --uploader "Rebūke" --title-match "ERA" --new-only --delay 1
+          uv run crate-digger --db crate-digger.sqlite3 refresh-soundcloud-metadata --limit 100
           uv run crate-digger --db crate-digger.sqlite3 export --output data
 
       - name: Commit exported data
