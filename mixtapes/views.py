@@ -90,6 +90,7 @@ def track_search(request):
     genre = request.GET.get("genre", "").strip()
     label = request.GET.get("label", "").strip()
     key = request.GET.get("key", "").strip()
+    camelot = request.GET.get("camelot", "").strip()
     bpm = request.GET.get("bpm", "").strip()
     tracks = (
         Track.objects.select_related("mixtape")
@@ -113,6 +114,8 @@ def track_search(request):
         tracks = tracks.filter(metadata__source="beatport", metadata__label=label)
     if key:
         tracks = tracks.filter(metadata__source="beatport", metadata__musical_key=key)
+    if camelot:
+        tracks = tracks.filter(metadata__source="beatport", metadata__camelot_key=camelot)
     if bpm:
         tracks = tracks.filter(metadata__source="beatport", metadata__bpm=bpm)
     page = Paginator(tracks, 100).get_page(request.GET.get("page"))
@@ -126,6 +129,7 @@ def track_search(request):
             "selected_genre": genre,
             "selected_label": label,
             "selected_key": key,
+            "selected_camelot": camelot,
             "selected_bpm": bpm,
             "series": series_list(),
         },
@@ -150,7 +154,11 @@ def track_metadata_parts(track: Track) -> list[str]:
     metadata = beatport_metadata(track)
     if not metadata:
         return []
-    return [value for value in [metadata.bpm and f"{metadata.bpm} BPM", metadata.musical_key, metadata.genre, metadata.label] if value]
+    return [
+        value
+        for value in [metadata.bpm and f"{metadata.bpm} BPM", metadata.musical_key, metadata.camelot_key, metadata.genre, metadata.label]
+        if value
+    ]
 
 
 def track_metadata_chips(track: Track) -> list[dict[str, str]]:
@@ -162,6 +170,8 @@ def track_metadata_chips(track: Track) -> list[dict[str, str]]:
         chips.append({"label": f"{metadata.bpm} BPM", "filter": "bpm", "value": metadata.bpm})
     if metadata.musical_key:
         chips.append({"label": metadata.musical_key, "filter": "key", "value": metadata.musical_key})
+    if metadata.camelot_key:
+        chips.append({"label": metadata.camelot_key, "filter": "camelot", "value": metadata.camelot_key})
     if metadata.genre:
         chips.append({"label": metadata.genre, "filter": "genre", "value": metadata.genre})
     if metadata.label:

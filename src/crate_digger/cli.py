@@ -231,6 +231,7 @@ CREATE TABLE IF NOT EXISTS track_metadata (
     source_track_id TEXT,
     bpm TEXT,
     musical_key TEXT,
+    camelot_key TEXT,
     genre TEXT,
     label TEXT,
     release_title TEXT,
@@ -315,6 +316,7 @@ def connect(db_path: Path) -> sqlite3.Connection:
     ensure_column(conn, "mixtapes", "release_date", "TEXT")
     ensure_column(conn, "mixtapes", "artwork_url", "TEXT")
     ensure_column(conn, "mixtapes", "soundcloud_embed_html", "TEXT")
+    ensure_column(conn, "track_metadata", "camelot_key", "TEXT")
     return conn
 
 
@@ -1897,19 +1899,65 @@ def url_matches_title_tokens(url: str, expected_tokens: list[str]) -> bool:
     return all(token in path for token in expected_tokens)
 
 
+CAMELOT_KEY_MAP = {
+    "ab minor": "1A",
+    "g# minor": "1A",
+    "eb minor": "2A",
+    "d# minor": "2A",
+    "bb minor": "3A",
+    "a# minor": "3A",
+    "f minor": "4A",
+    "c minor": "5A",
+    "g minor": "6A",
+    "d minor": "7A",
+    "a minor": "8A",
+    "e minor": "9A",
+    "b minor": "10A",
+    "f# minor": "11A",
+    "gb minor": "11A",
+    "c# minor": "12A",
+    "db minor": "12A",
+    "b major": "1B",
+    "cb major": "1B",
+    "f# major": "2B",
+    "gb major": "2B",
+    "c# major": "3B",
+    "db major": "3B",
+    "ab major": "4B",
+    "g# major": "4B",
+    "eb major": "5B",
+    "d# major": "5B",
+    "bb major": "6B",
+    "a# major": "6B",
+    "f major": "7B",
+    "c major": "8B",
+    "g major": "9B",
+    "d major": "10B",
+    "a major": "11B",
+    "e major": "12B",
+}
+
+
+def camelot_key(musical_key: object) -> str | None:
+    normalized = re.sub(r"\s+", " ", str(musical_key or "").strip().lower())
+    return CAMELOT_KEY_MAP.get(normalized)
+
+
 def upsert_track_metadata(conn: sqlite3.Connection, track_id: int, metadata: dict[str, object]) -> None:
+    camelot = metadata.get("camelot_key") or camelot_key(metadata.get("musical_key"))
     conn.execute(
         """
         INSERT INTO track_metadata (
-            track_id, source, source_url, source_track_id, bpm, musical_key, genre, label,
+            track_id, source, source_url, source_track_id, bpm, musical_key, camelot_key, genre, label,
             release_title, release_date, confidence, raw_json, fetched_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(track_id, source) DO UPDATE SET
             source_url = excluded.source_url,
             source_track_id = excluded.source_track_id,
             bpm = excluded.bpm,
             musical_key = excluded.musical_key,
+            camelot_key = excluded.camelot_key,
             genre = excluded.genre,
             label = excluded.label,
             release_title = excluded.release_title,
@@ -1925,6 +1973,7 @@ def upsert_track_metadata(conn: sqlite3.Connection, track_id: int, metadata: dic
             metadata.get("source_track_id"),
             metadata.get("bpm"),
             metadata.get("musical_key"),
+            camelot,
             metadata.get("genre"),
             metadata.get("label"),
             metadata.get("release_title"),
@@ -2246,6 +2295,7 @@ def search(args: argparse.Namespace) -> None:
 def export_index(args: argparse.Namespace) -> None:
     conn = connect(args.db)
     backfill_release_dates(conn)
+    backfill_camelot_keys(conn)
     output = args.output
     output.mkdir(parents=True, exist_ok=True)
 
@@ -2272,7 +2322,7 @@ def export_index(args: argparse.Namespace) -> None:
     track_metadata = conn.execute(
         """
         SELECT id, track_id, source, source_url, source_track_id, bpm, musical_key,
-               genre, label, release_title, release_date, confidence, raw_json, fetched_at
+               camelot_key, genre, label, release_title, release_date, confidence, raw_json, fetched_at
         FROM track_metadata
         ORDER BY source, track_id
         """
@@ -2328,6 +2378,7 @@ def export_index(args: argparse.Namespace) -> None:
             "source_track_id",
             "bpm",
             "musical_key",
+            "camelot_key",
             "genre",
             "label",
             "release_title",
@@ -2352,6 +2403,17 @@ def backfill_release_dates(conn: sqlite3.Connection) -> None:
         release_date = date_from_url(row["tracklist_url"])
         if release_date:
             conn.execute("UPDATE mixtapes SET release_date = ? WHERE id = ?", (release_date, row["id"]))
+    conn.commit()
+
+
+def backfill_camelot_keys(conn: sqlite3.Connection) -> None:
+    rows = conn.execute(
+        "SELECT id, musical_key FROM track_metadata WHERE musical_key IS NOT NULL AND (camelot_key IS NULL OR camelot_key = '')"
+    ).fetchall()
+    for row in rows:
+        value = camelot_key(row["musical_key"])
+        if value:
+            conn.execute("UPDATE track_metadata SET camelot_key = ? WHERE id = ?", (value, row["id"]))
     conn.commit()
 
 
@@ -2425,10 +2487,10 @@ def load_export(args: argparse.Namespace) -> None:
         conn.execute(
             """
             INSERT INTO track_metadata (
-                id, track_id, source, source_url, source_track_id, bpm, musical_key, genre,
+                id, track_id, source, source_url, source_track_id, bpm, musical_key, camelot_key, genre,
                 label, release_title, release_date, confidence, raw_json, fetched_at
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 int(row["id"]),
@@ -2438,6 +2500,7 @@ def load_export(args: argparse.Namespace) -> None:
                 row["source_track_id"] or None,
                 row["bpm"] or None,
                 row["musical_key"] or None,
+                row.get("camelot_key") or camelot_key(row.get("musical_key")),
                 row["genre"] or None,
                 row["label"] or None,
                 row["release_title"] or None,
@@ -2640,6 +2703,7 @@ def latest_tracklist_details(row: sqlite3.Row, conn: sqlite3.Connection) -> list
         """
         SELECT t.position, t.cue_seconds, t.artist, t.title, bm.source_url AS beatport_track_url,
                bm.bpm AS beatport_bpm, bm.musical_key AS beatport_key,
+               bm.camelot_key AS beatport_camelot_key,
                bm.genre AS beatport_genre, bm.label AS beatport_label
         FROM tracks t
         LEFT JOIN track_metadata bm ON bm.track_id = t.id AND bm.source = 'beatport'
@@ -2683,6 +2747,8 @@ def track_metadata_summary(track: sqlite3.Row) -> str:
         parts.append(f"{track['beatport_bpm']} BPM")
     if track["beatport_key"]:
         parts.append(str(track["beatport_key"]))
+    if "beatport_camelot_key" in track.keys() and track["beatport_camelot_key"]:
+        parts.append(str(track["beatport_camelot_key"]))
     if track["beatport_genre"]:
         parts.append(str(track["beatport_genre"]))
     if track["beatport_label"]:

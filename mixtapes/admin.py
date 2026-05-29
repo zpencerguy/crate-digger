@@ -13,7 +13,7 @@ class TrackInline(admin.TabularInline):
 class TrackMetadataInline(admin.TabularInline):
     model = TrackMetadata
     extra = 0
-    fields = ("source", "source_url", "bpm", "musical_key", "genre", "label", "release_date", "confidence")
+    fields = ("source", "source_url", "bpm", "musical_key", "camelot_key", "genre", "label", "release_date", "confidence")
 
 
 @admin.register(Mixtape)
@@ -43,6 +43,6 @@ class TrackAdmin(admin.ModelAdmin):
 
 @admin.register(TrackMetadata)
 class TrackMetadataAdmin(admin.ModelAdmin):
-    list_display = ("track", "source", "bpm", "musical_key", "genre", "label", "release_date")
-    list_filter = ("source", "genre", "label")
+    list_display = ("track", "source", "bpm", "musical_key", "camelot_key", "genre", "label", "release_date")
+    list_filter = ("source", "camelot_key", "genre", "label")
     search_fields = ("track__artist", "track__title", "source_url", "source_track_id", "genre", "label")

@@ -6,43 +6,76 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
-| 2026-05-25 | Only 100s | 0 | [May 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
+| 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
+| 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
 ### Tracklists
-
-<details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
 
 <details>
 <summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
 
 _A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
 
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; Techno (Peak Time / Driving); Drumcode`
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; Tech House; WeLove Recordings`
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; Melodic House & Techno; 1001 Recordings`
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; House; Shelter`
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; Tech House; Be One Records`
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; Tech House; Trace Amounts`
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; Tech House; Electronic Rapture`
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; Tech House; STMPD RCRDS`
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; Tech House; Catch & Release`
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; House; Juicy Music`
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; Tech House; Broke`
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; Indie Dance; UNCLES MUSIC`
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; Tech House; Wh0 Worx`
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; 9B; Techno (Peak Time / Driving); Drumcode`
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; 7A; Tech House; WeLove Recordings`
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; 5B; Melodic House & Techno; 1001 Recordings`
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; 9B; House; Shelter`
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; 1A; Tech House; Be One Records`
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; 7B; Tech House; Trace Amounts`
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; 2A; Tech House; Electronic Rapture`
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; 10B; Tech House; STMPD RCRDS`
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; 1B; Tech House; Catch & Release`
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; 2B; House; Juicy Music`
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; 11B; Tech House; Broke`
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; 12B; Indie Dance; UNCLES MUSIC`
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; 10B; Tech House; Wh0 Worx`
+</details>
+
+<details>
+<summary>2026-05-22 - XXX Radio - XXX Radio #189 (11 tracks)</summary>
+
+_A driving 125-130 BPM, leaning toward Dig Deeper, often in A Major mix._
+
+1. Swarllie & Toni B - No More Games ([Beatport](https://www.beatport.com/track/no-more-games/28783981)) - `125 BPM; G Major; 9B; Dig Deeper; Maccabi House`
+2. Lumc (Ve) - Lumc - Que Rico ([Beatport](https://www.beatport.com/track/que-rico/28592900)) - `130 BPM; G Minor; 6A; Dig Deeper; NUSONIDO`
+3. Nacho Scoppa - Tango ([Beatport](https://www.beatport.com/track/tango/28458179)) - `128 BPM; A Major; 11B; Tech House | Latin Tech; COPPADOS`
+4. Chicks Luv Us - Siente El House ([Beatport](https://www.beatport.com/track/siente-el-house/28628468)) - `128 BPM; A Major; 11B; Dig Deeper; 8Bit`
+5. Bizen Lopez & David Lowe - Feel That ([Beatport](https://www.beatport.com/track/feel-that/28821753)) - `130 BPM; F Minor; 4A; Dig Deeper; Ibiza Talents Records`
+6. Vito - What I Want ([Beatport](https://www.beatport.com/track/what-i-want-/28702238)) - `128 BPM; F Minor; 4A; Minimal / Deep Tech | Deep Tech; Cocoa`
+7. Jasper Fioole - Echoes Of Love ([Beatport](https://www.beatport.com/track/echoes-of-love/28705006)) - `129 BPM; C Major; 8B; Tech House; Deeperfect`
+8. Tony Dee - It's Yours ([Beatport](https://www.beatport.com/track/its-yours/28831173)) - `128 BPM; Ab Major; 4B; House; LTF Records`
+9. Lumc (Ve) - Lumc - King Of Groove ([Beatport](https://www.beatport.com/track/king-of-groove/28592899)) - `130 BPM; G Minor; 6A; Tech House; NUSONIDO`
+10. Us Two - Santa Maria ([Beatport](https://www.beatport.com/track/santa-maria-/28822348)) - `128 BPM; C Minor; 5A; House; NO ART`
+11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/track/renegades-/28720897)) - `128 BPM; Db Minor; 12A; House; Black Book Records`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)
+</details>
+
+<details>
+<summary>2026-04 - Only 100s - April 2026 - Only 100s with The Aston Shuffle (16 tracks)</summary>
+
+_A driving 125-140 BPM, leaning toward House, often in C Minor mix._
+
+1. Tiga & Fcukers - SILK SCARF ([Beatport](https://www.beatport.com/track/silk-scarf/22256346)) - `125 BPM; E Major; 12B; Indie Dance; Turbo Recordings`
+2. Totally Enormous Extinct Dinosaurs - Piece Of Me (PARAMIDA Remix) ([Beatport](https://www.beatport.com/search?q=Totally+Enormous+Extinct+Dinosaurs+Piece+Of+Me+%28PARAMIDA+Remix%29))
+3. The Flirts & Beltran (BR) - The Flirts & Beltran - Passion (R U Satisfied) ([Beatport](https://www.beatport.com/track/passion-r-u-satisfied/28363360)) - `127 BPM; E Major; 12B; Tech House; Altra Moda`
+4. Born Dirty & RaeCola - Lips Like Sugar ([Beatport](https://www.beatport.com/track/lips-like-sugar/27488272)) - `125 BPM; C Minor; 5A; Deep House; IN / ROTATION (Insomniac Records)`
+5. Shermanology - Girl On The Beat (Kyle Watson Energy Dub) ([Beatport](https://www.beatport.com/track/girl-on-the-beat-/24397005)) - `129 BPM; E Minor; 9A; Tech House; Black Book Records`
+6. Cloonee & Prospa - Free Your Mind ([Beatport](https://www.beatport.com/track/free-your-mind/26919525)) - `128 BPM; B Minor; 10A; House; CircoLoco Records`
+7. Hayden James & Kormak & Yeah Boy - One I Want ([Beatport](https://www.beatport.com/track/one-i-want/27909452)) - `126 BPM; Db Minor; 12A; House; Broke`
+8. LP Giobbi & EMJIE - Spirit Higher ([Beatport](https://www.beatport.com/track/spirit-higher/26852793)) - `129 BPM; C Minor; 5A; House; Yes Yes Yes`
+9. Carlita & Paige Cavell - Patchwork ([Beatport](https://www.beatport.com/track/patchwork/28420603)) - `129 BPM; A Minor; 8A; Dance / Pop; Ninja Tune`
+10. Luke Alessi - Yes Empress ([Beatport](https://www.beatport.com/track/yes-empress-/26770786)) - `131 BPM; G Major; 9B; House; Coffee Cola`
+11. Duke Dumont & Låpsley - Misdemeanour ([Beatport](https://www.beatport.com/track/misdemeanour-feat-lpsley/28465919)) - `132 BPM; Db Minor; 12A; House; Club Blasé`
+12. Catz 'N Dogz & Faustyna Maciejczuk - U&Me ([Beatport](https://www.beatport.com/track/ume/26937241)) - `132 BPM; Bb Minor; 3A; Dance / Pop; Armada Music`
+13. STRAWBRY - For The Day (Kiimi Remix) ([Beatport](https://www.beatport.com/track/for-the-day/28483547)) - `134 BPM; F Major; 7B; Dance / Pop; Queens Road Music`
+14. Odd Mob - Dancing Boys, Dancing Girls ([Beatport](https://www.beatport.com/track/dancing-boys-dancing-girls/28330628)) - `130 BPM; Eb Minor; 2A; Bass House; October Records`
+15. MPH - Unconditional ([Beatport](https://www.beatport.com/track/unconditional/28422523)) - `140 BPM; D Minor; 7A; UK Garage / Bassline; Disorder`
+16. TOMORA - Somewhere Else (salute Remix) ([Beatport](https://www.beatport.com/track/somewhere-else/28328612)) - `130 BPM; C Minor; 5A; Dance / Pop; Fontana`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)
 </details>
 
 <details>
@@ -51,18 +84,18 @@ _A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
 _A driving 124-132 BPM, leaning toward House, often in C Minor mix._
 
 1. [00:00] Avangart Tabldot - Sweat Drip ([Beatport](https://www.beatport.com/search?q=Avangart+Tabldot+Sweat+Drip))
-2. [04:00] Mita Gami & Rafael (IL) - What Is Luv [Maccabi House] ([Beatport](https://www.beatport.com/track/what-is-luv/24017594)) - `125 BPM; Ab Major; Indie Dance; Maccabi House`
-3. [08:00] Malive & Tito Azevedo & Mrqz - Burning [Nervous] ([Beatport](https://www.beatport.com/track/burning/24254531)) - `125 BPM; C Minor; Tech House; Nervous Records`
-4. [13:00] Alt Control & Millero - Amanda [Maccabi House] ([Beatport](https://www.beatport.com/track/amanda/23467868)) - `125 BPM; F Minor; Indie Dance; Maccabi House`
+2. [04:00] Mita Gami & Rafael (IL) - What Is Luv [Maccabi House] ([Beatport](https://www.beatport.com/track/what-is-luv/24017594)) - `125 BPM; Ab Major; 4B; Indie Dance; Maccabi House`
+3. [08:00] Malive & Tito Azevedo & Mrqz - Burning [Nervous] ([Beatport](https://www.beatport.com/track/burning/24254531)) - `125 BPM; C Minor; 5A; Tech House; Nervous Records`
+4. [13:00] Alt Control & Millero - Amanda [Maccabi House] ([Beatport](https://www.beatport.com/track/amanda/23467868)) - `125 BPM; F Minor; 4A; Indie Dance; Maccabi House`
 5. [17:00] LUMI - Sweat [Thrive] ([Beatport](https://www.beatport.com/search?q=LUMI+Sweat+%5BThrive%5D))
-6. [21:00] Alastair Lane & Seïtou - Give Me A Kiss [Altra Moda] ([Beatport](https://www.beatport.com/track/give-me-a-kiss/24167093)) - `125 BPM; G Minor; House; Altra Moda`
+6. [21:00] Alastair Lane & Seïtou - Give Me A Kiss [Altra Moda] ([Beatport](https://www.beatport.com/track/give-me-a-kiss/24167093)) - `125 BPM; G Minor; 6A; House; Altra Moda`
 7. [24:00] The Magician & Nico De Andrea - Destination ([Beatport](https://www.beatport.com/search?q=The+Magician+%26+Nico+De+Andrea+Destination))
-8. [28:00] ANOTR Feat. 54 Ultra - Talk To You [No Art] ([Beatport](https://www.beatport.com/track/talk-to-you-/24508685)) - `132 BPM; G Minor; House; NO ART`
-9. [33:00] GUDFELLA Feat. Jitwam - Morning Coffee [Thrive] ([Beatport](https://www.beatport.com/track/morning-coffee/24290878)) - `128 BPM; C Minor; Indie Dance; THRIVE MUSIC`
-10. [38:00] Eveava & Alan Amorozzo - Purple Palm Trees ([Beatport](https://www.beatport.com/track/purple-palm-trees/26834259)) - `124 BPM; G Major; House; Yes Yes Yes`
-11. [43:00] Crooked Colours - Pink Limo (FEZZO Remix) [Sweat It Out!] ([Beatport](https://www.beatport.com/track/pink-limo/26888562)) - `130 BPM; D Major; Tech House; Sweat It Out`
-12. [47:00] Nocapz. & Coppola - Too Much [DFTD] ([Beatport](https://www.beatport.com/track/too-much/23374595)) - `128 BPM; Gb Major; House; DFTD`
-13. [51:00] Kolombo & Elekfantz - Play This Game [Kompakt] ([Beatport](https://www.beatport.com/track/play-this-game/24289403)) - `127 BPM; D Major; Indie Dance; Kompakt`
+8. [28:00] ANOTR Feat. 54 Ultra - Talk To You [No Art] ([Beatport](https://www.beatport.com/track/talk-to-you-/24508685)) - `132 BPM; G Minor; 6A; House; NO ART`
+9. [33:00] GUDFELLA Feat. Jitwam - Morning Coffee [Thrive] ([Beatport](https://www.beatport.com/track/morning-coffee/24290878)) - `128 BPM; C Minor; 5A; Indie Dance; THRIVE MUSIC`
+10. [38:00] Eveava & Alan Amorozzo - Purple Palm Trees ([Beatport](https://www.beatport.com/track/purple-palm-trees/26834259)) - `124 BPM; G Major; 9B; House; Yes Yes Yes`
+11. [43:00] Crooked Colours - Pink Limo (FEZZO Remix) [Sweat It Out!] ([Beatport](https://www.beatport.com/track/pink-limo/26888562)) - `130 BPM; D Major; 10B; Tech House; Sweat It Out`
+12. [47:00] Nocapz. & Coppola - Too Much [DFTD] ([Beatport](https://www.beatport.com/track/too-much/23374595)) - `128 BPM; Gb Major; 2B; House; DFTD`
+13. [51:00] Kolombo & Elekfantz - Play This Game [Kompakt] ([Beatport](https://www.beatport.com/track/play-this-game/24289403)) - `127 BPM; D Major; 10B; Indie Dance; Kompakt`
 
 Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_Tape_132)
 </details>
@@ -72,8 +105,6 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
-| 2026-05-25 | Only 100s | 0 | [May 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
@@ -92,39 +123,29 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | 2026-04-03 | XXX Radio | 14 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 | 2026-03-27 | ERA | 18 | [ERA 208 - Kieran San Jose Studio Mix](https://soundcloud.com/rebukemusic/era-208-kieran-san-jose-studio) |
+| 2026-03-27 | XXX Radio | 13 | [XXX Radio #181](https://soundcloud.com/realmaup/xxx-radio-181) |
+| 2026-03-20 | ERA | 14 | [ERA 207 - Ugo Banchi Studio Mix](https://soundcloud.com/rebukemusic/era-207-ugo-banchi-studio-mix) |
 
 ### Tracklists
-
-<details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
 
 <details>
 <summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
 
 _A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
 
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; Techno (Peak Time / Driving); Drumcode`
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; Tech House; WeLove Recordings`
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; Melodic House & Techno; 1001 Recordings`
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; House; Shelter`
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; Tech House; Be One Records`
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; Tech House; Trace Amounts`
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; Tech House; Electronic Rapture`
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; Tech House; STMPD RCRDS`
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; Tech House; Catch & Release`
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; House; Juicy Music`
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; Tech House; Broke`
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; Indie Dance; UNCLES MUSIC`
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; Tech House; Wh0 Worx`
+1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; 9B; Techno (Peak Time / Driving); Drumcode`
+2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; 7A; Tech House; WeLove Recordings`
+3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; 5B; Melodic House & Techno; 1001 Recordings`
+4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; 9B; House; Shelter`
+5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; 1A; Tech House; Be One Records`
+6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; 7B; Tech House; Trace Amounts`
+7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; 2A; Tech House; Electronic Rapture`
+8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; 10B; Tech House; STMPD RCRDS`
+9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; 1B; Tech House; Catch & Release`
+10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; 2B; House; Juicy Music`
+11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; 11B; Tech House; Broke`
+12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; 12B; Indie Dance; UNCLES MUSIC`
+13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; 10B; Tech House; Wh0 Worx`
 </details>
 
 <details>
@@ -132,17 +153,17 @@ _A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
 
 _A driving 125-130 BPM, leaning toward Dig Deeper, often in A Major mix._
 
-1. Swarllie & Toni B - No More Games ([Beatport](https://www.beatport.com/track/no-more-games/28783981)) - `125 BPM; G Major; Dig Deeper; Maccabi House`
-2. Lumc (Ve) - Lumc - Que Rico ([Beatport](https://www.beatport.com/track/que-rico/28592900)) - `130 BPM; G Minor; Dig Deeper; NUSONIDO`
-3. Nacho Scoppa - Tango ([Beatport](https://www.beatport.com/track/tango/28458179)) - `128 BPM; A Major; Tech House | Latin Tech; COPPADOS`
-4. Chicks Luv Us - Siente El House ([Beatport](https://www.beatport.com/track/siente-el-house/28628468)) - `128 BPM; A Major; Dig Deeper; 8Bit`
-5. Bizen Lopez & David Lowe - Feel That ([Beatport](https://www.beatport.com/track/feel-that/28821753)) - `130 BPM; F Minor; Dig Deeper; Ibiza Talents Records`
-6. Vito - What I Want ([Beatport](https://www.beatport.com/track/what-i-want-/28702238)) - `128 BPM; F Minor; Minimal / Deep Tech | Deep Tech; Cocoa`
-7. Jasper Fioole - Echoes Of Love ([Beatport](https://www.beatport.com/track/echoes-of-love/28705006)) - `129 BPM; C Major; Tech House; Deeperfect`
-8. Tony Dee - It's Yours ([Beatport](https://www.beatport.com/track/its-yours/28831173)) - `128 BPM; Ab Major; House; LTF Records`
-9. Lumc (Ve) - Lumc - King Of Groove ([Beatport](https://www.beatport.com/track/king-of-groove/28592899)) - `130 BPM; G Minor; Tech House; NUSONIDO`
-10. Us Two - Santa Maria ([Beatport](https://www.beatport.com/track/santa-maria-/28822348)) - `128 BPM; C Minor; House; NO ART`
-11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/track/renegades-/28720897)) - `128 BPM; Db Minor; House; Black Book Records`
+1. Swarllie & Toni B - No More Games ([Beatport](https://www.beatport.com/track/no-more-games/28783981)) - `125 BPM; G Major; 9B; Dig Deeper; Maccabi House`
+2. Lumc (Ve) - Lumc - Que Rico ([Beatport](https://www.beatport.com/track/que-rico/28592900)) - `130 BPM; G Minor; 6A; Dig Deeper; NUSONIDO`
+3. Nacho Scoppa - Tango ([Beatport](https://www.beatport.com/track/tango/28458179)) - `128 BPM; A Major; 11B; Tech House | Latin Tech; COPPADOS`
+4. Chicks Luv Us - Siente El House ([Beatport](https://www.beatport.com/track/siente-el-house/28628468)) - `128 BPM; A Major; 11B; Dig Deeper; 8Bit`
+5. Bizen Lopez & David Lowe - Feel That ([Beatport](https://www.beatport.com/track/feel-that/28821753)) - `130 BPM; F Minor; 4A; Dig Deeper; Ibiza Talents Records`
+6. Vito - What I Want ([Beatport](https://www.beatport.com/track/what-i-want-/28702238)) - `128 BPM; F Minor; 4A; Minimal / Deep Tech | Deep Tech; Cocoa`
+7. Jasper Fioole - Echoes Of Love ([Beatport](https://www.beatport.com/track/echoes-of-love/28705006)) - `129 BPM; C Major; 8B; Tech House; Deeperfect`
+8. Tony Dee - It's Yours ([Beatport](https://www.beatport.com/track/its-yours/28831173)) - `128 BPM; Ab Major; 4B; House; LTF Records`
+9. Lumc (Ve) - Lumc - King Of Groove ([Beatport](https://www.beatport.com/track/king-of-groove/28592899)) - `130 BPM; G Minor; 6A; Tech House; NUSONIDO`
+10. Us Two - Santa Maria ([Beatport](https://www.beatport.com/track/santa-maria-/28822348)) - `128 BPM; C Minor; 5A; House; NO ART`
+11. Harry Romero - Renegades ([Beatport](https://www.beatport.com/track/renegades-/28720897)) - `128 BPM; Db Minor; 12A; House; Black Book Records`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)
 </details>
@@ -152,18 +173,18 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-
 
 _A driving 124-130 BPM, leaning toward Tech House, often in E Major mix._
 
-1. Denzel Jo Armani - Man I Just Woke Up ([Beatport](https://www.beatport.com/track/man-i-just-woke-up/28486042)) - `128 BPM; G Major; Tech House; Alleanza`
-2. Detlef - Step Over ([Beatport](https://www.beatport.com/track/step-over-/28444587)) - `128 BPM; F Minor; Tech House; Issues`
-3. Caique Carvalho & Mojjo - Mind Alert ([Beatport](https://www.beatport.com/track/mind-alert-/28504333)) - `127 BPM; G Major; Tech House; Hellbent Records`
-4. Hannah Wants - U Dig ([Beatport](https://www.beatport.com/track/u-dig/28488179)) - `129 BPM; E Major; Tech House; MOOD Collective`
-5. Tucci - My Mind ([Beatport](https://www.beatport.com/track/my-mind/28803165)) - `128 BPM; Eb Major; Tech House; Uprise Music`
-6. Alexey Union & Ira Ange & Kinky Sound - Tuba ([Beatport](https://www.beatport.com/track/tuba/28299120)) - `125 BPM; G Minor; Indie Dance; ATLANT`
-7. Romax - Into Touch ([Beatport](https://www.beatport.com/track/into-touch-/28612556)) - `128 BPM; E Major; Indie Dance; Telestic`
-8. Naux - Going Back To My Route ([Beatport](https://www.beatport.com/track/going-back-to-my-route/28633080)) - `127 BPM; Ab Major; House; HOUZ Records`
-9. Anza & Chique - I Feel Good ([Beatport](https://www.beatport.com/track/i-feel-good/28623963)) - `124 BPM; F Major; Indie Dance; Stress Out`
-10. ACRAZE - The Switch ([Beatport](https://www.beatport.com/track/the-switch/28880530)) - `130 BPM; C Major; Tech House; Create Music Group`
-11. HASKELL & Silque - The Heat ([Beatport](https://www.beatport.com/track/the-heat/28660994)) - `129 BPM; G Major; Tech House; STEREOHYPE`
-12. KASIA - Slow Motion ([Beatport](https://www.beatport.com/track/slow-motion-/28591922)) - `130 BPM; E Major; Bass House; Catch & Release`
+1. Denzel Jo Armani - Man I Just Woke Up ([Beatport](https://www.beatport.com/track/man-i-just-woke-up/28486042)) - `128 BPM; G Major; 9B; Tech House; Alleanza`
+2. Detlef - Step Over ([Beatport](https://www.beatport.com/track/step-over-/28444587)) - `128 BPM; F Minor; 4A; Tech House; Issues`
+3. Caique Carvalho & Mojjo - Mind Alert ([Beatport](https://www.beatport.com/track/mind-alert-/28504333)) - `127 BPM; G Major; 9B; Tech House; Hellbent Records`
+4. Hannah Wants - U Dig ([Beatport](https://www.beatport.com/track/u-dig/28488179)) - `129 BPM; E Major; 12B; Tech House; MOOD Collective`
+5. Tucci - My Mind ([Beatport](https://www.beatport.com/track/my-mind/28803165)) - `128 BPM; Eb Major; 5B; Tech House; Uprise Music`
+6. Alexey Union & Ira Ange & Kinky Sound - Tuba ([Beatport](https://www.beatport.com/track/tuba/28299120)) - `125 BPM; G Minor; 6A; Indie Dance; ATLANT`
+7. Romax - Into Touch ([Beatport](https://www.beatport.com/track/into-touch-/28612556)) - `128 BPM; E Major; 12B; Indie Dance; Telestic`
+8. Naux - Going Back To My Route ([Beatport](https://www.beatport.com/track/going-back-to-my-route/28633080)) - `127 BPM; Ab Major; 4B; House; HOUZ Records`
+9. Anza & Chique - I Feel Good ([Beatport](https://www.beatport.com/track/i-feel-good/28623963)) - `124 BPM; F Major; 7B; Indie Dance; Stress Out`
+10. ACRAZE - The Switch ([Beatport](https://www.beatport.com/track/the-switch/28880530)) - `130 BPM; C Major; 8B; Tech House; Create Music Group`
+11. HASKELL & Silque - The Heat ([Beatport](https://www.beatport.com/track/the-heat/28660994)) - `129 BPM; G Major; 9B; Tech House; STEREOHYPE`
+12. KASIA - Slow Motion ([Beatport](https://www.beatport.com/track/slow-motion-/28591922)) - `130 BPM; E Major; 12B; Bass House; Catch & Release`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/23p3udr1/rebuke-era-radio-215-2026-05-17.html)
 </details>
@@ -415,22 +436,22 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/1sh7b3lk/mau-p-xxx-
 
 _A driving 125-140 BPM, leaning toward House, often in C Minor mix._
 
-1. Tiga & Fcukers - SILK SCARF ([Beatport](https://www.beatport.com/track/silk-scarf/22256346)) - `125 BPM; E Major; Indie Dance; Turbo Recordings`
+1. Tiga & Fcukers - SILK SCARF ([Beatport](https://www.beatport.com/track/silk-scarf/22256346)) - `125 BPM; E Major; 12B; Indie Dance; Turbo Recordings`
 2. Totally Enormous Extinct Dinosaurs - Piece Of Me (PARAMIDA Remix) ([Beatport](https://www.beatport.com/search?q=Totally+Enormous+Extinct+Dinosaurs+Piece+Of+Me+%28PARAMIDA+Remix%29))
-3. The Flirts & Beltran (BR) - The Flirts & Beltran - Passion (R U Satisfied) ([Beatport](https://www.beatport.com/track/passion-r-u-satisfied/28363360)) - `127 BPM; E Major; Tech House; Altra Moda`
-4. Born Dirty & RaeCola - Lips Like Sugar ([Beatport](https://www.beatport.com/track/lips-like-sugar/27488272)) - `125 BPM; C Minor; Deep House; IN / ROTATION (Insomniac Records)`
-5. Shermanology - Girl On The Beat (Kyle Watson Energy Dub) ([Beatport](https://www.beatport.com/track/girl-on-the-beat-/24397005)) - `129 BPM; E Minor; Tech House; Black Book Records`
-6. Cloonee & Prospa - Free Your Mind ([Beatport](https://www.beatport.com/track/free-your-mind/26919525)) - `128 BPM; B Minor; House; CircoLoco Records`
-7. Hayden James & Kormak & Yeah Boy - One I Want ([Beatport](https://www.beatport.com/track/one-i-want/27909452)) - `126 BPM; Db Minor; House; Broke`
-8. LP Giobbi & EMJIE - Spirit Higher ([Beatport](https://www.beatport.com/track/spirit-higher/26852793)) - `129 BPM; C Minor; House; Yes Yes Yes`
-9. Carlita & Paige Cavell - Patchwork ([Beatport](https://www.beatport.com/track/patchwork/28420603)) - `129 BPM; A Minor; Dance / Pop; Ninja Tune`
-10. Luke Alessi - Yes Empress ([Beatport](https://www.beatport.com/track/yes-empress-/26770786)) - `131 BPM; G Major; House; Coffee Cola`
-11. Duke Dumont & Låpsley - Misdemeanour ([Beatport](https://www.beatport.com/track/misdemeanour-feat-lpsley/28465919)) - `132 BPM; Db Minor; House; Club Blasé`
-12. Catz 'N Dogz & Faustyna Maciejczuk - U&Me ([Beatport](https://www.beatport.com/track/ume/26937241)) - `132 BPM; Bb Minor; Dance / Pop; Armada Music`
-13. STRAWBRY - For The Day (Kiimi Remix) ([Beatport](https://www.beatport.com/track/for-the-day/28483547)) - `134 BPM; F Major; Dance / Pop; Queens Road Music`
-14. Odd Mob - Dancing Boys, Dancing Girls ([Beatport](https://www.beatport.com/track/dancing-boys-dancing-girls/28330628)) - `130 BPM; Eb Minor; Bass House; October Records`
-15. MPH - Unconditional ([Beatport](https://www.beatport.com/track/unconditional/28422523)) - `140 BPM; D Minor; UK Garage / Bassline; Disorder`
-16. TOMORA - Somewhere Else (salute Remix) ([Beatport](https://www.beatport.com/track/somewhere-else/28328612)) - `130 BPM; C Minor; Dance / Pop; Fontana`
+3. The Flirts & Beltran (BR) - The Flirts & Beltran - Passion (R U Satisfied) ([Beatport](https://www.beatport.com/track/passion-r-u-satisfied/28363360)) - `127 BPM; E Major; 12B; Tech House; Altra Moda`
+4. Born Dirty & RaeCola - Lips Like Sugar ([Beatport](https://www.beatport.com/track/lips-like-sugar/27488272)) - `125 BPM; C Minor; 5A; Deep House; IN / ROTATION (Insomniac Records)`
+5. Shermanology - Girl On The Beat (Kyle Watson Energy Dub) ([Beatport](https://www.beatport.com/track/girl-on-the-beat-/24397005)) - `129 BPM; E Minor; 9A; Tech House; Black Book Records`
+6. Cloonee & Prospa - Free Your Mind ([Beatport](https://www.beatport.com/track/free-your-mind/26919525)) - `128 BPM; B Minor; 10A; House; CircoLoco Records`
+7. Hayden James & Kormak & Yeah Boy - One I Want ([Beatport](https://www.beatport.com/track/one-i-want/27909452)) - `126 BPM; Db Minor; 12A; House; Broke`
+8. LP Giobbi & EMJIE - Spirit Higher ([Beatport](https://www.beatport.com/track/spirit-higher/26852793)) - `129 BPM; C Minor; 5A; House; Yes Yes Yes`
+9. Carlita & Paige Cavell - Patchwork ([Beatport](https://www.beatport.com/track/patchwork/28420603)) - `129 BPM; A Minor; 8A; Dance / Pop; Ninja Tune`
+10. Luke Alessi - Yes Empress ([Beatport](https://www.beatport.com/track/yes-empress-/26770786)) - `131 BPM; G Major; 9B; House; Coffee Cola`
+11. Duke Dumont & Låpsley - Misdemeanour ([Beatport](https://www.beatport.com/track/misdemeanour-feat-lpsley/28465919)) - `132 BPM; Db Minor; 12A; House; Club Blasé`
+12. Catz 'N Dogz & Faustyna Maciejczuk - U&Me ([Beatport](https://www.beatport.com/track/ume/26937241)) - `132 BPM; Bb Minor; 3A; Dance / Pop; Armada Music`
+13. STRAWBRY - For The Day (Kiimi Remix) ([Beatport](https://www.beatport.com/track/for-the-day/28483547)) - `134 BPM; F Major; 7B; Dance / Pop; Queens Road Music`
+14. Odd Mob - Dancing Boys, Dancing Girls ([Beatport](https://www.beatport.com/track/dancing-boys-dancing-girls/28330628)) - `130 BPM; Eb Minor; 2A; Bass House; October Records`
+15. MPH - Unconditional ([Beatport](https://www.beatport.com/track/unconditional/28422523)) - `140 BPM; D Minor; 7A; UK Garage / Bassline; Disorder`
+16. TOMORA - Somewhere Else (salute Remix) ([Beatport](https://www.beatport.com/track/somewhere-else/28328612)) - `130 BPM; C Minor; 5A; Dance / Pop; Fontana`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)
 </details>
@@ -456,5 +477,44 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-
 16. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
 17. KIERAN SAN JOSE - GET MONEY ([Beatport](https://www.beatport.com/search?q=KIERAN+SAN+JOSE+GET+MONEY))
 18. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
+</details>
+
+<details>
+<summary>2026-03-27 - XXX Radio - XXX Radio #181 (13 tracks)</summary>
+
+1. Brunello & Hilel Lev - Apathy ([Beatport](https://www.beatport.com/search?q=Brunello+%26+Hilel+Lev+Apathy))
+2. KiRiK - SB EGO ([Beatport](https://www.beatport.com/search?q=KiRiK+SB+EGO))
+3. Nic Fanciulli - Revolution ([Beatport](https://www.beatport.com/search?q=Nic+Fanciulli+Revolution))
+4. Braydon Terzo & Sapian - Don't Do It ([Beatport](https://www.beatport.com/search?q=Braydon+Terzo+%26+Sapian+Don%27t+Do+It))
+5. Rayzir - Stronger ([Beatport](https://www.beatport.com/search?q=Rayzir+Stronger))
+6. Havoc & Lawn & Simon Kidzoo - Onda ([Beatport](https://www.beatport.com/search?q=Havoc+%26+Lawn+%26+Simon+Kidzoo+Onda))
+7. Rhoowax - Boogeyman ([Beatport](https://www.beatport.com/search?q=Rhoowax+Boogeyman))
+8. Havoc & Lawn & Simon Kidzoo - Que Lo Que ([Beatport](https://www.beatport.com/search?q=Havoc+%26+Lawn+%26+Simon+Kidzoo+Que+Lo+Que))
+9. GENNARO - So High ([Beatport](https://www.beatport.com/search?q=GENNARO+So+High))
+10. Supernova & Easttown - Show Me ([Beatport](https://www.beatport.com/search?q=Supernova+%26+Easttown+Show+Me))
+11. GENNARO - Enigma ([Beatport](https://www.beatport.com/search?q=GENNARO+Enigma))
+12. Rish Huss & Kamrran - Linea Gialla ([Beatport](https://www.beatport.com/search?q=Rish+Huss+%26+Kamrran+Linea+Gialla))
+13. Rayzir - Drop The Needle ([Beatport](https://www.beatport.com/search?q=Rayzir+Drop+The+Needle))
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2lknz2q9/mau-p-xxx-radio-181-2026-03-27.html)
+</details>
+
+<details>
+<summary>2026-03-20 - ERA - ERA 207 - Ugo Banchi Studio Mix (14 tracks)</summary>
+
+1. Giza Djs, Brigado Crew, Crisstiano - Fiery Red (Original Mix) ([Beatport](https://www.beatport.com/search?q=Giza+Djs%2C+Brigado+Crew%2C+Crisstiano+Fiery+Red+%28Original+Mix%29))
+2. BURNERS! - C_mon (Original Mix) ([Beatport](https://www.beatport.com/search?q=BURNERS%21+C_mon+%28Original+Mix%29))
+3. Ugo Banchi - ID ([Beatport](https://www.beatport.com/search?q=Ugo+Banchi+ID))
+4. Volkoder - Move Baby [Diynamic Music] ([Beatport](https://www.beatport.com/search?q=Volkoder+Move+Baby+%5BDiynamic+Music%5D))
+5. SHAGY - Sweat ! (Original Mix) ([Beatport](https://www.beatport.com/search?q=SHAGY+Sweat+%21+%28Original+Mix%29))
+6. Tom Zeta - Like A Chili (Extended Version) ([Beatport](https://www.beatport.com/search?q=Tom+Zeta+Like+A+Chili+%28Extended+Version%29))
+7. Buka - Hot 2 Deff (Original Mix) ([Beatport](https://www.beatport.com/search?q=Buka+Hot+2+Deff+%28Original+Mix%29))
+8. Matt, Juan Brizuela - Endless Motion (Original Mix) ([Beatport](https://www.beatport.com/search?q=Matt%2C+Juan+Brizuela+Endless+Motion+%28Original+Mix%29))
+9. Ugo Banchi - ID ([Beatport](https://www.beatport.com/search?q=Ugo+Banchi+ID))
+10. Dark Science - Rust [REJ032] ([Beatport](https://www.beatport.com/search?q=Dark+Science+Rust+%5BREJ032%5D))
+11. Karmon, Luca Luper - Frequency (Original Mix) ([Beatport](https://www.beatport.com/search?q=Karmon%2C+Luca+Luper+Frequency+%28Original+Mix%29))
+12. Ugo Banchi - Big Bounce ([Beatport](https://www.beatport.com/search?q=Ugo+Banchi+Big+Bounce))
+13. Knorst - Dance to Dance (Original Mix) ([Beatport](https://www.beatport.com/search?q=Knorst+Dance+to+Dance+%28Original+Mix%29))
+14. Son of Son - Feel Something (Original Mix) ([Beatport](https://www.beatport.com/search?q=Son+of+Son+Feel+Something+%28Original+Mix%29))
 </details>
 

@@ -64,6 +64,7 @@ class TrackMetadata(models.Model):
     source_track_id = models.TextField(blank=True, null=True)
     bpm = models.TextField(blank=True, null=True)
     musical_key = models.TextField(blank=True, null=True)
+    camelot_key = models.TextField(blank=True, null=True)
     genre = models.TextField(blank=True, null=True)
     label = models.TextField(blank=True, null=True)
     release_title = models.TextField(blank=True, null=True)

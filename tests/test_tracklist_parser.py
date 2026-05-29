@@ -5,6 +5,7 @@ from crate_digger.cli import (
     beatport_search_query,
     beatport_search_url,
     beatport_candidate_score,
+    camelot_key,
     connect,
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
@@ -168,12 +169,20 @@ class TracklistParserTest(unittest.TestCase):
                 {
                     "beatport_bpm": "128",
                     "beatport_key": "A Minor",
+                    "beatport_camelot_key": "8A",
                     "beatport_genre": "House",
                     "beatport_label": "NO ART",
                 }
             ),
-            "`128 BPM; A Minor; House; NO ART`",
+            "`128 BPM; A Minor; 8A; House; NO ART`",
         )
+
+    def test_camelot_key_maps_major_minor_keys(self):
+        self.assertEqual(camelot_key("A Minor"), "8A")
+        self.assertEqual(camelot_key("G Major"), "9B")
+        self.assertEqual(camelot_key("Gb Major"), "2B")
+        self.assertEqual(camelot_key("F# Minor"), "11A")
+        self.assertIsNone(camelot_key("Unknown"))
 
     def test_mixtape_metadata_sentence_summarizes_enriched_tracks(self):
         self.assertEqual(tempo_description([124, 128, 130]), "driving")
