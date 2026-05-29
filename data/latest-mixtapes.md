@@ -7,7 +7,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
 | 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
-| 2026-05-25 | Only 100s | 0 | [May 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
+| 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
@@ -20,9 +20,26 @@ _No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
+<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle by Only 100s (14 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 97-134 BPM, leaning toward Tech House, often in Ab Minor mix._
+
+1. Nala - Contact High ([Beatport](https://www.beatport.com/track/contact-high-/28666624)) - `125 BPM; E Minor; 9A; Dance / Pop; Mi Domina`
+2. nocapz. - Sunflowers ([Beatport](https://www.beatport.com/track/sunflowers-/28538968)) - `130 BPM; G Minor; 6A; House; Motraxx`
+3. Nina Simone - See-Line Woman (Mochakk Remix) ([Beatport](https://www.beatport.com/track/seeline-woman/28914842)) - `128 BPM; Ab Minor; 1A; House; Verve`
+4. TSHA & HoneyLuv - TSHA & HoneyLuv ft. Ellie Maxwell - I Need U ([Beatport](https://www.beatport.com/track/i-need-u-feat-ellie-maxwell/28666626)) - `127 BPM; A Minor; 8A; Dance / Pop; Major Recordings/Warner Records`
+5. Four Tet - Baby (Tony Romera Remix) ([Beatport](https://www.beatport.com/track/baby/28611968)) - `129 BPM; D Major; 10B; Tech House; Text Records`
+6. Chris Lake & ATRIP - Make You Fight ([Beatport](https://www.beatport.com/track/make-you-fight-/28490349)) - `131 BPM; G Minor; 6A; Tech House; Black Book Records`
+7. KC Lights - Dança ([Beatport](https://www.beatport.com/track/danca/28413889)) - `128 BPM; Db Minor; 12A; Tech House | Latin Tech; Toolroom`
+8. Prospa & Murda Beatz - Baby ([Beatport](https://www.beatport.com/track/baby/28678498)) - `130 BPM; B Minor; 10A; Tech House; CircoLoco Records`
+9. Jayda G - All Day (Jackie Hollander Remix) ([Beatport](https://www.beatport.com/track/all-day/28854946)) - `131 BPM; C Minor; 5A; Dance / Pop; Ministry of Sound Recordings`
+10. Johannes Brecht - All We Got ([Beatport](https://www.beatport.com/track/all-we-got/28525638)) - `128 BPM; Gb Major; 2B; Tech House; Diynamic`
+11. Overmono - Lockup ([Beatport](https://www.beatport.com/track/lockup/28901951)) - `97 BPM; Gb Minor; 11A; Electronica; XL Recordings`
+12. VNSSA - Unafraid To Freak ([Beatport](https://www.beatport.com/track/unafraid-to-freak-/28441190)) - `130 BPM; A Major; 11B; Tech House; EMPIRE`
+13. Azzecca - Make Your Move ([Beatport](https://www.beatport.com/track/make-your-move/28638978)) - `134 BPM; D Minor; 7A; Tech House; Warehouse Project Records`
+14. Skream & ROKAR - Rampage ([Beatport](https://www.beatport.com/track/rampage/28831469)) - `134 BPM; Ab Minor; 1A; UK Garage / Bassline; IFEEL`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-shuffle-only-100s-may-2026-2026-05-28.html)
 </details>
 
 <details>
@@ -73,7 +90,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
 | 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
-| 2026-05-25 | Only 100s | 0 | [May 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
+| 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
@@ -102,9 +119,26 @@ _No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
+<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle by Only 100s (14 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 97-134 BPM, leaning toward Tech House, often in Ab Minor mix._
+
+1. Nala - Contact High ([Beatport](https://www.beatport.com/track/contact-high-/28666624)) - `125 BPM; E Minor; 9A; Dance / Pop; Mi Domina`
+2. nocapz. - Sunflowers ([Beatport](https://www.beatport.com/track/sunflowers-/28538968)) - `130 BPM; G Minor; 6A; House; Motraxx`
+3. Nina Simone - See-Line Woman (Mochakk Remix) ([Beatport](https://www.beatport.com/track/seeline-woman/28914842)) - `128 BPM; Ab Minor; 1A; House; Verve`
+4. TSHA & HoneyLuv - TSHA & HoneyLuv ft. Ellie Maxwell - I Need U ([Beatport](https://www.beatport.com/track/i-need-u-feat-ellie-maxwell/28666626)) - `127 BPM; A Minor; 8A; Dance / Pop; Major Recordings/Warner Records`
+5. Four Tet - Baby (Tony Romera Remix) ([Beatport](https://www.beatport.com/track/baby/28611968)) - `129 BPM; D Major; 10B; Tech House; Text Records`
+6. Chris Lake & ATRIP - Make You Fight ([Beatport](https://www.beatport.com/track/make-you-fight-/28490349)) - `131 BPM; G Minor; 6A; Tech House; Black Book Records`
+7. KC Lights - Dança ([Beatport](https://www.beatport.com/track/danca/28413889)) - `128 BPM; Db Minor; 12A; Tech House | Latin Tech; Toolroom`
+8. Prospa & Murda Beatz - Baby ([Beatport](https://www.beatport.com/track/baby/28678498)) - `130 BPM; B Minor; 10A; Tech House; CircoLoco Records`
+9. Jayda G - All Day (Jackie Hollander Remix) ([Beatport](https://www.beatport.com/track/all-day/28854946)) - `131 BPM; C Minor; 5A; Dance / Pop; Ministry of Sound Recordings`
+10. Johannes Brecht - All We Got ([Beatport](https://www.beatport.com/track/all-we-got/28525638)) - `128 BPM; Gb Major; 2B; Tech House; Diynamic`
+11. Overmono - Lockup ([Beatport](https://www.beatport.com/track/lockup/28901951)) - `97 BPM; Gb Minor; 11A; Electronica; XL Recordings`
+12. VNSSA - Unafraid To Freak ([Beatport](https://www.beatport.com/track/unafraid-to-freak-/28441190)) - `130 BPM; A Major; 11B; Tech House; EMPIRE`
+13. Azzecca - Make Your Move ([Beatport](https://www.beatport.com/track/make-your-move/28638978)) - `134 BPM; D Minor; 7A; Tech House; Warehouse Project Records`
+14. Skream & ROKAR - Rampage ([Beatport](https://www.beatport.com/track/rampage/28831469)) - `134 BPM; Ab Minor; 1A; UK Garage / Bassline; IFEEL`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-shuffle-only-100s-may-2026-2026-05-28.html)
 </details>
 
 <details>
