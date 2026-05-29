@@ -4,7 +4,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 637
+- Mixtapes: 639
 - Mixtapes with tracks: 390
 - Tracks: 5087
 - Month range: 2010-07 to 2026-05
@@ -15,13 +15,15 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | ---: | ---: | ---: | --- |
 | ERA | 216 | 133 | 1697 | 2022-04 to 2026-05 |
 | Magic Tape | 132 | 104 | 1254 | 2010-07 to 2026-03 |
-| Only 100s | 100 | 42 | 607 | 2017-01 to 2026-04 |
-| XXX Radio | 189 | 111 | 1529 | 2022-09 to 2026-05 |
+| Only 100s | 101 | 42 | 607 | 2017-01 to 2026-05 |
+| XXX Radio | 190 | 111 | 1529 | 2022-09 to 2026-05 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-05 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
+| 2026-05 | Only 100s | 0 | [May 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) ([tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)) |
 | 2026-05 | ERA | 13 | [ERA 213 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-213-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-04 | XXX Radio | 14 | [XXX Radio #186](https://soundcloud.com/realmaup/xxx-radio-186) ([tracklist](https://www.1001tracklists.com/tracklist/rw9yq69/mau-p-xxx-radio-186-2026-05-01.html)) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)) |
 | 2026-03 | ERA | 13 | [ERA 205 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-205-rebu-ke-studio-mix) |
-| 2026-03 | ERA | 14 | [ERA 206 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-206-rebu-ke-studio-mix) |
-| 2026-03 | ERA | 14 | [ERA 207 - Ugo Banchi Studio Mix](https://soundcloud.com/rebukemusic/era-207-ugo-banchi-studio-mix) |
