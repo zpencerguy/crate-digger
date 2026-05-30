@@ -120,6 +120,62 @@ To use `/admin/`, create a local admin user:
 python3 -m uv run python manage.py createsuperuser
 ```
 
+## SoundCloud Likes
+
+Crate Digger can index tracks from a public SoundCloud profile likes page as a
+separate local collection. This is useful as a standalone CLI flow today, and it
+keeps the fetch/normalize/classify pieces reusable for a future Django
+management command or on-demand UI lookup. The simplest path is fully automated
+when you know the profile URL:
+
+```sh
+python3 -m uv run crate-digger index-soundcloud-likes \
+  --likes-url "https://soundcloud.com/spencer-guy-817516400/likes" \
+  --limit 100
+```
+
+If a likes page requires a signed-in session, the same command can fall back to
+a human-assisted browser workflow.
+
+Start Chrome with a debugging port and sign into SoundCloud:
+
+```sh
+open -na "Google Chrome" --args \
+  --remote-debugging-port=9222 \
+  --user-data-dir="$HOME/.crate-digger-chrome-profile"
+```
+
+Then index the visible likes:
+
+```sh
+python3 -m uv run crate-digger index-soundcloud-likes \
+  --source browser \
+  --cdp-url http://127.0.0.1:9222 \
+  --limit 100 \
+  --scroll-pages 10 \
+  --detail-pages
+```
+
+The command stores each liked track's SoundCloud URL, title, uploader, artwork,
+duration, upload time, description, tags, genre, and an initial `kind`
+classification. `kind` is `mixtape` when the duration is at least 20 minutes or
+the title includes mix-like words such as `mix`, `mixtape`, `radio`, `episode`,
+`podcast`, `tape`, `set`, or `live`; otherwise it is `track`.
+
+Exported liked-track files live next to the mixtape exports:
+
+- `data/soundcloud_likes.csv`
+- `data/soundcloud_likes.json`
+- `data/soundcloud-likes.md`
+
+Inspect indexed likes locally:
+
+```sh
+python3 -m uv run crate-digger soundcloud-likes --limit 25
+python3 -m uv run crate-digger soundcloud-likes --kind mixtape
+python3 -m uv run crate-digger soundcloud-likes --query "tech house"
+```
+
 ## Usage
 
 ## Agent Workflows

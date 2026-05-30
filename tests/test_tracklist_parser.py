@@ -6,6 +6,7 @@ from crate_digger.cli import (
     beatport_search_url,
     beatport_candidate_score,
     camelot_key,
+    classify_soundcloud_like,
     connect,
     discover_soundcloud_client_id,
     default_mixesdb_title_match,
@@ -23,6 +24,7 @@ from crate_digger.cli import (
     manual_beatport_metadata,
     mixtape_metadata_sentence,
     find_mixtape_for_source,
+    normalize_soundcloud_like,
     numbered_series_number,
     parse_mixesdb_raw_tracklist,
     parse_1001tracklists_html,
@@ -196,6 +198,57 @@ class TracklistParserTest(unittest.TestCase):
             ),
             "_A driving 124-130 BPM, leaning toward House, often in A Minor mix._",
         )
+
+    def test_classify_soundcloud_like_uses_duration_and_title_keywords(self):
+        self.assertEqual(classify_soundcloud_like("Late Night Selections", 21 * 60), "mixtape")
+        self.assertEqual(classify_soundcloud_like("XXX Radio #190", None), "mixtape")
+        self.assertEqual(classify_soundcloud_like("Short Single", 240), "track")
+
+    def test_normalize_soundcloud_like_maps_api_and_visible_fields(self):
+        like = normalize_soundcloud_like(
+            {
+                "permalink_url": "https://soundcloud.com/example/track?utm=1",
+                "title": "Example Track",
+                "duration": 185000,
+                "created_at": "2026-05-29T12:00:00Z",
+                "tag_list": ["tech house", "club"],
+                "genre": "House",
+                "user": {
+                    "username": "Example Artist",
+                    "permalink_url": "https://soundcloud.com/example",
+                },
+            }
+        )
+
+        self.assertEqual(like["soundcloud_url"], "https://soundcloud.com/example/track")
+        self.assertEqual(like["uploader"], "Example Artist")
+        self.assertEqual(like["duration_seconds"], 185)
+        self.assertEqual(like["upload_time"], "2026-05-29T12:00:00Z")
+        self.assertEqual(like["tags"], '["tech house", "club"]')
+        self.assertEqual(like["kind"], "track")
+
+    def test_normalize_soundcloud_like_maps_public_track_like_payload(self):
+        like = normalize_soundcloud_like(
+            {
+                "track": {
+                    "permalink_url": "https://soundcloud.com/example/live-set",
+                    "title": "Example Live Set",
+                    "duration": 3600000,
+                    "display_date": "2026-01-01T10:00:00Z",
+                    "tag_list": "house techno",
+                    "artwork_url": "https://i1.sndcdn.com/artworks-example-large.jpg",
+                    "user": {"username": "Example DJ"},
+                }
+            }
+        )
+
+        self.assertEqual(like["soundcloud_url"], "https://soundcloud.com/example/live-set")
+        self.assertEqual(like["uploader"], "Example DJ")
+        self.assertEqual(like["duration_seconds"], 3600)
+        self.assertEqual(like["upload_time"], "2026-01-01T10:00:00Z")
+        self.assertEqual(like["tags"], "house techno")
+        self.assertEqual(like["artwork_url"], "https://i1.sndcdn.com/artworks-example-t500x500.jpg")
+        self.assertEqual(like["kind"], "mixtape")
 
     def test_raw_mixesdb_url_decodes_page_title_before_encoding_query(self):
         self.assertEqual(

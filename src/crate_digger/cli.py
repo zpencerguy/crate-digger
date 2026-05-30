@@ -42,6 +42,7 @@ MONTHS = {
 URL_RE = re.compile(r"https?://[^\s<>\"]+")
 TIME_RE = re.compile(r"(?:(\d{1,2}):)?(\d{1,2}):(\d{2})")
 CLIENT_ID_RE = re.compile(r'client_id:"([A-Za-z0-9]{20,40})"')
+HYDRATION_CLIENT_ID_RE = re.compile(r'"hydratable":"apiClient","data":\{"id":"([A-Za-z0-9]{20,40})"')
 SCRIPT_SRC_RE = re.compile(r'<script[^>]+src="([^"]+)"')
 SOUNDCLOUD_USER_API_RE = re.compile(r"https://api\.soundcloud\.com/users/soundcloud%3Ausers%3A(\d+)")
 TRACK_RE = re.compile(
@@ -242,11 +243,32 @@ CREATE TABLE IF NOT EXISTS track_metadata (
     UNIQUE(track_id, source)
 );
 
+CREATE TABLE IF NOT EXISTS soundcloud_likes (
+    id INTEGER PRIMARY KEY,
+    soundcloud_url TEXT NOT NULL UNIQUE,
+    title TEXT NOT NULL,
+    uploader TEXT,
+    uploader_url TEXT,
+    artwork_url TEXT,
+    duration_seconds INTEGER,
+    upload_time TEXT,
+    description TEXT,
+    tags TEXT,
+    genre TEXT,
+    kind TEXT,
+    raw_json TEXT,
+    first_seen_at TEXT NOT NULL,
+    last_seen_at TEXT NOT NULL
+);
+
 CREATE INDEX IF NOT EXISTS tracks_artist_idx ON tracks(artist);
 CREATE INDEX IF NOT EXISTS tracks_title_idx ON tracks(title);
 CREATE INDEX IF NOT EXISTS mixtapes_month_idx ON mixtapes(month);
 CREATE INDEX IF NOT EXISTS track_metadata_track_idx ON track_metadata(track_id);
 CREATE INDEX IF NOT EXISTS track_metadata_source_idx ON track_metadata(source);
+CREATE INDEX IF NOT EXISTS soundcloud_likes_title_idx ON soundcloud_likes(title);
+CREATE INDEX IF NOT EXISTS soundcloud_likes_uploader_idx ON soundcloud_likes(uploader);
+CREATE INDEX IF NOT EXISTS soundcloud_likes_kind_idx ON soundcloud_likes(kind);
 """
 
 
@@ -317,6 +339,7 @@ def connect(db_path: Path) -> sqlite3.Connection:
     ensure_column(conn, "mixtapes", "artwork_url", "TEXT")
     ensure_column(conn, "mixtapes", "soundcloud_embed_html", "TEXT")
     ensure_column(conn, "track_metadata", "camelot_key", "TEXT")
+    ensure_column(conn, "soundcloud_likes", "kind", "TEXT")
     return conn
 
 
@@ -550,6 +573,9 @@ def extract_soundcloud_user_id(html_text: str) -> str | None:
 
 
 def discover_soundcloud_client_id(page_url: str, html_text: str) -> str | None:
+    hydration_match = HYDRATION_CLIENT_ID_RE.search(html_text)
+    if hydration_match:
+        return hydration_match.group(1)
     for src in SCRIPT_SRC_RE.findall(html_text):
         script_url = urllib.parse.urljoin(page_url, html.unescape(src))
         if "sndcdn.com/assets/" not in script_url:
@@ -571,6 +597,18 @@ def soundcloud_api_url(user_id: str, client_id: str, limit: int = 50) -> str:
         }
     )
     return f"https://api-v2.soundcloud.com/users/{user_id}/tracks?{query}"
+
+
+def soundcloud_likes_api_url(user_id: str, client_id: str, limit: int = 50) -> str:
+    query = urllib.parse.urlencode(
+        {
+            "client_id": client_id,
+            "limit": limit,
+            "offset": 0,
+            "linked_partitioning": 1,
+        }
+    )
+    return f"https://api-v2.soundcloud.com/users/{user_id}/track_likes?{query}"
 
 
 def with_client_id(url: str, client_id: str) -> str:
@@ -644,6 +682,398 @@ def fetch_soundcloud_api_tracks(
         next_href = data.get("next_href")
         url = with_client_id(next_href, client_id) if isinstance(next_href, str) else ""
     return tracks
+
+
+def fetch_soundcloud_api_likes(
+    likes_url: str,
+    *,
+    client_id: str | None = None,
+    max_tracks: int | None = None,
+) -> list[dict[str, object]]:
+    html_text = fetch_text(likes_url)
+    user_id = extract_soundcloud_user_id(html_text)
+    if not user_id:
+        return []
+    client_id = client_id or discover_soundcloud_client_id(likes_url, html_text)
+    if not client_id:
+        return []
+
+    url = soundcloud_likes_api_url(user_id, client_id)
+    likes: list[dict[str, object]] = []
+    while url and (max_tracks is None or len(likes) < max_tracks):
+        data = fetch_json(url)
+        if not isinstance(data, dict):
+            break
+        collection = data.get("collection", [])
+        if not isinstance(collection, list):
+            break
+        for item in collection:
+            if not isinstance(item, dict):
+                continue
+            track = item.get("track")
+            if isinstance(track, dict) and track.get("permalink_url") and track.get("title"):
+                likes.append(track)
+            if max_tracks is not None and len(likes) >= max_tracks:
+                break
+        next_href = data.get("next_href")
+        url = with_client_id(next_href, client_id) if isinstance(next_href, str) else ""
+    return likes
+
+
+def index_soundcloud_likes(args: argparse.Namespace) -> None:
+    conn = connect(args.db)
+    if args.source in {"auto", "api"}:
+        likes = fetch_soundcloud_api_likes(
+            args.likes_url,
+            client_id=args.client_id,
+            max_tracks=args.limit,
+        )
+        if likes:
+            imported = upsert_soundcloud_likes(conn, likes)
+            conn.commit()
+            print(f"Indexed {imported}/{len(likes)} SoundCloud liked tracks from public API.")
+            return
+        if args.source == "api":
+            raise SystemExit("Could not read SoundCloud likes from the public API.")
+
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise SystemExit(
+            "Playwright is required for SoundCloud likes indexing. Run `python3 -m uv sync`, "
+            "then `python3 -m uv run playwright install chromium`."
+        ) from exc
+
+    with sync_playwright() as playwright:
+        browser = None
+        context = None
+        if args.cdp_url:
+            browser = playwright.chromium.connect_over_cdp(args.cdp_url)
+            context = browser.contexts[0] if browser.contexts else browser.new_context()
+        else:
+            context = playwright.chromium.launch_persistent_context(
+                str(args.profile_dir),
+                headless=False,
+                viewport={"width": 1440, "height": 1000},
+            )
+        assert context is not None
+        page = context.pages[0] if context.pages else context.new_page()
+        page.goto(args.likes_url, wait_until="domcontentloaded", timeout=args.timeout * 1000)
+        if args.manual_start:
+            input("Sign into SoundCloud and open the likes page, then press Enter...")
+        try:
+            page.wait_for_load_state("networkidle", timeout=10_000)
+        except PlaywrightTimeoutError:
+            pass
+
+        collected: dict[str, dict[str, object]] = {}
+        stable_rounds = 0
+        previous_count = 0
+        for _ in range(args.scroll_pages):
+            for item in extract_soundcloud_likes_from_page(page):
+                url = str(item.get("soundcloud_url") or "")
+                if url:
+                    collected[url] = item
+            if args.limit and len(collected) >= args.limit:
+                break
+            if len(collected) == previous_count:
+                stable_rounds += 1
+            else:
+                stable_rounds = 0
+            if stable_rounds >= args.stop_after_stable:
+                break
+            previous_count = len(collected)
+            page.mouse.wheel(0, args.scroll_pixels)
+            page.wait_for_timeout(args.scroll_wait_ms)
+
+        likes = list(collected.values())
+        if args.limit:
+            likes = likes[: args.limit]
+        if not likes:
+            raise SystemExit("No SoundCloud liked tracks were found. Make sure the browser is signed in and the likes page is visible.")
+        if args.detail_pages:
+            likes = enrich_soundcloud_likes_from_detail_pages(page, likes, args.timeout)
+
+        imported = upsert_soundcloud_likes(conn, likes)
+        conn.commit()
+        print(f"Indexed {imported}/{len(likes)} SoundCloud liked tracks.")
+        if not args.keep_open and not args.cdp_url:
+            context.close()
+        if browser is not None:
+            browser.close()
+
+
+def extract_soundcloud_likes_from_page(page: object) -> list[dict[str, object]]:
+    return page.evaluate(
+        """
+        () => {
+          const trackUrls = new Set();
+          const absolute = (href) => new URL(href, location.origin).href.split('?')[0].replace(/\\/$/, '');
+          const isTrackPath = (url) => {
+            try {
+              const parsed = new URL(url);
+              if (!parsed.hostname.endsWith('soundcloud.com')) return false;
+              const parts = parsed.pathname.split('/').filter(Boolean);
+              if (parts.length !== 2) return false;
+              return !['you', 'discover', 'search', 'pages', 'terms-of-use', 'popular'].includes(parts[0]);
+            } catch {
+              return false;
+            }
+          };
+          document.querySelectorAll('a[href]').forEach((anchor) => {
+            const url = absolute(anchor.getAttribute('href'));
+            if (isTrackPath(url)) trackUrls.add(url);
+          });
+
+          const textNear = (url) => {
+            const path = new URL(url).pathname;
+            const anchor = Array.from(document.querySelectorAll('a[href]')).find((a) => {
+              try { return new URL(a.getAttribute('href'), location.origin).pathname === path; }
+              catch { return false; }
+            });
+            const card = anchor && anchor.closest('li, article, .soundList__item, .trackItem, .searchList__item, .userStreamItem, div');
+            return card ? card.innerText : (anchor ? anchor.innerText : '');
+          };
+
+          const out = [];
+          trackUrls.forEach((url) => {
+            const parsed = new URL(url);
+            const parts = parsed.pathname.split('/').filter(Boolean);
+            const nearbyText = textNear(url);
+            const trackAnchors = Array.from(document.querySelectorAll(`a[href*="${parts[1]}"]`));
+            const titleAnchor = trackAnchors.find((a) => a.innerText && a.innerText.trim().length > 0);
+            const uploaderAnchor = Array.from(document.querySelectorAll(`a[href="/${parts[0]}"], a[href^="/${parts[0]}?"]`))
+              .find((a) => a.innerText && a.innerText.trim().length > 0);
+            const image = Array.from(document.querySelectorAll('img')).find((img) => {
+              const alt = (img.getAttribute('alt') || '').toLowerCase();
+              return alt.includes((titleAnchor?.innerText || parts[1]).toLowerCase());
+            });
+            out.push({
+              soundcloud_url: url,
+              title: titleAnchor?.innerText?.trim() || decodeURIComponent(parts[1]).replaceAll('-', ' '),
+              uploader: uploaderAnchor?.innerText?.trim() || parts[0],
+              uploader_url: `${location.origin}/${parts[0]}`,
+              artwork_url: image?.src || null,
+              nearby_text: nearbyText
+            });
+          });
+          return out;
+        }
+        """
+    )
+
+
+def enrich_soundcloud_likes_from_detail_pages(
+    page: object,
+    likes: list[dict[str, object]],
+    timeout: int,
+) -> list[dict[str, object]]:
+    enriched: list[dict[str, object]] = []
+    for index, like in enumerate(likes, start=1):
+        url = str(like.get("soundcloud_url") or "")
+        if not url:
+            enriched.append(like)
+            continue
+        print(f"Reading SoundCloud detail metadata [{index}/{len(likes)}]: {url}")
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout * 1000)
+            page.wait_for_timeout(1500)
+            detail = extract_soundcloud_track_detail_from_page(page)
+        except Exception as exc:
+            print(f"Skipped detail metadata for {url}: {exc}")
+            detail = {}
+        merged = dict(like)
+        for key, value in detail.items():
+            if value not in (None, "", []):
+                merged[key] = value
+        enriched.append(merged)
+    return enriched
+
+
+def extract_soundcloud_track_detail_from_page(page: object) -> dict[str, object]:
+    return page.evaluate(
+        """
+        () => {
+          const meta = (selector) => document.querySelector(selector)?.getAttribute('content') || null;
+          const text = (selector) => document.querySelector(selector)?.innerText?.trim() || null;
+          const htmlText = document.documentElement.innerHTML;
+          const parseDuration = (value) => {
+            if (!value) return null;
+            if (/^PT/.test(value)) {
+              const m = value.match(/PT(?:(\\d+)H)?(?:(\\d+)M)?(?:(\\d+)S)?/);
+              if (!m) return null;
+              return (Number(m[1] || 0) * 3600) + (Number(m[2] || 0) * 60) + Number(m[3] || 0);
+            }
+            const parts = value.trim().split(':').map(Number);
+            if (parts.some(Number.isNaN)) return null;
+            return parts.reduce((total, part) => total * 60 + part, 0);
+          };
+          const durationFromPageJson = () => {
+            const patterns = [
+              /"duration"\\s*:\\s*(\\d{4,})/i,
+              /"full_duration"\\s*:\\s*(\\d{4,})/i,
+              /"durationMs"\\s*:\\s*(\\d{4,})/i
+            ];
+            for (const pattern of patterns) {
+              const match = htmlText.match(pattern);
+              if (match) {
+                const value = Number(match[1]);
+                return value > 10000 ? Math.round(value / 1000) : value;
+              }
+            }
+            return null;
+          };
+          const jsonLd = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+            .flatMap((script) => {
+              try {
+                const parsed = JSON.parse(script.textContent || 'null');
+                return Array.isArray(parsed) ? parsed : [parsed];
+              } catch {
+                return [];
+              }
+            })
+            .find((item) => item && (item['@type'] === 'MusicRecording' || item['@type'] === 'AudioObject')) || {};
+          const tags = Array.from(document.querySelectorAll('a[href*="/tags/"], .soundTitle__tag, .tagList__tag'))
+            .map((node) => node.innerText.trim().replace(/^#/, ''))
+            .filter(Boolean);
+          const title = jsonLd.name || meta('meta[property="og:title"]') || text('h1');
+          const description = jsonLd.description || meta('meta[property="og:description"]') || text('.truncatedAudioInfo__content');
+          const artwork = jsonLd.image || meta('meta[property="og:image"]') || null;
+          const duration = parseDuration(jsonLd.duration || meta('meta[property="music:duration"]') || text('.playbackTimeline__duration')) || durationFromPageJson();
+          const upload = jsonLd.datePublished || meta('meta[property="article:published_time"]') || document.querySelector('time[datetime]')?.getAttribute('datetime') || null;
+          const genre = jsonLd.genre || meta('meta[property="music:genre"]') || null;
+          const artist = jsonLd.byArtist?.name || jsonLd.creator?.name || text('.soundTitle__username');
+          return {
+            title,
+            uploader: artist,
+            artwork_url: artwork,
+            duration_seconds: duration,
+            upload_time: upload,
+            description,
+            tags,
+            genre
+          };
+        }
+        """
+    )
+
+
+def upsert_soundcloud_likes(conn: sqlite3.Connection, likes: list[dict[str, object]]) -> int:
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+    before = conn.total_changes
+    for like in likes:
+        normalized = normalize_soundcloud_like(like)
+        if not normalized["soundcloud_url"] or not normalized["title"]:
+            continue
+        conn.execute(
+            """
+            INSERT INTO soundcloud_likes (
+                soundcloud_url, title, uploader, uploader_url, artwork_url, duration_seconds,
+                upload_time, description, tags, genre, kind, raw_json, first_seen_at, last_seen_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(soundcloud_url) DO UPDATE SET
+                title = excluded.title,
+                uploader = COALESCE(excluded.uploader, soundcloud_likes.uploader),
+                uploader_url = COALESCE(excluded.uploader_url, soundcloud_likes.uploader_url),
+                artwork_url = COALESCE(excluded.artwork_url, soundcloud_likes.artwork_url),
+                duration_seconds = COALESCE(excluded.duration_seconds, soundcloud_likes.duration_seconds),
+                upload_time = COALESCE(excluded.upload_time, soundcloud_likes.upload_time),
+                description = COALESCE(excluded.description, soundcloud_likes.description),
+                tags = COALESCE(excluded.tags, soundcloud_likes.tags),
+                genre = COALESCE(excluded.genre, soundcloud_likes.genre),
+                kind = COALESCE(excluded.kind, soundcloud_likes.kind),
+                raw_json = excluded.raw_json,
+                last_seen_at = excluded.last_seen_at
+            """,
+            (
+                normalized["soundcloud_url"],
+                normalized["title"],
+                normalized.get("uploader"),
+                normalized.get("uploader_url"),
+                normalized.get("artwork_url"),
+                normalized.get("duration_seconds"),
+                normalized.get("upload_time"),
+                normalized.get("description"),
+                normalized.get("tags"),
+                normalized.get("genre"),
+                normalized.get("kind"),
+                normalized.get("raw_json"),
+                now,
+                now,
+            ),
+        )
+    return conn.total_changes - before
+
+
+def normalize_soundcloud_like(like: dict[str, object]) -> dict[str, object]:
+    if isinstance(like.get("track"), dict):
+        data = dict(like["track"])  # type: ignore[index]
+    else:
+        data = dict(like)
+    soundcloud_url = str(data.get("soundcloud_url") or data.get("permalink_url") or "").split("?")[0].rstrip("/")
+    title = plain_text(str(data.get("title") or ""))
+    uploader = data.get("uploader") or data.get("username")
+    user = data.get("user")
+    if isinstance(user, dict):
+        uploader = uploader or user.get("username")
+        data["uploader_url"] = data.get("uploader_url") or user.get("permalink_url")
+    artwork_url = data.get("artwork_url")
+    if artwork_url:
+        artwork_url = str(artwork_url).replace("-large.", "-t500x500.")
+    duration = data.get("duration_seconds")
+    if duration is None and data.get("duration") is not None:
+        try:
+            duration = int(data["duration"]) // 1000
+        except (TypeError, ValueError):
+            duration = None
+    if duration is None and data.get("full_duration") is not None:
+        try:
+            duration = int(data["full_duration"]) // 1000
+        except (TypeError, ValueError):
+            duration = None
+    tags = data.get("tags") or data.get("tag_list")
+    if isinstance(tags, list):
+        tags_value = json.dumps(tags, ensure_ascii=False)
+    elif tags:
+        tags_value = str(tags)
+    else:
+        tags_value = None
+    upload_time = data.get("upload_time") or data.get("created_at") or data.get("display_date")
+    description = data.get("description")
+    genre = data.get("genre")
+    return {
+        "soundcloud_url": soundcloud_url,
+        "title": title,
+        "uploader": plain_text(str(uploader)) if uploader else None,
+        "uploader_url": str(data.get("uploader_url")) if data.get("uploader_url") else None,
+        "artwork_url": str(artwork_url) if artwork_url else None,
+        "duration_seconds": duration,
+        "upload_time": str(upload_time) if upload_time else None,
+        "description": plain_text(str(description)) if description else None,
+        "tags": tags_value,
+        "genre": plain_text(str(genre)) if genre else None,
+        "kind": classify_soundcloud_like(title, duration),
+        "raw_json": json.dumps(data, ensure_ascii=False),
+    }
+
+
+def classify_soundcloud_like(title: str, duration_seconds: object) -> str:
+    duration = 0
+    try:
+        duration = int(duration_seconds or 0)
+    except (TypeError, ValueError):
+        duration = 0
+    if duration >= 20 * 60:
+        return "mixtape"
+    if re.search(
+        r"\b(mix|mixtape|radio|episode|podcast|tape|set|live|festival|edc|burning man|vol\.?)\b|@\s+\w",
+        title,
+        re.IGNORECASE,
+    ):
+        return "mixtape"
+    return "track"
 
 
 def infer_month(title: str, fallback: str | None = None) -> str | None:
@@ -2203,6 +2633,43 @@ def list_tracks(args: argparse.Namespace) -> None:
         )
 
 
+def list_soundcloud_likes(args: argparse.Namespace) -> None:
+    conn = connect(args.db)
+    conditions = []
+    params: list[object] = []
+    if args.kind:
+        conditions.append("kind = ?")
+        params.append(args.kind)
+    if args.query:
+        needle = f"%{args.query}%"
+        conditions.append(
+            "(title LIKE ? OR uploader LIKE ? OR description LIKE ? OR tags LIKE ? OR genre LIKE ?)"
+        )
+        params.extend([needle, needle, needle, needle, needle])
+    where = f"WHERE {' AND '.join(conditions)}" if conditions else ""
+    sql = f"""
+        SELECT id, upload_time, kind, duration_seconds, uploader, title, soundcloud_url, tags
+        FROM soundcloud_likes
+        {where}
+        ORDER BY COALESCE(upload_time, last_seen_at) DESC, id DESC
+        LIMIT ?
+    """
+    params.append(args.limit)
+    rows = conn.execute(sql, params).fetchall()
+    if not rows:
+        print("No SoundCloud likes found.")
+        return
+    for row in rows:
+        duration = format_seconds(row["duration_seconds"]).strip() or "--:--"
+        uploaded = row["upload_time"] or "---- --"
+        uploader = f"{row['uploader']} - " if row["uploader"] else ""
+        tags = f" | {format_soundcloud_tags(row['tags'])}" if row["tags"] else ""
+        print(
+            f"#{row['id']:>4} {uploaded} [{row['kind'] or 'unknown'}] {duration}  "
+            f"{uploader}{row['title']} <{row['soundcloud_url']}>{tags}"
+        )
+
+
 def show_mixtape(args: argparse.Namespace) -> None:
     conn = connect(args.db)
     mixtape = conn.execute("SELECT * FROM mixtapes WHERE id = ?", (args.mixtape_id,)).fetchone()
@@ -2327,6 +2794,15 @@ def export_index(args: argparse.Namespace) -> None:
         ORDER BY source, track_id
         """
     ).fetchall()
+    soundcloud_likes = conn.execute(
+        """
+        SELECT id, soundcloud_url, title, uploader, uploader_url, artwork_url,
+               duration_seconds, upload_time, description, tags, genre, kind,
+               raw_json, first_seen_at, last_seen_at
+        FROM soundcloud_likes
+        ORDER BY COALESCE(upload_time, last_seen_at) DESC, id DESC
+        """
+    ).fetchall()
 
     write_csv(
         output / "mixtapes.csv",
@@ -2390,9 +2866,36 @@ def export_index(args: argparse.Namespace) -> None:
         track_metadata,
     )
     write_json(output / "track_metadata.json", [dict(row) for row in track_metadata])
+    write_csv(
+        output / "soundcloud_likes.csv",
+        [
+            "id",
+            "soundcloud_url",
+            "title",
+            "uploader",
+            "uploader_url",
+            "artwork_url",
+            "duration_seconds",
+            "duration",
+            "upload_time",
+            "description",
+            "tags",
+            "genre",
+            "kind",
+            "raw_json",
+            "first_seen_at",
+            "last_seen_at",
+        ],
+        [soundcloud_like_export_row(row) for row in soundcloud_likes],
+    )
+    write_json(output / "soundcloud_likes.json", [soundcloud_like_export_row(row) for row in soundcloud_likes])
     write_markdown_index(output / "index.md", conn)
     write_latest_mixtapes_report(output / "latest-mixtapes.md", conn)
-    print(f"Exported {len(mixtapes)} mixtapes, {len(tracks)} tracks, and {len(track_metadata)} metadata rows to {output}")
+    write_soundcloud_likes_report(output / "soundcloud-likes.md", soundcloud_likes)
+    print(
+        f"Exported {len(mixtapes)} mixtapes, {len(tracks)} tracks, "
+        f"{len(track_metadata)} metadata rows, and {len(soundcloud_likes)} SoundCloud likes to {output}"
+    )
 
 
 def backfill_release_dates(conn: sqlite3.Connection) -> None:
@@ -2429,10 +2932,12 @@ def load_export(args: argparse.Namespace) -> None:
     mixtapes_path = source / "mixtapes.csv"
     tracks_path = source / "tracks.csv"
     track_metadata_path = source / "track_metadata.csv"
+    soundcloud_likes_path = source / "soundcloud_likes.csv"
     if not mixtapes_path.exists() or not tracks_path.exists():
         raise SystemExit(f"Expected {mixtapes_path} and {tracks_path}")
 
     conn = connect(args.db)
+    conn.execute("DELETE FROM soundcloud_likes")
     conn.execute("DELETE FROM track_metadata")
     conn.execute("DELETE FROM tracks")
     conn.execute("DELETE FROM mixtapes")
@@ -2440,6 +2945,7 @@ def load_export(args: argparse.Namespace) -> None:
     mixtapes = read_csv(mixtapes_path)
     tracks = read_csv(tracks_path)
     track_metadata = read_csv(track_metadata_path) if track_metadata_path.exists() else []
+    soundcloud_likes = read_csv(soundcloud_likes_path) if soundcloud_likes_path.exists() else []
     loaded_at = dt.datetime.now(dt.timezone.utc).isoformat()
     for row in mixtapes:
         conn.execute(
@@ -2510,8 +3016,39 @@ def load_export(args: argparse.Namespace) -> None:
                 row["fetched_at"] or loaded_at,
             ),
         )
+    for row in soundcloud_likes:
+        conn.execute(
+            """
+            INSERT INTO soundcloud_likes (
+                id, soundcloud_url, title, uploader, uploader_url, artwork_url,
+                duration_seconds, upload_time, description, tags, genre, kind,
+                raw_json, first_seen_at, last_seen_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                int(row["id"]),
+                row["soundcloud_url"],
+                row["title"],
+                row["uploader"] or None,
+                row["uploader_url"] or None,
+                row["artwork_url"] or None,
+                int(row["duration_seconds"]) if row["duration_seconds"] else None,
+                row["upload_time"] or None,
+                row["description"] or None,
+                row["tags"] or None,
+                row["genre"] or None,
+                row.get("kind") or classify_soundcloud_like(row["title"], row.get("duration_seconds")),
+                row.get("raw_json") or None,
+                row["first_seen_at"] or loaded_at,
+                row["last_seen_at"] or loaded_at,
+            ),
+        )
     conn.commit()
-    print(f"Loaded {len(mixtapes)} mixtapes, {len(tracks)} tracks, and {len(track_metadata)} metadata rows from {source}")
+    print(
+        f"Loaded {len(mixtapes)} mixtapes, {len(tracks)} tracks, "
+        f"{len(track_metadata)} metadata rows, and {len(soundcloud_likes)} SoundCloud likes from {source}"
+    )
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -2536,6 +3073,12 @@ def track_export_row(row: sqlite3.Row) -> dict[str, object]:
     data = dict(row)
     data["cue"] = format_seconds(data["cue_seconds"]).strip()
     data["beatport_url"] = beatport_search_url(data.get("artist"), data["title"])
+    return data
+
+
+def soundcloud_like_export_row(row: sqlite3.Row) -> dict[str, object]:
+    data = dict(row)
+    data["duration"] = format_seconds(data["duration_seconds"]).strip()
     return data
 
 
@@ -2670,6 +3213,55 @@ def write_latest_mixtapes_report(path: Path, conn: sqlite3.Connection) -> None:
     )
     append_latest_report_section(lines, recent, conn)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_soundcloud_likes_report(path: Path, rows: list[sqlite3.Row]) -> None:
+    lines = [
+        "# SoundCloud Likes",
+        "",
+        "Generated from tracked Crate Digger exports. These rows come from the local SoundCloud likes index.",
+        "",
+        f"- Likes indexed: {len(rows)}",
+    ]
+    by_kind: dict[str, int] = {}
+    for row in rows:
+        kind = row["kind"] or "uncategorized"
+        by_kind[kind] = by_kind.get(kind, 0) + 1
+    for kind, count in sorted(by_kind.items()):
+        lines.append(f"- {kind.title()}: {count}")
+    lines.extend(
+        [
+            "",
+            "## Recent Likes",
+            "",
+            "| Uploaded | Kind | Duration | Uploader | Track | Tags |",
+            "| --- | --- | ---: | --- | --- | --- |",
+        ]
+    )
+    for row in rows[:100]:
+        uploaded = row["upload_time"] or ""
+        kind = row["kind"] or ""
+        duration = format_seconds(row["duration_seconds"]).strip()
+        uploader = markdown_link(row["uploader"] or "", row["uploader_url"])
+        track = markdown_link(row["title"], row["soundcloud_url"])
+        tags = markdown_escape(format_soundcloud_tags(row["tags"]))
+        lines.append(
+            f"| {markdown_escape(uploaded)} | {markdown_escape(kind)} | {duration} | "
+            f"{uploader} | {track} | {tags} |"
+        )
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def format_soundcloud_tags(value: str | None) -> str:
+    if not value:
+        return ""
+    try:
+        parsed = json.loads(value)
+    except json.JSONDecodeError:
+        parsed = None
+    if isinstance(parsed, list):
+        return ", ".join(str(item) for item in parsed)
+    return value
 
 
 def append_latest_report_section(lines: list[str], rows: list[sqlite3.Row], conn: sqlite3.Connection) -> None:
@@ -2867,6 +3459,43 @@ def build_parser() -> argparse.ArgumentParser:
     )
     soundcloud_meta.set_defaults(func=refresh_soundcloud_metadata, missing_only=True)
 
+    likes = subparsers.add_parser(
+        "index-soundcloud-likes",
+        help="index tracks from a SoundCloud profile likes page",
+    )
+    likes.add_argument(
+        "--likes-url",
+        default="https://soundcloud.com/you/likes",
+        help="SoundCloud likes URL, for example https://soundcloud.com/<profile>/likes",
+    )
+    likes.add_argument("--limit", type=int, help="maximum liked tracks to index")
+    likes.add_argument("--client-id", help="SoundCloud client id override")
+    likes.add_argument(
+        "--source",
+        choices=("auto", "api", "browser"),
+        default="auto",
+        help="use the public API by default and fall back to browser extraction when needed",
+    )
+    likes.add_argument("--scroll-pages", type=int, default=10, help="number of scroll rounds to collect likes")
+    likes.add_argument("--scroll-pixels", type=int, default=3200, help="pixels to scroll per round")
+    likes.add_argument("--scroll-wait-ms", type=int, default=1500, help="milliseconds to wait after each scroll")
+    likes.add_argument("--stop-after-stable", type=int, default=2, help="stop after this many scrolls find no new tracks")
+    likes.add_argument("--detail-pages", action="store_true", help="visit each liked track page to pull richer metadata")
+    likes.add_argument("--manual-start", action="store_true", help="wait after opening the likes page so you can sign in")
+    likes.add_argument(
+        "--cdp-url",
+        help="attach to an already-running Chrome debugging endpoint, for example http://127.0.0.1:9222",
+    )
+    likes.add_argument(
+        "--profile-dir",
+        type=Path,
+        default=Path(".browser-profile/soundcloud"),
+        help="local browser profile directory for SoundCloud session state",
+    )
+    likes.add_argument("--timeout", type=int, default=60, help="page load timeout in seconds")
+    likes.add_argument("--keep-open", action="store_true", help="leave the browser open after indexing")
+    likes.set_defaults(func=index_soundcloud_likes)
+
     imp = subparsers.add_parser("import-tracklist", help="import pasted tracklist text")
     imp.add_argument("mixtape_id", type=int)
     imp.add_argument("tracklist_file", type=Path)
@@ -3035,6 +3664,12 @@ def build_parser() -> argparse.ArgumentParser:
     tracks.add_argument("--query", help="filter track artist/title text")
     tracks.add_argument("--limit", type=int, default=50, help="maximum rows to print")
     tracks.set_defaults(func=list_tracks)
+
+    likes_list = subparsers.add_parser("soundcloud-likes", help="list indexed SoundCloud liked tracks")
+    likes_list.add_argument("--kind", choices=("track", "mixtape"), help="filter by initial kind classification")
+    likes_list.add_argument("--query", help="filter title, uploader, description, tags, or genre")
+    likes_list.add_argument("--limit", type=int, default=50, help="maximum rows to print")
+    likes_list.set_defaults(func=list_soundcloud_likes)
 
     show = subparsers.add_parser("show", help="show one mixtape and its tracks")
     show.add_argument("mixtape_id", type=int)
