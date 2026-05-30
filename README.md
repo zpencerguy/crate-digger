@@ -122,6 +122,21 @@ python3 -m uv run python manage.py createsuperuser
 
 ## Usage
 
+## Agent Workflows
+
+Repeatable, markdown-defined workflows live in
+[`workflows/`](workflows/README.md). The first workflow,
+[`workflows/enrich-mixtape.md`](workflows/enrich-mixtape.md), describes the
+post-GitHub-Action enrichment path: pull the latest indexed data, import a
+tracklist if needed, enrich tracks with Beatport metadata, export `data/`, and
+prepare a final approval summary.
+
+The workflow is designed for a main invoker agent that delegates bounded tasks
+to simple markdown-defined sub-agents in [`workflows/agents/`](workflows/agents/).
+The practical goal is to keep the human loop to two or three useful checkpoints:
+browser/source readiness, ambiguous match review, and final commit/push
+approval.
+
 ## Storage Model
 
 Crate Digger uses SQLite as a local working cache and exports reviewable files
