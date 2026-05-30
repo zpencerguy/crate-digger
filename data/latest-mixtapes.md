@@ -6,7 +6,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
+| 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
@@ -14,9 +14,21 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 ### Tracklists
 
 <details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (0 tracks)</summary>
+<summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 128-130 BPM, leaning toward Minimal / Deep Tech | Deep Tech, often in Eb Minor mix._
+
+1. SURFOSURF - Work ([Beatport](https://www.beatport.com/track/work-/28936170)) - `129 BPM; Eb Minor; 2A; Minimal / Deep Tech | Deep Tech; elrow Limited`
+2. Malikk - Vamos A Bailar ([Beatport](https://www.beatport.com/track/vamos-a-bailar-/28528065)) - `130 BPM; Eb Minor; 2A; Tech House | Latin Tech; Mood Child`
+3. SURFOSURF - Funky Life ([Beatport](https://www.beatport.com/track/funky-life-/28936171)) - `130 BPM; G Minor; 6A; Minimal / Deep Tech | Deep Tech; elrow Limited`
+4. ID - Calinda ([Beatport](https://www.beatport.com/search?q=ID+Calinda))
+5. The Boys From The Bottom - Dance ([Beatport](https://www.beatport.com/search?q=The+Boys+From+The+Bottom+Dance))
+6. Rafa Barrios - Shake That Body ([Beatport](https://www.beatport.com/track/shake-that-body/28698845)) - `128 BPM; Bb Minor; 3A; Tech House; Sound D’Elite`
+7. Aitor Astiz - Digital Soul (Freak) ([Beatport](https://www.beatport.com/track/digital-soul-freak/28771115)) - `128 BPM; C Major; 8B; Minimal / Deep Tech | Deep Tech; Hottrax`
+8. Paolo Martini - Twisted Twinkle ([Beatport](https://www.beatport.com/track/twisted-twinkle/28786785)) - `130 BPM; Gb Major; 2B; Tech House; Paul's Boutique`
+9. Ammo Avenue - Exotic Blend ([Beatport](https://www.beatport.com/track/exotic-blend/28890182)) - `130 BPM; Gb Minor; 11A; House; LTF Records`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)
 </details>
 
 <details>
@@ -89,7 +101,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-05-29 | XXX Radio | 0 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
+| 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05-22 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) |
@@ -113,9 +125,21 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 ### Tracklists
 
 <details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (0 tracks)</summary>
+<summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 128-130 BPM, leaning toward Minimal / Deep Tech | Deep Tech, often in Eb Minor mix._
+
+1. SURFOSURF - Work ([Beatport](https://www.beatport.com/track/work-/28936170)) - `129 BPM; Eb Minor; 2A; Minimal / Deep Tech | Deep Tech; elrow Limited`
+2. Malikk - Vamos A Bailar ([Beatport](https://www.beatport.com/track/vamos-a-bailar-/28528065)) - `130 BPM; Eb Minor; 2A; Tech House | Latin Tech; Mood Child`
+3. SURFOSURF - Funky Life ([Beatport](https://www.beatport.com/track/funky-life-/28936171)) - `130 BPM; G Minor; 6A; Minimal / Deep Tech | Deep Tech; elrow Limited`
+4. ID - Calinda ([Beatport](https://www.beatport.com/search?q=ID+Calinda))
+5. The Boys From The Bottom - Dance ([Beatport](https://www.beatport.com/search?q=The+Boys+From+The+Bottom+Dance))
+6. Rafa Barrios - Shake That Body ([Beatport](https://www.beatport.com/track/shake-that-body/28698845)) - `128 BPM; Bb Minor; 3A; Tech House; Sound D’Elite`
+7. Aitor Astiz - Digital Soul (Freak) ([Beatport](https://www.beatport.com/track/digital-soul-freak/28771115)) - `128 BPM; C Major; 8B; Minimal / Deep Tech | Deep Tech; Hottrax`
+8. Paolo Martini - Twisted Twinkle ([Beatport](https://www.beatport.com/track/twisted-twinkle/28786785)) - `130 BPM; Gb Major; 2B; Tech House; Paul's Boutique`
+9. Ammo Avenue - Exotic Blend ([Beatport](https://www.beatport.com/track/exotic-blend/28890182)) - `130 BPM; Gb Minor; 11A; House; LTF Records`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)
 </details>
 
 <details>
