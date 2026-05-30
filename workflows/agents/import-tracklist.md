@@ -9,7 +9,7 @@ Import track rows into SQLite for a target mixtape.
 | Name | Required | Description |
 | --- | --- | --- |
 | `mixtape_id` | Yes | Existing mixtape id. |
-| `tracklist_url` | No | 1001Tracklists, MixesDB, or other source URL. |
+| `tracklist_url` | No | 1001Tracklists or other source URL. |
 | `tracklist_file` | No | Local copied tracklist text file. |
 | `replace` | No | Defaults to true for an empty or intentionally refreshed mixtape. |
 
@@ -74,4 +74,3 @@ python3 -m uv run crate-digger show <mixtape_id>
 ## Handoff
 
 Return to the main invoker. The next agent is usually `enrich-beatport`.
-

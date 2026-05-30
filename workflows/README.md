@@ -20,7 +20,7 @@ success criteria, output contract, and handoff rules.
 | --- | --- |
 | [agents/browser-setup.md](agents/browser-setup.md) | Ensure a developer-enabled Chrome session is available through CDP. |
 | [agents/find-tracklist-source.md](agents/find-tracklist-source.md) | Find the best source URL for a mixtape tracklist. |
-| [agents/import-tracklist.md](agents/import-tracklist.md) | Import tracks from MixesDB, 1001Tracklists, or copied text. |
+| [agents/import-tracklist.md](agents/import-tracklist.md) | Import tracks from 1001Tracklists or copied text. |
 | [agents/enrich-beatport.md](agents/enrich-beatport.md) | Enrich tracks with Beatport metadata through a human-observed browser flow. |
 | [agents/review-ambiguous.md](agents/review-ambiguous.md) | Collect uncertain matches into a compact human review. |
 | [agents/export-and-sync.md](agents/export-and-sync.md) | Export tracked data files and prepare commit/push instructions for final approval. |
@@ -36,4 +36,3 @@ success criteria, output contract, and handoff rules.
 - Use the repo's existing CLI commands and storage model.
 - Respect source site rules, robots.txt, crawl delays, and visible human review
   flows.
-

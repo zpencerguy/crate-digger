@@ -164,12 +164,12 @@ python3 -m uv run crate-digger load-export --input data
 
 The GitHub Actions workflow in `.github/workflows/index.yml` rebuilds the
 SQLite database from the tracked `data/` exports, checks only for newer
-SoundCloud uploads and new MixesDB pages, exports `data/`, and commits changes
-when newly indexed data appears.
+SoundCloud uploads, exports `data/`, and commits changes when newly indexed
+data appears.
 
-For incremental checks, use `--stop-at-existing` with SoundCloud imports and
-`--new-only` with MixesDB imports. This keeps scheduled runs focused on new
-uploads instead of walking the entire archive every time.
+For incremental SoundCloud checks, use `--stop-at-existing`. This keeps
+scheduled runs focused on new uploads instead of walking the entire archive
+every time.
 
 ```sh
 python3 -m uv run crate-digger add \
@@ -302,6 +302,10 @@ The SoundCloud batch importer tries SoundCloud's public JSON endpoint first and
 falls back to the static page HTML when needed. `--monthly-only` keeps yearly
 recaps and other non-monthly uploads out of the local index.
 
+MixesDB imports are still available as an optional ad hoc fallback, but they are
+not part of the normal refresh or enrichment workflow because recent archive
+coverage has been inconsistent.
+
 Import available Only 100s tracklists from MixesDB:
 
 ```sh
@@ -337,12 +341,9 @@ python3 -m uv run crate-digger import-mixesdb-category \
   --title-match "ERA"
 ```
 
-MixesDB is currently the best primary source for these archives' per-track data:
-its raw wiki pages include SoundCloud player URLs and structured numbered
-tracklists, which lets Crate Digger match pages back to indexed SoundCloud
-mixes. The importer is safe to rerun; existing tracks are ignored. Use
-`--add-missing` when a MixesDB page exists but the upload did not appear in the
-SoundCloud archive response.
+The importer is safe to rerun; existing tracks are ignored. Use `--add-missing`
+when a MixesDB page exists but the upload did not appear in the SoundCloud
+archive response.
 
 Enrich tracks with confirmed Beatport pages in a visible browser:
 

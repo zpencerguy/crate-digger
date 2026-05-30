@@ -18,9 +18,11 @@ Find the best usable tracklist source for a target mixtape.
 
 1. Existing `tracklist_url` in SQLite.
 2. SoundCloud description URL captured by `crate-digger add`.
-3. MixesDB category/page import path.
-4. 1001Tracklists normal public search result.
-5. Human-provided URL.
+3. 1001Tracklists normal public search result.
+4. Human-provided URL.
+
+MixesDB is not part of the default source discovery path. Use it only when the
+human explicitly asks for an ad hoc fallback or provides a specific MixesDB URL.
 
 ## Commands
 
@@ -30,14 +32,8 @@ Inspect the current mixtape:
 python3 -m uv run crate-digger show <mixtape_id>
 ```
 
-Try MixesDB for known archive sources:
-
-```sh
-python3 -m uv run crate-digger import-mixesdb-category --match "<title>" --new-only --delay 1
-```
-
-If searching 1001Tracklists, use the normal site search and respect robots.txt
-and crawl delay. Return the URL only; import happens in the next agent.
+Use 1001Tracklists normal site search and respect robots.txt and crawl delay.
+Return the URL only; import happens in the next agent.
 
 ## Rules
 
@@ -85,4 +81,3 @@ If no source is found:
 
 Return to the main invoker. If a URL was found, the next agent is
 `import-tracklist`.
-

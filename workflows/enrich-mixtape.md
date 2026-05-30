@@ -12,7 +12,7 @@ small final summary for human approval.
 | --- | --- | --- |
 | `mixtape_id` | Usually | Existing SQLite mixtape id. Optional only when `discover_latest` is true. |
 | `series` | No | Optional series filter such as `Only 100s`, `XXX Radio`, `ERA`, or `Magic Tape`. |
-| `tracklist_url` | No | Known 1001Tracklists, MixesDB, or other source URL. |
+| `tracklist_url` | No | Known 1001Tracklists or other source URL. |
 | `discover_latest` | No | If true, inspect recent indexed mixtapes and pick the newest enrichment candidate. |
 | `cdp_url` | No | Defaults to `http://127.0.0.1:9222`. |
 | `auto_push` | No | Defaults to false. Main invoker should ask before pushing unless explicitly enabled. |
@@ -114,4 +114,3 @@ The main invoker should keep this summary current as agents complete:
 - Ambiguous or skipped tracks are summarized in one place.
 - `data/` exports are refreshed when data changed.
 - Human has a concise final summary before commit/push.
-
