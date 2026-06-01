@@ -6,12 +6,18 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
-| 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
 ### Tracklists
+
+<details>
+<summary>2026-06-01 - ERA - ERA 217 - Rebūke Live from Revolver, Melbourne (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
@@ -55,26 +61,6 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-
 </details>
 
 <details>
-<summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
-
-_A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
-
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; 9B; Techno (Peak Time / Driving); Drumcode`
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; 7A; Tech House; WeLove Recordings`
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; 5B; Melodic House & Techno; 1001 Recordings`
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; 9B; House; Shelter`
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; 1A; Tech House; Be One Records`
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; 7B; Tech House; Trace Amounts`
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; 2A; Tech House; Electronic Rapture`
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; 10B; Tech House; STMPD RCRDS`
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; 1B; Tech House; Catch & Release`
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; 2B; House; Juicy Music`
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; 11B; Tech House; Broke`
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; 12B; Indie Dance; UNCLES MUSIC`
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; 10B; Tech House; Wh0 Worx`
-</details>
-
-<details>
 <summary>2026-03-12 - Magic Tape - MAGIC TAPE 132 (13 tracks)</summary>
 
 _A driving 124-132 BPM, leaning toward House, often in C Minor mix._
@@ -101,6 +87,7 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 | 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
@@ -120,9 +107,14 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | 2026-04-04 | ERA | 12 | [ERA 209 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-209-rebu-ke-studio-mix) |
 | 2026-04-03 | XXX Radio | 14 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) |
 | 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
-| 2026-03-27 | ERA | 18 | [ERA 208 - Kieran San Jose Studio Mix](https://soundcloud.com/rebukemusic/era-208-kieran-san-jose-studio) |
 
 ### Tracklists
+
+<details>
+<summary>2026-06-01 - ERA - ERA 217 - Rebūke Live from Revolver, Melbourne (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
@@ -493,28 +485,5 @@ _A driving 125-140 BPM, leaning toward House, often in C Minor mix._
 16. TOMORA - Somewhere Else (salute Remix) ([Beatport](https://www.beatport.com/track/somewhere-else/28328612)) - `130 BPM; C Minor; 5A; Dance / Pop; Fontana`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)
-</details>
-
-<details>
-<summary>2026-03-27 - ERA - ERA 208 - Kieran San Jose Studio Mix (18 tracks)</summary>
-
-1. KIERAN SAN JOSE- OFF THE FLOOR ([Beatport](https://www.beatport.com/search?q=KIERAN+SAN+JOSE-+OFF+THE+FLOOR))
-2. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-3. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-4. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-5. KIERAN SAN JOSE- ONE AT A TIME ([Beatport](https://www.beatport.com/search?q=KIERAN+SAN+JOSE-+ONE+AT+A+TIME))
-6. VOLKODER- AFTERGLOW ([Beatport](https://www.beatport.com/search?q=VOLKODER-+AFTERGLOW))
-7. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-8. KIERAN SAN JOSE-BLACK MAGIC ([Beatport](https://www.beatport.com/search?q=KIERAN+SAN+JOSE-BLACK+MAGIC))
-9. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-10. GORDO & KIERAN SAN JOSE - BROADCASTING ([Beatport](https://www.beatport.com/search?q=GORDO+%26+KIERAN+SAN+JOSE+BROADCASTING))
-11. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-12. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-13. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-14. SEBS & KIERAN SAN JOSE - F*CK IT UP ([Beatport](https://www.beatport.com/search?q=SEBS+%26+KIERAN+SAN+JOSE+F%2ACK+IT+UP))
-15. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-16. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
-17. KIERAN SAN JOSE - GET MONEY ([Beatport](https://www.beatport.com/search?q=KIERAN+SAN+JOSE+GET+MONEY))
-18. ID-ID ([Beatport](https://www.beatport.com/search?q=ID-ID))
 </details>
 
