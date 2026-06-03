@@ -243,32 +243,36 @@ Source: [tracklist](https://1001.tl/m1cbjm)
 <details>
 <summary>2026-05-08 - ERA - ERA 214 - Rebūke Studio Mix (13 tracks)</summary>
 
+_A driving 122-132 BPM, leaning toward Tech House, often in D Major mix._
+
 1. Tiga, Dom Dolla - Don't Worry Baby (Extended) ([Beatport](https://www.beatport.com/search?q=Tiga%2C+Dom+Dolla+Don%27t+Worry+Baby+%28Extended%29))
-2. Santy Perizzotti - Yaou (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Santy+Perizzotti+Yaou+%28Extended+Mix%29))
-3. Detlef - FADED (Original Mix) ([Beatport](https://www.beatport.com/search?q=Detlef+FADED+%28Original+Mix%29))
-4. Volkoder - Trajadão (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Trajada%CC%83o+%28Extended+Mix%29))
-5. iUrseless - Strap It (Extended Mix) ([Beatport](https://www.beatport.com/search?q=iUrseless+Strap+It+%28Extended+Mix%29))
-6. Protek - Leakin (Original Mix) ([Beatport](https://www.beatport.com/search?q=Protek+Leakin+%28Original+Mix%29))
-7. Who Else - Renegade (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Who+Else+Renegade+%28Extended+Mix%29))
-8. AANSE - We Go (Left To Right) ([Beatport](https://www.beatport.com/search?q=AANSE+We+Go+%28Left+To+Right%29))
-9. NVKY - Dimension (Original Mix) ([Beatport](https://www.beatport.com/search?q=NVKY+Dimension+%28Original+Mix%29))
-10. GetCosy - Loco (Instrumental Mix) ([Beatport](https://www.beatport.com/search?q=GetCosy+Loco+%28Instrumental+Mix%29))
-11. Toba - Don't Put It On Me (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Toba+Don%27t+Put+It+On+Me+%28Extended+Mix%29))
-12. Sowel - She Likes Bass (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Sowel+She+Likes+Bass+%28Extended+Mix%29))
-13. Kellerkind - Together (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kellerkind+Together+%28Original+Mix%29))
+2. Santy Perizzotti - Yaou (Extended Mix) ([Beatport](https://www.beatport.com/track/yaou/28363312)) - `128 BPM; A Minor; 8A; Tech House; 303Lovers`
+3. Detlef - FADED (Original Mix) ([Beatport](https://www.beatport.com/track/faded-/28444585)) - `127 BPM; Eb Minor; 2A; Tech House; Issues`
+4. Volkoder - Trajadão (Extended Mix) ([Beatport](https://www.beatport.com/track/trajado-/28395785)) - `128 BPM; Gb Minor; 11A; Bass House; Black Book Records`
+5. iUrseless - Strap It (Extended Mix) ([Beatport](https://www.beatport.com/track/strap-it/28392346)) - `128 BPM; B Minor; 10A; Tech House; Aura Records Music`
+6. Protek - Leakin (Original Mix) ([Beatport](https://www.beatport.com/track/leakin/28400316)) - `130 BPM; Gb Major; 2B; Tech House; The Anchor Records`
+7. Who Else - Renegade (Extended Mix) ([Beatport](https://www.beatport.com/track/renegade/28349028)) - `128 BPM; D Major; 10B; Mainstage; Artnova`
+8. AANSE - We Go (Left To Right) ([Beatport](https://www.beatport.com/track/we-go-left-to-right-extended-mix/28383225)) - `132 BPM; D Major; 10B; Bass House; dFunk Records`
+9. NVKY - Dimension (Original Mix) ([Beatport](https://www.beatport.com/track/dimension/28765001)) - `129 BPM; Eb Major; 5B; Tech House; Sound Metrica Records`
+10. GetCosy - Loco (Instrumental Mix) ([Beatport](https://www.beatport.com/track/loco/28883989)) - `130 BPM; E Minor; 9A; Tech House; COSYREX`
+11. Toba - Don't Put It On Me (Extended Mix) ([Beatport](https://www.beatport.com/track/dont-put-it-on-me-/28443805)) - `126 BPM; D Minor; 7A; Indie Dance; Exx Underground`
+12. Sowel - She Likes Bass (Extended Mix) ([Beatport](https://www.beatport.com/track/she-likes-bass-/28459132)) - `128 BPM; A Major; 11B; Tech House; Stashed`
+13. Kellerkind - Together (Original Mix) ([Beatport](https://www.beatport.com/track/together/28229527)) - `122 BPM; C Major; 8B; Indie Dance; Stil Vor Talent`
 </details>
 
 <details>
 <summary>2026-05-08 - XXX Radio - XXX Radio #187 (8 tracks)</summary>
 
-1. Matthias Tanzmann - Friday High ([Beatport](https://www.beatport.com/search?q=Matthias+Tanzmann+Friday+High))
-2. Chinonegro & Rob The Bank - Break It Down ([Beatport](https://www.beatport.com/search?q=Chinonegro+%26+Rob+The+Bank+Break+It+Down))
-3. Marian (BR) - Cambio ([Beatport](https://www.beatport.com/search?q=Marian+%28BR%29+Cambio))
-4. Chinonegro & Rob The Bank - Freaky Housy ([Beatport](https://www.beatport.com/search?q=Chinonegro+%26+Rob+The+Bank+Freaky+Housy))
+_A driving 128-130 BPM, leaning toward House, often in Ab Major mix._
+
+1. Matthias Tanzmann - Friday High ([Beatport](https://www.beatport.com/track/friday-high-/28527164)) - `128 BPM; Gb Major; 2B; Tech House; Moon Harbour Recordings`
+2. Chinonegro & Rob The Bank - Break It Down ([Beatport](https://www.beatport.com/track/break-it-down/28647658)) - `130 BPM; E Minor; 9A; House; LTF Records`
+3. Marian (BR) - Cambio ([Beatport](https://www.beatport.com/track/cambio/28468542)) - `130 BPM; D Minor; 7A; Minimal / Deep Tech | Deep Tech; Deeperfect`
+4. Chinonegro & Rob The Bank - Freaky Housy ([Beatport](https://www.beatport.com/track/freaky-housy/28647659)) - `130 BPM; C Minor; 5A; House; LTF Records`
 5. ATLAC - Hood Beat ([Beatport](https://www.beatport.com/search?q=ATLAC+Hood+Beat))
-6. Mateo Dufour - Break It Up ([Beatport](https://www.beatport.com/search?q=Mateo+Dufour+Break+It+Up))
-7. Bizza & Londonground - Rocket ([Beatport](https://www.beatport.com/search?q=Bizza+%26+Londonground+Rocket))
-8. Marian (BR) - Deeper Down ([Beatport](https://www.beatport.com/search?q=Marian+%28BR%29+Deeper+Down))
+6. Mateo Dufour - Break It Up ([Beatport](https://www.beatport.com/track/break-it-up/28695431)) - `128 BPM; G Minor; 6A; House; Gettraum`
+7. Bizza & Londonground - Rocket ([Beatport](https://www.beatport.com/track/rocket-/28504253)) - `128 BPM; F Major; 7B; House; Cecille`
+8. Marian (BR) - Deeper Down ([Beatport](https://www.beatport.com/track/deeper-down/28468540)) - `129 BPM; Ab Major; 4B; Minimal / Deep Tech | Deep Tech; Deeperfect`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-radio-187-2026-05-08.html)
 </details>
@@ -276,19 +280,21 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-
 <details>
 <summary>2026-05-01 - ERA - ERA 213 - Rebūke Studio Mix (13 tracks)</summary>
 
+_A driving 124-130 BPM, leaning toward Tech House, often in F Major mix._
+
 1. Plastic Robots, Fab Massimo - Yelling at the Ghost (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastic+Robots%2C+Fab+Massimo+Yelling+at+the+Ghost+%28Extended+Mix%29))
-2. Deeper Purpose, Jack Orley, Michael Ekow - Stunner (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Deeper+Purpose%2C+Jack+Orley%2C+Michael+Ekow+Stunner+%28Extended+Mix%29))
-3. Detlef - Under Control (Original Mix) ([Beatport](https://www.beatport.com/search?q=Detlef+Under+Control+%28Original+Mix%29))
-4. Volkoder - Everybody (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Everybody+%28Extended+Mix%29))
-5. KASSIMIL - Okey (Original Mix) ([Beatport](https://www.beatport.com/search?q=KASSIMIL+Okey+%28Original+Mix%29))
-6. Alexey Romeo, X Labs - No Phones (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alexey+Romeo%2C+X+Labs+No+Phones+%28Extended+Mix%29))
-7. Re Power - Highway (Original Mix) ([Beatport](https://www.beatport.com/search?q=Re+Power+Highway+%28Original+Mix%29))
-8. Chris Avantgarde - Concrete Professional (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Chris+Avantgarde+Concrete+Professional+%28Extended+Mix%29))
-9. Raul Rodriguez, La Class - Yendose ([Beatport](https://www.beatport.com/search?q=Raul+Rodriguez%2C+La+Class+Yendose))
-10. Dunmore Brothers - Smoke (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dunmore+Brothers+Smoke+%28Original+Mix%29))
-11. James Hype - Trigger Finger (Extended Mix) ([Beatport](https://www.beatport.com/search?q=James+Hype+Trigger+Finger+%28Extended+Mix%29))
-12. WELKER (BR) - Ice In My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/search?q=WELKER+%28BR%29+Ice+In+My+Eyes+%28Extended+Mix%29))
-13. Luigi Rocca - Ghost (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Luigi+Rocca+Ghost+%28Extended+Mix%29))
+2. Deeper Purpose, Jack Orley, Michael Ekow - Stunner (Extended Mix) ([Beatport](https://www.beatport.com/track/stunner/27813044)) - `128 BPM; D Major; 10B; Tech House; IN 2 DEEP`
+3. Detlef - Under Control (Original Mix) ([Beatport](https://www.beatport.com/track/under-control-/28444586)) - `127 BPM; A Minor; 8A; Tech House; Issues`
+4. Volkoder - Everybody (Extended Mix) ([Beatport](https://www.beatport.com/track/everybody-/28395786)) - `128 BPM; F Major; 7B; Bass House; Black Book Records`
+5. KASSIMIL - Okey (Original Mix) ([Beatport](https://www.beatport.com/track/okey/28470336)) - `128 BPM; Gb Minor; 11A; Minimal / Deep Tech; Ibiza Talents Records`
+6. Alexey Romeo, X Labs - No Phones (Extended Mix) ([Beatport](https://www.beatport.com/track/no-phones/27196999)) - `128 BPM; A Major; 11B; Indie Dance; X-perience`
+7. Re Power - Highway (Original Mix) ([Beatport](https://www.beatport.com/track/highway/27664177)) - `124 BPM; E Major; 12B; Indie Dance; Bassmatic records`
+8. Chris Avantgarde - Concrete Professional (Extended Mix) ([Beatport](https://www.beatport.com/track/concrete-professional-/28388138)) - `128 BPM; Db Minor; 12A; Tech House; Hyperreal`
+9. Raul Rodriguez, La Class - Yendose ([Beatport](https://www.beatport.com/track/yendose/28338847)) - `129 BPM; A Major; 11B; Tech House; Natural Rhythm`
+10. Dunmore Brothers - Smoke (Original Mix) ([Beatport](https://www.beatport.com/track/smoke-/22367625)) - `127 BPM; E Major; 12B; Minimal / Deep Tech | Deep Tech; Descending Order`
+11. James Hype - Trigger Finger (Extended Mix) ([Beatport](https://www.beatport.com/track/trigger-finger/28334015)) - `130 BPM; Db Minor; 12A; Tech House; STEREOHYPE`
+12. WELKER (BR) - Ice In My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/ice-in-my-eyes/22919666)) - `128 BPM; F Major; 7B; Tech House; Nu Moda`
+13. Luigi Rocca - Ghost (Extended Mix) ([Beatport](https://www.beatport.com/track/ghost/27081651)) - `128 BPM; F Major; 7B; Tech House; 303Lovers`
 </details>
 
 <details>
