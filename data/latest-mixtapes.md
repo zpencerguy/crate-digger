@@ -6,35 +6,51 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
-| 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
+| 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
+| 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
+| 2026-06-05 | XXX Radio | 0 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
-| 2026-03-12 | Magic Tape | 13 | [MAGIC TAPE 132](https://soundcloud.com/themagician/magic-tape-132) |
 
 ### Tracklists
 
 <details>
-<summary>2026-06-01 - ERA - ERA 217 - Rebūke Live from Revolver, Melbourne (0 tracks)</summary>
+<summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
 
-_No tracks indexed yet._
+1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Fer+BR+Help+Us%21+%28Extended+Mix%29))
+2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/search?q=M%C3%B8sard+Jump+High+%28Jump+In+Extended+Mix%29))
+3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ribguga+PILLS+%28Extended+Mix%29))
+4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alaia+%26+Gallo+Sweat+%28Extended+Mix%29))
+5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/search?q=Jitwam%2C+GUDFELLA+Morning+Coffee+%28Vintage+Culture+%26+Volkoder+Extended+Remix%29))
+6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/search?q=Joshwa%2C+Rello+Out+of+My+Mind+%28Rello+Remix%29))
+7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/search?q=Tal+Tobi%2C+Purple+Tape+Stroopwafel+%28KITA+Remix%29))
+8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Duarte+%28BR%29%2C+Nadin+%28BR%29+Midnight+Groove+%28Original+Mix%29))
+9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Breaking+Beattz%2C+Adam+Sellouk+Bom+Dia+%28Extended+Mix%29))
+10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Pablo+Schlosser%2C+Lenchappp+Let+the+Groove+%28Original+Mix%29))
+11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Max+Styler%2C+Greggio+Oldskool+Flavor+%28Extended+Mix%29))
+12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Wax+Motif+Bite+Down+%28Extended+Mix%29))
 </details>
 
 <details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
+<summary>2026-06-05 - Magic Tape - MAGIC TAPE 133 (12 tracks)</summary>
 
-_A driving 128-130 BPM, leaning toward Minimal / Deep Tech | Deep Tech, often in Eb Minor mix._
+1. Siina - Heavenly ([Beatport](https://www.beatport.com/search?q=Siina+Heavenly))
+2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/search?q=Ajna%2C+Misha+Body+Moving))
+3. JØRD - The Bump ([Beatport](https://www.beatport.com/search?q=J%C3%98RD+The+Bump))
+4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/search?q=Pryda+Rakfunk))
+5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/search?q=The+Chemical+Brothers+Go))
+6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/search?q=Hardt+Antoine+Raw))
+7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/search?q=Amour+Propre+Blurred+Signal))
+8. Gespona - Komplex ([Beatport](https://www.beatport.com/search?q=Gespona+Komplex))
+9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/search?q=Andhim+Hausch+%28K%C3%B6lsch+Remix%29))
+10. Blackloud - And Then What ([Beatport](https://www.beatport.com/search?q=Blackloud+And+Then+What))
+11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
+12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/search?q=Deetron%2C+Ben+Westbeech+Deep+In+Your+Soul))
+</details>
 
-1. SURFOSURF - Work ([Beatport](https://www.beatport.com/track/work-/28936170)) - `129 BPM; Eb Minor; 2A; Minimal / Deep Tech | Deep Tech; elrow Limited`
-2. Malikk - Vamos A Bailar ([Beatport](https://www.beatport.com/track/vamos-a-bailar-/28528065)) - `130 BPM; Eb Minor; 2A; Tech House | Latin Tech; Mood Child`
-3. SURFOSURF - Funky Life ([Beatport](https://www.beatport.com/track/funky-life-/28936171)) - `130 BPM; G Minor; 6A; Minimal / Deep Tech | Deep Tech; elrow Limited`
-4. ID - Calinda ([Beatport](https://www.beatport.com/search?q=ID+Calinda))
-5. The Boys From The Bottom - Dance ([Beatport](https://www.beatport.com/search?q=The+Boys+From+The+Bottom+Dance))
-6. Rafa Barrios - Shake That Body ([Beatport](https://www.beatport.com/track/shake-that-body/28698845)) - `128 BPM; Bb Minor; 3A; Tech House; Sound D’Elite`
-7. Aitor Astiz - Digital Soul (Freak) ([Beatport](https://www.beatport.com/track/digital-soul-freak/28771115)) - `128 BPM; C Major; 8B; Minimal / Deep Tech | Deep Tech; Hottrax`
-8. Paolo Martini - Twisted Twinkle ([Beatport](https://www.beatport.com/track/twisted-twinkle/28786785)) - `130 BPM; Gb Major; 2B; Tech House; Paul's Boutique`
-9. Ammo Avenue - Exotic Blend ([Beatport](https://www.beatport.com/track/exotic-blend/28890182)) - `130 BPM; Gb Minor; 11A; House; LTF Records`
+<details>
+<summary>2026-06-05 - XXX Radio - XXX Radio #191 (0 tracks)</summary>
 
-Source: [tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)
+_No tracks indexed yet._
 </details>
 
 <details>
@@ -60,33 +76,14 @@ _A driving 97-134 BPM, leaning toward Tech House, often in Ab Minor mix._
 Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-shuffle-only-100s-may-2026-2026-05-28.html)
 </details>
 
-<details>
-<summary>2026-03-12 - Magic Tape - MAGIC TAPE 132 (13 tracks)</summary>
-
-_A driving 124-132 BPM, leaning toward House, often in C Minor mix._
-
-1. [00:00] Avangart Tabldot - Sweat Drip ([Beatport](https://www.beatport.com/search?q=Avangart+Tabldot+Sweat+Drip))
-2. [04:00] Mita Gami & Rafael (IL) - What Is Luv [Maccabi House] ([Beatport](https://www.beatport.com/track/what-is-luv/24017594)) - `125 BPM; Ab Major; 4B; Indie Dance; Maccabi House`
-3. [08:00] Malive & Tito Azevedo & Mrqz - Burning [Nervous] ([Beatport](https://www.beatport.com/track/burning/24254531)) - `125 BPM; C Minor; 5A; Tech House; Nervous Records`
-4. [13:00] Alt Control & Millero - Amanda [Maccabi House] ([Beatport](https://www.beatport.com/track/amanda/23467868)) - `125 BPM; F Minor; 4A; Indie Dance; Maccabi House`
-5. [17:00] LUMI - Sweat [Thrive] ([Beatport](https://www.beatport.com/search?q=LUMI+Sweat+%5BThrive%5D))
-6. [21:00] Alastair Lane & Seïtou - Give Me A Kiss [Altra Moda] ([Beatport](https://www.beatport.com/track/give-me-a-kiss/24167093)) - `125 BPM; G Minor; 6A; House; Altra Moda`
-7. [24:00] The Magician & Nico De Andrea - Destination ([Beatport](https://www.beatport.com/search?q=The+Magician+%26+Nico+De+Andrea+Destination))
-8. [28:00] ANOTR Feat. 54 Ultra - Talk To You [No Art] ([Beatport](https://www.beatport.com/track/talk-to-you-/24508685)) - `132 BPM; G Minor; 6A; House; NO ART`
-9. [33:00] GUDFELLA Feat. Jitwam - Morning Coffee [Thrive] ([Beatport](https://www.beatport.com/track/morning-coffee/24290878)) - `128 BPM; C Minor; 5A; Indie Dance; THRIVE MUSIC`
-10. [38:00] Eveava & Alan Amorozzo - Purple Palm Trees ([Beatport](https://www.beatport.com/track/purple-palm-trees/26834259)) - `124 BPM; G Major; 9B; House; Yes Yes Yes`
-11. [43:00] Crooked Colours - Pink Limo (FEZZO Remix) [Sweat It Out!] ([Beatport](https://www.beatport.com/track/pink-limo/26888562)) - `130 BPM; D Major; 10B; Tech House; Sweat It Out`
-12. [47:00] Nocapz. & Coppola - Too Much [DFTD] ([Beatport](https://www.beatport.com/track/too-much/23374595)) - `128 BPM; Gb Major; 2B; House; DFTD`
-13. [51:00] Kolombo & Elekfantz - Play This Game [Kompakt] ([Beatport](https://www.beatport.com/track/play-this-game/24289403)) - `127 BPM; D Major; 10B; Indie Dance; Kompakt`
-
-Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_Tape_132)
-</details>
-
 
 ## Recent Releases
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
+| 2026-06-05 | XXX Radio | 0 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
+| 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 | 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
@@ -104,11 +101,48 @@ Source: [tracklist](https://www.mixesdb.com/w/2026-03-12_-_The_Magician_-_Magic_
 | 2026-04-17 | XXX Radio | 13 | [XXX Radio #184](https://soundcloud.com/realmaup/xxx-radio-184) |
 | 2026-04-10 | ERA | 12 | [ERA 210 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-210-rebu-ke-studio-mix) |
 | 2026-04-10 | XXX Radio | 12 | [XXX Radio #183](https://soundcloud.com/realmaup/xxx-radio-183) |
-| 2026-04-04 | ERA | 12 | [ERA 209 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-209-rebu-ke-studio-mix) |
-| 2026-04-03 | XXX Radio | 14 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) |
-| 2026-04 | Only 100s | 16 | [April 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/april-2026-only-100s-with-the-aston-shuffle) |
 
 ### Tracklists
+
+<details>
+<summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Fer+BR+Help+Us%21+%28Extended+Mix%29))
+2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/search?q=M%C3%B8sard+Jump+High+%28Jump+In+Extended+Mix%29))
+3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ribguga+PILLS+%28Extended+Mix%29))
+4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alaia+%26+Gallo+Sweat+%28Extended+Mix%29))
+5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/search?q=Jitwam%2C+GUDFELLA+Morning+Coffee+%28Vintage+Culture+%26+Volkoder+Extended+Remix%29))
+6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/search?q=Joshwa%2C+Rello+Out+of+My+Mind+%28Rello+Remix%29))
+7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/search?q=Tal+Tobi%2C+Purple+Tape+Stroopwafel+%28KITA+Remix%29))
+8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Duarte+%28BR%29%2C+Nadin+%28BR%29+Midnight+Groove+%28Original+Mix%29))
+9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Breaking+Beattz%2C+Adam+Sellouk+Bom+Dia+%28Extended+Mix%29))
+10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Pablo+Schlosser%2C+Lenchappp+Let+the+Groove+%28Original+Mix%29))
+11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Max+Styler%2C+Greggio+Oldskool+Flavor+%28Extended+Mix%29))
+12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Wax+Motif+Bite+Down+%28Extended+Mix%29))
+</details>
+
+<details>
+<summary>2026-06-05 - XXX Radio - XXX Radio #191 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
+
+<details>
+<summary>2026-06-05 - Magic Tape - MAGIC TAPE 133 (12 tracks)</summary>
+
+1. Siina - Heavenly ([Beatport](https://www.beatport.com/search?q=Siina+Heavenly))
+2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/search?q=Ajna%2C+Misha+Body+Moving))
+3. JØRD - The Bump ([Beatport](https://www.beatport.com/search?q=J%C3%98RD+The+Bump))
+4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/search?q=Pryda+Rakfunk))
+5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/search?q=The+Chemical+Brothers+Go))
+6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/search?q=Hardt+Antoine+Raw))
+7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/search?q=Amour+Propre+Blurred+Signal))
+8. Gespona - Komplex ([Beatport](https://www.beatport.com/search?q=Gespona+Komplex))
+9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/search?q=Andhim+Hausch+%28K%C3%B6lsch+Remix%29))
+10. Blackloud - And Then What ([Beatport](https://www.beatport.com/search?q=Blackloud+And+Then+What))
+11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
+12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/search?q=Deetron%2C+Ben+Westbeech+Deep+In+Your+Soul))
+</details>
 
 <details>
 <summary>2026-06-01 - ERA - ERA 217 - Rebūke Live from Revolver, Melbourne (0 tracks)</summary>
@@ -428,68 +462,5 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/1qmqmvd1/mau-p-xxx-
 12. Last Value - House Is A Feeling ([Beatport](https://www.beatport.com/search?q=Last+Value+House+Is+A+Feeling))
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/n4z93xt/mau-p-xxx-radio-183-2026-04-10.html)
-</details>
-
-<details>
-<summary>2026-04-04 - ERA - ERA 209 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Calvin Harris & Kasabian - Release The Pressure (Rebūke Extended Mix) ([Beatport](https://www.beatport.com/search?q=Calvin+Harris+%26+Kasabian+Release+The+Pressure+%28Rebu%CC%84ke+Extended+Mix%29))
-2. Adam Ten, Volkoder - Got Me Crazy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten%2C+Volkoder+Got+Me+Crazy+%28Extended+Mix%29))
-3. Hidden Empire - No Time to Talk (Original Mix) ([Beatport](https://www.beatport.com/search?q=Hidden+Empire+No+Time+to+Talk+%28Original+Mix%29))
-4. Alex Stein & Victor Ruiz - Another Story ([Beatport](https://www.beatport.com/search?q=Alex+Stein+%26+Victor+Ruiz+Another+Story))
-5. CID - Loaded Gun (Extended Mix) ([Beatport](https://www.beatport.com/search?q=CID+Loaded+Gun+%28Extended+Mix%29))
-6. Kevin Knapp, The Melody Men - Drop Fire (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kevin+Knapp%2C+The+Melody+Men+Drop+Fire+%28Extended+Mix%29))
-7. FRANCO BA - Backstage (Original Mix) ([Beatport](https://www.beatport.com/search?q=FRANCO+BA+Backstage+%28Original+Mix%29))
-8. Siege, Dario Nunez, I Jah - Heat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Siege%2C+Dario+Nunez%2C+I+Jah+Heat+%28Extended+Mix%29))
-9. Crusy - A Sunset In San Francisco (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Crusy+A+Sunset+In+San+Francisco+%28Extended+Mix%29))
-10. Todd Terry, CLS, Janika Tenn, Eddie Craig - Can You Feel It (Extended) ([Beatport](https://www.beatport.com/search?q=Todd+Terry%2C+CLS%2C+Janika+Tenn%2C+Eddie+Craig+Can+You+Feel+It+%28Extended%29))
-11. Rampo - Feel the Love (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Rampo+Feel+the+Love+%28Extended+Mix%29))
-12. Bassel Darwish - Here (Original Mix) ([Beatport](https://www.beatport.com/search?q=Bassel+Darwish+Here+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-04-03 - XXX Radio - XXX Radio #182 (14 tracks)</summary>
-
-1. LondonGround - Final Move ([Beatport](https://www.beatport.com/search?q=LondonGround+Final+Move))
-2. FRANCO BA - Backstage ([Beatport](https://www.beatport.com/search?q=FRANCO+BA+Backstage))
-3. Ammo Avenue - So Fine ([Beatport](https://www.beatport.com/search?q=Ammo+Avenue+So+Fine))
-4. Riva Starr - Shine A Light (On Me) ([Beatport](https://www.beatport.com/search?q=Riva+Starr+Shine+A+Light+%28On+Me%29))
-5. Ammo Avenue - Marathon ([Beatport](https://www.beatport.com/search?q=Ammo+Avenue+Marathon))
-6. Riva Starr - Can't Stop The Feeling ([Beatport](https://www.beatport.com/search?q=Riva+Starr+Can%27t+Stop+The+Feeling))
-7. Rayzir - Party Harder ([Beatport](https://www.beatport.com/search?q=Rayzir+Party+Harder))
-8. Chris Lorenzo & aMo (UM) - Chris Lorenzo & aMo - HOTS 4 U ([Beatport](https://www.beatport.com/search?q=Chris+Lorenzo+%26+aMo+%28UM%29+Chris+Lorenzo+%26+aMo+-+HOTS+4+U))
-9. Easttown - Prime ([Beatport](https://www.beatport.com/search?q=Easttown+Prime))
-10. Kristin Velvet - This Is Our Time ([Beatport](https://www.beatport.com/search?q=Kristin+Velvet+This+Is+Our+Time))
-11. LondonGround - Analog Dreams ([Beatport](https://www.beatport.com/search?q=LondonGround+Analog+Dreams))
-12. Kristin Velvet - Build That Beat ([Beatport](https://www.beatport.com/search?q=Kristin+Velvet+Build+That+Beat))
-13. Rayzir - Spanglish ([Beatport](https://www.beatport.com/search?q=Rayzir+Spanglish))
-14. Crusy - Hit Me Now ([Beatport](https://www.beatport.com/search?q=Crusy+Hit+Me+Now))
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/1sh7b3lk/mau-p-xxx-radio-182-2026-04-03.html)
-</details>
-
-<details>
-<summary>2026-04 - Only 100s - April 2026 - Only 100s with The Aston Shuffle (16 tracks)</summary>
-
-_A driving 125-140 BPM, leaning toward House, often in C Minor mix._
-
-1. Tiga & Fcukers - SILK SCARF ([Beatport](https://www.beatport.com/track/silk-scarf/22256346)) - `125 BPM; E Major; 12B; Indie Dance; Turbo Recordings`
-2. Totally Enormous Extinct Dinosaurs - Piece Of Me (PARAMIDA Remix) ([Beatport](https://www.beatport.com/search?q=Totally+Enormous+Extinct+Dinosaurs+Piece+Of+Me+%28PARAMIDA+Remix%29))
-3. The Flirts & Beltran (BR) - The Flirts & Beltran - Passion (R U Satisfied) ([Beatport](https://www.beatport.com/track/passion-r-u-satisfied/28363360)) - `127 BPM; E Major; 12B; Tech House; Altra Moda`
-4. Born Dirty & RaeCola - Lips Like Sugar ([Beatport](https://www.beatport.com/track/lips-like-sugar/27488272)) - `125 BPM; C Minor; 5A; Deep House; IN / ROTATION (Insomniac Records)`
-5. Shermanology - Girl On The Beat (Kyle Watson Energy Dub) ([Beatport](https://www.beatport.com/track/girl-on-the-beat-/24397005)) - `129 BPM; E Minor; 9A; Tech House; Black Book Records`
-6. Cloonee & Prospa - Free Your Mind ([Beatport](https://www.beatport.com/track/free-your-mind/26919525)) - `128 BPM; B Minor; 10A; House; CircoLoco Records`
-7. Hayden James & Kormak & Yeah Boy - One I Want ([Beatport](https://www.beatport.com/track/one-i-want/27909452)) - `126 BPM; Db Minor; 12A; House; Broke`
-8. LP Giobbi & EMJIE - Spirit Higher ([Beatport](https://www.beatport.com/track/spirit-higher/26852793)) - `129 BPM; C Minor; 5A; House; Yes Yes Yes`
-9. Carlita & Paige Cavell - Patchwork ([Beatport](https://www.beatport.com/track/patchwork/28420603)) - `129 BPM; A Minor; 8A; Dance / Pop; Ninja Tune`
-10. Luke Alessi - Yes Empress ([Beatport](https://www.beatport.com/track/yes-empress-/26770786)) - `131 BPM; G Major; 9B; House; Coffee Cola`
-11. Duke Dumont & Låpsley - Misdemeanour ([Beatport](https://www.beatport.com/track/misdemeanour-feat-lpsley/28465919)) - `132 BPM; Db Minor; 12A; House; Club Blasé`
-12. Catz 'N Dogz & Faustyna Maciejczuk - U&Me ([Beatport](https://www.beatport.com/track/ume/26937241)) - `132 BPM; Bb Minor; 3A; Dance / Pop; Armada Music`
-13. STRAWBRY - For The Day (Kiimi Remix) ([Beatport](https://www.beatport.com/track/for-the-day/28483547)) - `134 BPM; F Major; 7B; Dance / Pop; Queens Road Music`
-14. Odd Mob - Dancing Boys, Dancing Girls ([Beatport](https://www.beatport.com/track/dancing-boys-dancing-girls/28330628)) - `130 BPM; Eb Minor; 2A; Bass House; October Records`
-15. MPH - Unconditional ([Beatport](https://www.beatport.com/track/unconditional/28422523)) - `140 BPM; D Minor; 7A; UK Garage / Bassline; Disorder`
-16. TOMORA - Somewhere Else (salute Remix) ([Beatport](https://www.beatport.com/track/somewhere-else/28328612)) - `130 BPM; C Minor; 5A; Dance / Pop; Fontana`
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/15vbkbst/the-aston-shuffle-only-100s-april-2026-2026-04-28.html)
 </details>
 
