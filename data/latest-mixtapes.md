@@ -16,35 +16,39 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 <details>
 <summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Fer+BR+Help+Us%21+%28Extended+Mix%29))
-2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/search?q=M%C3%B8sard+Jump+High+%28Jump+In+Extended+Mix%29))
-3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ribguga+PILLS+%28Extended+Mix%29))
-4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alaia+%26+Gallo+Sweat+%28Extended+Mix%29))
-5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/search?q=Jitwam%2C+GUDFELLA+Morning+Coffee+%28Vintage+Culture+%26+Volkoder+Extended+Remix%29))
-6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/search?q=Joshwa%2C+Rello+Out+of+My+Mind+%28Rello+Remix%29))
-7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/search?q=Tal+Tobi%2C+Purple+Tape+Stroopwafel+%28KITA+Remix%29))
-8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Duarte+%28BR%29%2C+Nadin+%28BR%29+Midnight+Groove+%28Original+Mix%29))
-9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Breaking+Beattz%2C+Adam+Sellouk+Bom+Dia+%28Extended+Mix%29))
-10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Pablo+Schlosser%2C+Lenchappp+Let+the+Groove+%28Original+Mix%29))
-11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Max+Styler%2C+Greggio+Oldskool+Flavor+%28Extended+Mix%29))
-12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Wax+Motif+Bite+Down+%28Extended+Mix%29))
+_A driving 128-132 BPM, leaning toward Tech House, often in D Major mix._
+
+1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/track/help-us/28833481)) - `128 BPM; D Major; 10B; Tech House; Strangelove Recordings`
+2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/track/jump-high-jump-in/28923144)) - `128 BPM; G Minor; 6A; Tech House; HUB Records`
+3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/track/pills/28548524)) - `130 BPM; D Major; 10B; Tech House; Uprise Music`
+4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/track/sweat/28728910)) - `128 BPM; G Minor; 6A; Tech House; Toolroom Trax`
+5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/track/morning-coffee/28940208)) - `130 BPM; C Minor; 5A; Tech House; THRIVE MUSIC`
+6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/track/out-of-my-mind-/28937332)) - `131 BPM; C Major; 8B; Tech House; Hellbent Records`
+7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/track/stroopwafel/28939164)) - `128 BPM; F Major; 7B; Indie Dance; Desert Vision`
+8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/track/midnight-groove-/28723803)) - `130 BPM; D Minor; 7A; Tech House; Collecting Dots`
+9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/track/bom-dia-/28912535)) - `130 BPM; Db Minor; 12A; Tech House | Latin Tech; Hellbent Records`
+10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/track/let-the-groove/22373634)) - `128 BPM; Eb Major; 5B; Tech House; Direct Action Records`
+11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/track/oldskool-flavor/28792028)) - `129 BPM; Bb Major; 6B; Tech House; Nu Moda`
+12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/track/bite-down/28473961)) - `132 BPM; Eb Minor; 2A; Tech House; Insomniac Records`
 </details>
 
 <details>
 <summary>2026-06-05 - Magic Tape - MAGIC TAPE 133 (12 tracks)</summary>
 
+_A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor mix._
+
 1. Siina - Heavenly ([Beatport](https://www.beatport.com/search?q=Siina+Heavenly))
-2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/search?q=Ajna%2C+Misha+Body+Moving))
+2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/track/body-moving-/28929013)) - `123 BPM; F Minor; 4A; Melodic House & Techno; Magnifik Music`
 3. JØRD - The Bump ([Beatport](https://www.beatport.com/search?q=J%C3%98RD+The+Bump))
-4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/search?q=Pryda+Rakfunk))
-5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/search?q=The+Chemical+Brothers+Go))
-6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/search?q=Hardt+Antoine+Raw))
-7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/search?q=Amour+Propre+Blurred+Signal))
-8. Gespona - Komplex ([Beatport](https://www.beatport.com/search?q=Gespona+Komplex))
-9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/search?q=Andhim+Hausch+%28K%C3%B6lsch+Remix%29))
-10. Blackloud - And Then What ([Beatport](https://www.beatport.com/search?q=Blackloud+And+Then+What))
+4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/track/rakfunk/688873)) - `125 BPM; A# Minor; 3A; Mainstage | Electro House; Pryda Recordings`
+5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/track/go/12342545)) - `120 BPM; D Minor; 7A; Dance / Pop; UMC (Universal Music Catalogue)`
+6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/track/raw/28617626)) - `155 BPM; D Major; 10B; Melodic House & Techno; Innervisions`
+7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/track/blurred-signal/28337402)) - `125 BPM; D Minor; 7A; Melodic House & Techno; Diynamic`
+8. Gespona - Komplex ([Beatport](https://www.beatport.com/track/komplex/28617628)) - `124 BPM; A Major; 11B; Melodic House & Techno; Innervisions`
+9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/track/hausch/28702015)) - `125 BPM; G Major; 9B; Melodic House & Techno; Natura Viva`
+10. Blackloud - And Then What ([Beatport](https://www.beatport.com/track/and-then-what/28955839)) - `125 BPM; G Major; 9B; Melodic House & Techno; Diynamic`
 11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
-12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/search?q=Deetron%2C+Ben+Westbeech+Deep+In+Your+Soul))
+12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/track/deep-in-your-soul-/28706721)) - `126 BPM; E Minor; 9A; House; Running Back`
 </details>
 
 <details>
@@ -107,18 +111,20 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-
 <details>
 <summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Fer+BR+Help+Us%21+%28Extended+Mix%29))
-2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/search?q=M%C3%B8sard+Jump+High+%28Jump+In+Extended+Mix%29))
-3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ribguga+PILLS+%28Extended+Mix%29))
-4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alaia+%26+Gallo+Sweat+%28Extended+Mix%29))
-5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/search?q=Jitwam%2C+GUDFELLA+Morning+Coffee+%28Vintage+Culture+%26+Volkoder+Extended+Remix%29))
-6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/search?q=Joshwa%2C+Rello+Out+of+My+Mind+%28Rello+Remix%29))
-7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/search?q=Tal+Tobi%2C+Purple+Tape+Stroopwafel+%28KITA+Remix%29))
-8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Duarte+%28BR%29%2C+Nadin+%28BR%29+Midnight+Groove+%28Original+Mix%29))
-9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Breaking+Beattz%2C+Adam+Sellouk+Bom+Dia+%28Extended+Mix%29))
-10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/search?q=Pablo+Schlosser%2C+Lenchappp+Let+the+Groove+%28Original+Mix%29))
-11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Max+Styler%2C+Greggio+Oldskool+Flavor+%28Extended+Mix%29))
-12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Wax+Motif+Bite+Down+%28Extended+Mix%29))
+_A driving 128-132 BPM, leaning toward Tech House, often in D Major mix._
+
+1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/track/help-us/28833481)) - `128 BPM; D Major; 10B; Tech House; Strangelove Recordings`
+2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/track/jump-high-jump-in/28923144)) - `128 BPM; G Minor; 6A; Tech House; HUB Records`
+3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/track/pills/28548524)) - `130 BPM; D Major; 10B; Tech House; Uprise Music`
+4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/track/sweat/28728910)) - `128 BPM; G Minor; 6A; Tech House; Toolroom Trax`
+5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/track/morning-coffee/28940208)) - `130 BPM; C Minor; 5A; Tech House; THRIVE MUSIC`
+6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/track/out-of-my-mind-/28937332)) - `131 BPM; C Major; 8B; Tech House; Hellbent Records`
+7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/track/stroopwafel/28939164)) - `128 BPM; F Major; 7B; Indie Dance; Desert Vision`
+8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/track/midnight-groove-/28723803)) - `130 BPM; D Minor; 7A; Tech House; Collecting Dots`
+9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/track/bom-dia-/28912535)) - `130 BPM; Db Minor; 12A; Tech House | Latin Tech; Hellbent Records`
+10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/track/let-the-groove/22373634)) - `128 BPM; Eb Major; 5B; Tech House; Direct Action Records`
+11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/track/oldskool-flavor/28792028)) - `129 BPM; Bb Major; 6B; Tech House; Nu Moda`
+12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/track/bite-down/28473961)) - `132 BPM; Eb Minor; 2A; Tech House; Insomniac Records`
 </details>
 
 <details>
@@ -130,18 +136,20 @@ _No tracks indexed yet._
 <details>
 <summary>2026-06-05 - Magic Tape - MAGIC TAPE 133 (12 tracks)</summary>
 
+_A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor mix._
+
 1. Siina - Heavenly ([Beatport](https://www.beatport.com/search?q=Siina+Heavenly))
-2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/search?q=Ajna%2C+Misha+Body+Moving))
+2. Ajna, Misha - Body Moving ([Beatport](https://www.beatport.com/track/body-moving-/28929013)) - `123 BPM; F Minor; 4A; Melodic House & Techno; Magnifik Music`
 3. JØRD - The Bump ([Beatport](https://www.beatport.com/search?q=J%C3%98RD+The+Bump))
-4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/search?q=Pryda+Rakfunk))
-5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/search?q=The+Chemical+Brothers+Go))
-6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/search?q=Hardt+Antoine+Raw))
-7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/search?q=Amour+Propre+Blurred+Signal))
-8. Gespona - Komplex ([Beatport](https://www.beatport.com/search?q=Gespona+Komplex))
-9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/search?q=Andhim+Hausch+%28K%C3%B6lsch+Remix%29))
-10. Blackloud - And Then What ([Beatport](https://www.beatport.com/search?q=Blackloud+And+Then+What))
+4. Pryda - Rakfunk ([Beatport](https://www.beatport.com/track/rakfunk/688873)) - `125 BPM; A# Minor; 3A; Mainstage | Electro House; Pryda Recordings`
+5. The Chemical Brothers - Go ([Beatport](https://www.beatport.com/track/go/12342545)) - `120 BPM; D Minor; 7A; Dance / Pop; UMC (Universal Music Catalogue)`
+6. Hardt Antoine - Raw ([Beatport](https://www.beatport.com/track/raw/28617626)) - `155 BPM; D Major; 10B; Melodic House & Techno; Innervisions`
+7. Amour Propre - Blurred Signal ([Beatport](https://www.beatport.com/track/blurred-signal/28337402)) - `125 BPM; D Minor; 7A; Melodic House & Techno; Diynamic`
+8. Gespona - Komplex ([Beatport](https://www.beatport.com/track/komplex/28617628)) - `124 BPM; A Major; 11B; Melodic House & Techno; Innervisions`
+9. Andhim - Hausch (Kölsch Remix) ([Beatport](https://www.beatport.com/track/hausch/28702015)) - `125 BPM; G Major; 9B; Melodic House & Techno; Natura Viva`
+10. Blackloud - And Then What ([Beatport](https://www.beatport.com/track/and-then-what/28955839)) - `125 BPM; G Major; 9B; Melodic House & Techno; Diynamic`
 11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
-12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/search?q=Deetron%2C+Ben+Westbeech+Deep+In+Your+Soul))
+12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/track/deep-in-your-soul-/28706721)) - `126 BPM; E Minor; 9A; House; Running Back`
 </details>
 
 <details>
