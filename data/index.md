@@ -5,8 +5,8 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 ## Summary
 
 - Mixtapes: 643
-- Mixtapes with tracks: 394
-- Tracks: 5134
+- Mixtapes with tracks: 395
+- Tracks: 5147
 - Month range: 2010-07 to 2026-06
 
 ## Series
@@ -16,14 +16,14 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | ERA | 218 | 134 | 1709 | 2022-04 to 2026-06 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 101 | 43 | 621 | 2017-01 to 2026-05 |
-| XXX Radio | 191 | 112 | 1538 | 2022-09 to 2026-06 |
+| XXX Radio | 191 | 113 | 1551 | 2022-09 to 2026-06 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
 | 2026-06 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
-| 2026-06 | XXX Radio | 0 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
+| 2026-06 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) ([tracklist](https://1001.tl/m1cbjm)) |
 | 2026-06 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 | 2026-06 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) ([tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)) |

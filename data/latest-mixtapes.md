@@ -8,7 +8,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 | --- | --- | ---: | --- |
 | 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
-| 2026-06-05 | XXX Radio | 0 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
+| 2026-06-05 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 
 ### Tracklists
@@ -52,9 +52,25 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 </details>
 
 <details>
-<summary>2026-06-05 - XXX Radio - XXX Radio #191 (0 tracks)</summary>
+<summary>2026-06-05 - XXX Radio - XXX Radio #191 (13 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 126-130 BPM, leaning toward Tech House, often in C Minor mix._
+
+1. JHAY RHOD - Skyfall ([Beatport](https://www.beatport.com/track/skyfall-/29072637)) - `130 BPM; Ab Minor; 1A; Tech House; Machaca La Membrana`
+2. Davide T & Draxx (ITA) - Pick Up ([Beatport](https://www.beatport.com/track/pick-up-/29069134)) - `130 BPM; Eb Minor; 2A; Tech House; elrow Music`
+3. Nautica (UK) - Nautica - Looped In Motion ([Beatport](https://www.beatport.com/track/looped-in-motion/28721509)) - `129 BPM; Eb Minor; 2A; House; 8Bit`
+4. Chico Rose (NL) - Chompa ([Beatport](https://www.beatport.com/track/chompa-/28998660)) - `129 BPM; Bb Minor; 3A; Tech House; MOXY MUZIK`
+5. Kapuchon - Secret Moves ([Beatport](https://www.beatport.com/track/secret-moves/28835236)) - `126 BPM; C Minor; 5A; Tech House; Hot Creations`
+6. Funky Green Dogs - Murk pres. Funky Green Dogs - Fired Up! (Malóne Morez Remix) ([Beatport](https://www.beatport.com/track/fired-up/28940682)) - `130 BPM; C Minor; 5A; House; Nervous Records`
+7. Sohail & Manuel Ribeca - Bus Down ([Beatport](https://www.beatport.com/track/bus-down/28941350)) - `128 BPM; G Minor; 6A; Tech House; Clarisse Records`
+8. VITO (UK) & Dany Gomez - Loca ([Beatport](https://www.beatport.com/track/loca/28824386)) - `130 BPM; D Minor; 7A; Tech House | Latin Tech; NUSONIDO`
+9. Sohail & Manuel Ribeca - Loui Bag ([Beatport](https://www.beatport.com/track/loui-bag/28941352)) - `128 BPM; D Minor; 7A; Tech House; Clarisse Records`
+10. Milo Passier - Sensitivity ([Beatport](https://www.beatport.com/track/sensitivity-/28912540)) - `128 BPM; Db Minor; 12A; Deep House; Cecille`
+11. Balanka - Command Your Soul ([Beatport](https://www.beatport.com/track/command-your-soul-/28866353)) - `128 BPM; Db Major; 3B; Tech House; Collecting Dots`
+12. Darius Syrossian - Es Fuego (ItaloBros Remix) ([Beatport](https://www.beatport.com/track/es-fuego/28914488)) - `129 BPM; A Minor; 8A; Tech House | Latin Tech; Deeperfect`
+13. Tato (House) - Tato - BAILE Maz ([Beatport](https://www.beatport.com/search?q=Tato+%28House%29+Tato+-+BAILE+Maz))
+
+Source: [tracklist](https://1001.tl/m1cbjm)
 </details>
 
 <details>
@@ -86,7 +102,7 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
 | 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
-| 2026-06-05 | XXX Radio | 0 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
+| 2026-06-05 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 | 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
@@ -128,9 +144,25 @@ _A driving 128-132 BPM, leaning toward Tech House, often in D Major mix._
 </details>
 
 <details>
-<summary>2026-06-05 - XXX Radio - XXX Radio #191 (0 tracks)</summary>
+<summary>2026-06-05 - XXX Radio - XXX Radio #191 (13 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 126-130 BPM, leaning toward Tech House, often in C Minor mix._
+
+1. JHAY RHOD - Skyfall ([Beatport](https://www.beatport.com/track/skyfall-/29072637)) - `130 BPM; Ab Minor; 1A; Tech House; Machaca La Membrana`
+2. Davide T & Draxx (ITA) - Pick Up ([Beatport](https://www.beatport.com/track/pick-up-/29069134)) - `130 BPM; Eb Minor; 2A; Tech House; elrow Music`
+3. Nautica (UK) - Nautica - Looped In Motion ([Beatport](https://www.beatport.com/track/looped-in-motion/28721509)) - `129 BPM; Eb Minor; 2A; House; 8Bit`
+4. Chico Rose (NL) - Chompa ([Beatport](https://www.beatport.com/track/chompa-/28998660)) - `129 BPM; Bb Minor; 3A; Tech House; MOXY MUZIK`
+5. Kapuchon - Secret Moves ([Beatport](https://www.beatport.com/track/secret-moves/28835236)) - `126 BPM; C Minor; 5A; Tech House; Hot Creations`
+6. Funky Green Dogs - Murk pres. Funky Green Dogs - Fired Up! (Malóne Morez Remix) ([Beatport](https://www.beatport.com/track/fired-up/28940682)) - `130 BPM; C Minor; 5A; House; Nervous Records`
+7. Sohail & Manuel Ribeca - Bus Down ([Beatport](https://www.beatport.com/track/bus-down/28941350)) - `128 BPM; G Minor; 6A; Tech House; Clarisse Records`
+8. VITO (UK) & Dany Gomez - Loca ([Beatport](https://www.beatport.com/track/loca/28824386)) - `130 BPM; D Minor; 7A; Tech House | Latin Tech; NUSONIDO`
+9. Sohail & Manuel Ribeca - Loui Bag ([Beatport](https://www.beatport.com/track/loui-bag/28941352)) - `128 BPM; D Minor; 7A; Tech House; Clarisse Records`
+10. Milo Passier - Sensitivity ([Beatport](https://www.beatport.com/track/sensitivity-/28912540)) - `128 BPM; Db Minor; 12A; Deep House; Cecille`
+11. Balanka - Command Your Soul ([Beatport](https://www.beatport.com/track/command-your-soul-/28866353)) - `128 BPM; Db Major; 3B; Tech House; Collecting Dots`
+12. Darius Syrossian - Es Fuego (ItaloBros Remix) ([Beatport](https://www.beatport.com/track/es-fuego/28914488)) - `129 BPM; A Minor; 8A; Tech House | Latin Tech; Deeperfect`
+13. Tato (House) - Tato - BAILE Maz ([Beatport](https://www.beatport.com/search?q=Tato+%28House%29+Tato+-+BAILE+Maz))
+
+Source: [tracklist](https://1001.tl/m1cbjm)
 </details>
 
 <details>
