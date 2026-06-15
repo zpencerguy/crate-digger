@@ -6,30 +6,33 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
+| 2026-06-12 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
+| 2026-06-11 | XXX Radio | 0 | [XXX Radio #192](https://soundcloud.com/realmaup/xxx-radio-192) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
-| 2026-06-05 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
 
 ### Tracklists
 
 <details>
-<summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-06-12 - ERA - ERA 219 - Rebūke Studio Mix (11 tracks)</summary>
 
-_A driving 128-132 BPM, leaning toward Tech House, often in D Major mix._
+1. TOYZZ - The End ([Beatport](https://www.beatport.com/search?q=TOYZZ+The+End))
+2. Greggio, MEDUK - Dancing All Night Long (Original Mix) ([Beatport](https://www.beatport.com/search?q=Greggio%2C+MEDUK+Dancing+All+Night+Long+%28Original+Mix%29))
+3. Jamback - FEEL THE MUSIC (Original Mix) ([Beatport](https://www.beatport.com/search?q=Jamback+FEEL+THE+MUSIC+%28Original+Mix%29))
+4. Aitor Astiz - Digital Soul (Freak Original Mix) ([Beatport](https://www.beatport.com/search?q=Aitor+Astiz+Digital+Soul+%28Freak+Original+Mix%29))
+5. Baggi, Chico Rose (NL) - Take A Little Trip (Original Mix) ([Beatport](https://www.beatport.com/search?q=Baggi%2C+Chico+Rose+%28NL%29+Take+A+Little+Trip+%28Original+Mix%29))
+6. Chico Rose (NL) - Chompa (Original Mix)s ([Beatport](https://www.beatport.com/search?q=Chico+Rose+%28NL%29+Chompa+%28Original+Mix%29s))
+7. Clüb De Combat, Rudy With a Hoodie - Jack The House (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clu%CC%88b+De+Combat%2C+Rudy+With+a+Hoodie+Jack+The+House+%28Extended+Mix%29))
+8. Dennis Cruz - Monochrome Feat. Pumpkin (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dennis+Cruz+Monochrome+Feat.+Pumpkin+%28Original+Mix%29))
+9. Adam Ten - I Never Knew (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten+I+Never+Knew+%28Extended+Mix%29))
+10. Dunmore Brothers - Smoke (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dunmore+Brothers+Smoke+%28Original+Mix%29))
+11. AC Slater, Scrufizzer, Enzo is Burning - Crew Joint (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AC+Slater%2C+Scrufizzer%2C+Enzo+is+Burning+Crew+Joint+%28Extended+Mix%29))
+</details>
 
-1. Fer BR - Help Us! (Extended Mix) ([Beatport](https://www.beatport.com/track/help-us/28833481)) - `128 BPM; D Major; 10B; Tech House; Strangelove Recordings`
-2. Møsard - Jump High (Jump In Extended Mix) ([Beatport](https://www.beatport.com/track/jump-high-jump-in/28923144)) - `128 BPM; G Minor; 6A; Tech House; HUB Records`
-3. Ribguga - PILLS (Extended Mix) ([Beatport](https://www.beatport.com/track/pills/28548524)) - `130 BPM; D Major; 10B; Tech House; Uprise Music`
-4. Alaia & Gallo - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/track/sweat/28728910)) - `128 BPM; G Minor; 6A; Tech House; Toolroom Trax`
-5. Jitwam, GUDFELLA - Morning Coffee (Vintage Culture & Volkoder Extended Remix) ([Beatport](https://www.beatport.com/track/morning-coffee/28940208)) - `130 BPM; C Minor; 5A; Tech House; THRIVE MUSIC`
-6. Joshwa, Rello - Out of My Mind (Rello Remix) ([Beatport](https://www.beatport.com/track/out-of-my-mind-/28937332)) - `131 BPM; C Major; 8B; Tech House; Hellbent Records`
-7. Tal Tobi, Purple Tape - Stroopwafel (KITA Remix) ([Beatport](https://www.beatport.com/track/stroopwafel/28939164)) - `128 BPM; F Major; 7B; Indie Dance; Desert Vision`
-8. Duarte (BR), Nadin (BR) - Midnight Groove (Original Mix) ([Beatport](https://www.beatport.com/track/midnight-groove-/28723803)) - `130 BPM; D Minor; 7A; Tech House; Collecting Dots`
-9. Breaking Beattz, Adam Sellouk - Bom Dia (Extended Mix) ([Beatport](https://www.beatport.com/track/bom-dia-/28912535)) - `130 BPM; Db Minor; 12A; Tech House | Latin Tech; Hellbent Records`
-10. Pablo Schlosser, Lenchappp - Let the Groove (Original Mix) ([Beatport](https://www.beatport.com/track/let-the-groove/22373634)) - `128 BPM; Eb Major; 5B; Tech House; Direct Action Records`
-11. Max Styler, Greggio - Oldskool Flavor (Extended Mix) ([Beatport](https://www.beatport.com/track/oldskool-flavor/28792028)) - `129 BPM; Bb Major; 6B; Tech House; Nu Moda`
-12. Wax Motif - Bite Down (Extended Mix) ([Beatport](https://www.beatport.com/track/bite-down/28473961)) - `132 BPM; Eb Minor; 2A; Tech House; Insomniac Records`
+<details>
+<summary>2026-06-11 - XXX Radio - XXX Radio #192 (0 tracks)</summary>
+
+_No tracks indexed yet._
 </details>
 
 <details>
@@ -49,28 +52,6 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 10. Blackloud - And Then What ([Beatport](https://www.beatport.com/track/and-then-what/28955839)) - `125 BPM; G Major; 9B; Melodic House & Techno; Diynamic`
 11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
 12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/track/deep-in-your-soul-/28706721)) - `126 BPM; E Minor; 9A; House; Running Back`
-</details>
-
-<details>
-<summary>2026-06-05 - XXX Radio - XXX Radio #191 (13 tracks)</summary>
-
-_A driving 126-130 BPM, leaning toward Tech House, often in C Minor mix._
-
-1. JHAY RHOD - Skyfall ([Beatport](https://www.beatport.com/track/skyfall-/29072637)) - `130 BPM; Ab Minor; 1A; Tech House; Machaca La Membrana`
-2. Davide T & Draxx (ITA) - Pick Up ([Beatport](https://www.beatport.com/track/pick-up-/29069134)) - `130 BPM; Eb Minor; 2A; Tech House; elrow Music`
-3. Nautica (UK) - Nautica - Looped In Motion ([Beatport](https://www.beatport.com/track/looped-in-motion/28721509)) - `129 BPM; Eb Minor; 2A; House; 8Bit`
-4. Chico Rose (NL) - Chompa ([Beatport](https://www.beatport.com/track/chompa-/28998660)) - `129 BPM; Bb Minor; 3A; Tech House; MOXY MUZIK`
-5. Kapuchon - Secret Moves ([Beatport](https://www.beatport.com/track/secret-moves/28835236)) - `126 BPM; C Minor; 5A; Tech House; Hot Creations`
-6. Funky Green Dogs - Murk pres. Funky Green Dogs - Fired Up! (Malóne Morez Remix) ([Beatport](https://www.beatport.com/track/fired-up/28940682)) - `130 BPM; C Minor; 5A; House; Nervous Records`
-7. Sohail & Manuel Ribeca - Bus Down ([Beatport](https://www.beatport.com/track/bus-down/28941350)) - `128 BPM; G Minor; 6A; Tech House; Clarisse Records`
-8. VITO (UK) & Dany Gomez - Loca ([Beatport](https://www.beatport.com/track/loca/28824386)) - `130 BPM; D Minor; 7A; Tech House | Latin Tech; NUSONIDO`
-9. Sohail & Manuel Ribeca - Loui Bag ([Beatport](https://www.beatport.com/track/loui-bag/28941352)) - `128 BPM; D Minor; 7A; Tech House; Clarisse Records`
-10. Milo Passier - Sensitivity ([Beatport](https://www.beatport.com/track/sensitivity-/28912540)) - `128 BPM; Db Minor; 12A; Deep House; Cecille`
-11. Balanka - Command Your Soul ([Beatport](https://www.beatport.com/track/command-your-soul-/28866353)) - `128 BPM; Db Major; 3B; Tech House; Collecting Dots`
-12. Darius Syrossian - Es Fuego (ItaloBros Remix) ([Beatport](https://www.beatport.com/track/es-fuego/28914488)) - `129 BPM; A Minor; 8A; Tech House | Latin Tech; Deeperfect`
-13. Tato (House) - Tato - BAILE Maz ([Beatport](https://www.beatport.com/search?q=Tato+%28House%29+Tato+-+BAILE+Maz))
-
-Source: [tracklist](https://1001.tl/m1cbjm)
 </details>
 
 <details>
@@ -101,6 +82,8 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-06-12 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
+| 2026-06-11 | XXX Radio | 0 | [XXX Radio #192](https://soundcloud.com/realmaup/xxx-radio-192) |
 | 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
 | 2026-06-05 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
@@ -119,10 +102,30 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-
 | 2026-04-24 | ERA | 13 | [ERA 212 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-212-rebu-ke-studio-mix) |
 | 2026-04-20 | ERA | 13 | [ERA 211 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-211-rebu-ke-studio-mix) |
 | 2026-04-17 | XXX Radio | 13 | [XXX Radio #184](https://soundcloud.com/realmaup/xxx-radio-184) |
-| 2026-04-10 | ERA | 12 | [ERA 210 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-210-rebu-ke-studio-mix) |
-| 2026-04-10 | XXX Radio | 12 | [XXX Radio #183](https://soundcloud.com/realmaup/xxx-radio-183) |
 
 ### Tracklists
+
+<details>
+<summary>2026-06-12 - ERA - ERA 219 - Rebūke Studio Mix (11 tracks)</summary>
+
+1. TOYZZ - The End ([Beatport](https://www.beatport.com/search?q=TOYZZ+The+End))
+2. Greggio, MEDUK - Dancing All Night Long (Original Mix) ([Beatport](https://www.beatport.com/search?q=Greggio%2C+MEDUK+Dancing+All+Night+Long+%28Original+Mix%29))
+3. Jamback - FEEL THE MUSIC (Original Mix) ([Beatport](https://www.beatport.com/search?q=Jamback+FEEL+THE+MUSIC+%28Original+Mix%29))
+4. Aitor Astiz - Digital Soul (Freak Original Mix) ([Beatport](https://www.beatport.com/search?q=Aitor+Astiz+Digital+Soul+%28Freak+Original+Mix%29))
+5. Baggi, Chico Rose (NL) - Take A Little Trip (Original Mix) ([Beatport](https://www.beatport.com/search?q=Baggi%2C+Chico+Rose+%28NL%29+Take+A+Little+Trip+%28Original+Mix%29))
+6. Chico Rose (NL) - Chompa (Original Mix)s ([Beatport](https://www.beatport.com/search?q=Chico+Rose+%28NL%29+Chompa+%28Original+Mix%29s))
+7. Clüb De Combat, Rudy With a Hoodie - Jack The House (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clu%CC%88b+De+Combat%2C+Rudy+With+a+Hoodie+Jack+The+House+%28Extended+Mix%29))
+8. Dennis Cruz - Monochrome Feat. Pumpkin (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dennis+Cruz+Monochrome+Feat.+Pumpkin+%28Original+Mix%29))
+9. Adam Ten - I Never Knew (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten+I+Never+Knew+%28Extended+Mix%29))
+10. Dunmore Brothers - Smoke (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dunmore+Brothers+Smoke+%28Original+Mix%29))
+11. AC Slater, Scrufizzer, Enzo is Burning - Crew Joint (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AC+Slater%2C+Scrufizzer%2C+Enzo+is+Burning+Crew+Joint+%28Extended+Mix%29))
+</details>
+
+<details>
+<summary>2026-06-11 - XXX Radio - XXX Radio #192 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-06-05 - ERA - ERA 218 - Rebūke Studio Mix (12 tracks)</summary>
@@ -466,41 +469,5 @@ Source: [tracklist](https://www.1001tracklists.com/tracklist/9x7zpq9/mau-p-xxx-r
 13. Luke Alessi - Luke Alessi ft. Kamohelo - Overtime ([Beatport](https://www.beatport.com/search?q=Luke+Alessi+Luke+Alessi+ft.+Kamohelo+-+Overtime))
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/1qmqmvd1/mau-p-xxx-radio-184-2026-04-17.html)
-</details>
-
-<details>
-<summary>2026-04-10 - ERA - ERA 210 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Kyle Watson, Shermanology - Girl On The Beat (Kyle Watson Extended Energy Dub) ([Beatport](https://www.beatport.com/search?q=Kyle+Watson%2C+Shermanology+Girl+On+The+Beat+%28Kyle+Watson+Extended+Energy+Dub%29))
-2. Baggi, Chico Rose (NL) - Take A Little Trip (Original Mix) ([Beatport](https://www.beatport.com/search?q=Baggi%2C+Chico+Rose+%28NL%29+Take+A+Little+Trip+%28Original+Mix%29))
-3. Alaia & Gallo - Perfect Love (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Alaia+%26+Gallo+Perfect+Love+%28Extended+Mix%29))
-4. Ale De Tuglie - Pleasure Is Close (Original Mix) ([Beatport](https://www.beatport.com/search?q=Ale+De+Tuglie+Pleasure+Is+Close+%28Original+Mix%29))
-5. Blaise Bracic - In Love With My 909 (Extended) ([Beatport](https://www.beatport.com/search?q=Blaise+Bracic+In+Love+With+My+909+%28Extended%29))
-6. Bushbaby, Riordan - Strong Rhyme (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Bushbaby%2C+Riordan+Strong+Rhyme+%28Extended+Mix%29))
-7. ACRAZE - Whatcha Do To Me (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ACRAZE+Whatcha+Do+To+Me+%28Extended+Mix%29))
-8. Gabss - So Good (Original Mix) ([Beatport](https://www.beatport.com/search?q=Gabss+So+Good+%28Original+Mix%29))
-9. Green Velvet & Harvard Bass - Lazer Beams (Alok Remix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet+%26+Harvard+Bass+Lazer+Beams+%28Alok+Remix%29))
-10. Welker, TOBEHONEST - Too Bright (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Welker%2C+TOBEHONEST+Too+Bright+%28Extended+Mix%29))
-11. Dotwork, Makswa - Rock It (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Dotwork%2C+Makswa+Rock+It+%28Extended+Mix%29))
-12. Skream - Big Space (Original Mix) ([Beatport](https://www.beatport.com/search?q=Skream+Big+Space+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-04-10 - XXX Radio - XXX Radio #183 (12 tracks)</summary>
-
-1. Malandra Jr - Pam Pam (Panna Remix) ([Beatport](https://www.beatport.com/search?q=Malandra+Jr+Pam+Pam+%28Panna+Remix%29))
-2. Balanka & Louis Millne - W.M.E.G. ([Beatport](https://www.beatport.com/search?q=Balanka+%26+Louis+Millne+W.M.E.G.))
-3. Nacho Scoppa - Summertime ([Beatport](https://www.beatport.com/search?q=Nacho+Scoppa+Summertime))
-4. Eddy M - Stand Up ([Beatport](https://www.beatport.com/search?q=Eddy+M+Stand+Up))
-5. CHAN - Feel The Beat ([Beatport](https://www.beatport.com/search?q=CHAN+Feel+The+Beat))
-6. Chico Rose (NL) & Baggi - Take A Little Trip ([Beatport](https://www.beatport.com/search?q=Chico+Rose+%28NL%29+%26+Baggi+Take+A+Little+Trip))
-7. Harry Romero - Feels Good ([Beatport](https://www.beatport.com/search?q=Harry+Romero+Feels+Good))
-8. Balanka & Louis Millne - Rhythm (Aitor Astiz Remix) ([Beatport](https://www.beatport.com/search?q=Balanka+%26+Louis+Millne+Rhythm+%28Aitor+Astiz+Remix%29))
-9. Nacho Scoppa - Turn It ([Beatport](https://www.beatport.com/search?q=Nacho+Scoppa+Turn+It))
-10. Mathias Kaden - Mathias Kaden ft. Cassy - I Got You ([Beatport](https://www.beatport.com/search?q=Mathias+Kaden+Mathias+Kaden+ft.+Cassy+-+I+Got+You))
-11. Harry Romero - Maria ([Beatport](https://www.beatport.com/search?q=Harry+Romero+Maria))
-12. Last Value - House Is A Feeling ([Beatport](https://www.beatport.com/search?q=Last+Value+House+Is+A+Feeling))
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/n4z93xt/mau-p-xxx-radio-183-2026-04-10.html)
 </details>
 

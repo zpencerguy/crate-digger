@@ -2834,6 +2834,19 @@
     "track_count": 12
   },
   {
+    "id": 646,
+    "month": "2026-06",
+    "release_date": "2026-06-12",
+    "series": "ERA",
+    "title": "ERA 219 - Rebūke Studio Mix",
+    "uploader": "Rebūke",
+    "soundcloud_url": "https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-dYYB8IBM8sJsMd6i-XMZHXQ-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2338034273&show_artwork=true\"></iframe>",
+    "track_count": 11
+  },
+  {
     "id": 230,
     "month": "2010-07",
     "release_date": "2010-07-12",
@@ -2842,8 +2855,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-one",
     "tracklist_url": "https://www.mixesdb.com/w/2010-07-12_-_The_Magician_-_Magic_Tape_1",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F3935904&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2855,8 +2868,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-two",
     "tracklist_url": "https://www.mixesdb.com/w/2010-08-23_-_The_Magician_-_Magic_Tape_2",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F4796502&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2868,8 +2881,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-three",
     "tracklist_url": "https://www.mixesdb.com/w/2010-09-23_-_The_Magician_-_Magic_Tape_3",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F5522462&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -2881,8 +2894,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-four",
     "tracklist_url": "https://www.mixesdb.com/w/2010-10-26_-_The_Magician_-_Magic_Tape_4",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F6423044&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2894,8 +2907,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-five",
     "tracklist_url": "https://www.mixesdb.com/w/2010-11-23_-_The_Magician_-_Magic_Tape_5",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F7315160&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2907,8 +2920,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-six",
     "tracklist_url": "https://www.mixesdb.com/w/2010-12-14_-_The_Magician_-_Magic_Tape_6",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F8043109&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2920,8 +2933,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-seven",
     "tracklist_url": "https://www.mixesdb.com/w/2011-01-26_-_The_Magician_-_Magic_Tape_7",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F9645039&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2933,8 +2946,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eight",
     "tracklist_url": "https://www.mixesdb.com/w/2011-02-22_-_The_Magician_-_Magic_Tape_8",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F10934022&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2946,8 +2959,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-nine",
     "tracklist_url": "https://www.mixesdb.com/w/2011-03-22_-_The_Magician_-_Magic_Tape_9",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F12356224&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2959,8 +2972,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-ten",
     "tracklist_url": "https://www.mixesdb.com/w/2011-04-19_-_The_Magician_-_Magic_Tape_10",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F13846673&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -2972,8 +2985,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eleven",
     "tracklist_url": "https://www.mixesdb.com/w/2011-05-17_-_The_Magician_-_Magic_Tape_11",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F15420899&show_artwork=true\"></iframe>",
     "track_count": 9
   },
   {
@@ -2985,8 +2998,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twelve",
     "tracklist_url": "https://www.mixesdb.com/w/2011-06-14_-_The_Magician_-_Magic_Tape_12",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F17118603&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -2998,8 +3011,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirteen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-07-19_-_The_Magician_-_Magic_Tape_13",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://soundcloud.com/images/fb_placeholder.png",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19340827&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3011,8 +3024,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-fourteen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-08-24_-_The_Magician_-_Magic_Tape_14",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000010747548-q5l5xk-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21774388&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3024,8 +3037,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-fifteen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-09-13_-_The_Magician_-_Magic_Tape_15",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000011517440-ht8lrf-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F23240557&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3037,8 +3050,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-sixteen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-10-25_-_The_Magician_-_Magic_Tape_16",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000013162817-8gcv4r-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F26359453&show_artwork=true\"></iframe>",
     "track_count": 14
   },
   {
@@ -3050,8 +3063,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-seventeen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-11-22_-_The_Magician_-_Magic_Tape_17",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000014345608-ioafkk-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F28674648&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3063,8 +3076,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-eighteen",
     "tracklist_url": "https://www.mixesdb.com/w/2011-12-20_-_The_Magician_-_Magic_Tape_18",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000015623797-xetvxq-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F31135487&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3076,8 +3089,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-nineteen",
     "tracklist_url": "https://www.mixesdb.com/w/2012-01-24_-_The_Magician_-_Magic_Tape_19",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000017259665-rxd7s8-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F34381938&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3089,8 +3102,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty",
     "tracklist_url": "https://www.mixesdb.com/w/2012-02-21_-_The_Magician_-_Magic_Tape_20",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000018737598-p7115c-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37347895&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3102,8 +3115,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-one",
     "tracklist_url": "https://www.mixesdb.com/w/2012-03-27_-_The_Magician_-_Magic_Tape_21",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000020618762-idnuvw-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F41108588&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3115,8 +3128,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-two",
     "tracklist_url": "https://www.mixesdb.com/w/2012-04-24_-_The_Magician_-_Magic_Tape_22",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000022213764-pg5ll7-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F44194108&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3128,8 +3141,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-three",
     "tracklist_url": "https://www.mixesdb.com/w/2012-05-22_-_The_Magician_-_Magic_Tape_23",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000023753752-qubfb4-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F47193834&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3141,8 +3154,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-four",
     "tracklist_url": "https://www.mixesdb.com/w/2012-06-26_-_The_Magician_-_Magic_Tape_24",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000025673367-r58upn-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F50922432&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3154,8 +3167,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-five",
     "tracklist_url": "https://www.mixesdb.com/w/2012-09-04_-_The_Magician_-_Magic_Tape_25",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000029692077-r836ol-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F58660469&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3167,8 +3180,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-six",
     "tracklist_url": "https://www.mixesdb.com/w/2012-10-09_-_The_Magician_-_Magic_Tape_26",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000031851255-fpp70m-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F62784084&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3180,8 +3193,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-seven",
     "tracklist_url": "https://www.mixesdb.com/w/2012-11-13_-_The_Magician_-_Magic_Tape_27",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000034108433-dh19hj-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F67251346&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3193,8 +3206,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-eight",
     "tracklist_url": "https://www.mixesdb.com/w/2012-12-11_-_The_Magician_-_Magic_Tape_28",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000035982208-9r29im-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F70833591&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3206,8 +3219,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-twenty-nine",
     "tracklist_url": "https://www.mixesdb.com/w/2013-01-22_-_The_Magician_-_Magic_Tape_29",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000038895653-4zzfe7-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F75976162&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3219,8 +3232,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty",
     "tracklist_url": "https://www.mixesdb.com/w/2013-02-19_-_The_Magician_-_Magic_Tape_30",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000041092992-v6quj6-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F79918604&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3245,8 +3258,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-two",
     "tracklist_url": "https://www.mixesdb.com/w/2013-04-23_-_The_Magician_-_Magic_Tape_32",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000046225048-mf938l-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F89141244&show_artwork=true\"></iframe>",
     "track_count": 9
   },
   {
@@ -3258,8 +3271,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-three",
     "tracklist_url": "https://www.mixesdb.com/w/2013-05-21_-_The_Magician_-_Magic_Tape_33",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000048590001-6h44ve-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F93204602&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3271,8 +3284,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-four",
     "tracklist_url": "https://www.mixesdb.com/w/2013-06-25_-_The_Magician_-_Magic_Tape_34",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000051440653-lr4bap-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F98376109&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3284,8 +3297,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-35",
     "tracklist_url": "https://www.mixesdb.com/w/2013-09-17_-_The_Magician_-_Magic_Tape_35",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000057995868-zpt2i0-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F110912873&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3297,8 +3310,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-six",
     "tracklist_url": "https://www.mixesdb.com/w/2013-10-15_-_The_Magician_-_Magic_Tape_36",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000060190674-7kcp4c-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F115446131&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3310,8 +3323,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-thirty-seven",
     "tracklist_url": "https://www.mixesdb.com/w/2013-11-19_-_The_Magician_-_Magic_Tape_37",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000063169290-hdrl3v-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F120885705&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3323,8 +3336,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-38",
     "tracklist_url": "https://www.mixesdb.com/w/2013-12-17_-_The_Magician_-_Magic_Tape_38",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000065578976-iu8kwk-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F125254659&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3336,8 +3349,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-39",
     "tracklist_url": "https://www.mixesdb.com/w/2014-01-21_-_The_Magician_-_Magic_Tape_39",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000068589674-hd86lc-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F130630119&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3349,8 +3362,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-40",
     "tracklist_url": "https://www.mixesdb.com/w/2014-02-18_-_The_Magician_-_Magic_Tape_40",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000071214360-7g2lzm-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F135469431&show_artwork=true\"></iframe>",
     "track_count": 9
   },
   {
@@ -3362,8 +3375,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-41-1",
     "tracklist_url": "https://www.mixesdb.com/w/2014-03-27_-_The_Magician_-_Magic_Tape_41",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000073879532-snpch4-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F140189103&show_artwork=true\"></iframe>",
     "track_count": 9
   },
   {
@@ -3375,8 +3388,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-42",
     "tracklist_url": "https://www.mixesdb.com/w/2014-04-15_-_The_Magician_-_Magic_Tape_42",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000076581189-5fs79y-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F144804619&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3388,8 +3401,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-43",
     "tracklist_url": "https://www.mixesdb.com/w/2014-05-20_-_The_Magician_-_Magic_Tape_43",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000079977793-50ogv2-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F150432772&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3401,8 +3414,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-44",
     "tracklist_url": "https://www.mixesdb.com/w/2014-07-08_-_The_Magician_-_Magic_Tape_44",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000084579548-qskbw0-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F157810576&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3414,8 +3427,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-45",
     "tracklist_url": "https://www.mixesdb.com/w/2014-09-16_-_The_Magician_-_Magic_Tape_45",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000091187563-1udsui-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F167987057&show_artwork=true\"></iframe>",
     "track_count": 14
   },
   {
@@ -3427,8 +3440,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-46",
     "tracklist_url": "https://www.mixesdb.com/w/2014-10-21_-_The_Magician_-_Magic_Tape_46",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000094656847-iy1n91-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F173157300&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3440,8 +3453,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-47",
     "tracklist_url": "https://www.mixesdb.com/w/2014-11-18_-_The_Magician_-_Magic_Tape_47",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000097537188-3ge8ml-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F177488405&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3453,8 +3466,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-48",
     "tracklist_url": "https://www.mixesdb.com/w/2014-12-16_-_The_Magician_-_Magic_Tape_48",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000100417550-269la2-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F181777163&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3466,8 +3479,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-49",
     "tracklist_url": "https://www.mixesdb.com/w/2015-01-20_-_The_Magician_-_Magic_Tape_49",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000104000185-9zybcu-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F186988343&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3479,8 +3492,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-50",
     "tracklist_url": "https://www.mixesdb.com/w/2015-02-23_-_The_Magician_@_Magic_Tape_50_Live,_London_(Mixmag)",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000107937412-gojd28-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F192819162&show_artwork=true\"></iframe>",
     "track_count": 42
   },
   {
@@ -3492,8 +3505,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-51",
     "tracklist_url": "https://www.mixesdb.com/w/2015-04-07_-_The_Magician_-_Magic_Tape_51",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000112601386-2dzqwc-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F199662760&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3505,8 +3518,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-52",
     "tracklist_url": "https://www.mixesdb.com/w/2015-05-12_-_The_Magician_-_Magic_Tape_52",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000116517573-iaihps-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F205112512&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3518,8 +3531,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-53",
     "tracklist_url": "https://www.mixesdb.com/w/2015-06-23_-_The_Magician_-_Magic_Tape_53",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000121106970-h1qcca-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F211613348&show_artwork=true\"></iframe>",
     "track_count": 13
   },
   {
@@ -3531,8 +3544,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-54",
     "tracklist_url": "https://www.mixesdb.com/w/2015-09-01_-_The_Magician_-_Magic_Tape_54",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000128164594-tzjy1m-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221855263&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3544,8 +3557,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-55",
     "tracklist_url": "https://www.mixesdb.com/w/2015-10-06_-_The_Magician_-_Magic_Tape_55",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000131834613-3wx3w9-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F227162218&show_artwork=true\"></iframe>",
     "track_count": 10
   },
   {
@@ -3557,8 +3570,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-56",
     "tracklist_url": "https://www.mixesdb.com/w/2015-11-03_-_The_Magician_-_Magic_Tape_56",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000134898562-kd2ynm-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F231365916&show_artwork=true\"></iframe>",
     "track_count": 12
   },
   {
@@ -3570,8 +3583,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-57",
     "tracklist_url": "https://www.mixesdb.com/w/2015-12-01_-_The_Magician_-_Magic_Tape_57",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000138020974-zrm75z-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F235576240&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3583,8 +3596,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-58",
     "tracklist_url": "https://www.mixesdb.com/w/2016-01-12_-_The_Magician_-_Magic_Tape_58",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000142853621-y8held-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F241598752&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3596,8 +3609,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-60",
     "tracklist_url": "https://www.mixesdb.com/w/2016-02-16_-_The_Magician_-_Magic_Tape_59",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000147389162-qp4b5r-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F247343338&show_artwork=true\"></iframe>",
     "track_count": 13
   },
   {
@@ -3609,8 +3622,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magictape60",
     "tracklist_url": "https://www.mixesdb.com/w/2016-04-05_-_The_Magician_-_Magic_Tape_60",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000156562597-r5tdhy-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F257446781&show_artwork=true\"></iframe>",
     "track_count": 11
   },
   {
@@ -3622,8 +3635,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-61",
     "tracklist_url": "https://www.mixesdb.com/w/2016-05-10_-_The_Magician_-_Magic_Tape_61",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000162188300-90pn9m-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F263400998&show_artwork=true\"></iframe>",
     "track_count": 13
   },
   {
@@ -3635,8 +3648,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-62",
     "tracklist_url": "https://www.mixesdb.com/w/2016-06-14_-_The_Magician_-_Magic_Tape_62",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000167329984-xpjn7g-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F269041985&show_artwork=true\"></iframe>",
     "track_count": 13
   },
   {
@@ -3648,8 +3661,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-63-summer-edition",
     "tracklist_url": "https://www.mixesdb.com/w/2016-07-19_-_The_Magician_-_Magic_Tape_63_(Summer_Edition)",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000172166634-89xouh-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F274377588&show_artwork=true\"></iframe>",
     "track_count": 13
   },
   {
@@ -3661,8 +3674,8 @@
     "uploader": "The Magician",
     "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-64",
     "tracklist_url": "https://www.mixesdb.com/w/2016-09-06_-_The_Magician_-_Magic_Tape_64",
-    "artwork_url": null,
-    "soundcloud_embed_html": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-000180863921-sgp1as-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F281631648&show_artwork=true\"></iframe>",
     "track_count": 14
   },
   {
@@ -8357,5 +8370,18 @@
     "artwork_url": "https://i1.sndcdn.com/artworks-41L5D5wPpPolFVWC-QRSYNQ-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2333771354&show_artwork=true\"></iframe>",
     "track_count": 13
+  },
+  {
+    "id": 645,
+    "month": "2026-06",
+    "release_date": "2026-06-11",
+    "series": "XXX Radio",
+    "title": "XXX Radio #192",
+    "uploader": "Mau P",
+    "soundcloud_url": "https://soundcloud.com/realmaup/xxx-radio-192",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-Fju40zzoSxJ7dwwR-Ynqbmg-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2337677771&show_artwork=true\"></iframe>",
+    "track_count": 0
   }
 ]
