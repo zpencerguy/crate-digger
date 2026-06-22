@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 645
-- Mixtapes with tracks: 396
-- Tracks: 5158
+- Mixtapes: 647
+- Mixtapes with tracks: 397
+- Tracks: 5171
 - Month range: 2010-07 to 2026-06
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 219 | 135 | 1720 | 2022-04 to 2026-06 |
+| ERA | 220 | 136 | 1733 | 2022-04 to 2026-06 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 101 | 43 | 621 | 2017-01 to 2026-05 |
-| XXX Radio | 192 | 113 | 1551 | 2022-09 to 2026-06 |
+| XXX Radio | 193 | 113 | 1551 | 2022-09 to 2026-06 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-06 | ERA | 13 | [ERA 220 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-220-rebu-ke-studio-mix) |
+| 2026-06 | XXX Radio | 0 | [XXX Radio #193](https://soundcloud.com/realmaup/xxx-radio-193) |
 | 2026-06 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #192](https://soundcloud.com/realmaup/xxx-radio-192) |
 | 2026-06 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-04 | ERA | 12 | [ERA 209 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-209-rebu-ke-studio-mix) |
 | 2026-04 | ERA | 12 | [ERA 210 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-210-rebu-ke-studio-mix) |
 | 2026-04 | ERA | 13 | [ERA 211 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-211-rebu-ke-studio-mix) |
-| 2026-04 | ERA | 13 | [ERA 212 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-212-rebu-ke-studio-mix) |
-| 2026-04 | XXX Radio | 14 | [XXX Radio #182](https://soundcloud.com/realmaup/xxx-radio-182) ([tracklist](https://www.1001tracklists.com/tracklist/1sh7b3lk/mau-p-xxx-radio-182-2026-04-03.html)) |
