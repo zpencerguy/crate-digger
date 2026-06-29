@@ -2860,6 +2860,19 @@
     "track_count": 13
   },
   {
+    "id": 651,
+    "month": "2026-06",
+    "release_date": "2026-06-29",
+    "series": "ERA",
+    "title": "ERA 221 - Rebūke Studio Mix",
+    "uploader": "Rebūke",
+    "soundcloud_url": "https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-sSKida75gazEPBDT-4tzu9w-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2349565634&show_artwork=true\"></iframe>",
+    "track_count": 12
+  },
+  {
     "id": 230,
     "month": "2010-07",
     "release_date": "2010-07-12",
@@ -5902,6 +5915,19 @@
     "track_count": 14
   },
   {
+    "id": 649,
+    "month": "2026-06",
+    "release_date": "2026-06-22",
+    "series": "Only 100s",
+    "title": "June 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-rMQ42BmIWCP6yr2g-zDj9YQ-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2343813422&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
     "id": 419,
     "month": "2022-09",
     "release_date": "2022-09-30",
@@ -8408,6 +8434,19 @@
     "tracklist_url": null,
     "artwork_url": "https://i1.sndcdn.com/artworks-gLGR45Q0w0iy7nxP-BkEl9A-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2342301845&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
+    "id": 650,
+    "month": "2026-06",
+    "release_date": "2026-06-26",
+    "series": "XXX Radio",
+    "title": "XXX Radio #194",
+    "uploader": "Mau P",
+    "soundcloud_url": "https://soundcloud.com/realmaup/xxx-radio-194",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-IO4VAH24NQfgL9rZ-l5UExg-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2347475897&show_artwork=true\"></iframe>",
     "track_count": 0
   }
 ]
