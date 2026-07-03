@@ -8,7 +8,7 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 | --- | --- | ---: | --- |
 | 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
-| 2026-06-22 | Only 100s | 0 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
+| 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
@@ -37,9 +37,26 @@ _No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-06-22 - Only 100s - June 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
+<summary>2026-06-22 - Only 100s - June 2026 - Only 100s with The Aston Shuffle (14 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 99-140 BPM, leaning toward House, often in Bb Minor mix._
+
+1. Barry Can't Swim - Return To Bhibo ([Beatport](https://www.beatport.com/track/return-to-bhibo/29078861)) - `129 BPM; Bb Minor; 3A; Dance / Pop; Atlantic Records UK`
+2. Jamie Jones & Camden Cox - State Of Mind ([Beatport](https://www.beatport.com/track/state-of-mind-/29500672)) - `125 BPM; Eb Minor; 2A; House; Helix Records`
+3. Prospa & KETTAMA - Break Free ([Beatport](https://www.beatport.com/track/break-free/29282422)) - `129 BPM; Ab Minor; 1A; House; CircoLoco Records`
+4. Madonna & Sabrina Carpenter - Bring Your Love (Honey Dijon Peaktime Dub Mix) ([Beatport](https://www.beatport.com/search?q=Madonna+%26+Sabrina+Carpenter+Bring+Your+Love+%28Honey+Dijon+Peaktime+Dub+Mix%29))
+5. Chloé Caillet & MYD - Lemme Dance ([Beatport](https://www.beatport.com/track/lemme-dance/29191388)) - `132 BPM; E Minor; 9A; Indie Dance; Ninja Tune`
+6. Âme & Busiswa - Pha Na Pha (TSHA Remix) ([Beatport](https://www.beatport.com/track/pha-na-pha/29182968)) - `129 BPM; E Minor; 9A; House; Innervisions`
+7. Franky Rizardo - Feel ([Beatport](https://www.beatport.com/track/feel/29310911)) - `130 BPM; B Minor; 10A; House; LTF Records`
+8. DJ Tennis - DJ Tennis ft. Campbell King - Misbehave ([Beatport](https://www.beatport.com/track/misbehave/29161624)) - `129 BPM; B Minor; 10A; Indie Dance; Life And Death`
+9. Groove Armada - Groove Armada ft. Gramma Funk - I See You Baby (DJ Boring Remix) ([Beatport](https://www.beatport.com/track/i-see-you-baby-feat-gramma-funk/29402511)) - `131 BPM; Bb Minor; 3A; Dance / Pop; BMG Rights Management (UK) Ltd.`
+10. Luke Alessi - What Is Cool? ([Beatport](https://www.beatport.com/track/what-is-cool-/28879411)) - `99 BPM; G Major; 9B; House; Coffee Cola`
+11. Dean Turnley - Actin' Tough (Mall Grab Remix) ([Beatport](https://www.beatport.com/track/actin-tough/29030372)) - `140 BPM; B Major; 1B; House; ROSSI.HOME//GRXWN.`
+12. Krystal Klear - New Gen Tech Tool ([Beatport](https://www.beatport.com/track/new-gen-tech-tool/28723566)) - `132 BPM; Bb Minor; 3A; House; Cocoon Recordings`
+13. Kiimi - Kiimi ft. I. JORDAN - Lose My Mind ([Beatport](https://www.beatport.com/track/lose-my-mind/29186144)) - `140 BPM; Ab Minor; 1A; House; HE.SHE.THEY.`
+14. Azzecca - Back 2 u ([Beatport](https://www.beatport.com/track/back-2-u/29106933)) - `134 BPM; G Major; 9B; UK Garage / Bassline; ATW Records`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)
 </details>
 
 <details>
@@ -68,7 +85,7 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | --- | --- | ---: | --- |
 | 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
-| 2026-06-22 | Only 100s | 0 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
+| 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-19 | ERA | 13 | [ERA 220 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-220-rebu-ke-studio-mix) |
 | 2026-06-19 | XXX Radio | 0 | [XXX Radio #193](https://soundcloud.com/realmaup/xxx-radio-193) |
 | 2026-06-12 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
@@ -113,9 +130,26 @@ _No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-06-22 - Only 100s - June 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
+<summary>2026-06-22 - Only 100s - June 2026 - Only 100s with The Aston Shuffle (14 tracks)</summary>
 
-_No tracks indexed yet._
+_A driving 99-140 BPM, leaning toward House, often in Bb Minor mix._
+
+1. Barry Can't Swim - Return To Bhibo ([Beatport](https://www.beatport.com/track/return-to-bhibo/29078861)) - `129 BPM; Bb Minor; 3A; Dance / Pop; Atlantic Records UK`
+2. Jamie Jones & Camden Cox - State Of Mind ([Beatport](https://www.beatport.com/track/state-of-mind-/29500672)) - `125 BPM; Eb Minor; 2A; House; Helix Records`
+3. Prospa & KETTAMA - Break Free ([Beatport](https://www.beatport.com/track/break-free/29282422)) - `129 BPM; Ab Minor; 1A; House; CircoLoco Records`
+4. Madonna & Sabrina Carpenter - Bring Your Love (Honey Dijon Peaktime Dub Mix) ([Beatport](https://www.beatport.com/search?q=Madonna+%26+Sabrina+Carpenter+Bring+Your+Love+%28Honey+Dijon+Peaktime+Dub+Mix%29))
+5. Chloé Caillet & MYD - Lemme Dance ([Beatport](https://www.beatport.com/track/lemme-dance/29191388)) - `132 BPM; E Minor; 9A; Indie Dance; Ninja Tune`
+6. Âme & Busiswa - Pha Na Pha (TSHA Remix) ([Beatport](https://www.beatport.com/track/pha-na-pha/29182968)) - `129 BPM; E Minor; 9A; House; Innervisions`
+7. Franky Rizardo - Feel ([Beatport](https://www.beatport.com/track/feel/29310911)) - `130 BPM; B Minor; 10A; House; LTF Records`
+8. DJ Tennis - DJ Tennis ft. Campbell King - Misbehave ([Beatport](https://www.beatport.com/track/misbehave/29161624)) - `129 BPM; B Minor; 10A; Indie Dance; Life And Death`
+9. Groove Armada - Groove Armada ft. Gramma Funk - I See You Baby (DJ Boring Remix) ([Beatport](https://www.beatport.com/track/i-see-you-baby-feat-gramma-funk/29402511)) - `131 BPM; Bb Minor; 3A; Dance / Pop; BMG Rights Management (UK) Ltd.`
+10. Luke Alessi - What Is Cool? ([Beatport](https://www.beatport.com/track/what-is-cool-/28879411)) - `99 BPM; G Major; 9B; House; Coffee Cola`
+11. Dean Turnley - Actin' Tough (Mall Grab Remix) ([Beatport](https://www.beatport.com/track/actin-tough/29030372)) - `140 BPM; B Major; 1B; House; ROSSI.HOME//GRXWN.`
+12. Krystal Klear - New Gen Tech Tool ([Beatport](https://www.beatport.com/track/new-gen-tech-tool/28723566)) - `132 BPM; Bb Minor; 3A; House; Cocoon Recordings`
+13. Kiimi - Kiimi ft. I. JORDAN - Lose My Mind ([Beatport](https://www.beatport.com/track/lose-my-mind/29186144)) - `140 BPM; Ab Minor; 1A; House; HE.SHE.THEY.`
+14. Azzecca - Back 2 u ([Beatport](https://www.beatport.com/track/back-2-u/29106933)) - `134 BPM; G Major; 9B; UK Garage / Bassline; ATW Records`
+
+Source: [tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)
 </details>
 
 <details>

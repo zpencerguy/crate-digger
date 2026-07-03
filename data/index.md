@@ -5,8 +5,8 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 ## Summary
 
 - Mixtapes: 650
-- Mixtapes with tracks: 398
-- Tracks: 5183
+- Mixtapes with tracks: 399
+- Tracks: 5197
 - Month range: 2010-07 to 2026-06
 
 ## Series
@@ -15,7 +15,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | ---: | ---: | ---: | --- |
 | ERA | 221 | 137 | 1745 | 2022-04 to 2026-06 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
-| Only 100s | 102 | 43 | 621 | 2017-01 to 2026-06 |
+| Only 100s | 102 | 44 | 635 | 2017-01 to 2026-06 |
 | XXX Radio | 194 | 113 | 1551 | 2022-09 to 2026-06 |
 
 ## Latest Mixes
@@ -24,7 +24,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | --- | ---: | --- |
 | 2026-06 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
-| 2026-06 | Only 100s | 0 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
+| 2026-06 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)) |
 | 2026-06 | ERA | 13 | [ERA 220 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-220-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #193](https://soundcloud.com/realmaup/xxx-radio-193) |
 | 2026-06 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
