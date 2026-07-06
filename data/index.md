@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 650
-- Mixtapes with tracks: 399
-- Tracks: 5197
-- Month range: 2010-07 to 2026-06
+- Mixtapes: 652
+- Mixtapes with tracks: 400
+- Tracks: 5208
+- Month range: 2010-07 to 2026-07
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 221 | 137 | 1745 | 2022-04 to 2026-06 |
+| ERA | 222 | 138 | 1756 | 2022-04 to 2026-07 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 102 | 44 | 635 | 2017-01 to 2026-06 |
-| XXX Radio | 194 | 113 | 1551 | 2022-09 to 2026-06 |
+| XXX Radio | 195 | 113 | 1551 | 2022-09 to 2026-07 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-07 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
+| 2026-07 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
 | 2026-06 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-05 | ERA | 13 | [ERA 213 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-213-rebu-ke-studio-mix) |
 | 2026-05 | ERA | 13 | [ERA 214 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-214-rebu-ke-studio-mix) |
 | 2026-05 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) ([tracklist](https://www.1001tracklists.com/tracklist/23p3udr1/rebuke-era-radio-215-2026-05-17.html)) |
-| 2026-05 | XXX Radio | 13 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) ([tracklist](https://1001.tl/m1cbjm)) |
-| 2026-05 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) ([tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-radio-187-2026-05-08.html)) |

@@ -6,32 +6,31 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
-| 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
+| 2026-07-03 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
+| 2026-07-03 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
 
 <details>
-<summary>2026-06-29 - ERA - ERA 221 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-07-03 - ERA - ERA 222 - Rebūke Studio Mix (11 tracks)</summary>
 
-1. Carbon - No Way Back (Original Mix) ([Beatport](https://www.beatport.com/search?q=Carbon+No+Way+Back+%28Original+Mix%29))
-2. Jamback - Positive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jamback+Positive+%28Extended+Mix%29))
-3. T-Puse, Clüb De Combat, Oi - Bounce (Extended Mix) ([Beatport](https://www.beatport.com/search?q=T-Puse%2C+Clu%CC%88b+De+Combat%2C+Oi+Bounce+%28Extended+Mix%29))
-4. Matters (H), K-ring - Brain & Body (Original Mix) ([Beatport](https://www.beatport.com/search?q=Matters+%28H%29%2C+K-ring+Brain+%26+Body+%28Original+Mix%29))
-5. Mona Chrome - Lost In The Ocean (Pan-Pot Extended Remix) ([Beatport](https://www.beatport.com/search?q=Mona+Chrome+Lost+In+The+Ocean+%28Pan-Pot+Extended+Remix%29))
-6. Viot - Fyrah (Ramin Rezaie Remix) ([Beatport](https://www.beatport.com/search?q=Viot+Fyrah+%28Ramin+Rezaie+Remix%29))
-7. Teenage Mutants - Hyperspace ([Beatport](https://www.beatport.com/search?q=Teenage+Mutants+Hyperspace))
-8. Nihil Young, James De Torres - NGL (Original Mix) ([Beatport](https://www.beatport.com/search?q=Nihil+Young%2C+James+De+Torres+NGL+%28Original+Mix%29))
-9. Pavel Petrov, Rafael Cerato - Reflections (Oliver Koletzki Remix) ([Beatport](https://www.beatport.com/search?q=Pavel+Petrov%2C+Rafael+Cerato+Reflections+%28Oliver+Koletzki+Remix%29))
-10. Armin van Buuren x Adam Beyer - No Mercy ([Beatport](https://www.beatport.com/search?q=Armin+van+Buuren+x+Adam+Beyer+No+Mercy))
-11. Domenico Rondinelli - 911 (Lampé Remix) ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+911+%28Lampe%CC%81+Remix%29))
-12. TH;EN - Blackout (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Blackout+%28Original+Mix%29))
+1. I'm Just Calling - Claude VonStroke & Rebūke ([Beatport](https://www.beatport.com/search?q=I%27m+Just+Calling+Claude+VonStroke+%26+Reb%C5%ABke))
+2. Reelow, Samira - Ghetto Soul (Ramin Rezaie Remix) ([Beatport](https://www.beatport.com/search?q=Reelow%2C+Samira+Ghetto+Soul+%28Ramin+Rezaie+Remix%29))
+3. Solomun, Skrillex - Rumpta (Original Mix) ([Beatport](https://www.beatport.com/search?q=Solomun%2C+Skrillex+Rumpta+%28Original+Mix%29))
+4. ANOTR - Stop The Music (Original Mix) ([Beatport](https://www.beatport.com/search?q=ANOTR+Stop+The+Music+%28Original+Mix%29))
+5. Boris Brejcha, Poppy Baskcomb - Red In The Desert (Joseph Capriati Remix) ([Beatport](https://www.beatport.com/search?q=Boris+Brejcha%2C+Poppy+Baskcomb+Red+In+The+Desert+%28Joseph+Capriati+Remix%29))
+6. Adam Ten - I Never Knew (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten+I+Never+Knew+%28Extended+Mix%29))
+7. CRYYZ - BODY (Extended Mix) ([Beatport](https://www.beatport.com/search?q=CRYYZ+BODY+%28Extended+Mix%29))
+8. TOYZZ - Rudeboy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=TOYZZ+Rudeboy+%28Extended+Mix%29))
+9. Patrick Topping, Layton Giordani, Kosmo Kint - Tonight (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping%2C+Layton+Giordani%2C+Kosmo+Kint+Tonight+%28Extended+Mix%29))
+10. SAFARIS - Mirage (Extended Mix) ([Beatport](https://www.beatport.com/search?q=SAFARIS+Mirage+%28Extended+Mix%29))
+11. Adam Beyer, Mark Reeve - Love Within (Original Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Beyer%2C+Mark+Reeve+Love+Within+%28Original+Mix%29))
 </details>
 
 <details>
-<summary>2026-06-26 - XXX Radio - XXX Radio #194 (0 tracks)</summary>
+<summary>2026-07-03 - XXX Radio - XXX Radio #195 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -83,6 +82,8 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-07-03 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
+| 2026-07-03 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
 | 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
@@ -101,10 +102,30 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | 2026-05-15 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) |
 | 2026-05-14 | XXX Radio | 13 | [XXX Radio #188](https://soundcloud.com/realmaup/xxx-radio-188) |
 | 2026-05-08 | ERA | 13 | [ERA 214 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-214-rebu-ke-studio-mix) |
-| 2026-05-08 | XXX Radio | 8 | [XXX Radio #187](https://soundcloud.com/realmaup/xxx-radio-187) |
-| 2026-05-01 | ERA | 13 | [ERA 213 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-213-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-07-03 - ERA - ERA 222 - Rebūke Studio Mix (11 tracks)</summary>
+
+1. I'm Just Calling - Claude VonStroke & Rebūke ([Beatport](https://www.beatport.com/search?q=I%27m+Just+Calling+Claude+VonStroke+%26+Reb%C5%ABke))
+2. Reelow, Samira - Ghetto Soul (Ramin Rezaie Remix) ([Beatport](https://www.beatport.com/search?q=Reelow%2C+Samira+Ghetto+Soul+%28Ramin+Rezaie+Remix%29))
+3. Solomun, Skrillex - Rumpta (Original Mix) ([Beatport](https://www.beatport.com/search?q=Solomun%2C+Skrillex+Rumpta+%28Original+Mix%29))
+4. ANOTR - Stop The Music (Original Mix) ([Beatport](https://www.beatport.com/search?q=ANOTR+Stop+The+Music+%28Original+Mix%29))
+5. Boris Brejcha, Poppy Baskcomb - Red In The Desert (Joseph Capriati Remix) ([Beatport](https://www.beatport.com/search?q=Boris+Brejcha%2C+Poppy+Baskcomb+Red+In+The+Desert+%28Joseph+Capriati+Remix%29))
+6. Adam Ten - I Never Knew (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten+I+Never+Knew+%28Extended+Mix%29))
+7. CRYYZ - BODY (Extended Mix) ([Beatport](https://www.beatport.com/search?q=CRYYZ+BODY+%28Extended+Mix%29))
+8. TOYZZ - Rudeboy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=TOYZZ+Rudeboy+%28Extended+Mix%29))
+9. Patrick Topping, Layton Giordani, Kosmo Kint - Tonight (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping%2C+Layton+Giordani%2C+Kosmo+Kint+Tonight+%28Extended+Mix%29))
+10. SAFARIS - Mirage (Extended Mix) ([Beatport](https://www.beatport.com/search?q=SAFARIS+Mirage+%28Extended+Mix%29))
+11. Adam Beyer, Mark Reeve - Love Within (Original Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Beyer%2C+Mark+Reeve+Love+Within+%28Original+Mix%29))
+</details>
+
+<details>
+<summary>2026-07-03 - XXX Radio - XXX Radio #195 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-06-29 - ERA - ERA 221 - Rebūke Studio Mix (12 tracks)</summary>
@@ -406,42 +427,5 @@ _A driving 122-132 BPM, leaning toward Tech House, often in D Major mix._
 11. Toba - Don't Put It On Me (Extended Mix) ([Beatport](https://www.beatport.com/track/dont-put-it-on-me-/28443805)) - `126 BPM; D Minor; 7A; Indie Dance; Exx Underground`
 12. Sowel - She Likes Bass (Extended Mix) ([Beatport](https://www.beatport.com/track/she-likes-bass-/28459132)) - `128 BPM; A Major; 11B; Tech House; Stashed`
 13. Kellerkind - Together (Original Mix) ([Beatport](https://www.beatport.com/track/together/28229527)) - `122 BPM; C Major; 8B; Indie Dance; Stil Vor Talent`
-</details>
-
-<details>
-<summary>2026-05-08 - XXX Radio - XXX Radio #187 (8 tracks)</summary>
-
-_A driving 128-130 BPM, leaning toward House, often in Ab Major mix._
-
-1. Matthias Tanzmann - Friday High ([Beatport](https://www.beatport.com/track/friday-high-/28527164)) - `128 BPM; Gb Major; 2B; Tech House; Moon Harbour Recordings`
-2. Chinonegro & Rob The Bank - Break It Down ([Beatport](https://www.beatport.com/track/break-it-down/28647658)) - `130 BPM; E Minor; 9A; House; LTF Records`
-3. Marian (BR) - Cambio ([Beatport](https://www.beatport.com/track/cambio/28468542)) - `130 BPM; D Minor; 7A; Minimal / Deep Tech | Deep Tech; Deeperfect`
-4. Chinonegro & Rob The Bank - Freaky Housy ([Beatport](https://www.beatport.com/track/freaky-housy/28647659)) - `130 BPM; C Minor; 5A; House; LTF Records`
-5. ATLAC - Hood Beat ([Beatport](https://www.beatport.com/search?q=ATLAC+Hood+Beat))
-6. Mateo Dufour - Break It Up ([Beatport](https://www.beatport.com/track/break-it-up/28695431)) - `128 BPM; G Minor; 6A; House; Gettraum`
-7. Bizza & Londonground - Rocket ([Beatport](https://www.beatport.com/track/rocket-/28504253)) - `128 BPM; F Major; 7B; House; Cecille`
-8. Marian (BR) - Deeper Down ([Beatport](https://www.beatport.com/track/deeper-down/28468540)) - `129 BPM; Ab Major; 4B; Minimal / Deep Tech | Deep Tech; Deeperfect`
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/2t2jhgqt/mau-p-xxx-radio-187-2026-05-08.html)
-</details>
-
-<details>
-<summary>2026-05-01 - ERA - ERA 213 - Rebūke Studio Mix (13 tracks)</summary>
-
-_A driving 124-130 BPM, leaning toward Tech House, often in F Major mix._
-
-1. Plastic Robots, Fab Massimo - Yelling at the Ghost (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Plastic+Robots%2C+Fab+Massimo+Yelling+at+the+Ghost+%28Extended+Mix%29))
-2. Deeper Purpose, Jack Orley, Michael Ekow - Stunner (Extended Mix) ([Beatport](https://www.beatport.com/track/stunner/27813044)) - `128 BPM; D Major; 10B; Tech House; IN 2 DEEP`
-3. Detlef - Under Control (Original Mix) ([Beatport](https://www.beatport.com/track/under-control-/28444586)) - `127 BPM; A Minor; 8A; Tech House; Issues`
-4. Volkoder - Everybody (Extended Mix) ([Beatport](https://www.beatport.com/track/everybody-/28395786)) - `128 BPM; F Major; 7B; Bass House; Black Book Records`
-5. KASSIMIL - Okey (Original Mix) ([Beatport](https://www.beatport.com/track/okey/28470336)) - `128 BPM; Gb Minor; 11A; Minimal / Deep Tech; Ibiza Talents Records`
-6. Alexey Romeo, X Labs - No Phones (Extended Mix) ([Beatport](https://www.beatport.com/track/no-phones/27196999)) - `128 BPM; A Major; 11B; Indie Dance; X-perience`
-7. Re Power - Highway (Original Mix) ([Beatport](https://www.beatport.com/track/highway/27664177)) - `124 BPM; E Major; 12B; Indie Dance; Bassmatic records`
-8. Chris Avantgarde - Concrete Professional (Extended Mix) ([Beatport](https://www.beatport.com/track/concrete-professional-/28388138)) - `128 BPM; Db Minor; 12A; Tech House; Hyperreal`
-9. Raul Rodriguez, La Class - Yendose ([Beatport](https://www.beatport.com/track/yendose/28338847)) - `129 BPM; A Major; 11B; Tech House; Natural Rhythm`
-10. Dunmore Brothers - Smoke (Original Mix) ([Beatport](https://www.beatport.com/track/smoke-/22367625)) - `127 BPM; E Major; 12B; Minimal / Deep Tech | Deep Tech; Descending Order`
-11. James Hype - Trigger Finger (Extended Mix) ([Beatport](https://www.beatport.com/track/trigger-finger/28334015)) - `130 BPM; Db Minor; 12A; Tech House; STEREOHYPE`
-12. WELKER (BR) - Ice In My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/ice-in-my-eyes/22919666)) - `128 BPM; F Major; 7B; Tech House; Nu Moda`
-13. Luigi Rocca - Ghost (Extended Mix) ([Beatport](https://www.beatport.com/track/ghost/27081651)) - `128 BPM; F Major; 7B; Tech House; 303Lovers`
 </details>
 
