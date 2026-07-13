@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 652
-- Mixtapes with tracks: 400
-- Tracks: 5208
+- Mixtapes: 654
+- Mixtapes with tracks: 401
+- Tracks: 5220
 - Month range: 2010-07 to 2026-07
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 222 | 138 | 1756 | 2022-04 to 2026-07 |
+| ERA | 223 | 139 | 1768 | 2022-04 to 2026-07 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 102 | 44 | 635 | 2017-01 to 2026-06 |
-| XXX Radio | 195 | 113 | 1551 | 2022-09 to 2026-07 |
+| XXX Radio | 196 | 113 | 1551 | 2022-09 to 2026-07 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-07 | ERA | 12 | [ERA 223 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-223-rebu-ke-studio-mix) |
+| 2026-07 | XXX Radio | 0 | [XXX Radio #196](https://soundcloud.com/realmaup/xxx-radio-196) |
 | 2026-07 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
 | 2026-07 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-05 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 | 2026-05 | XXX Radio | 11 | [XXX Radio #189](https://soundcloud.com/realmaup/xxx-radio-189) ([tracklist](https://www.1001tracklists.com/tracklist/2t2m6171/mau-p-xxx-radio-189-2026-05-22.html)) |
 | 2026-05 | ERA | 13 | [ERA 213 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-213-rebu-ke-studio-mix) |
-| 2026-05 | ERA | 13 | [ERA 214 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-214-rebu-ke-studio-mix) |
-| 2026-05 | ERA | 12 | [ERA 215 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-215-rebu-ke-studio-mix) ([tracklist](https://www.1001tracklists.com/tracklist/23p3udr1/rebuke-era-radio-215-2026-05-17.html)) |
