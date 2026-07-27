@@ -6,32 +6,32 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-07-20 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
-| 2026-07-17 | XXX Radio | 0 | [XXX Radio #197](https://soundcloud.com/realmaup/xxx-radio-197) |
+| 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
+| 2026-07-23 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
 
 <details>
-<summary>2026-07-20 - ERA - ERA 224 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-07-24 - ERA - ERA 225 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Balanka - F To This Beat (Original Mix) ([Beatport](https://www.beatport.com/search?q=Balanka+F+To+This+Beat+%28Original+Mix%29))
-2. Daniel Neuland - Come Alive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Daniel+Neuland+Come+Alive+%28Extended+Mix%29))
-3. Elro - The Rhythm (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Elro+The+Rhythm+%28Extended+Mix%29))
-4. ZARO - Rhythm (Extended Mix) ([Beatport](https://www.beatport.com/search?q=ZARO+Rhythm+%28Extended+Mix%29))
-5. Emiliano Demarco, Fabian B. - Going Back (Extended) ([Beatport](https://www.beatport.com/search?q=Emiliano+Demarco%2C+Fabian+B.+Going+Back+%28Extended%29))
-6. SNOOKO, Zack Darza - Carla Next Door (Original Mix) ([Beatport](https://www.beatport.com/search?q=SNOOKO%2C+Zack+Darza+Carla+Next+Door+%28Original+Mix%29))
-7. Layton Giordani & KASIA - The Realm ([Beatport](https://www.beatport.com/search?q=Layton+Giordani+%26+KASIA+The+Realm))
-8. TYGR TYGR - Boundless (Original Mix) ([Beatport](https://www.beatport.com/search?q=TYGR+TYGR+Boundless+%28Original+Mix%29))
-9. Cassian, ARCO - Come To Life (Original Mix) ([Beatport](https://www.beatport.com/search?q=Cassian%2C+ARCO+Come+To+Life+%28Original+Mix%29))
-10. Hidden Empire - Future Mind ([Beatport](https://www.beatport.com/search?q=Hidden+Empire+Future+Mind))
-11. Alex Stein - BOW WOW (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alex+Stein+BOW+WOW+%28Original+Mix%29))
-12. Havoc & Lawn - Eyes On You (Original Mix) ([Beatport](https://www.beatport.com/search?q=Havoc+%26+Lawn+Eyes+On+You+%28Original+Mix%29))
+1. No One Knows, Mojjo, Sarria - Cash On Cash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=No+One+Knows%2C+Mojjo%2C+Sarria+Cash+On+Cash+%28Extended+Mix%29))
+2. Clim, Dani (AE) - Aka Belive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clim%2C+Dani+%28AE%29+Aka+Belive+%28Extended+Mix%29))
+3. Volkoder - Bassline Hits (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Bassline+Hits+%28Original+Mix%29))
+4. Odd Mob, OMNOM and HYPERBEAM - Take You There (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Odd+Mob%2C+OMNOM+and+HYPERBEAM+Take+You+There+%28Extended+Mix%29))
+5. Alec Cortez - Drop It (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alec+Cortez+Drop+It+%28Original+Mix%29))
+6. Linska, Duss - Criminal (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Linska%2C+Duss+Criminal+%28Extended+Mix%29))
+7. Histar - Striker (Original Mix) ([Beatport](https://www.beatport.com/search?q=Histar+Striker+%28Original+Mix%29))
+8. Magit Cacoon - You Were Never Mine (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Magit+Cacoon+You+Were+Never+Mine+%28Extended+Mix%29))
+9. Discip - Red Room (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Discip+Red+Room+%28Extended+Mix%29))
+10. Mason - Nite Rite Delta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Mason+Nite+Rite+Delta+%28Extended+Mix%29))
+11. SCRIPT - Activator (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT+Activator+%28Original+Mix%29))
+12. HNTR, DeLorean Black - 600 Degrees (Original Mix) ([Beatport](https://www.beatport.com/search?q=HNTR%2C+DeLorean+Black+600+Degrees+%28Original+Mix%29))
 </details>
 
 <details>
-<summary>2026-07-17 - XXX Radio - XXX Radio #197 (0 tracks)</summary>
+<summary>2026-07-23 - XXX Radio - XXX Radio #198 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -83,6 +83,8 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
+| 2026-07-23 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-07-20 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
 | 2026-07-17 | XXX Radio | 0 | [XXX Radio #197](https://soundcloud.com/realmaup/xxx-radio-197) |
 | 2026-07-10 | ERA | 12 | [ERA 223 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-223-rebu-ke-studio-mix) |
@@ -101,10 +103,31 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 | 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
 | 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
-| 2026-05-25 | Only 100s | 14 | [May 2026 - Only 100s with The Aston Shuffle by Only 100s](https://soundcloud.com/itsonly100s/may-2026-only-100s-with-the-aston-shuffle) |
-| 2026-05-22 | ERA | 13 | [ERA 216 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-216-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-07-24 - ERA - ERA 225 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. No One Knows, Mojjo, Sarria - Cash On Cash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=No+One+Knows%2C+Mojjo%2C+Sarria+Cash+On+Cash+%28Extended+Mix%29))
+2. Clim, Dani (AE) - Aka Belive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clim%2C+Dani+%28AE%29+Aka+Belive+%28Extended+Mix%29))
+3. Volkoder - Bassline Hits (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Bassline+Hits+%28Original+Mix%29))
+4. Odd Mob, OMNOM and HYPERBEAM - Take You There (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Odd+Mob%2C+OMNOM+and+HYPERBEAM+Take+You+There+%28Extended+Mix%29))
+5. Alec Cortez - Drop It (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alec+Cortez+Drop+It+%28Original+Mix%29))
+6. Linska, Duss - Criminal (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Linska%2C+Duss+Criminal+%28Extended+Mix%29))
+7. Histar - Striker (Original Mix) ([Beatport](https://www.beatport.com/search?q=Histar+Striker+%28Original+Mix%29))
+8. Magit Cacoon - You Were Never Mine (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Magit+Cacoon+You+Were+Never+Mine+%28Extended+Mix%29))
+9. Discip - Red Room (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Discip+Red+Room+%28Extended+Mix%29))
+10. Mason - Nite Rite Delta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Mason+Nite+Rite+Delta+%28Extended+Mix%29))
+11. SCRIPT - Activator (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT+Activator+%28Original+Mix%29))
+12. HNTR, DeLorean Black - 600 Degrees (Original Mix) ([Beatport](https://www.beatport.com/search?q=HNTR%2C+DeLorean+Black+600+Degrees+%28Original+Mix%29))
+</details>
+
+<details>
+<summary>2026-07-23 - XXX Radio - XXX Radio #198 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-07-20 - ERA - ERA 224 - Rebūke Studio Mix (12 tracks)</summary>
@@ -348,48 +371,5 @@ _A driving 128-130 BPM, leaning toward Minimal / Deep Tech | Deep Tech, often in
 9. Ammo Avenue - Exotic Blend ([Beatport](https://www.beatport.com/track/exotic-blend/28890182)) - `130 BPM; Gb Minor; 11A; House; LTF Records`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)
-</details>
-
-<details>
-<summary>2026-05-25 - Only 100s - May 2026 - Only 100s with The Aston Shuffle by Only 100s (14 tracks)</summary>
-
-_A driving 97-134 BPM, leaning toward Tech House, often in Ab Minor mix._
-
-1. Nala - Contact High ([Beatport](https://www.beatport.com/track/contact-high-/28666624)) - `125 BPM; E Minor; 9A; Dance / Pop; Mi Domina`
-2. nocapz. - Sunflowers ([Beatport](https://www.beatport.com/track/sunflowers-/28538968)) - `130 BPM; G Minor; 6A; House; Motraxx`
-3. Nina Simone - See-Line Woman (Mochakk Remix) ([Beatport](https://www.beatport.com/track/seeline-woman/28914842)) - `128 BPM; Ab Minor; 1A; House; Verve`
-4. TSHA & HoneyLuv - TSHA & HoneyLuv ft. Ellie Maxwell - I Need U ([Beatport](https://www.beatport.com/track/i-need-u-feat-ellie-maxwell/28666626)) - `127 BPM; A Minor; 8A; Dance / Pop; Major Recordings/Warner Records`
-5. Four Tet - Baby (Tony Romera Remix) ([Beatport](https://www.beatport.com/track/baby/28611968)) - `129 BPM; D Major; 10B; Tech House; Text Records`
-6. Chris Lake & ATRIP - Make You Fight ([Beatport](https://www.beatport.com/track/make-you-fight-/28490349)) - `131 BPM; G Minor; 6A; Tech House; Black Book Records`
-7. KC Lights - Dança ([Beatport](https://www.beatport.com/track/danca/28413889)) - `128 BPM; Db Minor; 12A; Tech House | Latin Tech; Toolroom`
-8. Prospa & Murda Beatz - Baby ([Beatport](https://www.beatport.com/track/baby/28678498)) - `130 BPM; B Minor; 10A; Tech House; CircoLoco Records`
-9. Jayda G - All Day (Jackie Hollander Remix) ([Beatport](https://www.beatport.com/track/all-day/28854946)) - `131 BPM; C Minor; 5A; Dance / Pop; Ministry of Sound Recordings`
-10. Johannes Brecht - All We Got ([Beatport](https://www.beatport.com/track/all-we-got/28525638)) - `128 BPM; Gb Major; 2B; Tech House; Diynamic`
-11. Overmono - Lockup ([Beatport](https://www.beatport.com/track/lockup/28901951)) - `97 BPM; Gb Minor; 11A; Electronica; XL Recordings`
-12. VNSSA - Unafraid To Freak ([Beatport](https://www.beatport.com/track/unafraid-to-freak-/28441190)) - `130 BPM; A Major; 11B; Tech House; EMPIRE`
-13. Azzecca - Make Your Move ([Beatport](https://www.beatport.com/track/make-your-move/28638978)) - `134 BPM; D Minor; 7A; Tech House; Warehouse Project Records`
-14. Skream & ROKAR - Rampage ([Beatport](https://www.beatport.com/track/rampage/28831469)) - `134 BPM; Ab Minor; 1A; UK Garage / Bassline; IFEEL`
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/16t9vqft/the-aston-shuffle-only-100s-may-2026-2026-05-28.html)
-</details>
-
-<details>
-<summary>2026-05-22 - ERA - ERA 216 - Rebūke Studio Mix (13 tracks)</summary>
-
-_A driving 124-132 BPM, leaning toward Tech House, often in D Major mix._
-
-1. Charles D x Weska - Can't Get Enough feat. Bexxie ([Beatport](https://www.beatport.com/track/cant-get-enough-feat-bexxie/28922907)) - `130 BPM; G Major; 9B; Techno (Peak Time / Driving); Drumcode`
-2. Rascal AU - Confident (Original Mix) ([Beatport](https://www.beatport.com/track/confident-/28410184)) - `127 BPM; D Minor; 7A; Tech House; WeLove Recordings`
-3. Rafael Cerato - Pink P (Instrumental Mix) ([Beatport](https://www.beatport.com/track/pink-p/28825003)) - `128 BPM; Eb Major; 5B; Melodic House & Techno; 1001 Recordings`
-4. Michael Caird - Misbehaving (Extended) ([Beatport](https://www.beatport.com/track/misbehaving/23435361)) - `128 BPM; G Major; 9B; House; Shelter`
-5. Tough Art - Groove In (Original Mix) ([Beatport](https://www.beatport.com/track/groove-in/28428627)) - `129 BPM; Ab Minor; 1A; Tech House; Be One Records`
-6. Glass Petals 'We Stay Inside' ft. Sophiegrophy (Extended Mix) ([Beatport](https://www.beatport.com/track/we-stay-inside-feat-sophiegrophy/28867580)) - `129 BPM; F Major; 7B; Tech House; Trace Amounts`
-7. Plastik Funk, Toxic Joy - Close My Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-my-eyes/28720375)) - `130 BPM; Eb Minor; 2A; Tech House; Electronic Rapture`
-8. ESSED - Anytime (Extended Mix) ([Beatport](https://www.beatport.com/track/anytime/28336976)) - `130 BPM; D Major; 10B; Tech House; STMPD RCRDS`
-9. Joshwa - Work Your Body (Extended Mix) ([Beatport](https://www.beatport.com/track/work-your-body-/26897152)) - `132 BPM; B Major; 1B; Tech House; Catch & Release`
-10. Federico Scavo - Raggaselecta (Extended Mix) ([Beatport](https://www.beatport.com/track/raggaselecta-/28708776)) - `128 BPM; Gb Major; 2B; House; Juicy Music`
-11. Green Velvet, Meduza, GENESI (ITA), ESSENTIA (IT) - La La Land (Extended Mix) ([Beatport](https://www.beatport.com/track/la-la-land/28628634)) - `128 BPM; A Major; 11B; Tech House; Broke`
-12. Nopopstar - Close You'r Eyes (Extended Mix) ([Beatport](https://www.beatport.com/track/close-your-eyes/28457739)) - `124 BPM; E Major; 12B; Indie Dance; UNCLES MUSIC`
-13. Shahay, Sound of Ghetto - Memphis (Extended Mix) ([Beatport](https://www.beatport.com/track/memphis/28520921)) - `126 BPM; D Major; 10B; Tech House; Wh0 Worx`
 </details>
 
