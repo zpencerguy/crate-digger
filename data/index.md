@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 658
-- Mixtapes with tracks: 403
-- Tracks: 5244
+- Mixtapes: 660
+- Mixtapes with tracks: 404
+- Tracks: 5256
 - Month range: 2010-07 to 2026-07
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 225 | 141 | 1792 | 2022-04 to 2026-07 |
+| ERA | 226 | 142 | 1804 | 2022-04 to 2026-07 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 102 | 44 | 635 | 2017-01 to 2026-06 |
-| XXX Radio | 198 | 113 | 1551 | 2022-09 to 2026-07 |
+| XXX Radio | 199 | 113 | 1551 | 2022-09 to 2026-07 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-07 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
+| 2026-07 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
 | 2026-07 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
 | 2026-07 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-07 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-06 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) ([tracklist](https://1001.tl/m1cbjm)) |
 | 2026-06 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
-| 2026-06 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
-| 2026-05 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) ([tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)) |

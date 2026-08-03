@@ -6,32 +6,32 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
-| 2026-07-23 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
+| 2026-07-31 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
+| 2026-07-30 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
 | 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
 
 <details>
-<summary>2026-07-24 - ERA - ERA 225 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-07-31 - ERA - ERA 226 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. No One Knows, Mojjo, Sarria - Cash On Cash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=No+One+Knows%2C+Mojjo%2C+Sarria+Cash+On+Cash+%28Extended+Mix%29))
-2. Clim, Dani (AE) - Aka Belive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clim%2C+Dani+%28AE%29+Aka+Belive+%28Extended+Mix%29))
-3. Volkoder - Bassline Hits (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Bassline+Hits+%28Original+Mix%29))
-4. Odd Mob, OMNOM and HYPERBEAM - Take You There (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Odd+Mob%2C+OMNOM+and+HYPERBEAM+Take+You+There+%28Extended+Mix%29))
-5. Alec Cortez - Drop It (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alec+Cortez+Drop+It+%28Original+Mix%29))
-6. Linska, Duss - Criminal (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Linska%2C+Duss+Criminal+%28Extended+Mix%29))
-7. Histar - Striker (Original Mix) ([Beatport](https://www.beatport.com/search?q=Histar+Striker+%28Original+Mix%29))
-8. Magit Cacoon - You Were Never Mine (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Magit+Cacoon+You+Were+Never+Mine+%28Extended+Mix%29))
-9. Discip - Red Room (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Discip+Red+Room+%28Extended+Mix%29))
-10. Mason - Nite Rite Delta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Mason+Nite+Rite+Delta+%28Extended+Mix%29))
-11. SCRIPT - Activator (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT+Activator+%28Original+Mix%29))
-12. HNTR, DeLorean Black - 600 Degrees (Original Mix) ([Beatport](https://www.beatport.com/search?q=HNTR%2C+DeLorean+Black+600+Degrees+%28Original+Mix%29))
+1. Eli & Fur - Ceremony (SCRIPT Remix) (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Eli+%26+Fur+Ceremony+%28SCRIPT+Remix%29+%28Extended+Mix%29))
+2. CHATU - About The Bassline (Extended Mix) [Altra Moda] ([Beatport](https://www.beatport.com/search?q=CHATU+About+The+Bassline+%28Extended+Mix%29+%5BAltra+Moda%5D))
+3. Rafael, Adam Ten - Beat Goes On (Extended Mix) [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Rafael%2C+Adam+Ten+Beat+Goes+On+%28Extended+Mix%29+%5BMaccabi+House%5D))
+4. Tini Gessler - 125 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tini+Gessler+125+%28Extended+Mix%29))
+5. Medesen - Are You Ready? (Extended Instrumental) [Chemiztri Recordings] ([Beatport](https://www.beatport.com/search?q=Medesen+Are+You+Ready%3F+%28Extended+Instrumental%29+%5BChemiztri+Recordings%5D))
+6. Balanka - BodyLang (Extended Version)  [Hot Creations] ([Beatport](https://www.beatport.com/search?q=Balanka+BodyLang+%28Extended+Version%29++%5BHot+Creations%5D))
+7. Teenage Mutants - Hyperspace (Original Mix) [Truesoul] ([Beatport](https://www.beatport.com/search?q=Teenage+Mutants+Hyperspace+%28Original+Mix%29+%5BTruesoul%5D))
+8. Lampe - Shining Tonight (Original Mix) [Alula Tunes] ([Beatport](https://www.beatport.com/search?q=Lampe+Shining+Tonight+%28Original+Mix%29+%5BAlula+Tunes%5D))
+9. Avis Vox, Christian Nielsen - Nebula (Original Mix) [mau5trap] ([Beatport](https://www.beatport.com/search?q=Avis+Vox%2C+Christian+Nielsen+Nebula+%28Original+Mix%29+%5Bmau5trap%5D))
+10. CERES, Victor Garde, Enai - That's My ShT (Extended Mix) [Captive Soul] ([Beatport](https://www.beatport.com/search?q=CERES%2C+Victor+Garde%2C+Enai+That%27s+My+ShT+%28Extended+Mix%29+%5BCaptive+Soul%5D))
+11. Argy, SOLANCE - Window Shake (Original Mix) [NEWORLD] ([Beatport](https://www.beatport.com/search?q=Argy%2C+SOLANCE+Window+Shake+%28Original+Mix%29+%5BNEWORLD%5D))
+12. Khainz, Leena Punks - Weightless (Extended Mix) [SIZE Records] ([Beatport](https://www.beatport.com/search?q=Khainz%2C+Leena+Punks+Weightless+%28Extended+Mix%29+%5BSIZE+Records%5D))
 </details>
 
 <details>
-<summary>2026-07-23 - XXX Radio - XXX Radio #198 (0 tracks)</summary>
+<summary>2026-07-30 - XXX Radio - XXX Radio #199 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -83,6 +83,8 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-07-31 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
+| 2026-07-30 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
 | 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
 | 2026-07-23 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-07-20 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
@@ -101,10 +103,31 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | 2026-06-05 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
 | 2026-06-05 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
-| 2026-06-01 | ERA | 0 | [ERA 217 - Rebūke Live from Revolver, Melbourne](https://soundcloud.com/rebukemusic/era-217-rebu-ke-live-from) |
-| 2026-05-29 | XXX Radio | 9 | [XXX Radio #190](https://soundcloud.com/realmaup/xxx-radio-190) |
 
 ### Tracklists
+
+<details>
+<summary>2026-07-31 - ERA - ERA 226 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Eli & Fur - Ceremony (SCRIPT Remix) (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Eli+%26+Fur+Ceremony+%28SCRIPT+Remix%29+%28Extended+Mix%29))
+2. CHATU - About The Bassline (Extended Mix) [Altra Moda] ([Beatport](https://www.beatport.com/search?q=CHATU+About+The+Bassline+%28Extended+Mix%29+%5BAltra+Moda%5D))
+3. Rafael, Adam Ten - Beat Goes On (Extended Mix) [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Rafael%2C+Adam+Ten+Beat+Goes+On+%28Extended+Mix%29+%5BMaccabi+House%5D))
+4. Tini Gessler - 125 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tini+Gessler+125+%28Extended+Mix%29))
+5. Medesen - Are You Ready? (Extended Instrumental) [Chemiztri Recordings] ([Beatport](https://www.beatport.com/search?q=Medesen+Are+You+Ready%3F+%28Extended+Instrumental%29+%5BChemiztri+Recordings%5D))
+6. Balanka - BodyLang (Extended Version)  [Hot Creations] ([Beatport](https://www.beatport.com/search?q=Balanka+BodyLang+%28Extended+Version%29++%5BHot+Creations%5D))
+7. Teenage Mutants - Hyperspace (Original Mix) [Truesoul] ([Beatport](https://www.beatport.com/search?q=Teenage+Mutants+Hyperspace+%28Original+Mix%29+%5BTruesoul%5D))
+8. Lampe - Shining Tonight (Original Mix) [Alula Tunes] ([Beatport](https://www.beatport.com/search?q=Lampe+Shining+Tonight+%28Original+Mix%29+%5BAlula+Tunes%5D))
+9. Avis Vox, Christian Nielsen - Nebula (Original Mix) [mau5trap] ([Beatport](https://www.beatport.com/search?q=Avis+Vox%2C+Christian+Nielsen+Nebula+%28Original+Mix%29+%5Bmau5trap%5D))
+10. CERES, Victor Garde, Enai - That's My ShT (Extended Mix) [Captive Soul] ([Beatport](https://www.beatport.com/search?q=CERES%2C+Victor+Garde%2C+Enai+That%27s+My+ShT+%28Extended+Mix%29+%5BCaptive+Soul%5D))
+11. Argy, SOLANCE - Window Shake (Original Mix) [NEWORLD] ([Beatport](https://www.beatport.com/search?q=Argy%2C+SOLANCE+Window+Shake+%28Original+Mix%29+%5BNEWORLD%5D))
+12. Khainz, Leena Punks - Weightless (Extended Mix) [SIZE Records] ([Beatport](https://www.beatport.com/search?q=Khainz%2C+Leena+Punks+Weightless+%28Extended+Mix%29+%5BSIZE+Records%5D))
+</details>
+
+<details>
+<summary>2026-07-30 - XXX Radio - XXX Radio #199 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-07-24 - ERA - ERA 225 - Rebūke Studio Mix (12 tracks)</summary>
@@ -347,29 +370,5 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 10. Blackloud - And Then What ([Beatport](https://www.beatport.com/track/and-then-what/28955839)) - `125 BPM; G Major; 9B; Melodic House & Techno; Diynamic`
 11. The Magician, JØRD - Vision ([Beatport](https://www.beatport.com/search?q=The+Magician%2C+J%C3%98RD+Vision))
 12. Deetron, Ben Westbeech - Deep In Your Soul ([Beatport](https://www.beatport.com/track/deep-in-your-soul-/28706721)) - `126 BPM; E Minor; 9A; House; Running Back`
-</details>
-
-<details>
-<summary>2026-06-01 - ERA - ERA 217 - Rebūke Live from Revolver, Melbourne (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-05-29 - XXX Radio - XXX Radio #190 (9 tracks)</summary>
-
-_A driving 128-130 BPM, leaning toward Minimal / Deep Tech | Deep Tech, often in Eb Minor mix._
-
-1. SURFOSURF - Work ([Beatport](https://www.beatport.com/track/work-/28936170)) - `129 BPM; Eb Minor; 2A; Minimal / Deep Tech | Deep Tech; elrow Limited`
-2. Malikk - Vamos A Bailar ([Beatport](https://www.beatport.com/track/vamos-a-bailar-/28528065)) - `130 BPM; Eb Minor; 2A; Tech House | Latin Tech; Mood Child`
-3. SURFOSURF - Funky Life ([Beatport](https://www.beatport.com/track/funky-life-/28936171)) - `130 BPM; G Minor; 6A; Minimal / Deep Tech | Deep Tech; elrow Limited`
-4. ID - Calinda ([Beatport](https://www.beatport.com/search?q=ID+Calinda))
-5. The Boys From The Bottom - Dance ([Beatport](https://www.beatport.com/search?q=The+Boys+From+The+Bottom+Dance))
-6. Rafa Barrios - Shake That Body ([Beatport](https://www.beatport.com/track/shake-that-body/28698845)) - `128 BPM; Bb Minor; 3A; Tech House; Sound D’Elite`
-7. Aitor Astiz - Digital Soul (Freak) ([Beatport](https://www.beatport.com/track/digital-soul-freak/28771115)) - `128 BPM; C Major; 8B; Minimal / Deep Tech | Deep Tech; Hottrax`
-8. Paolo Martini - Twisted Twinkle ([Beatport](https://www.beatport.com/track/twisted-twinkle/28786785)) - `130 BPM; Gb Major; 2B; Tech House; Paul's Boutique`
-9. Ammo Avenue - Exotic Blend ([Beatport](https://www.beatport.com/track/exotic-blend/28890182)) - `130 BPM; Gb Minor; 11A; House; LTF Records`
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/2c3m81st/mau-p-xxx-radio-190-2026-05-29.html)
 </details>
 

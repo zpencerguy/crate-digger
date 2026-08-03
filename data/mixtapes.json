@@ -2925,6 +2925,19 @@
     "track_count": 12
   },
   {
+    "id": 661,
+    "month": "2026-07",
+    "release_date": "2026-07-31",
+    "series": "ERA",
+    "title": "ERA 226 - Rebūke Studio Mix",
+    "uploader": "Rebūke",
+    "soundcloud_url": "https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-zfDBJqjyw3I74oHx-T2wzow-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2372585180&show_artwork=true\"></iframe>",
+    "track_count": 12
+  },
+  {
     "id": 230,
     "month": "2010-07",
     "release_date": "2010-07-12",
@@ -8551,6 +8564,19 @@
     "tracklist_url": null,
     "artwork_url": "https://i1.sndcdn.com/artworks-kfDJ5KzUJGY0xdCh-cm5yKQ-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2366767274&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
+    "id": 660,
+    "month": "2026-07",
+    "release_date": "2026-07-30",
+    "series": "XXX Radio",
+    "title": "XXX Radio #199",
+    "uploader": "Mau P",
+    "soundcloud_url": "https://soundcloud.com/realmaup/xxx-radio-199",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-sqQSmCNJH0dT7vnv-ATX3xA-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2372299007&show_artwork=true\"></iframe>",
     "track_count": 0
   }
 ]
