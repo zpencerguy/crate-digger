@@ -4,10 +4,10 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 660
+- Mixtapes: 662
 - Mixtapes with tracks: 404
 - Tracks: 5256
-- Month range: 2010-07 to 2026-07
+- Month range: 2010-07 to 2026-08
 
 ## Series
 
@@ -15,13 +15,15 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | --- | ---: | ---: | ---: | --- |
 | ERA | 226 | 142 | 1804 | 2022-04 to 2026-07 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
-| Only 100s | 102 | 44 | 635 | 2017-01 to 2026-06 |
-| XXX Radio | 199 | 113 | 1551 | 2022-09 to 2026-07 |
+| Only 100s | 103 | 44 | 635 | 2017-01 to 2026-07 |
+| XXX Radio | 200 | 113 | 1551 | 2022-09 to 2026-08 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-08 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
+| 2026-07 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 | 2026-07 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
 | 2026-07 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
 | 2026-07 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-06 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #192](https://soundcloud.com/realmaup/xxx-radio-192) |
 | 2026-06 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
-| 2026-06 | XXX Radio | 13 | [XXX Radio #191](https://soundcloud.com/realmaup/xxx-radio-191) ([tracklist](https://1001.tl/m1cbjm)) |
-| 2026-06 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
