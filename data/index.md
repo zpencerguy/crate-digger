@@ -4,24 +4,27 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 662
-- Mixtapes with tracks: 404
-- Tracks: 5256
+- Mixtapes: 665
+- Mixtapes with tracks: 406
+- Tracks: 5280
 - Month range: 2010-07 to 2026-08
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 226 | 142 | 1804 | 2022-04 to 2026-07 |
+| ERA | 228 | 144 | 1828 | 2022-04 to 2026-08 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 103 | 44 | 635 | 2017-01 to 2026-07 |
-| XXX Radio | 200 | 113 | 1551 | 2022-09 to 2026-08 |
+| XXX Radio | 201 | 113 | 1551 | 2022-09 to 2026-08 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-08 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
+| 2026-08 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
+| 2026-08 | XXX Radio | 0 | [XXX Radio #201](https://soundcloud.com/realmaup/xxx-radio-201) |
 | 2026-08 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
 | 2026-07 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 | 2026-07 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
@@ -39,6 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-06 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)) |
 | 2026-06 | ERA | 13 | [ERA 220 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-220-rebu-ke-studio-mix) |
 | 2026-06 | XXX Radio | 0 | [XXX Radio #193](https://soundcloud.com/realmaup/xxx-radio-193) |
-| 2026-06 | ERA | 11 | [ERA 219 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-219-rebu-ke-studio-mix) |
-| 2026-06 | XXX Radio | 0 | [XXX Radio #192](https://soundcloud.com/realmaup/xxx-radio-192) |
-| 2026-06 | ERA | 12 | [ERA 218 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-218-rebu-ke-studio-mix) |
