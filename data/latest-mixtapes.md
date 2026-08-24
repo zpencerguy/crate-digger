@@ -6,32 +6,32 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-08-14 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
-| 2026-08-14 | XXX Radio | 0 | [XXX Radio #201](https://soundcloud.com/realmaup/xxx-radio-201) |
+| 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
+| 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
 | 2026-07-30 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
 
 <details>
-<summary>2026-08-14 - ERA - ERA 228 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-08-24 - ERA - ERA 229 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Daniel Orpi - La Isla (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Daniel+Orpi+La+Isla+%28Extended+Mix%29))
-2. DJ Siniestro - Raw munchies (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJ+Siniestro+Raw+munchies+%28Original+Mix%29))
-3. Kristof L - Info Forwarded (Catsinka Remix) ([Beatport](https://www.beatport.com/search?q=Kristof+L+Info+Forwarded+%28Catsinka+Remix%29))
-4. Highway 307, Iac Side - Shrooms in the City (Original Mix) ([Beatport](https://www.beatport.com/search?q=Highway+307%2C+Iac+Side+Shrooms+in+the+City+%28Original+Mix%29))
-5. DJVEDO - Keep the Rhythm (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJVEDO+Keep+the+Rhythm+%28Original+Mix%29))
-6. Frida Darko - Lazy (Original Mix) ([Beatport](https://www.beatport.com/search?q=Frida+Darko+Lazy+%28Original+Mix%29))
-7. KiRKie, The BeatBoy's - Bad Bitches (Extended Mix) ([Beatport](https://www.beatport.com/search?q=KiRKie%2C+The+BeatBoy%27s+Bad+Bitches+%28Extended+Mix%29))
-8. Goom Gum - C'mon (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Goom+Gum+C%27mon+%28Extended+Mix%29))
-9. Vintage Culture, Rhys from the Sticks, Nariman - Think Too Much (Extended) ([Beatport](https://www.beatport.com/search?q=Vintage+Culture%2C+Rhys+from+the+Sticks%2C+Nariman+Think+Too+Much+%28Extended%29))
-10. Mao Molano - Hypnotic Dust (Original Mix) ([Beatport](https://www.beatport.com/search?q=Mao+Molano+Hypnotic+Dust+%28Original+Mix%29))
-11. Rauschhaus, Peer Kusiv - Radiant ([Beatport](https://www.beatport.com/search?q=Rauschhaus%2C+Peer+Kusiv+Radiant))
-12. Matt Sassari, HNTR 'Short Stop' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Matt+Sassari%2C+HNTR+%27Short+Stop%27+%28Extended+Mix%29))
+1. Patrick Topping & Rebūke ft 1111 - People Dancing (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping+%26+Rebu%CC%84ke+ft+1111+People+Dancing+%28Extended+Mix%29))
+2. ATLAC - You Can Move (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+You+Can+Move+%28Original+Mix%29))
+3. AFROJACK - Monopoly Man (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AFROJACK+Monopoly+Man+%28Extended+Mix%29))
+4. Kieran San Jose - Black Magic (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kieran+San+Jose+Black+Magic+%28Extended+Mix%29))
+5. Gabss, Balanka - Bottles (Original Mix) ([Beatport](https://www.beatport.com/search?q=Gabss%2C+Balanka+Bottles+%28Original+Mix%29))
+6. Volkoder, Anyma (ofc) - Other Dimension (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Anyma+%28ofc%29+Other+Dimension+%28Extended+Mix%29))
+7. BlackGummy, KEETZ - No Romance (Extended Sam WOLFE Remix) ([Beatport](https://www.beatport.com/search?q=BlackGummy%2C+KEETZ+No+Romance+%28Extended+Sam+WOLFE+Remix%29))
+8. Cafius, Oliver Marshak - The Beat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Cafius%2C+Oliver+Marshak+The+Beat+%28Extended+Mix%29))
+9. Kalamita (FR) - Parish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kalamita+%28FR%29+Parish+%28Extended+Mix%29))
+10. METODI, Martin Kinrus, Franco Smith - Embrace (Original Mix) ([Beatport](https://www.beatport.com/search?q=METODI%2C+Martin+Kinrus%2C+Franco+Smith+Embrace+%28Original+Mix%29))
+11. TH;EN - Ciento (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Ciento+%28Original+Mix%29))
+12. UMEK - Vibrancy (Kosmo Remix) ([Beatport](https://www.beatport.com/search?q=UMEK+Vibrancy+%28Kosmo+Remix%29))
 </details>
 
 <details>
-<summary>2026-08-14 - XXX Radio - XXX Radio #201 (0 tracks)</summary>
+<summary>2026-08-21 - XXX Radio - XXX Radio #202 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -66,6 +66,8 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
+| 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
 | 2026-08-14 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
 | 2026-08-14 | XXX Radio | 0 | [XXX Radio #201](https://soundcloud.com/realmaup/xxx-radio-201) |
 | 2026-08-10 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
@@ -84,10 +86,31 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
 | 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
 | 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
-| 2026-06-19 | ERA | 13 | [ERA 220 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-220-rebu-ke-studio-mix) |
-| 2026-06-19 | XXX Radio | 0 | [XXX Radio #193](https://soundcloud.com/realmaup/xxx-radio-193) |
 
 ### Tracklists
+
+<details>
+<summary>2026-08-24 - ERA - ERA 229 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Patrick Topping & Rebūke ft 1111 - People Dancing (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping+%26+Rebu%CC%84ke+ft+1111+People+Dancing+%28Extended+Mix%29))
+2. ATLAC - You Can Move (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+You+Can+Move+%28Original+Mix%29))
+3. AFROJACK - Monopoly Man (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AFROJACK+Monopoly+Man+%28Extended+Mix%29))
+4. Kieran San Jose - Black Magic (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kieran+San+Jose+Black+Magic+%28Extended+Mix%29))
+5. Gabss, Balanka - Bottles (Original Mix) ([Beatport](https://www.beatport.com/search?q=Gabss%2C+Balanka+Bottles+%28Original+Mix%29))
+6. Volkoder, Anyma (ofc) - Other Dimension (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Anyma+%28ofc%29+Other+Dimension+%28Extended+Mix%29))
+7. BlackGummy, KEETZ - No Romance (Extended Sam WOLFE Remix) ([Beatport](https://www.beatport.com/search?q=BlackGummy%2C+KEETZ+No+Romance+%28Extended+Sam+WOLFE+Remix%29))
+8. Cafius, Oliver Marshak - The Beat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Cafius%2C+Oliver+Marshak+The+Beat+%28Extended+Mix%29))
+9. Kalamita (FR) - Parish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kalamita+%28FR%29+Parish+%28Extended+Mix%29))
+10. METODI, Martin Kinrus, Franco Smith - Embrace (Original Mix) ([Beatport](https://www.beatport.com/search?q=METODI%2C+Martin+Kinrus%2C+Franco+Smith+Embrace+%28Original+Mix%29))
+11. TH;EN - Ciento (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Ciento+%28Original+Mix%29))
+12. UMEK - Vibrancy (Kosmo Remix) ([Beatport](https://www.beatport.com/search?q=UMEK+Vibrancy+%28Kosmo+Remix%29))
+</details>
+
+<details>
+<summary>2026-08-21 - XXX Radio - XXX Radio #202 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-08-14 - ERA - ERA 228 - Rebūke Studio Mix (12 tracks)</summary>
@@ -299,29 +322,5 @@ _A driving 99-140 BPM, leaning toward House, often in Bb Minor mix._
 14. Azzecca - Back 2 u ([Beatport](https://www.beatport.com/track/back-2-u/29106933)) - `134 BPM; G Major; 9B; UK Garage / Bassline; ATW Records`
 
 Source: [tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)
-</details>
-
-<details>
-<summary>2026-06-19 - ERA - ERA 220 - Rebūke Studio Mix (13 tracks)</summary>
-
-1. Ferry - Cross The Line (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ferry+Cross+The+Line+%28Extended+Mix%29))
-2. Adam Ten, Asulin - Warawara (Hot Since 82 Remix) ([Beatport](https://www.beatport.com/search?q=Adam+Ten%2C+Asulin+Warawara+%28Hot+Since+82+Remix%29))
-3. Oliver Huntemann - Brutal (Instrumental) ([Beatport](https://www.beatport.com/search?q=Oliver+Huntemann+Brutal+%28Instrumental%29))
-4. Archie Owen - High Life (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Archie+Owen+High+Life+%28Extended+Mix%29))
-5. No One Knows (BR) - I Can Feel Ya (Extended Mix) ([Beatport](https://www.beatport.com/search?q=No+One+Knows+%28BR%29+I+Can+Feel+Ya+%28Extended+Mix%29))
-6. Dennis Cruz, Iuliano Mambo - The Trip (Original Mix) ([Beatport](https://www.beatport.com/search?q=Dennis+Cruz%2C+Iuliano+Mambo+The+Trip+%28Original+Mix%29))
-7. Michael Bibi - Lets Get High (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Michael+Bibi+Lets+Get+High+%28Extended+Mix%29))
-8. Massano, Silver Panda - Pa Ca (Original Mix) ([Beatport](https://www.beatport.com/search?q=Massano%2C+Silver+Panda+Pa+Ca+%28Original+Mix%29))
-9. HI-LO - Do Not Disturb (feat. Saint Joshua) (Extended Mix) ([Beatport](https://www.beatport.com/search?q=HI-LO+Do+Not+Disturb+%28feat.+Saint+Joshua%29+%28Extended+Mix%29))
-10. Alex Stein - The Pull (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alex+Stein+The+Pull+%28Original+Mix%29))
-11. Carlo Whale, TH;EN - Echoes of You (Original Mix) ([Beatport](https://www.beatport.com/search?q=Carlo+Whale%2C+TH%3BEN+Echoes+of+You+%28Original+Mix%29))
-12. Bart Skils x Deniz Koyu - Your Mind On Acid ([Beatport](https://www.beatport.com/search?q=Bart+Skils+x+Deniz+Koyu+Your+Mind+On+Acid))
-13. Baxsta - Subversion (Original Mix) ([Beatport](https://www.beatport.com/search?q=Baxsta+Subversion+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-06-19 - XXX Radio - XXX Radio #193 (0 tracks)</summary>
-
-_No tracks indexed yet._
 </details>
 
