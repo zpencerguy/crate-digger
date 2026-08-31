@@ -6,32 +6,32 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
-| 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
+| 2026-08-28 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
+| 2026-08-27 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
 | 2026-07-30 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 | 2026-06-05 | Magic Tape | 12 | [MAGIC TAPE 133](https://soundcloud.com/themagician/magic-tape-133) |
 
 ### Tracklists
 
 <details>
-<summary>2026-08-24 - ERA - ERA 229 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-08-28 - ERA - ERA 230 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Patrick Topping & Rebūke ft 1111 - People Dancing (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping+%26+Rebu%CC%84ke+ft+1111+People+Dancing+%28Extended+Mix%29))
-2. ATLAC - You Can Move (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+You+Can+Move+%28Original+Mix%29))
-3. AFROJACK - Monopoly Man (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AFROJACK+Monopoly+Man+%28Extended+Mix%29))
-4. Kieran San Jose - Black Magic (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kieran+San+Jose+Black+Magic+%28Extended+Mix%29))
-5. Gabss, Balanka - Bottles (Original Mix) ([Beatport](https://www.beatport.com/search?q=Gabss%2C+Balanka+Bottles+%28Original+Mix%29))
-6. Volkoder, Anyma (ofc) - Other Dimension (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Anyma+%28ofc%29+Other+Dimension+%28Extended+Mix%29))
-7. BlackGummy, KEETZ - No Romance (Extended Sam WOLFE Remix) ([Beatport](https://www.beatport.com/search?q=BlackGummy%2C+KEETZ+No+Romance+%28Extended+Sam+WOLFE+Remix%29))
-8. Cafius, Oliver Marshak - The Beat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Cafius%2C+Oliver+Marshak+The+Beat+%28Extended+Mix%29))
-9. Kalamita (FR) - Parish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kalamita+%28FR%29+Parish+%28Extended+Mix%29))
-10. METODI, Martin Kinrus, Franco Smith - Embrace (Original Mix) ([Beatport](https://www.beatport.com/search?q=METODI%2C+Martin+Kinrus%2C+Franco+Smith+Embrace+%28Original+Mix%29))
-11. TH;EN - Ciento (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Ciento+%28Original+Mix%29))
-12. UMEK - Vibrancy (Kosmo Remix) ([Beatport](https://www.beatport.com/search?q=UMEK+Vibrancy+%28Kosmo+Remix%29))
+1. Logan Camin - For The Culture (Original Mix) ([Beatport](https://www.beatport.com/search?q=Logan+Camin+For+The+Culture+%28Original+Mix%29))
+2. Kesia, Karla Amaro - Glitch In The Matrix (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kesia%2C+Karla+Amaro+Glitch+In+The+Matrix+%28Original+Mix%29))
+3. Jay House - Party En Mi Casa (Original Mix) ([Beatport](https://www.beatport.com/search?q=Jay+House+Party+En+Mi+Casa+%28Original+Mix%29))
+4. Bora Uzer - That's The Law (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Bora+Uzer+That%27s+The+Law+%28Extended+Mix%29))
+5. Kuhn - Foolish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kuhn+Foolish+%28Extended+Mix%29))
+6. ATLAC - Strong (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+Strong+%28Original+Mix%29))
+7. Ali Love, Bedouin, Nandu, Karl Williams - My Only Crime (Original Mix) ([Beatport](https://www.beatport.com/search?q=Ali+Love%2C+Bedouin%2C+Nandu%2C+Karl+Williams+My+Only+Crime+%28Original+Mix%29))
+8. DJVEDO - Under Hypnosis (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJVEDO+Under+Hypnosis+%28Original+Mix%29))
+9. Curol, Soulmanic - Mistery Lady (Mila Journée Extended Remix) ([Beatport](https://www.beatport.com/search?q=Curol%2C+Soulmanic+Mistery+Lady+%28Mila+Journe%CC%81e+Extended+Remix%29))
+10. Oliver Huntemann, Victor Ruiz - Y (Original Mix) ([Beatport](https://www.beatport.com/search?q=Oliver+Huntemann%2C+Victor+Ruiz+Y+%28Original+Mix%29))
+11. Bittermind, KYBA (UK) - Dem a Pree (Original Mix) ([Beatport](https://www.beatport.com/search?q=Bittermind%2C+KYBA+%28UK%29+Dem+a+Pree+%28Original+Mix%29))
+12. Domek - Become One (Original Mix) ([Beatport](https://www.beatport.com/search?q=Domek+Become+One+%28Original+Mix%29))
 </details>
 
 <details>
-<summary>2026-08-21 - XXX Radio - XXX Radio #202 (0 tracks)</summary>
+<summary>2026-08-27 - XXX Radio - XXX Radio #203 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -66,6 +66,8 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-08-28 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
+| 2026-08-27 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
 | 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
 | 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
 | 2026-08-14 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
@@ -84,10 +86,31 @@ _A driving 120-155 BPM, leaning toward Melodic House & Techno, often in D Minor 
 | 2026-07-03 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
 | 2026-07-03 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06-29 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
-| 2026-06-26 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
-| 2026-06-22 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) |
 
 ### Tracklists
+
+<details>
+<summary>2026-08-28 - ERA - ERA 230 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Logan Camin - For The Culture (Original Mix) ([Beatport](https://www.beatport.com/search?q=Logan+Camin+For+The+Culture+%28Original+Mix%29))
+2. Kesia, Karla Amaro - Glitch In The Matrix (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kesia%2C+Karla+Amaro+Glitch+In+The+Matrix+%28Original+Mix%29))
+3. Jay House - Party En Mi Casa (Original Mix) ([Beatport](https://www.beatport.com/search?q=Jay+House+Party+En+Mi+Casa+%28Original+Mix%29))
+4. Bora Uzer - That's The Law (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Bora+Uzer+That%27s+The+Law+%28Extended+Mix%29))
+5. Kuhn - Foolish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kuhn+Foolish+%28Extended+Mix%29))
+6. ATLAC - Strong (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+Strong+%28Original+Mix%29))
+7. Ali Love, Bedouin, Nandu, Karl Williams - My Only Crime (Original Mix) ([Beatport](https://www.beatport.com/search?q=Ali+Love%2C+Bedouin%2C+Nandu%2C+Karl+Williams+My+Only+Crime+%28Original+Mix%29))
+8. DJVEDO - Under Hypnosis (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJVEDO+Under+Hypnosis+%28Original+Mix%29))
+9. Curol, Soulmanic - Mistery Lady (Mila Journée Extended Remix) ([Beatport](https://www.beatport.com/search?q=Curol%2C+Soulmanic+Mistery+Lady+%28Mila+Journe%CC%81e+Extended+Remix%29))
+10. Oliver Huntemann, Victor Ruiz - Y (Original Mix) ([Beatport](https://www.beatport.com/search?q=Oliver+Huntemann%2C+Victor+Ruiz+Y+%28Original+Mix%29))
+11. Bittermind, KYBA (UK) - Dem a Pree (Original Mix) ([Beatport](https://www.beatport.com/search?q=Bittermind%2C+KYBA+%28UK%29+Dem+a+Pree+%28Original+Mix%29))
+12. Domek - Become One (Original Mix) ([Beatport](https://www.beatport.com/search?q=Domek+Become+One+%28Original+Mix%29))
+</details>
+
+<details>
+<summary>2026-08-27 - XXX Radio - XXX Radio #203 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-08-24 - ERA - ERA 229 - Rebūke Studio Mix (12 tracks)</summary>
@@ -293,34 +316,5 @@ _No tracks indexed yet._
 10. Armin van Buuren x Adam Beyer - No Mercy ([Beatport](https://www.beatport.com/search?q=Armin+van+Buuren+x+Adam+Beyer+No+Mercy))
 11. Domenico Rondinelli - 911 (Lampé Remix) ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+911+%28Lampe%CC%81+Remix%29))
 12. TH;EN - Blackout (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Blackout+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-06-26 - XXX Radio - XXX Radio #194 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-06-22 - Only 100s - June 2026 - Only 100s with The Aston Shuffle (14 tracks)</summary>
-
-_A driving 99-140 BPM, leaning toward House, often in Bb Minor mix._
-
-1. Barry Can't Swim - Return To Bhibo ([Beatport](https://www.beatport.com/track/return-to-bhibo/29078861)) - `129 BPM; Bb Minor; 3A; Dance / Pop; Atlantic Records UK`
-2. Jamie Jones & Camden Cox - State Of Mind ([Beatport](https://www.beatport.com/track/state-of-mind-/29500672)) - `125 BPM; Eb Minor; 2A; House; Helix Records`
-3. Prospa & KETTAMA - Break Free ([Beatport](https://www.beatport.com/track/break-free/29282422)) - `129 BPM; Ab Minor; 1A; House; CircoLoco Records`
-4. Madonna & Sabrina Carpenter - Bring Your Love (Honey Dijon Peaktime Dub Mix) ([Beatport](https://www.beatport.com/search?q=Madonna+%26+Sabrina+Carpenter+Bring+Your+Love+%28Honey+Dijon+Peaktime+Dub+Mix%29))
-5. Chloé Caillet & MYD - Lemme Dance ([Beatport](https://www.beatport.com/track/lemme-dance/29191388)) - `132 BPM; E Minor; 9A; Indie Dance; Ninja Tune`
-6. Âme & Busiswa - Pha Na Pha (TSHA Remix) ([Beatport](https://www.beatport.com/track/pha-na-pha/29182968)) - `129 BPM; E Minor; 9A; House; Innervisions`
-7. Franky Rizardo - Feel ([Beatport](https://www.beatport.com/track/feel/29310911)) - `130 BPM; B Minor; 10A; House; LTF Records`
-8. DJ Tennis - DJ Tennis ft. Campbell King - Misbehave ([Beatport](https://www.beatport.com/track/misbehave/29161624)) - `129 BPM; B Minor; 10A; Indie Dance; Life And Death`
-9. Groove Armada - Groove Armada ft. Gramma Funk - I See You Baby (DJ Boring Remix) ([Beatport](https://www.beatport.com/track/i-see-you-baby-feat-gramma-funk/29402511)) - `131 BPM; Bb Minor; 3A; Dance / Pop; BMG Rights Management (UK) Ltd.`
-10. Luke Alessi - What Is Cool? ([Beatport](https://www.beatport.com/track/what-is-cool-/28879411)) - `99 BPM; G Major; 9B; House; Coffee Cola`
-11. Dean Turnley - Actin' Tough (Mall Grab Remix) ([Beatport](https://www.beatport.com/track/actin-tough/29030372)) - `140 BPM; B Major; 1B; House; ROSSI.HOME//GRXWN.`
-12. Krystal Klear - New Gen Tech Tool ([Beatport](https://www.beatport.com/track/new-gen-tech-tool/28723566)) - `132 BPM; Bb Minor; 3A; House; Cocoon Recordings`
-13. Kiimi - Kiimi ft. I. JORDAN - Lose My Mind ([Beatport](https://www.beatport.com/track/lose-my-mind/29186144)) - `140 BPM; Ab Minor; 1A; House; HE.SHE.THEY.`
-14. Azzecca - Back 2 u ([Beatport](https://www.beatport.com/track/back-2-u/29106933)) - `134 BPM; G Major; 9B; UK Garage / Bassline; ATW Records`
-
-Source: [tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)
 </details>
 

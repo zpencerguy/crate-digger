@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 667
-- Mixtapes with tracks: 407
-- Tracks: 5292
+- Mixtapes: 669
+- Mixtapes with tracks: 408
+- Tracks: 5304
 - Month range: 2010-07 to 2026-08
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 229 | 145 | 1840 | 2022-04 to 2026-08 |
+| ERA | 230 | 146 | 1852 | 2022-04 to 2026-08 |
 | Magic Tape | 133 | 105 | 1266 | 2010-07 to 2026-06 |
 | Only 100s | 103 | 44 | 635 | 2017-01 to 2026-07 |
-| XXX Radio | 202 | 113 | 1551 | 2022-09 to 2026-08 |
+| XXX Radio | 203 | 113 | 1551 | 2022-09 to 2026-08 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-08 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
+| 2026-08 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
 | 2026-08 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
 | 2026-08 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
 | 2026-08 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-07 | ERA | 11 | [ERA 222 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-222-rebu-ke-studio-mix) |
 | 2026-07 | XXX Radio | 0 | [XXX Radio #195](https://soundcloud.com/realmaup/xxx-radio-195) |
 | 2026-06 | ERA | 12 | [ERA 221 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-221-rebu-ke-studio-mix) |
-| 2026-06 | XXX Radio | 0 | [XXX Radio #194](https://soundcloud.com/realmaup/xxx-radio-194) |
-| 2026-06 | Only 100s | 14 | [June 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/june-2026-only-100s-with-the-aston-shuffle) ([tracklist](https://www.1001tracklists.com/tracklist/uq18579/the-aston-shuffle-only-100s-june-2026-2026-06-25.html)) |
