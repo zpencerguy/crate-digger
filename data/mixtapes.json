@@ -2990,6 +2990,19 @@
     "track_count": 12
   },
   {
+    "id": 674,
+    "month": "2026-09",
+    "release_date": "2026-09-05",
+    "series": "ERA",
+    "title": "ERA 231 - Rebūke Studio Mix",
+    "uploader": "Rebūke",
+    "soundcloud_url": "https://soundcloud.com/rebukemusic/era-231-rebu-ke-studio-mix",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-BOkn6ivVj11k0fqa-8rKw4w-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2394931062&show_artwork=true\"></iframe>",
+    "track_count": 11
+  },
+  {
     "id": 230,
     "month": "2010-07",
     "release_date": "2010-07-12",
@@ -4719,6 +4732,19 @@
     "track_count": 12
   },
   {
+    "id": 672,
+    "month": "2026-09",
+    "release_date": "2026-09-03",
+    "series": "Magic Tape",
+    "title": "MAGIC TAPE 134",
+    "uploader": "The Magician",
+    "soundcloud_url": "https://soundcloud.com/themagician/magic-tape-134",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-6qR3zpKLv6N3IdpK-2FoyHA-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2393711580&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
     "id": 100,
     "month": "2017-01",
     "release_date": null,
@@ -6055,6 +6081,19 @@
     "tracklist_url": null,
     "artwork_url": "https://i1.sndcdn.com/artworks-VkUFAv39BltClYmi-1XPyWQ-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2372155943&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
+    "id": 671,
+    "month": "2026-08",
+    "release_date": "2026-08-29",
+    "series": "Only 100s",
+    "title": "August 2026 - Only 100s with The Aston Shuffle",
+    "uploader": "Only 100s",
+    "soundcloud_url": "https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-tyViyGdHzy9bDfzY-hxOC4A-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2390927028&show_artwork=true\"></iframe>",
     "track_count": 0
   },
   {
@@ -8694,6 +8733,19 @@
     "tracklist_url": null,
     "artwork_url": "https://i1.sndcdn.com/artworks-Kz4SVzBx7Bf4cJEa-2GXNSg-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2389924125&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
+    "id": 673,
+    "month": "2026-09",
+    "release_date": "2026-09-03",
+    "series": "XXX Radio",
+    "title": "XXX Radio #204",
+    "uploader": "Mau P",
+    "soundcloud_url": "https://soundcloud.com/realmaup/xxx-radio-204",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-TNDJ9cvtV1NoS4xo-Jc1DEw-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2393956683&show_artwork=true\"></iframe>",
     "track_count": 0
   }
 ]
