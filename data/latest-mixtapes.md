@@ -6,37 +6,38 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-09-05 | ERA | 11 | [ERA 231 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-231-rebu-ke-studio-mix) |
+| 2026-09-14 | ERA | 12 | [ERA 232 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-232-rebu-ke-studio-mix) |
+| 2026-09-11 | XXX Radio | 0 | [XXX Radio #205](https://soundcloud.com/realmaup/xxx-radio-205) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
-| 2026-09-03 | XXX Radio | 0 | [XXX Radio #204](https://soundcloud.com/realmaup/xxx-radio-204) |
 | 2026-08-29 | Only 100s | 0 | [August 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle) |
 
 ### Tracklists
 
 <details>
-<summary>2026-09-05 - ERA - ERA 231 - Rebūke Studio Mix (11 tracks)</summary>
+<summary>2026-09-14 - ERA - ERA 232 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Stef Davidse - To The Moo (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Stef+Davidse+To+The+Moo+%28Extended+Mix%29))
-2. NURAN - Turn It Up (Original Mix) ([Beatport](https://www.beatport.com/search?q=NURAN+Turn+It+Up+%28Original+Mix%29))
-3. Matthias Tanzmann, Chris Di Perri - Hit the Brakes (Extended Version) ([Beatport](https://www.beatport.com/search?q=Matthias+Tanzmann%2C+Chris+Di+Perri+Hit+the+Brakes+%28Extended+Version%29))
-4. G-Pol, EdiP - Say What (Extended Mix) ([Beatport](https://www.beatport.com/search?q=G-Pol%2C+EdiP+Say+What+%28Extended+Mix%29))
-5. Marco Consonni - Own Me (Extended) ([Beatport](https://www.beatport.com/search?q=Marco+Consonni+Own+Me+%28Extended%29))
-6. Leonardo Gonnelli, Samuele Scelfo, Raw Chianti - On Your Body (Original Mix) ([Beatport](https://www.beatport.com/search?q=Leonardo+Gonnelli%2C+Samuele+Scelfo%2C+Raw+Chianti+On+Your+Body+%28Original+Mix%29))
-7. Matt Fax - Blow (Original Mix) ([Beatport](https://www.beatport.com/search?q=Matt+Fax+Blow+%28Original+Mix%29))
-8. Vintage Culture, DEPARTAMENTO - Toxic (Extended) ([Beatport](https://www.beatport.com/search?q=Vintage+Culture%2C+DEPARTAMENTO+Toxic+%28Extended%29))
-9. Magitman, Brisker - Restored (Original Mix) ([Beatport](https://www.beatport.com/search?q=Magitman%2C+Brisker+Restored+%28Original+Mix%29))
-10. Pavel Petrov - Never Fake (Gabss Remix) ([Beatport](https://www.beatport.com/search?q=Pavel+Petrov+Never+Fake+%28Gabss+Remix%29))
-11. Domek - Become One (Original Mix) ([Beatport](https://www.beatport.com/search?q=Domek+Become+One+%28Original+Mix%29))
+1. Domenico Rondinelli & Giovanni Zarzana - Ukurukuku (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+Ukurukuku+%28Extended+Mix%29))
+2. Kapuzen, Niubii - Wanna Rock It (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kapuzen%2C+Niubii+Wanna+Rock+It+%28Extended+Mix%29))
+3. Skygroover, Johnny Fontana - Halbatross (Original Mix) ([Beatport](https://www.beatport.com/search?q=Skygroover%2C+Johnny+Fontana+Halbatross+%28Original+Mix%29))
+4. Sakura - Body (Original Mix) ([Beatport](https://www.beatport.com/search?q=Sakura+Body+%28Original+Mix%29))
+5. DJ Dan, Taurus (US) - C-Line Woman (Extended Mix) ([Beatport](https://www.beatport.com/search?q=DJ+Dan%2C+Taurus+%28US%29+C-Line+Woman+%28Extended+Mix%29))
+6. George Z - Ce Soir (Extended Mix) ([Beatport](https://www.beatport.com/search?q=George+Z+Ce+Soir+%28Extended+Mix%29))
+7. Giovanni Zarzana - Dream (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Dream+%28Extended+Mix%29))
+8. Abel Budding - Tunnel Vision (Original Mix) ([Beatport](https://www.beatport.com/search?q=Abel+Budding+Tunnel+Vision+%28Original+Mix%29))
+9. Landau, Catta - Cross the Line (Original Mix) ([Beatport](https://www.beatport.com/search?q=Landau%2C+Catta+Cross+the+Line+%28Original+Mix%29))
+10. Volkoder, Korolova - Waiting for You (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Korolova+Waiting+for+You+%28Original+Mix%29))
+11. Massano, Humans Musik - Underground (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Massano%2C+Humans+Musik+Underground+%28Extended+Mix%29))
+12. Jast - Dancin (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jast+Dancin+%28Extended+Mix%29))
 </details>
 
 <details>
-<summary>2026-09-03 - Magic Tape - MAGIC TAPE 134 (0 tracks)</summary>
+<summary>2026-09-11 - XXX Radio - XXX Radio #205 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-09-03 - XXX Radio - XXX Radio #204 (0 tracks)</summary>
+<summary>2026-09-03 - Magic Tape - MAGIC TAPE 134 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -52,6 +53,8 @@ _No tracks indexed yet._
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-09-14 | ERA | 12 | [ERA 232 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-232-rebu-ke-studio-mix) |
+| 2026-09-11 | XXX Radio | 0 | [XXX Radio #205](https://soundcloud.com/realmaup/xxx-radio-205) |
 | 2026-09-05 | ERA | 11 | [ERA 231 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-231-rebu-ke-studio-mix) |
 | 2026-09-03 | XXX Radio | 0 | [XXX Radio #204](https://soundcloud.com/realmaup/xxx-radio-204) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
@@ -70,10 +73,31 @@ _No tracks indexed yet._
 | 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
 | 2026-07-23 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-07-20 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
-| 2026-07-17 | XXX Radio | 0 | [XXX Radio #197](https://soundcloud.com/realmaup/xxx-radio-197) |
-| 2026-07-10 | ERA | 12 | [ERA 223 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-223-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-09-14 - ERA - ERA 232 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Domenico Rondinelli & Giovanni Zarzana - Ukurukuku (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+Ukurukuku+%28Extended+Mix%29))
+2. Kapuzen, Niubii - Wanna Rock It (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kapuzen%2C+Niubii+Wanna+Rock+It+%28Extended+Mix%29))
+3. Skygroover, Johnny Fontana - Halbatross (Original Mix) ([Beatport](https://www.beatport.com/search?q=Skygroover%2C+Johnny+Fontana+Halbatross+%28Original+Mix%29))
+4. Sakura - Body (Original Mix) ([Beatport](https://www.beatport.com/search?q=Sakura+Body+%28Original+Mix%29))
+5. DJ Dan, Taurus (US) - C-Line Woman (Extended Mix) ([Beatport](https://www.beatport.com/search?q=DJ+Dan%2C+Taurus+%28US%29+C-Line+Woman+%28Extended+Mix%29))
+6. George Z - Ce Soir (Extended Mix) ([Beatport](https://www.beatport.com/search?q=George+Z+Ce+Soir+%28Extended+Mix%29))
+7. Giovanni Zarzana - Dream (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Dream+%28Extended+Mix%29))
+8. Abel Budding - Tunnel Vision (Original Mix) ([Beatport](https://www.beatport.com/search?q=Abel+Budding+Tunnel+Vision+%28Original+Mix%29))
+9. Landau, Catta - Cross the Line (Original Mix) ([Beatport](https://www.beatport.com/search?q=Landau%2C+Catta+Cross+the+Line+%28Original+Mix%29))
+10. Volkoder, Korolova - Waiting for You (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Korolova+Waiting+for+You+%28Original+Mix%29))
+11. Massano, Humans Musik - Underground (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Massano%2C+Humans+Musik+Underground+%28Extended+Mix%29))
+12. Jast - Dancin (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jast+Dancin+%28Extended+Mix%29))
+</details>
+
+<details>
+<summary>2026-09-11 - XXX Radio - XXX Radio #205 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-09-05 - ERA - ERA 231 - Rebūke Studio Mix (11 tracks)</summary>
@@ -268,28 +292,5 @@ _No tracks indexed yet._
 10. Hidden Empire - Future Mind ([Beatport](https://www.beatport.com/search?q=Hidden+Empire+Future+Mind))
 11. Alex Stein - BOW WOW (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alex+Stein+BOW+WOW+%28Original+Mix%29))
 12. Havoc & Lawn - Eyes On You (Original Mix) ([Beatport](https://www.beatport.com/search?q=Havoc+%26+Lawn+Eyes+On+You+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-07-17 - XXX Radio - XXX Radio #197 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-07-10 - ERA - ERA 223 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. CamelPhat, Volkoder - Unique Moment (Extended Mix) ([Beatport](https://www.beatport.com/search?q=CamelPhat%2C+Volkoder+Unique+Moment+%28Extended+Mix%29))
-2. Ramon Bedoya, TheConnect - Cigarette (Original Mix) ([Beatport](https://www.beatport.com/search?q=Ramon+Bedoya%2C+TheConnect+Cigarette+%28Original+Mix%29))
-3. Tita Lau, James Hurr - Sweat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tita+Lau%2C+James+Hurr+Sweat+%28Extended+Mix%29))
-4. Biscits - Real Low (Billy Kenny Remix) ([Beatport](https://www.beatport.com/search?q=Biscits+Real+Low+%28Billy+Kenny+Remix%29))
-5. Zafrir - Delay Lama (Original Mix) ([Beatport](https://www.beatport.com/search?q=Zafrir+Delay+Lama+%28Original+Mix%29))
-6. Vintage Culture, DEPARTAMENTO - Copycat (Extended) ([Beatport](https://www.beatport.com/search?q=Vintage+Culture%2C+DEPARTAMENTO+Copycat+%28Extended%29))
-7. Rename Yourself - Passion (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rename+Yourself+Passion+%28Original+Mix%29))
-8. Alex Stein - BASS CONTROL (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alex+Stein+BASS+CONTROL+%28Original+Mix%29))
-9. Nick Matthew, Kyparis - UNVRS (Original Mix) ([Beatport](https://www.beatport.com/search?q=Nick+Matthew%2C+Kyparis+UNVRS+%28Original+Mix%29))
-10. Tiga, Chris Lake 'Party Time' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tiga%2C+Chris+Lake+%27Party+Time%27+%28Extended+Mix%29))
-11. Ramin Rezaie - May I (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Ramin+Rezaie+May+I+%28Extended+Mix%29))
-12. BRADY (US) - I Don't (Original Mix) ([Beatport](https://www.beatport.com/search?q=BRADY+%28US%29+I+Don%27t+%28Original+Mix%29))
 </details>
 

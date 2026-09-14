@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 673
-- Mixtapes with tracks: 409
-- Tracks: 5315
+- Mixtapes: 675
+- Mixtapes with tracks: 410
+- Tracks: 5327
 - Month range: 2010-07 to 2026-09
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 231 | 147 | 1863 | 2022-04 to 2026-09 |
+| ERA | 232 | 148 | 1875 | 2022-04 to 2026-09 |
 | Magic Tape | 134 | 105 | 1266 | 2010-07 to 2026-09 |
 | Only 100s | 104 | 44 | 635 | 2017-01 to 2026-08 |
-| XXX Radio | 204 | 113 | 1551 | 2022-09 to 2026-09 |
+| XXX Radio | 205 | 113 | 1551 | 2022-09 to 2026-09 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-09 | ERA | 12 | [ERA 232 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-232-rebu-ke-studio-mix) |
+| 2026-09 | XXX Radio | 0 | [XXX Radio #205](https://soundcloud.com/realmaup/xxx-radio-205) |
 | 2026-09 | ERA | 11 | [ERA 231 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-231-rebu-ke-studio-mix) |
 | 2026-09 | XXX Radio | 0 | [XXX Radio #204](https://soundcloud.com/realmaup/xxx-radio-204) |
 | 2026-09 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-07 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
 | 2026-07 | XXX Radio | 0 | [XXX Radio #198](https://soundcloud.com/realmaup/xxx-radio-198) |
 | 2026-07 | ERA | 12 | [ERA 224 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-224-rebu-ke-studio-mix) |
-| 2026-07 | XXX Radio | 0 | [XXX Radio #197](https://soundcloud.com/realmaup/xxx-radio-197) |
-| 2026-07 | ERA | 12 | [ERA 223 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-223-rebu-ke-studio-mix) |
