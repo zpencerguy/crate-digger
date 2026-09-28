@@ -3029,6 +3029,19 @@
     "track_count": 12
   },
   {
+    "id": 680,
+    "month": "2026-09",
+    "release_date": "2026-09-28",
+    "series": "ERA",
+    "title": "ERA 234 - Giovanni Zarzana Studio Mix",
+    "uploader": "Rebūke",
+    "soundcloud_url": "https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-Xz8s205VXyYvXuw4-j2ztyQ-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2408892483&show_artwork=true\"></iframe>",
+    "track_count": 16
+  },
+  {
     "id": 230,
     "month": "2010-07",
     "release_date": "2010-07-12",
@@ -8798,6 +8811,19 @@
     "tracklist_url": null,
     "artwork_url": "https://i1.sndcdn.com/artworks-kkVdyytZBOhYP5Ol-va6Pdw-t500x500.jpg",
     "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2402668305&show_artwork=true\"></iframe>",
+    "track_count": 0
+  },
+  {
+    "id": 679,
+    "month": "2026-09",
+    "release_date": "2026-09-24",
+    "series": "XXX Radio",
+    "title": "XXX Radio #207",
+    "uploader": "Mau P",
+    "soundcloud_url": "https://soundcloud.com/realmaup/xxx-radio-207",
+    "tracklist_url": null,
+    "artwork_url": "https://i1.sndcdn.com/artworks-j0xC7IJN0zJmksbf-eIg3bA-t500x500.jpg",
+    "soundcloud_embed_html": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay; encrypted-media\" src=\"https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2407209348&show_artwork=true\"></iframe>",
     "track_count": 0
   }
 ]

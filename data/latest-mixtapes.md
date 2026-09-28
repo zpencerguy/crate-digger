@@ -6,32 +6,36 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-09-19 | ERA | 12 | [ERA 233 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-233-rebu-ke-studio-mix) |
-| 2026-09-17 | XXX Radio | 0 | [XXX Radio #206](https://soundcloud.com/realmaup/xxx-radio-206) |
+| 2026-09-28 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
+| 2026-09-24 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
 | 2026-08-29 | Only 100s | 0 | [August 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle) |
 
 ### Tracklists
 
 <details>
-<summary>2026-09-19 - ERA - ERA 233 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-09-28 - ERA - ERA 234 - Giovanni Zarzana Studio Mix (16 tracks)</summary>
 
-1. Rebūke ft. Hannah Boleyn - Tears From Heaven (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rebu%CC%84ke+ft.+Hannah+Boleyn+Tears+From+Heaven+%28Original+Mix%29))
-2. Dani Sinergia - Flowy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Dani+Sinergia+Flowy+%28Extended+Mix%29))
-3. Abel Budding - That Kick (Original Mix) ([Beatport](https://www.beatport.com/search?q=Abel+Budding+That+Kick+%28Original+Mix%29))
-4. Tiga, Chris Lake, AYYBO, Aatig - Party Time (feat. Aatig AYYBO Extended Remix) ([Beatport](https://www.beatport.com/search?q=Tiga%2C+Chris+Lake%2C+AYYBO%2C+Aatig+Party+Time+%28feat.+Aatig+AYYBO+Extended+Remix%29))
-5. Jawora - The Party (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jawora+The+Party+%28Extended+Mix%29))
-6. Harty - There's A Party Goin' On (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Harty+There%27s+A+Party+Goin%27+On+%28Extended+Mix%29))
-7. MAGNVM!, ProOne79 - Jesus (Original Mix) ([Beatport](https://www.beatport.com/search?q=MAGNVM%21%2C+ProOne79+Jesus+%28Original+Mix%29))
-8. Leo Vask - How About You (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Leo+Vask+How+About+You+%28Extended+Mix%29))
-9. Kiko, Olivier Giacomotto - Shake (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kiko%2C+Olivier+Giacomotto+Shake+%28Original+Mix%29))
-10. PETER PAHN - Nocture (Original Mix) ([Beatport](https://www.beatport.com/search?q=PETER+PAHN+Nocture+%28Original+Mix%29))
-11. Adam Beyer, Argy, Alok - Keep Up (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Adam+Beyer%2C+Argy%2C+Alok+Keep+Up+%28Extended+Mix%29))
-12. Volkoder, Anyma (ofc) - Other Dimension (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Anyma+%28ofc%29+Other+Dimension+%28Extended+Mix%29))
+1. Giovanni Zarzana - ID + Giovanni Zarzana - Excuse me ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID+%2B+Giovanni+Zarzana+-+Excuse+me))
+2. Giovanni Zarzana - XTC ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+XTC))
+3. Giovanni Zarzana - Connection [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Connection+%5BERA%5D))
+4. Giovanni Zarzana - Dream [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Dream+%5BERA%5D))
+5. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+6. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+7. Giovanni Zarzana - Question ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Question))
+8. Post Malone - Rockstar (Giovanni Zarzana remix) ([Beatport](https://www.beatport.com/search?q=Post+Malone+Rockstar+%28Giovanni+Zarzana+remix%29))
+9. Giovanni Zarzana - Fiesta ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Fiesta))
+10. Giovanni Zarzana - Trinacria ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Trinacria))
+11. Domenico Rondinelli & Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+ID))
+12. Domenico Rondinelli & Giovanni Zarzana - Ukurukuku [ERA] ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+Ukurukuku+%5BERA%5D))
+13. Giovanni Zarzana - Little Ting ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Little+Ting))
+14. Giovanni Zarzana - Money on the line ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Money+on+the+line))
+15. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+16. Giovanni Zarzana - Beat me! ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Beat+me%21))
 </details>
 
 <details>
-<summary>2026-09-17 - XXX Radio - XXX Radio #206 (0 tracks)</summary>
+<summary>2026-09-24 - XXX Radio - XXX Radio #207 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -53,6 +57,8 @@ _No tracks indexed yet._
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-09-28 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
+| 2026-09-24 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
 | 2026-09-19 | ERA | 12 | [ERA 233 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-233-rebu-ke-studio-mix) |
 | 2026-09-17 | XXX Radio | 0 | [XXX Radio #206](https://soundcloud.com/realmaup/xxx-radio-206) |
 | 2026-09-14 | ERA | 12 | [ERA 232 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-232-rebu-ke-studio-mix) |
@@ -71,10 +77,35 @@ _No tracks indexed yet._
 | 2026-08-07 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
 | 2026-07-31 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
 | 2026-07-30 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
-| 2026-07-30 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
-| 2026-07-24 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-09-28 - ERA - ERA 234 - Giovanni Zarzana Studio Mix (16 tracks)</summary>
+
+1. Giovanni Zarzana - ID + Giovanni Zarzana - Excuse me ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID+%2B+Giovanni+Zarzana+-+Excuse+me))
+2. Giovanni Zarzana - XTC ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+XTC))
+3. Giovanni Zarzana - Connection [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Connection+%5BERA%5D))
+4. Giovanni Zarzana - Dream [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Dream+%5BERA%5D))
+5. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+6. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+7. Giovanni Zarzana - Question ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Question))
+8. Post Malone - Rockstar (Giovanni Zarzana remix) ([Beatport](https://www.beatport.com/search?q=Post+Malone+Rockstar+%28Giovanni+Zarzana+remix%29))
+9. Giovanni Zarzana - Fiesta ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Fiesta))
+10. Giovanni Zarzana - Trinacria ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Trinacria))
+11. Domenico Rondinelli & Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+ID))
+12. Domenico Rondinelli & Giovanni Zarzana - Ukurukuku [ERA] ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+Ukurukuku+%5BERA%5D))
+13. Giovanni Zarzana - Little Ting ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Little+Ting))
+14. Giovanni Zarzana - Money on the line ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Money+on+the+line))
+15. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
+16. Giovanni Zarzana - Beat me! ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Beat+me%21))
+</details>
+
+<details>
+<summary>2026-09-24 - XXX Radio - XXX Radio #207 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-09-19 - ERA - ERA 233 - Rebūke Studio Mix (12 tracks)</summary>
@@ -269,28 +300,5 @@ _No tracks indexed yet._
 <summary>2026-07-30 - Only 100s - July 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
 
 _No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-07-30 - XXX Radio - XXX Radio #199 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-07-24 - ERA - ERA 225 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. No One Knows, Mojjo, Sarria - Cash On Cash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=No+One+Knows%2C+Mojjo%2C+Sarria+Cash+On+Cash+%28Extended+Mix%29))
-2. Clim, Dani (AE) - Aka Belive (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Clim%2C+Dani+%28AE%29+Aka+Belive+%28Extended+Mix%29))
-3. Volkoder - Bassline Hits (Original Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder+Bassline+Hits+%28Original+Mix%29))
-4. Odd Mob, OMNOM and HYPERBEAM - Take You There (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Odd+Mob%2C+OMNOM+and+HYPERBEAM+Take+You+There+%28Extended+Mix%29))
-5. Alec Cortez - Drop It (Original Mix) ([Beatport](https://www.beatport.com/search?q=Alec+Cortez+Drop+It+%28Original+Mix%29))
-6. Linska, Duss - Criminal (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Linska%2C+Duss+Criminal+%28Extended+Mix%29))
-7. Histar - Striker (Original Mix) ([Beatport](https://www.beatport.com/search?q=Histar+Striker+%28Original+Mix%29))
-8. Magit Cacoon - You Were Never Mine (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Magit+Cacoon+You+Were+Never+Mine+%28Extended+Mix%29))
-9. Discip - Red Room (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Discip+Red+Room+%28Extended+Mix%29))
-10. Mason - Nite Rite Delta (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Mason+Nite+Rite+Delta+%28Extended+Mix%29))
-11. SCRIPT - Activator (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT+Activator+%28Original+Mix%29))
-12. HNTR, DeLorean Black - 600 Degrees (Original Mix) ([Beatport](https://www.beatport.com/search?q=HNTR%2C+DeLorean+Black+600+Degrees+%28Original+Mix%29))
 </details>
 

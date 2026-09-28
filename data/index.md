@@ -4,24 +4,26 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 677
-- Mixtapes with tracks: 411
-- Tracks: 5339
+- Mixtapes: 679
+- Mixtapes with tracks: 412
+- Tracks: 5355
 - Month range: 2010-07 to 2026-09
 
 ## Series
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 233 | 149 | 1887 | 2022-04 to 2026-09 |
+| ERA | 234 | 150 | 1903 | 2022-04 to 2026-09 |
 | Magic Tape | 134 | 105 | 1266 | 2010-07 to 2026-09 |
 | Only 100s | 104 | 44 | 635 | 2017-01 to 2026-08 |
-| XXX Radio | 206 | 113 | 1551 | 2022-09 to 2026-09 |
+| XXX Radio | 207 | 113 | 1551 | 2022-09 to 2026-09 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-09 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
+| 2026-09 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
 | 2026-09 | ERA | 12 | [ERA 233 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-233-rebu-ke-studio-mix) |
 | 2026-09 | XXX Radio | 0 | [XXX Radio #206](https://soundcloud.com/realmaup/xxx-radio-206) |
 | 2026-09 | ERA | 12 | [ERA 232 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-232-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-08 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
 | 2026-07 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 | 2026-07 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
-| 2026-07 | XXX Radio | 0 | [XXX Radio #199](https://soundcloud.com/realmaup/xxx-radio-199) |
-| 2026-07 | ERA | 12 | [ERA 225 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-225-rebu-ke-studio-mix) |
