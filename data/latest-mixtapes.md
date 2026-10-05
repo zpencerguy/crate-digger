@@ -6,36 +6,32 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-09-28 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
-| 2026-09-24 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
+| 2026-10-05 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
+| 2026-10-02 | XXX Radio | 0 | [XXX Radio #208](https://soundcloud.com/realmaup/xxx-radio-208) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
 | 2026-08-29 | Only 100s | 0 | [August 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle) |
 
 ### Tracklists
 
 <details>
-<summary>2026-09-28 - ERA - ERA 234 - Giovanni Zarzana Studio Mix (16 tracks)</summary>
+<summary>2026-10-05 - ERA - ERA 235 - Rebūke Studio Mix (12 tracks)</summary>
 
-1. Giovanni Zarzana - ID + Giovanni Zarzana - Excuse me ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID+%2B+Giovanni+Zarzana+-+Excuse+me))
-2. Giovanni Zarzana - XTC ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+XTC))
-3. Giovanni Zarzana - Connection [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Connection+%5BERA%5D))
-4. Giovanni Zarzana - Dream [ERA] ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Dream+%5BERA%5D))
-5. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
-6. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
-7. Giovanni Zarzana - Question ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Question))
-8. Post Malone - Rockstar (Giovanni Zarzana remix) ([Beatport](https://www.beatport.com/search?q=Post+Malone+Rockstar+%28Giovanni+Zarzana+remix%29))
-9. Giovanni Zarzana - Fiesta ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Fiesta))
-10. Giovanni Zarzana - Trinacria ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Trinacria))
-11. Domenico Rondinelli & Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+ID))
-12. Domenico Rondinelli & Giovanni Zarzana - Ukurukuku [ERA] ([Beatport](https://www.beatport.com/search?q=Domenico+Rondinelli+%26+Giovanni+Zarzana+Ukurukuku+%5BERA%5D))
-13. Giovanni Zarzana - Little Ting ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Little+Ting))
-14. Giovanni Zarzana - Money on the line ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Money+on+the+line))
-15. Giovanni Zarzana - ID ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+ID))
-16. Giovanni Zarzana - Beat me! ([Beatport](https://www.beatport.com/search?q=Giovanni+Zarzana+Beat+me%21))
+1. Antonio, Tony Dark Eyes - Moi (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Antonio%2C+Tony+Dark+Eyes+Moi+%28Extended+Mix%29))
+2. Dats, Berenguer - Walking on Air (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Dats%2C+Berenguer+Walking+on+Air+%28Extended+Mix%29))
+3. Emma Clair - Sanctuary (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Emma+Clair+Sanctuary+%28Extended+Mix%29))
+4. Paskman - APOLLO 11 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Paskman+APOLLO+11+%28Extended+Mix%29))
+5. J. Worra - Adored (Extended) ([Beatport](https://www.beatport.com/search?q=J.+Worra+Adored+%28Extended%29))
+6. Avilo, N2N - Ms. Jackson (Original Mix) ([Beatport](https://www.beatport.com/search?q=Avilo%2C+N2N+Ms.+Jackson+%28Original+Mix%29))
+7. Plastic Robots, Underlow - Stimulated (Original Mix) ([Beatport](https://www.beatport.com/search?q=Plastic+Robots%2C+Underlow+Stimulated+%28Original+Mix%29))
+8. NILU (DK) - NOACID (Extended) ([Beatport](https://www.beatport.com/search?q=NILU+%28DK%29+NOACID+%28Extended%29))
+9. Rick Silva - Shakers & The Movers (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rick+Silva+Shakers+%26+The+Movers+%28Original+Mix%29))
+10. Kiko, Olivier Giacomotto - More Pressure (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kiko%2C+Olivier+Giacomotto+More+Pressure+%28Original+Mix%29))
+11. SCRIPT, Franksy - Inside The Brain (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT%2C+Franksy+Inside+The+Brain+%28Original+Mix%29))
+12. Victor Ruiz, Alex Stein - Master Of Reality (Original Mix) ([Beatport](https://www.beatport.com/search?q=Victor+Ruiz%2C+Alex+Stein+Master+Of+Reality+%28Original+Mix%29))
 </details>
 
 <details>
-<summary>2026-09-24 - XXX Radio - XXX Radio #207 (0 tracks)</summary>
+<summary>2026-10-02 - XXX Radio - XXX Radio #208 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -57,6 +53,8 @@ _No tracks indexed yet._
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-10-05 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
+| 2026-10-02 | XXX Radio | 0 | [XXX Radio #208](https://soundcloud.com/realmaup/xxx-radio-208) |
 | 2026-09-28 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
 | 2026-09-24 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
 | 2026-09-19 | ERA | 12 | [ERA 233 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-233-rebu-ke-studio-mix) |
@@ -75,10 +73,31 @@ _No tracks indexed yet._
 | 2026-08-14 | XXX Radio | 0 | [XXX Radio #201](https://soundcloud.com/realmaup/xxx-radio-201) |
 | 2026-08-10 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
 | 2026-08-07 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
-| 2026-07-31 | ERA | 12 | [ERA 226 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-226-rebu-ke-studio-mix) |
-| 2026-07-30 | Only 100s | 0 | [July 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/july-2026-only-100s-with-the-aston-shuffle) |
 
 ### Tracklists
+
+<details>
+<summary>2026-10-05 - ERA - ERA 235 - Rebūke Studio Mix (12 tracks)</summary>
+
+1. Antonio, Tony Dark Eyes - Moi (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Antonio%2C+Tony+Dark+Eyes+Moi+%28Extended+Mix%29))
+2. Dats, Berenguer - Walking on Air (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Dats%2C+Berenguer+Walking+on+Air+%28Extended+Mix%29))
+3. Emma Clair - Sanctuary (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Emma+Clair+Sanctuary+%28Extended+Mix%29))
+4. Paskman - APOLLO 11 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Paskman+APOLLO+11+%28Extended+Mix%29))
+5. J. Worra - Adored (Extended) ([Beatport](https://www.beatport.com/search?q=J.+Worra+Adored+%28Extended%29))
+6. Avilo, N2N - Ms. Jackson (Original Mix) ([Beatport](https://www.beatport.com/search?q=Avilo%2C+N2N+Ms.+Jackson+%28Original+Mix%29))
+7. Plastic Robots, Underlow - Stimulated (Original Mix) ([Beatport](https://www.beatport.com/search?q=Plastic+Robots%2C+Underlow+Stimulated+%28Original+Mix%29))
+8. NILU (DK) - NOACID (Extended) ([Beatport](https://www.beatport.com/search?q=NILU+%28DK%29+NOACID+%28Extended%29))
+9. Rick Silva - Shakers & The Movers (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rick+Silva+Shakers+%26+The+Movers+%28Original+Mix%29))
+10. Kiko, Olivier Giacomotto - More Pressure (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kiko%2C+Olivier+Giacomotto+More+Pressure+%28Original+Mix%29))
+11. SCRIPT, Franksy - Inside The Brain (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT%2C+Franksy+Inside+The+Brain+%28Original+Mix%29))
+12. Victor Ruiz, Alex Stein - Master Of Reality (Original Mix) ([Beatport](https://www.beatport.com/search?q=Victor+Ruiz%2C+Alex+Stein+Master+Of+Reality+%28Original+Mix%29))
+</details>
+
+<details>
+<summary>2026-10-02 - XXX Radio - XXX Radio #208 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-09-28 - ERA - ERA 234 - Giovanni Zarzana Studio Mix (16 tracks)</summary>
@@ -275,29 +294,6 @@ _No tracks indexed yet._
 
 <details>
 <summary>2026-08-07 - XXX Radio - XXX Radio #200 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-07-31 - ERA - ERA 226 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Eli & Fur - Ceremony (SCRIPT Remix) (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Eli+%26+Fur+Ceremony+%28SCRIPT+Remix%29+%28Extended+Mix%29))
-2. CHATU - About The Bassline (Extended Mix) [Altra Moda] ([Beatport](https://www.beatport.com/search?q=CHATU+About+The+Bassline+%28Extended+Mix%29+%5BAltra+Moda%5D))
-3. Rafael, Adam Ten - Beat Goes On (Extended Mix) [Maccabi House] ([Beatport](https://www.beatport.com/search?q=Rafael%2C+Adam+Ten+Beat+Goes+On+%28Extended+Mix%29+%5BMaccabi+House%5D))
-4. Tini Gessler - 125 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tini+Gessler+125+%28Extended+Mix%29))
-5. Medesen - Are You Ready? (Extended Instrumental) [Chemiztri Recordings] ([Beatport](https://www.beatport.com/search?q=Medesen+Are+You+Ready%3F+%28Extended+Instrumental%29+%5BChemiztri+Recordings%5D))
-6. Balanka - BodyLang (Extended Version)  [Hot Creations] ([Beatport](https://www.beatport.com/search?q=Balanka+BodyLang+%28Extended+Version%29++%5BHot+Creations%5D))
-7. Teenage Mutants - Hyperspace (Original Mix) [Truesoul] ([Beatport](https://www.beatport.com/search?q=Teenage+Mutants+Hyperspace+%28Original+Mix%29+%5BTruesoul%5D))
-8. Lampe - Shining Tonight (Original Mix) [Alula Tunes] ([Beatport](https://www.beatport.com/search?q=Lampe+Shining+Tonight+%28Original+Mix%29+%5BAlula+Tunes%5D))
-9. Avis Vox, Christian Nielsen - Nebula (Original Mix) [mau5trap] ([Beatport](https://www.beatport.com/search?q=Avis+Vox%2C+Christian+Nielsen+Nebula+%28Original+Mix%29+%5Bmau5trap%5D))
-10. CERES, Victor Garde, Enai - That's My ShT (Extended Mix) [Captive Soul] ([Beatport](https://www.beatport.com/search?q=CERES%2C+Victor+Garde%2C+Enai+That%27s+My+ShT+%28Extended+Mix%29+%5BCaptive+Soul%5D))
-11. Argy, SOLANCE - Window Shake (Original Mix) [NEWORLD] ([Beatport](https://www.beatport.com/search?q=Argy%2C+SOLANCE+Window+Shake+%28Original+Mix%29+%5BNEWORLD%5D))
-12. Khainz, Leena Punks - Weightless (Extended Mix) [SIZE Records] ([Beatport](https://www.beatport.com/search?q=Khainz%2C+Leena+Punks+Weightless+%28Extended+Mix%29+%5BSIZE+Records%5D))
-</details>
-
-<details>
-<summary>2026-07-30 - Only 100s - July 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
