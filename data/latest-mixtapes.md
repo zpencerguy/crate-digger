@@ -6,32 +6,39 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-10-05 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
-| 2026-10-02 | XXX Radio | 0 | [XXX Radio #208](https://soundcloud.com/realmaup/xxx-radio-208) |
+| 2026-10-11 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
+| 2026-10-08 | XXX Radio | 0 | [XXX Radio #209](https://soundcloud.com/realmaup/xxx-radio-209) |
+| 2026-10-03 | Only 100s | 0 | [September 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/september-2026-only-100s-with-the-aston-shuffle) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
-| 2026-08-29 | Only 100s | 0 | [August 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle) |
 
 ### Tracklists
 
 <details>
-<summary>2026-10-05 - ERA - ERA 235 - Rebūke Studio Mix (12 tracks)</summary>
+<summary>2026-10-11 - ERA - ERA 236 - Rebūke Studio Mix (13 tracks)</summary>
 
-1. Antonio, Tony Dark Eyes - Moi (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Antonio%2C+Tony+Dark+Eyes+Moi+%28Extended+Mix%29))
-2. Dats, Berenguer - Walking on Air (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Dats%2C+Berenguer+Walking+on+Air+%28Extended+Mix%29))
-3. Emma Clair - Sanctuary (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Emma+Clair+Sanctuary+%28Extended+Mix%29))
-4. Paskman - APOLLO 11 (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Paskman+APOLLO+11+%28Extended+Mix%29))
-5. J. Worra - Adored (Extended) ([Beatport](https://www.beatport.com/search?q=J.+Worra+Adored+%28Extended%29))
-6. Avilo, N2N - Ms. Jackson (Original Mix) ([Beatport](https://www.beatport.com/search?q=Avilo%2C+N2N+Ms.+Jackson+%28Original+Mix%29))
-7. Plastic Robots, Underlow - Stimulated (Original Mix) ([Beatport](https://www.beatport.com/search?q=Plastic+Robots%2C+Underlow+Stimulated+%28Original+Mix%29))
-8. NILU (DK) - NOACID (Extended) ([Beatport](https://www.beatport.com/search?q=NILU+%28DK%29+NOACID+%28Extended%29))
-9. Rick Silva - Shakers & The Movers (Original Mix) ([Beatport](https://www.beatport.com/search?q=Rick+Silva+Shakers+%26+The+Movers+%28Original+Mix%29))
-10. Kiko, Olivier Giacomotto - More Pressure (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kiko%2C+Olivier+Giacomotto+More+Pressure+%28Original+Mix%29))
-11. SCRIPT, Franksy - Inside The Brain (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT%2C+Franksy+Inside+The+Brain+%28Original+Mix%29))
-12. Victor Ruiz, Alex Stein - Master Of Reality (Original Mix) ([Beatport](https://www.beatport.com/search?q=Victor+Ruiz%2C+Alex+Stein+Master+Of+Reality+%28Original+Mix%29))
+1. King Julian - Feeling Alright (Original Mix) ([Beatport](https://www.beatport.com/search?q=King+Julian+Feeling+Alright+%28Original+Mix%29))
+2. Jardana - Morning (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jardana+Morning+%28Extended+Mix%29))
+3. Greggio - Lets Go Down (Extended) ([Beatport](https://www.beatport.com/search?q=Greggio+Lets+Go+Down+%28Extended%29))
+4. Green Velvet, Detlef - Work With Me (Original Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Detlef+Work+With+Me+%28Original+Mix%29))
+5. BR3NDEL - Like Play (Extended Mix) ([Beatport](https://www.beatport.com/search?q=BR3NDEL+Like+Play+%28Extended+Mix%29))
+6. Tony Cortez - Mirame (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tony+Cortez+Mirame+%28Extended+Mix%29))
+7. Solomun, Skepta, Dom Dolla - DANGER DANGER (Extended) ([Beatport](https://www.beatport.com/search?q=Solomun%2C+Skepta%2C+Dom+Dolla+DANGER+DANGER+%28Extended%29))
+8. LOOZBONE - Nine to Five (Extended Mix) ([Beatport](https://www.beatport.com/search?q=LOOZBONE+Nine+to+Five+%28Extended+Mix%29))
+9. Juicy Romance 'Not Your Baby' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Juicy+Romance+%27Not+Your+Baby%27+%28Extended+Mix%29))
+10. Kriss Reeve - Shake Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kriss+Reeve+Shake+Your+Body+%28Extended+Mix%29))
+11. Sharam Jey, Pietro (BR) - Nasty Dance (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Sharam+Jey%2C+Pietro+%28BR%29+Nasty+Dance+%28Extended+Mix%29))
+12. Rafael Cerato - Never Crash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Never+Crash+%28Extended+Mix%29))
+13. SONNIY & D.K.O - No Sleep (Extended Mix) ([Beatport](https://www.beatport.com/search?q=SONNIY+%26+D.K.O+No+Sleep+%28Extended+Mix%29))
 </details>
 
 <details>
-<summary>2026-10-02 - XXX Radio - XXX Radio #208 (0 tracks)</summary>
+<summary>2026-10-08 - XXX Radio - XXX Radio #209 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
+
+<details>
+<summary>2026-10-03 - Only 100s - September 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -42,18 +49,15 @@ _No tracks indexed yet._
 _No tracks indexed yet._
 </details>
 
-<details>
-<summary>2026-08-29 - Only 100s - August 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
 
 ## Recent Releases
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-10-11 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
+| 2026-10-08 | XXX Radio | 0 | [XXX Radio #209](https://soundcloud.com/realmaup/xxx-radio-209) |
 | 2026-10-05 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
+| 2026-10-03 | Only 100s | 0 | [September 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/september-2026-only-100s-with-the-aston-shuffle) |
 | 2026-10-02 | XXX Radio | 0 | [XXX Radio #208](https://soundcloud.com/realmaup/xxx-radio-208) |
 | 2026-09-28 | ERA | 16 | [ERA 234 - Giovanni Zarzana Studio Mix](https://soundcloud.com/rebukemusic/era-234-giovanni-zarzana) |
 | 2026-09-24 | XXX Radio | 0 | [XXX Radio #207](https://soundcloud.com/realmaup/xxx-radio-207) |
@@ -70,11 +74,32 @@ _No tracks indexed yet._
 | 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
 | 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
 | 2026-08-14 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
-| 2026-08-14 | XXX Radio | 0 | [XXX Radio #201](https://soundcloud.com/realmaup/xxx-radio-201) |
-| 2026-08-10 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
-| 2026-08-07 | XXX Radio | 0 | [XXX Radio #200](https://soundcloud.com/realmaup/xxx-radio-200) |
 
 ### Tracklists
+
+<details>
+<summary>2026-10-11 - ERA - ERA 236 - Rebūke Studio Mix (13 tracks)</summary>
+
+1. King Julian - Feeling Alright (Original Mix) ([Beatport](https://www.beatport.com/search?q=King+Julian+Feeling+Alright+%28Original+Mix%29))
+2. Jardana - Morning (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jardana+Morning+%28Extended+Mix%29))
+3. Greggio - Lets Go Down (Extended) ([Beatport](https://www.beatport.com/search?q=Greggio+Lets+Go+Down+%28Extended%29))
+4. Green Velvet, Detlef - Work With Me (Original Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Detlef+Work+With+Me+%28Original+Mix%29))
+5. BR3NDEL - Like Play (Extended Mix) ([Beatport](https://www.beatport.com/search?q=BR3NDEL+Like+Play+%28Extended+Mix%29))
+6. Tony Cortez - Mirame (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tony+Cortez+Mirame+%28Extended+Mix%29))
+7. Solomun, Skepta, Dom Dolla - DANGER DANGER (Extended) ([Beatport](https://www.beatport.com/search?q=Solomun%2C+Skepta%2C+Dom+Dolla+DANGER+DANGER+%28Extended%29))
+8. LOOZBONE - Nine to Five (Extended Mix) ([Beatport](https://www.beatport.com/search?q=LOOZBONE+Nine+to+Five+%28Extended+Mix%29))
+9. Juicy Romance 'Not Your Baby' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Juicy+Romance+%27Not+Your+Baby%27+%28Extended+Mix%29))
+10. Kriss Reeve - Shake Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kriss+Reeve+Shake+Your+Body+%28Extended+Mix%29))
+11. Sharam Jey, Pietro (BR) - Nasty Dance (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Sharam+Jey%2C+Pietro+%28BR%29+Nasty+Dance+%28Extended+Mix%29))
+12. Rafael Cerato - Never Crash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Never+Crash+%28Extended+Mix%29))
+13. SONNIY & D.K.O - No Sleep (Extended Mix) ([Beatport](https://www.beatport.com/search?q=SONNIY+%26+D.K.O+No+Sleep+%28Extended+Mix%29))
+</details>
+
+<details>
+<summary>2026-10-08 - XXX Radio - XXX Radio #209 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-10-05 - ERA - ERA 235 - Rebūke Studio Mix (12 tracks)</summary>
@@ -91,6 +116,12 @@ _No tracks indexed yet._
 10. Kiko, Olivier Giacomotto - More Pressure (Original Mix) ([Beatport](https://www.beatport.com/search?q=Kiko%2C+Olivier+Giacomotto+More+Pressure+%28Original+Mix%29))
 11. SCRIPT, Franksy - Inside The Brain (Original Mix) ([Beatport](https://www.beatport.com/search?q=SCRIPT%2C+Franksy+Inside+The+Brain+%28Original+Mix%29))
 12. Victor Ruiz, Alex Stein - Master Of Reality (Original Mix) ([Beatport](https://www.beatport.com/search?q=Victor+Ruiz%2C+Alex+Stein+Master+Of+Reality+%28Original+Mix%29))
+</details>
+
+<details>
+<summary>2026-10-03 - Only 100s - September 2026 - Only 100s with The Aston Shuffle (0 tracks)</summary>
+
+_No tracks indexed yet._
 </details>
 
 <details>
@@ -267,34 +298,5 @@ _No tracks indexed yet._
 10. Mao Molano - Hypnotic Dust (Original Mix) ([Beatport](https://www.beatport.com/search?q=Mao+Molano+Hypnotic+Dust+%28Original+Mix%29))
 11. Rauschhaus, Peer Kusiv - Radiant ([Beatport](https://www.beatport.com/search?q=Rauschhaus%2C+Peer+Kusiv+Radiant))
 12. Matt Sassari, HNTR 'Short Stop' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Matt+Sassari%2C+HNTR+%27Short+Stop%27+%28Extended+Mix%29))
-</details>
-
-<details>
-<summary>2026-08-14 - XXX Radio - XXX Radio #201 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-08-10 - ERA - ERA 227 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Lahox - Bad Dreams (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Lahox+Bad+Dreams+%28Extended+Mix%29))
-2. Brad Brunner, AG Swifty, Sapte - Poppy Pill (Original Mix) ([Beatport](https://www.beatport.com/search?q=Brad+Brunner%2C+AG+Swifty%2C+Sapte+Poppy+Pill+%28Original+Mix%29))
-3. Danner - Bassjack (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Danner+Bassjack+%28Extended+Mix%29))
-4. KiRKie, The BeatBoy's - Behave (Extended Mix) ([Beatport](https://www.beatport.com/search?q=KiRKie%2C+The+BeatBoy%27s+Behave+%28Extended+Mix%29))
-5. IILO - Parar (Extended Mix) ([Beatport](https://www.beatport.com/search?q=IILO+Parar+%28Extended+Mix%29))
-6. James Hype - Start The Dance (Extended Mix) ([Beatport](https://www.beatport.com/search?q=James+Hype+Start+The+Dance+%28Extended+Mix%29))
-7. Leonardo Gonnelli, Mapah - Push Back (Original Mix) ([Beatport](https://www.beatport.com/search?q=Leonardo+Gonnelli%2C+Mapah+Push+Back+%28Original+Mix%29))
-8. Kieran San Jose & Chamo - Fantasy (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kieran+San+Jose+%26+Chamo+Fantasy+%28Extended+Mix%29))
-9. Argy, SOLANCE - Assunto (Original Mix) ([Beatport](https://www.beatport.com/search?q=Argy%2C+SOLANCE+Assunto+%28Original+Mix%29))
-10. Vintage Culture - Guilty Pleasures (Extended) ([Beatport](https://www.beatport.com/search?q=Vintage+Culture+Guilty+Pleasures+%28Extended%29))
-11. Massano - Beyond Today (Original Mix) ([Beatport](https://www.beatport.com/search?q=Massano+Beyond+Today+%28Original+Mix%29))
-12. Luis M, Boundless - Primordial (Original Mix) ([Beatport](https://www.beatport.com/search?q=Luis+M%2C+Boundless+Primordial+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-08-07 - XXX Radio - XXX Radio #200 (0 tracks)</summary>
-
-_No tracks indexed yet._
 </details>
 
