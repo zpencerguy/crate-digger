@@ -6,33 +6,21 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-10-11 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
-| 2026-10-08 | XXX Radio | 0 | [XXX Radio #209](https://soundcloud.com/realmaup/xxx-radio-209) |
+| 2026-10-19 | ERA | 0 | [ERA 237 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-237-rebu-ke-studio-mix) |
+| 2026-10-16 | XXX Radio | 0 | [XXX Radio #210](https://soundcloud.com/realmaup/xxx-radio-210) |
 | 2026-10-03 | Only 100s | 0 | [September 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/september-2026-only-100s-with-the-aston-shuffle) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
 
 ### Tracklists
 
 <details>
-<summary>2026-10-11 - ERA - ERA 236 - Rebūke Studio Mix (13 tracks)</summary>
+<summary>2026-10-19 - ERA - ERA 237 - Rebūke Studio Mix (0 tracks)</summary>
 
-1. King Julian - Feeling Alright (Original Mix) ([Beatport](https://www.beatport.com/search?q=King+Julian+Feeling+Alright+%28Original+Mix%29))
-2. Jardana - Morning (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Jardana+Morning+%28Extended+Mix%29))
-3. Greggio - Lets Go Down (Extended) ([Beatport](https://www.beatport.com/search?q=Greggio+Lets+Go+Down+%28Extended%29))
-4. Green Velvet, Detlef - Work With Me (Original Mix) ([Beatport](https://www.beatport.com/search?q=Green+Velvet%2C+Detlef+Work+With+Me+%28Original+Mix%29))
-5. BR3NDEL - Like Play (Extended Mix) ([Beatport](https://www.beatport.com/search?q=BR3NDEL+Like+Play+%28Extended+Mix%29))
-6. Tony Cortez - Mirame (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Tony+Cortez+Mirame+%28Extended+Mix%29))
-7. Solomun, Skepta, Dom Dolla - DANGER DANGER (Extended) ([Beatport](https://www.beatport.com/search?q=Solomun%2C+Skepta%2C+Dom+Dolla+DANGER+DANGER+%28Extended%29))
-8. LOOZBONE - Nine to Five (Extended Mix) ([Beatport](https://www.beatport.com/search?q=LOOZBONE+Nine+to+Five+%28Extended+Mix%29))
-9. Juicy Romance 'Not Your Baby' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Juicy+Romance+%27Not+Your+Baby%27+%28Extended+Mix%29))
-10. Kriss Reeve - Shake Your Body (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kriss+Reeve+Shake+Your+Body+%28Extended+Mix%29))
-11. Sharam Jey, Pietro (BR) - Nasty Dance (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Sharam+Jey%2C+Pietro+%28BR%29+Nasty+Dance+%28Extended+Mix%29))
-12. Rafael Cerato - Never Crash (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Rafael+Cerato+Never+Crash+%28Extended+Mix%29))
-13. SONNIY & D.K.O - No Sleep (Extended Mix) ([Beatport](https://www.beatport.com/search?q=SONNIY+%26+D.K.O+No+Sleep+%28Extended+Mix%29))
+_No tracks indexed yet._
 </details>
 
 <details>
-<summary>2026-10-08 - XXX Radio - XXX Radio #209 (0 tracks)</summary>
+<summary>2026-10-16 - XXX Radio - XXX Radio #210 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -54,6 +42,8 @@ _No tracks indexed yet._
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-10-19 | ERA | 0 | [ERA 237 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-237-rebu-ke-studio-mix) |
+| 2026-10-16 | XXX Radio | 0 | [XXX Radio #210](https://soundcloud.com/realmaup/xxx-radio-210) |
 | 2026-10-11 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
 | 2026-10-08 | XXX Radio | 0 | [XXX Radio #209](https://soundcloud.com/realmaup/xxx-radio-209) |
 | 2026-10-05 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
@@ -72,10 +62,20 @@ _No tracks indexed yet._
 | 2026-08-28 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
 | 2026-08-27 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
 | 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
-| 2026-08-21 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
-| 2026-08-14 | ERA | 12 | [ERA 228 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-228-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-10-19 - ERA - ERA 237 - Rebūke Studio Mix (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
+
+<details>
+<summary>2026-10-16 - XXX Radio - XXX Radio #210 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-10-11 - ERA - ERA 236 - Rebūke Studio Mix (13 tracks)</summary>
@@ -275,28 +275,5 @@ _No tracks indexed yet._
 10. METODI, Martin Kinrus, Franco Smith - Embrace (Original Mix) ([Beatport](https://www.beatport.com/search?q=METODI%2C+Martin+Kinrus%2C+Franco+Smith+Embrace+%28Original+Mix%29))
 11. TH;EN - Ciento (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Ciento+%28Original+Mix%29))
 12. UMEK - Vibrancy (Kosmo Remix) ([Beatport](https://www.beatport.com/search?q=UMEK+Vibrancy+%28Kosmo+Remix%29))
-</details>
-
-<details>
-<summary>2026-08-21 - XXX Radio - XXX Radio #202 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-08-14 - ERA - ERA 228 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Daniel Orpi - La Isla (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Daniel+Orpi+La+Isla+%28Extended+Mix%29))
-2. DJ Siniestro - Raw munchies (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJ+Siniestro+Raw+munchies+%28Original+Mix%29))
-3. Kristof L - Info Forwarded (Catsinka Remix) ([Beatport](https://www.beatport.com/search?q=Kristof+L+Info+Forwarded+%28Catsinka+Remix%29))
-4. Highway 307, Iac Side - Shrooms in the City (Original Mix) ([Beatport](https://www.beatport.com/search?q=Highway+307%2C+Iac+Side+Shrooms+in+the+City+%28Original+Mix%29))
-5. DJVEDO - Keep the Rhythm (Original Mix) ([Beatport](https://www.beatport.com/search?q=DJVEDO+Keep+the+Rhythm+%28Original+Mix%29))
-6. Frida Darko - Lazy (Original Mix) ([Beatport](https://www.beatport.com/search?q=Frida+Darko+Lazy+%28Original+Mix%29))
-7. KiRKie, The BeatBoy's - Bad Bitches (Extended Mix) ([Beatport](https://www.beatport.com/search?q=KiRKie%2C+The+BeatBoy%27s+Bad+Bitches+%28Extended+Mix%29))
-8. Goom Gum - C'mon (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Goom+Gum+C%27mon+%28Extended+Mix%29))
-9. Vintage Culture, Rhys from the Sticks, Nariman - Think Too Much (Extended) ([Beatport](https://www.beatport.com/search?q=Vintage+Culture%2C+Rhys+from+the+Sticks%2C+Nariman+Think+Too+Much+%28Extended%29))
-10. Mao Molano - Hypnotic Dust (Original Mix) ([Beatport](https://www.beatport.com/search?q=Mao+Molano+Hypnotic+Dust+%28Original+Mix%29))
-11. Rauschhaus, Peer Kusiv - Radiant ([Beatport](https://www.beatport.com/search?q=Rauschhaus%2C+Peer+Kusiv+Radiant))
-12. Matt Sassari, HNTR 'Short Stop' (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Matt+Sassari%2C+HNTR+%27Short+Stop%27+%28Extended+Mix%29))
 </details>
 

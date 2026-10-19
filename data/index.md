@@ -4,7 +4,7 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 ## Summary
 
-- Mixtapes: 684
+- Mixtapes: 686
 - Mixtapes with tracks: 414
 - Tracks: 5380
 - Month range: 2010-07 to 2026-10
@@ -13,15 +13,17 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 
 | Series | Mixes | With Tracks | Tracks | Range |
 | --- | ---: | ---: | ---: | --- |
-| ERA | 236 | 152 | 1928 | 2022-04 to 2026-10 |
+| ERA | 237 | 152 | 1928 | 2022-04 to 2026-10 |
 | Magic Tape | 134 | 105 | 1266 | 2010-07 to 2026-09 |
 | Only 100s | 105 | 44 | 635 | 2017-01 to 2026-09 |
-| XXX Radio | 209 | 113 | 1551 | 2022-09 to 2026-10 |
+| XXX Radio | 210 | 113 | 1551 | 2022-09 to 2026-10 |
 
 ## Latest Mixes
 
 | Month | Series | Tracks | Mix |
 | --- | --- | ---: | --- |
+| 2026-10 | ERA | 0 | [ERA 237 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-237-rebu-ke-studio-mix) |
+| 2026-10 | XXX Radio | 0 | [XXX Radio #210](https://soundcloud.com/realmaup/xxx-radio-210) |
 | 2026-10 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
 | 2026-10 | XXX Radio | 0 | [XXX Radio #209](https://soundcloud.com/realmaup/xxx-radio-209) |
 | 2026-10 | ERA | 12 | [ERA 235 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-235-rebu-ke-studio-mix) |
@@ -40,5 +42,3 @@ Generated from the local SQLite index. The CSV/JSON files next to this document 
 | 2026-08 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
 | 2026-08 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
 | 2026-08 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
-| 2026-08 | XXX Radio | 0 | [XXX Radio #202](https://soundcloud.com/realmaup/xxx-radio-202) |
-| 2026-08 | ERA | 12 | [ERA 227 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-227-rebu-ke-studio-mix) |
