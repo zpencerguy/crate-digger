@@ -6,21 +6,36 @@ Generated from tracked Crate Digger exports. `Release date` uses the exact publi
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
-| 2026-10-19 | ERA | 0 | [ERA 237 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-237-rebu-ke-studio-mix) |
-| 2026-10-16 | XXX Radio | 0 | [XXX Radio #210](https://soundcloud.com/realmaup/xxx-radio-210) |
+| 2026-10-26 | ERA | 16 | [ERA 238 - Ethan Ramos Studio Mix](https://soundcloud.com/rebukemusic/era-238-ethan-ramos-studio-mix) |
+| 2026-10-23 | XXX Radio | 0 | [XXX Radio #211](https://soundcloud.com/realmaup/xxx-radio-211) |
 | 2026-10-03 | Only 100s | 0 | [September 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/september-2026-only-100s-with-the-aston-shuffle) |
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
 
 ### Tracklists
 
 <details>
-<summary>2026-10-19 - ERA - ERA 237 - Rebūke Studio Mix (0 tracks)</summary>
+<summary>2026-10-26 - ERA - ERA 238 - Ethan Ramos Studio Mix (16 tracks)</summary>
 
-_No tracks indexed yet._
+1. Ethan Ramos - I Wanna Fly (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+I+Wanna+Fly+%28Unreleased%29))
+2. Ethan Ramos - Bad Boy (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Bad+Boy+%28Unreleased%29))
+3. Ethan Ramos - Kick It (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Kick+It+%28Unreleased%29))
+4. Ethan Ramos - Push It (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Push+It+%28Unreleased%29))
+5. Ethan Ramos - Sounds In The Air (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Sounds+In+The+Air+%28Unreleased%29))
+6. Ethan Ramos - Start Rockin’ (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Start+Rockin%E2%80%99+%28Unreleased%29))
+7. Ethan Ramos - Touch Me (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Touch+Me+%28Unreleased%29))
+8. Ethan Ramos - Our House (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Our+House+%28Unreleased%29))
+9. Ethan Ramos - Gangsta (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Gangsta+%28Unreleased%29))
+10. Ethan Ramos - Free Your Mind (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Free+Your+Mind+%28Unreleased%29))
+11. Ethan Ramos - Within A Dream (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Within+A+Dream+%28Unreleased%29))
+12. Ethan Ramos - Lost In Music (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Lost+In+Music+%28Unreleased%29))
+13. Ethan Ramos - Automatic Love (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Automatic+Love+%28Unreleased%29))
+14. Ethan Ramos - Good Times (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Good+Times+%28Unreleased%29))
+15. Ethan Ramos - Take Me High (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Take+Me+High+%28Unreleased%29))
+16. Ethan Ramos - Obsession (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Obsession+%28Unreleased%29))
 </details>
 
 <details>
-<summary>2026-10-16 - XXX Radio - XXX Radio #210 (0 tracks)</summary>
+<summary>2026-10-23 - XXX Radio - XXX Radio #211 (0 tracks)</summary>
 
 _No tracks indexed yet._
 </details>
@@ -42,6 +57,8 @@ _No tracks indexed yet._
 
 | Release Date | Series | Tracks | Mixtape |
 | --- | --- | ---: | --- |
+| 2026-10-26 | ERA | 16 | [ERA 238 - Ethan Ramos Studio Mix](https://soundcloud.com/rebukemusic/era-238-ethan-ramos-studio-mix) |
+| 2026-10-23 | XXX Radio | 0 | [XXX Radio #211](https://soundcloud.com/realmaup/xxx-radio-211) |
 | 2026-10-19 | ERA | 0 | [ERA 237 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-237-rebu-ke-studio-mix) |
 | 2026-10-16 | XXX Radio | 0 | [XXX Radio #210](https://soundcloud.com/realmaup/xxx-radio-210) |
 | 2026-10-11 | ERA | 13 | [ERA 236 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-236-rebu-ke-studio-mix) |
@@ -60,10 +77,35 @@ _No tracks indexed yet._
 | 2026-09-03 | Magic Tape | 0 | [MAGIC TAPE 134](https://soundcloud.com/themagician/magic-tape-134) |
 | 2026-08-29 | Only 100s | 0 | [August 2026 - Only 100s with The Aston Shuffle](https://soundcloud.com/itsonly100s/august-2026-only-100s-with-the-astons-shuffle) |
 | 2026-08-28 | ERA | 12 | [ERA 230 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-230-rebu-ke-studio-mix) |
-| 2026-08-27 | XXX Radio | 0 | [XXX Radio #203](https://soundcloud.com/realmaup/xxx-radio-203) |
-| 2026-08-24 | ERA | 12 | [ERA 229 - Rebūke Studio Mix](https://soundcloud.com/rebukemusic/era-229-rebu-ke-studio-mix) |
 
 ### Tracklists
+
+<details>
+<summary>2026-10-26 - ERA - ERA 238 - Ethan Ramos Studio Mix (16 tracks)</summary>
+
+1. Ethan Ramos - I Wanna Fly (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+I+Wanna+Fly+%28Unreleased%29))
+2. Ethan Ramos - Bad Boy (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Bad+Boy+%28Unreleased%29))
+3. Ethan Ramos - Kick It (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Kick+It+%28Unreleased%29))
+4. Ethan Ramos - Push It (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Push+It+%28Unreleased%29))
+5. Ethan Ramos - Sounds In The Air (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Sounds+In+The+Air+%28Unreleased%29))
+6. Ethan Ramos - Start Rockin’ (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Start+Rockin%E2%80%99+%28Unreleased%29))
+7. Ethan Ramos - Touch Me (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Touch+Me+%28Unreleased%29))
+8. Ethan Ramos - Our House (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Our+House+%28Unreleased%29))
+9. Ethan Ramos - Gangsta (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Gangsta+%28Unreleased%29))
+10. Ethan Ramos - Free Your Mind (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Free+Your+Mind+%28Unreleased%29))
+11. Ethan Ramos - Within A Dream (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Within+A+Dream+%28Unreleased%29))
+12. Ethan Ramos - Lost In Music (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Lost+In+Music+%28Unreleased%29))
+13. Ethan Ramos - Automatic Love (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Automatic+Love+%28Unreleased%29))
+14. Ethan Ramos - Good Times (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Good+Times+%28Unreleased%29))
+15. Ethan Ramos - Take Me High (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Take+Me+High+%28Unreleased%29))
+16. Ethan Ramos - Obsession (Unreleased) ([Beatport](https://www.beatport.com/search?q=Ethan+Ramos+Obsession+%28Unreleased%29))
+</details>
+
+<details>
+<summary>2026-10-23 - XXX Radio - XXX Radio #211 (0 tracks)</summary>
+
+_No tracks indexed yet._
+</details>
 
 <details>
 <summary>2026-10-19 - ERA - ERA 237 - Rebūke Studio Mix (0 tracks)</summary>
@@ -252,28 +294,5 @@ _No tracks indexed yet._
 10. Oliver Huntemann, Victor Ruiz - Y (Original Mix) ([Beatport](https://www.beatport.com/search?q=Oliver+Huntemann%2C+Victor+Ruiz+Y+%28Original+Mix%29))
 11. Bittermind, KYBA (UK) - Dem a Pree (Original Mix) ([Beatport](https://www.beatport.com/search?q=Bittermind%2C+KYBA+%28UK%29+Dem+a+Pree+%28Original+Mix%29))
 12. Domek - Become One (Original Mix) ([Beatport](https://www.beatport.com/search?q=Domek+Become+One+%28Original+Mix%29))
-</details>
-
-<details>
-<summary>2026-08-27 - XXX Radio - XXX Radio #203 (0 tracks)</summary>
-
-_No tracks indexed yet._
-</details>
-
-<details>
-<summary>2026-08-24 - ERA - ERA 229 - Rebūke Studio Mix (12 tracks)</summary>
-
-1. Patrick Topping & Rebūke ft 1111 - People Dancing (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Patrick+Topping+%26+Rebu%CC%84ke+ft+1111+People+Dancing+%28Extended+Mix%29))
-2. ATLAC - You Can Move (Original Mix) ([Beatport](https://www.beatport.com/search?q=ATLAC+You+Can+Move+%28Original+Mix%29))
-3. AFROJACK - Monopoly Man (Extended Mix) ([Beatport](https://www.beatport.com/search?q=AFROJACK+Monopoly+Man+%28Extended+Mix%29))
-4. Kieran San Jose - Black Magic (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kieran+San+Jose+Black+Magic+%28Extended+Mix%29))
-5. Gabss, Balanka - Bottles (Original Mix) ([Beatport](https://www.beatport.com/search?q=Gabss%2C+Balanka+Bottles+%28Original+Mix%29))
-6. Volkoder, Anyma (ofc) - Other Dimension (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Volkoder%2C+Anyma+%28ofc%29+Other+Dimension+%28Extended+Mix%29))
-7. BlackGummy, KEETZ - No Romance (Extended Sam WOLFE Remix) ([Beatport](https://www.beatport.com/search?q=BlackGummy%2C+KEETZ+No+Romance+%28Extended+Sam+WOLFE+Remix%29))
-8. Cafius, Oliver Marshak - The Beat (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Cafius%2C+Oliver+Marshak+The+Beat+%28Extended+Mix%29))
-9. Kalamita (FR) - Parish (Extended Mix) ([Beatport](https://www.beatport.com/search?q=Kalamita+%28FR%29+Parish+%28Extended+Mix%29))
-10. METODI, Martin Kinrus, Franco Smith - Embrace (Original Mix) ([Beatport](https://www.beatport.com/search?q=METODI%2C+Martin+Kinrus%2C+Franco+Smith+Embrace+%28Original+Mix%29))
-11. TH;EN - Ciento (Original Mix) ([Beatport](https://www.beatport.com/search?q=TH%3BEN+Ciento+%28Original+Mix%29))
-12. UMEK - Vibrancy (Kosmo Remix) ([Beatport](https://www.beatport.com/search?q=UMEK+Vibrancy+%28Kosmo+Remix%29))
 </details>
 
